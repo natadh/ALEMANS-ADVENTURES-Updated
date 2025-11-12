@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "rustFont";
+  src: url("./assets/IntroRust.otf") format("opentype");
+  font-weight: 400; /* adjust if your font has multiple weights */
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-custom {
+  font-family: "rustFont", sans-serif;
+}
