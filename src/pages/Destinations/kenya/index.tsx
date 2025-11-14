@@ -2,7 +2,7 @@ import Layout from "../../../components/Layout";
 import DestinationsHeader from "../../../components/DestinationsHeader";
 import KenyaHero from "../../../components/destinations/KenyaHero";
 import TravelInfo from "./TravelInfo"
-//import KenyaSections from "../../../components/destinations/kenya/KenyaSections";
+import NationalParks from "./NationalParks/NationalParks";
 import { useState } from "react";
 
 export default function Kenya() {
@@ -18,13 +18,13 @@ export default function Kenya() {
       <KenyaHero />
 
       <div className="max-w-5xl mx-auto px-6 py-12">
-        <h1 className="text-3xl font-bold text-[#F5D547] mb-6">
+        <h1 className="text-3xl font-bold text-[#1A0A0B] mb-6">
           Kenya — {activeSection}
         </h1>
+        {/* add sections here */}
         {activeSection === "Travel Info" && <TravelInfo />}
-        {activeSection !== "Travel Info" && (
-          <p className="text-[#F5D547]">Coming soon...</p>
-        )}
+        {activeSection === "National Parks" && <NationalParks/> } 
+        
       </div>
     </Layout>
   );

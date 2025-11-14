@@ -4,24 +4,24 @@ import Hero from "../components/about/Hero";
 export default function AboutPage() {
   const team = [
     {
-      name: "Sarah Kimani",
-      role: "Founder & CEO",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop"
+      name: "Sharon Maina",
+      role: "Sales & Marketing Manager",
+      image: "/images/team1.jpeg"
     },
     {
-      name: "David Omondi",
-      role: "Head Guide",
-      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop"
+      name: "Jackson Miano",
+      role: "Regional Director East Africa",
+      image: "/images/team2.jpeg"
     },
     {
-      name: "Grace Wanjiru",
+      name: "Alex Murimi",
       role: "Operations Manager",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop"
+      image: "/images/team3.jpeg"
     },
     {
-      name: "James Mwangi",
-      role: "Senior Safari Guide",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
+      name: "Cris Maina",
+      role: "Travel Consultant",
+      image: "/images/team4.jpeg"
     }
   ];
 

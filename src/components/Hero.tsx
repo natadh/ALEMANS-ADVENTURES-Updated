@@ -59,7 +59,7 @@ export default function Hero() {
         </p>
         
         <a
-          href="/tours"
+          href="/destinations"
           className="px-12 py-4 bg-[#F5D547] text-[#1A0A0B] font-medium uppercase tracking-widest hover:bg-[#E8C93A] transition-all duration-300 text-sm md:text-base border-2 border-[#F5D547] hover:border-[#E8C93A]"
         >
           Explore Tours
