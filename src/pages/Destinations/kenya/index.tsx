@@ -6,7 +6,7 @@ import NationalParks from "./NationalParks/NationalParks";
 import { useState } from "react";
 
 export default function Kenya() {
-  const [activeSection, setActiveSection] = useState("Travel Info");
+  const [activeSection, setActiveSection] = useState("National Parks");
 
   return (
     <Layout showHero={false}>
@@ -17,8 +17,8 @@ export default function Kenya() {
 
       <KenyaHero />
 
-      <div className="max-w-5xl mx-auto px-6 py-12">
-        <h1 className="text-3xl font-bold text-[#1A0A0B] mb-6">
+      <div className=" mx-auto px-6 py-12">
+        <h1 className="text-3xl font-bold text-[#1A0A0B] mb-6 mx-auto max-w-5xl">
           Kenya — {activeSection}
         </h1>
         {/* add sections here */}

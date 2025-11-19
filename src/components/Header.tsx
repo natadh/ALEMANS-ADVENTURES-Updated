@@ -30,7 +30,6 @@ export default function Header() {
               { name: "Home", path: "/" },
               { name: "About", path: "/about" },
               { name: "Destinations", path: "/destinations" },
-              { name: "Safaris", path: "/safaris" },
               { name: "Contact", path: "/contact" },
             ].map((link) => (
               <a
