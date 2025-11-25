@@ -24,12 +24,12 @@ export default function DestinationsHeader({
 
   const sections: Record<string, string[]> = {
     Kenya: [
-      "Travel Info",
       "National Parks",
       "Safaris",
       "Trekking & Hiking",
       "Cultural & Sports",
       "Beach & Water Sports",
+      "Travel Info",
     ],
     Tanzania: [
       "Travel Info",
@@ -82,7 +82,7 @@ return (
               className="relative hover:text-white transition-colors duration-200 pb-1 group"
             >
               {section}
-              <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#F5D547] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
+              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-[#F5D547] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
             </button>
           ))}
         </div>

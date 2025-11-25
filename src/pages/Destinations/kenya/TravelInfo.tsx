@@ -34,7 +34,7 @@ function SectionBlock({
   onToggle: () => void;
 }) {
   return (
-    <section className="space-y-4">
+    <section className="max-w-5xl space-y-4 mx-auto">
       {/* Header */}
       <button
         onClick={onToggle}
