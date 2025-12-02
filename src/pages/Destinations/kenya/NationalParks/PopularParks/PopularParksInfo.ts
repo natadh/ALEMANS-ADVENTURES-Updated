@@ -2,272 +2,175 @@ import type { ParkSection } from "../NationalParksInfo";
 
 export const popularParksData: ParkSection[] = [
     {
-        id:"abardares",
+        id: "masai",
         image: "/images/parks/aberdare.jpg",
         gallery: [
             "/images/parks/aberdare1.jpg",
             "/images/parks/aberdare2.jpg"
         ],
-        header: "Aberdare Ranges National Park",
-        content: `This park is 392 sq kms and also referred to as the foot of Mount Kilimanjaro the highest standing mountain in the world at 5900 meters. The park is at an attitude of about 1200m – 1400m. The park is very famous in Kenya as it holds the biggest number of Elephants due to its swampy grasslands. The park is more open with no forests and thus easier to sport the wild animals including the Lions. During the dry season a captivating feature is the simmering dry lake bed where false mirages of populated horizons, interspersed with herds of zebra, vast herds of elephants, wildebeest, giraffe, impala and other many animals are a main attraction. The nomadic, richly decorated Maasai warriors who are deeply steeped in traditional culture entertain visitors with enchanting dances of ageless Africa.. The park is about 270 km south of Nairobi and about 4 hours drive.`,
+        header: "Masai Mara National Reserve",
+        content: `Known locally as the Mara, the Masai Mara National Reserve is Kenya’s most famous national park, not least because from July to October, it’s the route for the Great Migration, the spectacle of thousands of wildebeest, giraffes and zebra traveling from the Serengeti in southern Tanzania across the Mara River to the lush grass of Kenya. Nile crocodiles lie on the riverbanks waiting for their prey.
+The semi-nomadic Maasai communities are another draw, with travelers attracted to their traditional singing and dancing, warrior traditions and colorful dress. The Maasai people own several private reserves around the Mara, which are leased to different safari companies, and these are one way to support community-powered tourism. A bush walk with a Maasai warrior is a wonderful way to appreciate the community’s connection with the land, as they point out wildlife and medicinal plants.
+It’s not always easy to ensure cultural tourism experiences are genuinely ethical and non-exploitative. Ideally, visit a Maasai-run project, or ask your tour operator exactly where your money goes. If companies claim to support community projects, ask how and if you can see them. Conversely, some tourists report being overcharged (for crafts or a photo, for example), but this is often the consequence of years of communities seeing wealthy travelers pass through their villages on expensive tours that haven’t benefited them.
+The Mara is a Big Five park, home to rhinos, buffalo, elephants, leopards and lions. The Mara has one of the world’s highest densities of lions, but the birdlife – 470 species, including birds of prey and migratory birds – and the wild savanna are just as alluring. To get a sense of the vastness of the Mara, book a hot-air balloon safari. You’ll see why the Maasai people named it the Mara (“spotted land”) as you float over specks of shrubs, cloud shadows, and animal herds. Walking and horseback safaris, in the company of armed rangers, are an incredible way to experience the beauty of the Mara up close.
+`,
         subsections: []
     },
     {
-        id:"chulu",
-        image: "/images/parks/aberdare.jpg",
-        gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
-        ],       
-        header: "Chulu Hills",
-        content: `The park has well over 500 species of birds and which include the ostrich and migratory kestrel. Some specific areas are ideal for walking safaris as there are many Nature trails and also the Chaimu volcanic craters. `,
-        subsections: []
-    },
-    {
-        id:"baringo",
+        id: "amboseli",
         image: "/images/parks/aberdare.jpg",
         gallery: [
             "/images/parks/aberdare1.jpg",
             "/images/parks/aberdare2.jpg"
         ],
-        header: "Lake Baringo",
-        content: `This is also one of the Great Rift Valley lakes. The waters are flesh due to the fact that the lake depends on rainfall and rivers. This has the largest bird's concentration in Kenya recording over 600 species. There are the aquatic kinds of animals including Hippos and crocodiles. The lake is about 9 meters deep. The area has a lot of rock formation.`,
+        header: "Amboseli National Park",
+        content: `In southern Kenya near Tanzania, Amboseli National Park is known for its big-tusked (tusker) elephant herds – the population is estimated at 1500 – and its views of Mt Kilimanjaro. The relatively stable number of elephants is mostly thanks to the work of the Amboseli Trust for Elephants, one of the most celebrated such projects in the world. Amboseli doesn’t get as much rain as other parks but has a network of swamps instead – due to its mountain forest environment – which attracts a lot of birdlife. The park is also home to big cats, buffalo, Maasai giraffe, antelopes and vervet monkeys.
+The word “Amboseli” comes from the Maasai for “salty dust,” and you’ll often see elephants caked in this dry, white mud after a good wallow. This region is also home to Maasai people. Some conservation areas such as Selenkay are Maasai-owned, and you can support the community by staying in and visiting their villages.
+To photograph views of Kilimanjaro, aim for an early wake-up call when it’s clear and before the clouds come in. Weather patterns, environmental issues and climate change have also changed the movement of wildlife, so you might now see flamingos in Amboseli, when before they were more commonly sighted at Lake Naivasha or Lake Nakuru. Wildebeest, not usually a common sight in Amboseli, have also been spotted recently.
+Outside of the rainy season, Lake Amboseli is dry, which can make for beautifully stark photography. For incredible views of the park, head to Observation Hill, where you can see the swamp being enjoyed by elephants, hippos, and more.
+ `,
         subsections: []
     },
     {
-        id:"bogoria",
+        id: "tsavo",
         image: "/images/parks/aberdare.jpg",
         gallery: [
             "/images/parks/aberdare1.jpg",
             "/images/parks/aberdare2.jpg"
         ],
-        header: "Lake Bogoria",
-        content: `This lake is 30 sq kms and is famous for Hot springs and geysers. It supports a lot of flamingos from Nakuru during migration. The water is warm due to the hot springs found inside the lake waters.`,
+        header: "Tsavo National Park",
+        content: `Made up of two national parks, Tsavo East National Park and Tsavo West National Park, Tsavo in southwest Kenya is best known for its large elephant herds and impressive semi-arid landscape. Tsavo East is one of Kenya’s oldest parks and, combined with Tsavo West, comprises Kenya’s largest national park.
+The parks were split when the railway line from Mombasa to Kenya’s interior was constructed, and now a highway also runs between Nairobi and Mombasa, making Tsavo a great safari stop-off on a city-to-coast vacation.
+The two parks have slightly different terrains. Tsavo East is mostly flat plains, with the Galana River flowing through. Camping along the river is one of the highlights of Tsavo, as is taking a walking safari across the vast Yatta Plateau, the world’s longest lava flow at 300km (186 miles).
+Tsavo West, home to Lake Jipe and Mzima Springs, is wetter, more mountainous and swampier. Bird spotting is better in Tsavo West, which has around 500 species. Most impressive of all is the force of Mzima Springs, where 50 million gallons of water rush out from the lava rock. The lushness makes for prolific game-viewing, with elephants, hippos, crocodiles, zebras, giraffes and monkeys hydrating and hanging out in this verdant terrain. For epic views, it’s hard to beat the scene over the plains from Poacher's Lookout.
+`,
         subsections: []
     },
     {
-        id:"magadi",
+        id: "nairobi",
         image: "/images/parks/aberdare.jpg",
         gallery: [
             "/images/parks/aberdare1.jpg",
             "/images/parks/aberdare2.jpg"
         ],
-        header: "Lake Magadi",
-        content: `This the most southern park in Kenya. It is rarely visited by tourist due to its remoteness and difficult to access. It’s a semi desert with more than 37 degrees centigrade temperatures. There is a series of hot springs, antelopes, flamingos and can be visited as a day trip from Nairobi.`,
+        header: "Nairobi National Park",
+        content: `Opened in 1946, Nairobi National Park was Kenya’s first national park and is the world’s only national park within a city. Some travelers even manage to get in a few wildlife sightings on their way to or from the airport.
+It’s deeply surreal to be on an open plain with Nairobi’s skyscrapers as a backdrop, and among the acacia bush, you’ll spot a variety of game, including lions, leopards, buffalo and the endangered black rhino. The park has developed a successful rhino conservation program and restocked other parks through their breeding projects. As in many national parks across Kenya, the birdlife is excellent, with more than 400 species recorded here.
+The park has designated picnic spots, walking trails around the hippo pools and campsites, so it’s a viable choice for a day trip or overnight if you don’t have time to travel farther. Also inside the park is the Sheldrick Wildlife Trust, a rhino and elephant sanctuary that retains links with Tsavo National Park, where David Sheldrick worked as an anti-poaching warden. Visitors to the sanctuary can see the Trust’s rescue and rehabilitation program in practice and watch the animals at feeding time, from a distance.
+`,
         subsections: []
     },
     {
-        id:"naivasha",
+        id: "mtkenya",
+        image: "/images/parks/aberdare.jpg",
+        gallery: [
+            "/images/parks/aberdare1.jpg",
+            "/images/parks/aberdare2.jpg"
+        ],
+        header: ". Mt Kenya National Park",
+        content: `If you’re a hiker or a climber, Kenya’s second highest mountain, Mt Kenya, deserves a spot near the top of your best treks list for the trail to Point Lenana, the main peak for trekkers. Mt Kenya National Park has great camping, including wild camping along some of the lesser-used trails, and rock climbing on the lower peaks. The park also features a 10km (6.2-mile) hike up to the Met Station if you only have time for a day excursion.
+This Unesco-listed park is pure joy to explore, with its ecosystem of lakes, glaciers, mineral springs and Afro-Alpine forest. You’re in for sweeping views of high ridges, deep valleys and dense forest gradually meeting glacial terrain as you go higher into the park.
+Mt Kenya is home to elephant, mongoose, bushbuck, eland and colobus monkeys, but it’s the walking trails and scenery that are its biggest attraction. Mt Kenya lies within the Laikipia Plateau, a network of conservancies mostly managed by local communities, so it’s an excellent region for community-based tourism accommodation. The three-day drive from Nairobi to Mt Kenya National Park is also one of Kenya's best road trips.
+`,
+        subsections: []
+    },
+    {
+        id: "aberdare",
+        image: "/images/parks/aberdare.jpg",
+        gallery: [
+            "/images/parks/aberdare1.jpg",
+            "/images/parks/aberdare2.jpg"
+        ],
+        header: "Aberdare National Park",
+        content: `Aberdare National Park is perhaps the most distinctive of all Kenya’s national parks, a place to savor nature in the cooler climes of the central highlands. While you will see wildlife, Aberdare is known primarily for the outstanding natural beauty of its misty forests and river valleys. The High Park, as the higher moorlands are sometimes called, is perfect for hiking. You can climb the peaks of Lesatima, Il Kinangop and Kipipiri easily, but you’ll need a guide and a pass, so arrange your excursion in advance.
+Created in 1950 to protect the Aberdare mountains, which drop to the Rift Valley on the western side, the park comprises dense forest, steep ravines, open moorland and thundering waterfalls. It is home to black rhinos, elephants, baboons, colobus monkeys, buffalo and elusive leopard. Birdwatchers are also in for a treat, with more than 250 species sighted.
+The park also has a lot of history. In the 1950s, the dense forest hid Kenya’s Kikuyu Mau Mau guerrillas during their struggle against European colonization. And it is home to Treetops Lodge, where Princess Elizabeth found out she would be Queen of the United Kingdom in 1952 after the early death of her father. You need a good 4WD vehicle if you’re heading to Aberdare, especially when it’s rainy.
+ `,
+        subsections: []
+    },
+    {
+        id: "meru",
+        image: "/images/parks/aberdare.jpg",
+        gallery: [
+            "/images/parks/aberdare1.jpg",
+            "/images/parks/aberdare2.jpg"
+        ],
+        header: "Meru and Kora national parks",
+        content: `If you’re looking for rugged, remote and pristine landscapes, Meru and Kora national parks in the Rift Valley are great options. These parks contain vast grasslands, thorny bush, gushing rivers and thick jungle, and you’ll find Grevy’s zebras, elephants, buffalo, hippos and giraffes – plus more than 420 bird species.
+The landscape, with huge swathes of savanna, dries out in the dry season, so staying cool and hydrated is important. A good eight-hour drive from Nairobi, Meru and Kora are some of the more off-the-beaten-track national parks.
+
+`,
+        subsections: []
+    },
+    {
+        id: "samburu",
+        image: "/images/parks/aberdare.jpg",
+        gallery: [
+            "/images/parks/aberdare1.jpg",
+            "/images/parks/aberdare2.jpg"
+        ],
+        header: "Samburu National Reserve",
+        content: `Samburu National Reserve, north of Laikipia, is a popular park on the northern safari circuit. It’s home to the “Special 5” – Grevy’s zebra, Somali (blue-necked) ostrich, reticulated giraffe, gerenuk and beisa oryx (both types of antelope) – so-called because they’re not typically found in Kenya’s southern game reserves. The Samburu and Rendille people of this region are involved in protecting and monitoring Grevy’s zebras.
+Named after the Samburu people, nomadic pastoralists, and a warrior people for whom this region is home, this national park is one of the best places to see leopards in Kenya, and it’s a prime spot for tuskers. You can also experience Samburu culture and go on camel-trekking safaris with Samburu guides.
+Drought is an issue in Samburu. Far drier than the Mara, the Ewaso Nyiro River is a lifeline for the pastoral communities, wildlife and flora and fauna. When wildlife gathers on the river banks, it’s quite a sight, and a photographer’s dream. Samburu is one of the parks where George and Joy Adamson of Born Free-fame raised Elsa the lioness.
+`,
+        subsections: []
+    },
+    {
+        id: "hells",
+        image: "/images/parks/aberdare.jpg",
+        gallery: [
+            "/images/parks/aberdare1.jpg",
+            "/images/parks/aberdare2.jpg"
+        ],
+        header: "Hell’s Gate National Park",
+        content: `A unique element of the Great Rift Valley is the dramatic landscape of Hell’s Gate National Park, one of the most atmospheric of Kenya’s national parks. Geothermal steam rises from the ground in an epic landscape of volcanoes, basalt columns, high cliffs and gorges. From a huge natural spa pool managed by KenGen (Kenya’s main electric power producer), you can enjoy the views over a hot soak.
+While wildlife isn’t the prime reason for visiting Hell’s Gate, the park counts zebras, buffalos, antelopes, and baboons among its residents. Its 100 recorded bird species include vultures and Verreaux's eagles. You’ll also sometimes spot raptors that have set up their nests in the cliffs. The park is particularly popular with walkers, mountain bikers, rock climbers, and cyclists. If you’re a Lion King fan, you’ll be impressed that the rock formation at Hell’s Gate Gorge is what inspired Pride Rock.
+Hell’s Gate National Park is a doable day trip from Nairobi, often combined with Lake Nakuru or smaller soda (alkaline) Lake Elmenteita, which has a population of flamingos.
+`,
+        subsections: []
+    },
+    {
+        id: "nakuru",
+        image: "/images/parks/aberdare.jpg",
+        gallery: [
+            "/images/parks/aberdare1.jpg",
+            "/images/parks/aberdare2.jpg"
+        ],
+        header: "Lake Nakuru National Park",
+        content: `Within driving distance of Nairobi, Unesco-listed Lake Nakuru on the floor of the Great Rift Valley allows you to pack a game drive, birdwatching, a hike and a picnic into one day.
+With around 450 bird species recorded, Lake Nakuru National Park is a particularly good place for spotting water birds because of high algae levels, although flamingo numbers have been dropping as issues around pollution and human encroachment have affected the lake. It still attracts many pelicans and other water birds. You’ll also see animals such as waterbuck and white rhinos. The park is known for its annual 50km (31 miles) Cycle With the Rhinos race, which raises funds for the endangered rhino.
+The lake is surrounded by high ridges: head to the viewpoints of Lion Hill, Baboon Cliffs and the Out of Africa Lookpoint for some of the best vistas over the lake and valley. Many travelers combine this national park with a visit to the Menengai Crater, the caldera just outside Nakuru town, which has incredible views over the landscape. The crater is the site of a Mau Mau Cave, where guerrilla soldiers camped out during the 1950s Mau Mau uprising in resistance to British colonial rule.
+`,
+        subsections: []
+    },
+    {
+        id: "naivasha",
         image: "/images/parks/aberdare.jpg",
         gallery: [
             "/images/parks/aberdare1.jpg",
             "/images/parks/aberdare2.jpg"
         ],
         header: "Lake Naivasha",
-        content: `This is a fresh water lake. The lake is approximately 139 sq kms and it’s the highest of the rift valley lakes at1,884 m ( 6,180 ft).The lake has an average depth of 6m ( 20 ft ), with the deepest area being at crescent island at 30m (100ft). It is also home to a big number of about 400 bird species. The surrounding farms are the vineyard of Kenya and a lot of flower farming. There is a small beautiful crater lake to the western shores of the lake. The lake is very close to hells Gate Park which is the only park in Kenya whereby you can walk among the wild animals without to worry.
- `,
-        subsections: []
-    },
-    {
-        id:"nakuru",
-        image: "/images/parks/aberdare.jpg",
-        gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
-        ],
-        header: "Lake Nakuru",
-        content: `Created in 1961 This Park covers some 200 sq kms. It is a shallow about 4 meters deep soda lake. It is commonly referred to as the words biggest birds spectacle for it holds some 2 million flamingos (both greater and lesser) all year round along with about 450 species of other birds. The park also holds thousands of other wildlife except the Elephants because of its closeness to Nakuru town and Kenya s 4 th biggest cities. This park has also the famous Rhino sanctuary (both Black and white) that holds about 60 animals.
- Pre- historic Museums around Nakuru include Kariandusi, Hyrax Hill, Olorgesailie.
+        content: `Though not technically a national park, with its deep blue freshwater lake and nearby patchwork of waterfalls, gorges, acacia forests and extinct volcanoes, Lake Naivasha is one of the prettiest and most accessible areas near Nairobi. Hippos are at home in the high-altitude lake, which often has pelicans and other water birds nearby. On the banks, you’ll see small herds of zebra, buffalo and several species of antelope. It’s a top destination for birding, especially birds of prey.
+The naturalist Joy Adamson lived on the shores of Lake Naivasha with her husband George, where together they raised the lion cub Elsa. The story became an award-winning book and film, Born Free. Their former home, Elsamere, is now a museum and conservation and field study center.
 `,
         subsections: []
     },
     {
-        id:"elementaita",
+        id: "turkana",
         image: "/images/parks/aberdare.jpg",
         gallery: [
             "/images/parks/aberdare1.jpg",
             "/images/parks/aberdare2.jpg"
         ],
-        header: "Lake Elementaita",
-        content: `Located 40 km from Nakuru town and about 100 km from Nairobi, this alkaline lake is 18 sq kms and lies on the eastern side of the great rift valley. Attractions here include: flamingoes, Great white pelicans, Crested grebe, Rothschild giraffe and aardvarks. `,
-        subsections: []
-    },
-    {
-        id:"longonot",
-        image: "/images/parks/aberdare.jpg",
-        gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
-        ],
-        header: "Longonot and Hell's Gate",
-        content: `Mount Longonot is 40 kms from Nairobi and 2760metre high. This is a dormant volcano with a smoking crater in the centre. This takes only some 4 to 5 hours hike.
-Hells gate is a walking park at an altitude of 1560 – 2187 meters and covering an area of 68 sq Kms. Places of interest include the central tower, Fischer’s tower and the Jorowa gorges. Nearby is the Olkaria geothermal power project as this is an area of still volcanic active underground.
-`,
-        subsections: []
-    },
-    {
-        id:"marsabit",
-        image: "/images/parks/aberdare.jpg",
-        gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
-        ],
-        header: "Marsabit",
-        content: `The park is home to a wide variety of the larger mammals. Reason is because the area is much forested and is like an oasis in a desert. However you won’t see too much game unless you spend some time here. There is lake paradise which is formed in a crater.`,
-        subsections: []
-    },
-    {
-        id:"masaimara",
-        image: "/images/parks/aberdare.jpg",
-        gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
-        ],
-        header: "Masai Mara Game Reserve",
-        content: ` This is the most famous park in Kenya and is about 280 kms from Nairobi. The park is 1320 sq kms and on the northern Serengeti Making a total of 25,000 sq kms when both Mara and Serengeti are combined. It is slab of open grasslands dotted with acacia trees. It is watered by the tree lined Mara River and its tributary Talek river. On the western side is the Oloololo Escapment and where a lot of Game is concentrated. This area is also swampy and difficult to access during the rainy season.
-This is also a park with high concentration of Animals of all kinds Both herbivorous and Cats, Monkeys, predators, solitary, diurnal animals and you can be able to see all of this including about 300 species of birds. The highlight of Mara is definitely the yearly Wildebeest migration that takes place in July / August Tanzania’s Serengeti National Park as estimated 2 million wildebeest accompanied by half a million zebra and thousands of gazelle move steadily north into Kenya’s Masai Mara reserve in search of the rush grass and water that they need to survive. There they grace till October when they start heading back. The great migration presents a truly awesome spectacle as the ungainly but strangely beautiful wildebeest lollop across the plains In myriad single file and swarm into the swollen waters behind their leaders in such vast and titanic numbers and at such precipitate pace that many of them perish. Many others die in the course of the great trek too. Because it’s all down to the inevitable survival for the fittest and following closely the migration are the predators taking advantage of every situation.
-A visit to the Mara is not complete without a visit to the Maasai tribesmen villages or Manyattas as they are referred to and see their culture and traditions as they are among the only remaining people who practice their forefather’s tradition and have not been westernized yet. 
-Main attractions here include: The big five animals, Hot air ballooning, Huge savannahs of golden grasslands, Big skies, Rift valley escarpment and The Mara river with its hippos and crocodiles. Visit Narok Museum for culture and heritage
-`,
-        subsections: []
-    },
-    {
-        id:"meru",
-        image: "/images/parks/aberdare.jpg",
-        gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
-        ],
-        header: "MERU NATIONAL PARK / MWINGI /KORA /BISANADI / RAHORE GAME RESERVES",
-        content: `This park at an attitude of between 366-914 meters and covering an area of 870 sq Kms has abundant rainfall and numerous permanent springs flowing down from Mount Kenya. The park is partly covered by forest, tall grasslands and swampy. This park is home to all the animals including the white Rhino, Elephants, Grevy zebra. The park is also home to Joy and George Adamson where they raised the orphaned lion and leopard cubs until they were old enough to be returned. The tracks through the park are well maintained.
-Have numerous permanent springs and a wealth of birdlife, which includes Leopards, Hippos, Elephants, Lions, reticulated Giraffes, grevy Zebras, Bongos and Crocodiles in the UasoNyiro River. Over three hundred and sixty five species have been identified in these sanctuaries. The Shaba National Reserve is home to the monument of Joy Adamson, who together with her husband George contributed greatly to Kenyans wildlife as an author, conservationist and artist. The film “Born Free” is based on Joy’s book of the same title. Shaba National Reserve was the setting for the film “Sheena Queen of the Jungle.” Shaba National Reserve is home to the rare Somali Ostrich. Meru National Park, Mwingi, Kora, Bisanadi and Rahole Reserve comprise an integrated part of the northern circuit and was opened in 1968. Meru National Park is one of the best- watered sanctuaries and it is situated on the slopes of Nyambene mountain range, North East of Mount Kenya. The park teems with a variety of wildlife that includes Lion, Elephant, Cheetah, Leopard, rare Antelopes Lesser Kudu and duiker. The park is home to the largest herds of buffalo in Kenya. Meru National Park has an estimated three hundred species of birds. The park was the settings for Joy Adamson’s book “Born free” that chronicles an in depth study of Lions and Cheetahs.
-`,
-        subsections: []
-    },
-     {
-        id:"elgon",
-        image: "/images/parks/aberdare.jpg",
-        gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
-        ],
-        header: "MT. ELGON / SAIWA SWAMP/ KERIO VALLEY",
-        content: `Mount Elgon lies at an altitude of about 2500-4200 meters and is about 470 kilometers from Nairobi. Mount Elgon National Park is one of the most beautiful, truly wild and intact sanctuaries. Game viewing is excellent. The Park provides a home to over 400 Elephants as well as Buffaloes, protected Columbus and blue Monkeys, giant`,
-        subsections: []
-    },
-     {
-        id:"mountkenya",
-        image: "/images/parks/aberdare.jpg",
-        gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
-        ],
-        header: "MT. KENYA NATIONAL PARK.",
-        content: `These parks and game reserves are part of the most fascinating sanctuaries in terms of scenic splendor, and the great variety of wildlife found here. Mount Kenya National Park lies at an altitude of about 3400-5200 meters. It offers excellent game viewing, mountain climbing and breaking scenery that that includes glaciers, tarns and peaks. There are also mineral springs. According to the local folklore, Kenya owes its very name to this majestic Mountain, which is also ranked as the second highest mountain in Africa after MT. Kilimanjaro. Mt Kenya National Park is the center piece of this sanctuary. Part of the mountains attractions is the variation of the flora and fauna found at different altitudes. Dry uplands forest covers the lower slopes while true mountains forests begins at an altitude of 2000 meters and comprise of cedar, Meru Oak and Pod trees. A belt bamboo forest that merges with smaller trees interspersed with glades begins at an altitude of 2500 meters. The forest is home to a variety of animals and rare plant species. The wildlife in the sanctuary includes Columbus monkeys, Sykes monkeys, Bushbuck, Buffalo, Elephant, Olive Baboon, Waterbuck, Black Rhino, Leopard, Giant forest Hog, Genet cats, Hyena and the elusive Bongo to name but a few. 
-Sightings of albino Zebra have been recorded in these sanctuaries. The mountain also features in the local people folklore as being the home of the supreme-Being “Ngai” (God). It is, therefore, treated as holy shrine.
-
-`,
-        subsections: []
-    },
-     {
-        id:"nairobi",
-        image: "/images/parks/aberdare.jpg",
-        gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
-        ],
-        header: "NAIROBI NATIONAL PARK",
-        content: `This is the oldest park in Kenya. It was gazetted in 1946. The park is a glorious stretch of savannah that is set against the dramatic skyline of Nairobi, the capital city. Its only 10 kms from the city center and thus making Nairobi the only city in the world that borders a national game park. The Big five are well represented except the elephant.  Another unique feature of the park is that it houses the animal orphanage and also the safari walk. The park is also ideal for ornithological safaris as four hundred species of birdlife have been recorded.`,
-        subsections: []
-    },
-     {
-        id:"oldonyo",
-        image: "/images/parks/aberdare.jpg",
-        gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
-        ],
-        header: "OL DONYO SABUK PARK",
-        content: `Lying at a distance of sixty-five kilometers from Nairobi, this Park is ideal for a day’s excursion from Nairobi. This Park main attraction is unparallel beauty and the clear views of MT. Kenya and MT. Kilimanjaro. OlDonyo Sabuk is a mountain, which raises about 2,500 meters from otherwise a flat terrain. The local folklore refer to the mountain as the supreme-Beings “ Ngai” ( God ) second lesser home.
-The graves of Sir, William Northup Macmillan who was a great philanthropist and his wife lie near the summit. The Macmillan Library in Nairobi was built in memory of this great Philanthropists Wife.
-`,
-        subsections: []
-    },
-     {
-        id:"saiwa",
-        image: "/images/parks/aberdare.jpg",
-        gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
-        ],
-        header: "SAIWA SWAMP",
-        content: `This is the home of the rare sitatunga antelope and only found here in the world. This is a definitely place of interest in the western Kenya tour circuit.`,
-        subsections: []
-    },
-     {
-        id:"samburu",
-        image: "/images/parks/aberdare.jpg",
-        gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
-        ],
-        header: "SAMBURU / BUFFALO SPRINGS/ SHABA NATIONAL RESERVE",
-        content: `The highlights of these reserves are spectacular scenic beauty, rivers and forests. The local people are rich in colorful heritage and traditions. Over 200 species of birds exist here together with all kinds of wild animals including the Big five. The seasonal but huge Uaso Nyiro River is the main source of water and also holds big numbers of crocodiles. There are also a number of permanent springs. Over three hundred sixty five species of birds have been identified. There are a number of Lodges and special campsites for accommodation.
-The shaba National reserve is home to the monument of Joy Adamson who, together with her husband George, contributed greatly to Kenya’s wildlife as an author; conservationist and artist. The film born free and Sheena queen of the jungle were all done here. This reserve is also home to the rare Somali ostrich.
-`,
-        subsections: []
-    },
-     {
-        id:"shimba",
-        image: "/images/parks/aberdare.jpg",
-        gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
-        ],
-        header: "SHIMBA HILLS",
-        content: `This park is 30 minutes south of Mombasa. This is a coastal forest1400 mts above sea level with a cool breeze from Kilimanjaro. The park is home to Lions, Elephants, Buffalos, Giraffe, as well as several species of primates. Africa’s second largest antelope the sable antelope is only found in this park. This is tropical African forest and one of the only places remaining as the treasures of birdlife and plants, shimba hills are famous for its beautiful landscape, which complice hills and valleys. Sheldrick falls which is 25 meters high is also an attraction.`,
-        subsections: []
-    },
-     {
-        id:"tsavo",
-        image: "/images/parks/aberdare.jpg",
-        gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
-        ],
-        header: "TSAVO EAST / WEST NATIONAL PARK",
-        content: `This is divided into East and West and is the biggest park in Kenya at 20,000 sqkms. The park is bisected by the Nairobi – Mombasa highway through the middle and thus very accessible from both cities. 
-The places of interest here are Mzima underground springs, Shaitani lava flow, Chaimu crater, Aruba dam, Mudada rock, Yatta plateau, Lugard falls, Recent volcanoes, Rhino sanctuary, under water glass view for hippos and fish.
- The park, also consist of other game animals and different species of birds. The park is very famous for its large herds of ‘red’ elephants. This is the famous park of MAN EATERS where lions ate a lot of Indians during the construction of the East Africa Railway line in the start of the 20 the century.
-`,
-        subsections: []
-    },
-     {
-        id:"turkana",
-        image: "/images/parks/aberdare.jpg",
-        gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
-        ],
-        header: "LAKE TURKANA",
-        content: `This is also referred to as the Jade Sea or the Cradle of mankind. That was until
-Kenya lived up to her title of the Cradle of Mankind and came up with yet another confounding contender for the crown of common ancestor.  Because whilst digging at Lake Turkana in 1998/99 Dr. Meave Leakey found an unusual 3.5 million year old skull, which she named ‘kenyanthropus  platytops’ ( flat faced man ). According to Dr Leakey, East Africa owes much of the credit for this title as the cradle of mankind to the fact that it is traversed by one of the world’s most famous geological features, the Great Rift Valley. The 3,500 mile long Rift is essentially a 20 million year old crack in the earth’s crust into which sundry rivers have drained, bringing with them millennia’s worth of sediment. Which has’ in turn, gradually buried and preserved whatever pointers to ancient life remained there and turned them into fossils.
-
-`,
-        subsections: []
-    },
-     {
-        id:"kakamega",
-        image: "/images/parks/aberdare.jpg",
-        gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
-        ],
-        header: "KAKAMEGA FOREST",
-        content: `This is a world famous equatorial rain forest known for its diversity of birds over 300 species and insect life. A visit to the forest will give you a feel of how Amazon looks like. This rain forest which is the only one in Kenya covers 240 km and has many different types of plants and over 400 species of butterflies. Also found here is over 27 different types of snakes and different primates including the de brazza monkeys.
-Activities here include: Forest walking, camping, hiking, primate watching, bird and butterfly watching, game watching and guided nature walks.
+        header: "Lake Turkana National Parks",
+        content: `Three parks – Sibiloi National Park, the South Island and Central Island National Parks – make up the Unesco-listed Lake Turkana National Parks, surrounding the vivid greenish-blue Lake Turkana, the world’s largest permanent desert lake. This otherworldy region is ideal for the adventurous traveler: it’s hot, dry, windy, vast and volcanic.
+Central Island consists of three active volcanoes and three crater lakes, where you’ll find the largest concentration of Nile crocodiles in the world, plus enormous Nile perch and tilapia fish. You should see a decent amount of game – such as zebras, hyenas, kudu – and if you’re lucky, lions, cheetahs and leopards. Volcanic ash covers South Island, which has become a breeding ground for more than 20 bird species and a large crocodile population.
+Lake Turkana hosts one of Kenya’s biggest cultural festivals. The three-day Lake Turkana Festival in Loyangalani on the southeastern coast of the lake celebrates the heritage of the communities that live here, who fish in the Lake Turkana basin, and whose languages and cultures require the same preservation as the environment.
 `,
         subsections: []
     }
+
 
 ]

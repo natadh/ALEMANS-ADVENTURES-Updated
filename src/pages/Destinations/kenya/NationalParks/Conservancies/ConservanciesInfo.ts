@@ -8,7 +8,7 @@ export const conservanciesData: ParkSection[] = [
             "/images/parks/aberdare1.jpg",
             "/images/parks/aberdare2.jpg"
         ],
-        header: "Kenya wildlife conservancies",
+        header: "Kenya Public and Private wildlife conservancies",
         content: `Kenya has about 110 wildlife conservancies, all promoting the placid co-existence of people and wildlife in mutual well-being. Solio Ranch, Taita Hills Sanctuary, Kimama Wildlife Sanctuary, and the Ol Chorro Oiroua Ranch were among the trailblazers. Improved security, better land management, income, employment and support to community projects have all encouraged the rise of conservancies in Kenya, spread across 22 counties and covering over 7.56 million acres.
 Conservancies provide a range of local values including clarifying and firming up local land tenure over pasture and grazing areas, improving the security through networks of community scouts, timely communication and law enforcement infrastructure, and providing a legal systems for communities to enter into 3rd-party joint ventures with investors in order to generate revenues.
 Kenya has about 110 wildlife conservancies, all promoting the placid co-existence of local people and wildlife in mutual well-being. Improved security, better land management, income, employment and support to community projects have all encouraged the epic rise of conservancies unique attractions and experiences. Ol Pejeta Conservancy
