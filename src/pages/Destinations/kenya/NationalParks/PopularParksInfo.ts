@@ -1,4 +1,4 @@
-import type { ParkSection } from "../NationalParksInfo";
+import type { ParkSection } from "./NationalParksInfo";
 
 export const popularParksData: ParkSection[] = [
     {

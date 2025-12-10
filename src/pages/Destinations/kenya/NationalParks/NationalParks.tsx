@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { nationalParksData } from "./NationalParksInfo";
-import { popularParksData } from "./PopularParks/PopularParksInfo";
-import { conservanciesData } from "./Conservancies/ConservanciesInfo";
+import { popularParksData } from "./PopularParksInfo";
+import { conservanciesData } from "./ConservanciesInfo";
 import type { ParkSection } from "./NationalParksInfo";
 
 export default function NationalParks() {

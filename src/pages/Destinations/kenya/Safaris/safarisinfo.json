@@ -1,0 +1,105 @@
+{
+  "categories": [
+    {
+      "id": "kenya-popular",
+      "title": "Kenya Popular Safaris",
+      "description": "Most requested Kenya safari programs",
+      "subcategories": [
+        {
+          "id": "maasai-mara",
+          "title": "Maasai Mara Safaris",
+          "safaris": [
+            {
+              "id": "3-day-maasai-mara",
+              "slug": "3-days-maasai-mara",
+
+              "title": "3 Days Maasai Mara Safari",
+              "destination": "Masai Mara",
+              "description": "A classic short safari covering Kenya’s most famous reserve.",
+
+              "categoryPath": [
+                "Kenya Popular Safaris",
+                "Maasai Mara"
+              ],
+
+              "durationLabel": "3 Days / 2 Nights",
+
+              "highlights": [
+                "Big Five game drives",
+                "Scenic flights",
+                "Luxury tented camps"
+              ],
+
+              "price": {
+                "currency": "USD",
+                "amountFrom": 650,
+                "note": "Per person sharing"
+              },
+
+              "images": [
+                {
+                  "src": "/images/safaris/maasai-mara/overview.jpg",
+                  "alt": "Maasai Mara savannah"
+                },
+                {
+                  "src": "/images/safaris/maasai-mara/game-drive.jpg",
+                  "caption": "Morning game drive"
+                }
+              ],
+
+              "itinerary": {
+                "durationDays": 3,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Arrival & First Game Drive",
+                    "description": "Transfer from Nairobi Hotel to Wilson Airport for a 45-minute flight to Masai Mara. Arrival transfer to camp for lunch. Afternoon game drive with expert guide.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Flight transfer", "Game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Full Day Game Viewing",
+                    "description": "Early morning game viewing followed by breakfast. Morning game drive. Lunch then siesta. Afternoon game drive.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": [
+                      "Morning game drive",
+                      "Afternoon game drive"
+                    ]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Departure",
+                    "description": "Early game viewing then transfer to airstrip for flight back to Nairobi and hotel transfer.",
+                    "meals": ["Breakfast"],
+                    "activities": ["Game drive", "Return flight"]
+                  }
+                ]
+              },
+
+              "includes": [
+                "Accommodation",
+                "Park entry fees",
+                "Game drives",
+                "Domestic flights"
+              ],
+
+              "excludes": [
+                "International flights",
+                "Visa fees",
+                "Tips"
+              ],
+
+              "seasons": ["Jul - Oct", "Dec - Mar"],
+
+              "bookingInfo": {
+                "minPax": 2,
+                "departures": "Daily"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

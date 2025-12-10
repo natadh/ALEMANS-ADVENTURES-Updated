@@ -1,5 +1,5 @@
 import Layout from "../../../components/Layout";
-import DestinationsHeader from "../../../components/DestinationsHeader";
+import DestinationsHeader from "../../../components/DestinationsHeader/index";
 import KenyaHero from "../../../components/destinations/KenyaHero";
 import TravelInfo from "./TravelInfo"
 import NationalParks from "./NationalParks/NationalParks";
