@@ -31,10 +31,11 @@ export default function DestinationsHeader({
   const sections: Record<string, string[]> = {
     Kenya: [
       "National Parks",
-      "Safaris",
+      "Tours and Safaris",
       "Trekking & Hiking",
-      "Cultural & Sports",
       "Beach & Water Sports",
+      "Bird Watching",
+      "Water rafting and Kayaking",
       "Travel Info",
     ],
     Tanzania: ["Travel Info", "National Parks", "Safaris", "Luxury Safaris"],

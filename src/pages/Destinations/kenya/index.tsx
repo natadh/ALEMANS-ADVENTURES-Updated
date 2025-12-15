@@ -26,7 +26,7 @@ export default function Kenya() {
         {/* add sections here */}
         {activeSection === "Travel Info" && <TravelInfo />}
         {activeSection === "National Parks" && <NationalParks/> } 
-        {activeSection === "Safaris" && <Safaris />}
+        {activeSection === "Tours and Safaris" && <Safaris />}
 
         
       </div>

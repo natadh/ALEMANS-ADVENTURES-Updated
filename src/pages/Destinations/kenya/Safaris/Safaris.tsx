@@ -36,7 +36,7 @@ export default function Safaris() {
     <div className="min-h-screen px-4 md:px-10 pb-20">
       <header className="py-10">
         <h1 className="text-3xl md:text-4xl uppercase tracking-wider font-light text-[#1A0A0B]">
-          Safaris
+          Tours & Safaris
         </h1>
         <p className="text-gray-600 mt-2 max-w-2xl">
           Explore our curated safari experiences across Kenya and East Africa.

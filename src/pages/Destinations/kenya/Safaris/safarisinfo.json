@@ -317,6 +317,12 @@
               "durationLabel": "1 Day",
               "description": "Take a guided city tour to visit principal landmarks including Akamba wood carving Village, a Hindu temple, Fort Jesus Museum, Old Town, Vegetable market and Biashara Street for shopping.",
               "categoryPath": ["Kenya Excursions", "Mombasa Excursions"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/excursions/mombasa.jpg",
+                  "alt": "Mombasa City Tour"
+                }
+              ],
               "prices": {
                 "lowSeason": { "1-2": 120, "4-5": 100, "5-6": 80, "7-8": 60 },
                 "peakSeason": { "1-2": 120, "4-5": 100, "5-6": 80, "7-8": 60 }
@@ -328,6 +334,12 @@
               "title": "1 Day Shimba Hills Tour",
               "destination": "Shimba Hills",
               "durationLabel": "1 Day",
+              "images":[
+                {
+                  "src":"/images/safaris/kenya/excursions/shimba.jpg",
+                  "alt":"Shimba Hills National Reserve"
+                }
+              ],
               "description": "Situated 40 Kms from Mombasa drive past coconut, cashew nut and other plantations to Shimba Hills Reserve to view, amongst other animals, the rare sable and roan antelope. Lunch at a magnificent Lodge.",
               "categoryPath": ["Kenya Excursions", "Mombasa Excursions"],
               "prices": {
@@ -343,6 +355,12 @@
               "durationLabel": "1 Day",
               "description": "Drive across the new Mtwapa and Kilifi bridges to visit the Gedi ruins. Continue to Malindi and view Marine life in a glass bottom boat at the Marine Park. After lunch in a local restaurant visit the snake farm and the falconry. En route to Mombasa have an optional stop at a local village.",
               "categoryPath": ["Kenya Excursions", "Mombasa Excursions"],
+              "images":[
+                {
+                  "src":"/images/safaris/kenya/excursions/gedi.jpg",
+                  "alt":"Gedi Ruins"
+                }
+              ],
               "prices": {
                 "lowSeason": { "1-2": 300, "4-5": 440, "5-6": 580, "7-8": 720 },
                 "peakSeason": { "1-2": 300, "4-5": 440, "5-6": 580, "7-8": 720 }
@@ -356,6 +374,12 @@
               "durationLabel": "Evening Experience",
               "description": "A romantic Dhow Sundowner Cruise along the picturesque Island of Mombasa starts off an enchanting evening not to be missed. After docking at a private jetty, proceed to Fort Jesus for a sound-and-light presentation of the turbulent history of the East African Coast. A candle-lit dinner is served within the fortress by waiters in Portuguese attire.",
               "categoryPath": ["Kenya Excursions", "Mombasa Excursions"],
+              "images":[
+                {
+                  "src":"/images/safaris/kenya/excursions/dhow.jpg",
+                  "alt":"Dhow Dinner"
+                }
+              ],
               "prices": {
                 "lowSeason": { "1-2": 180, "3-4": 240, "5-6": 300, "7-8": 360 },
                 "peakSeason": { "1-2": 180, "3-4": 240, "5-6": 300, "7-8": 360 }
@@ -433,14 +457,50 @@
             {
               "id": "kaa-16",
               "slug": "kaa-16-tsavo-amboseli-3-days",
-              "title": "3 Days Tsavo East & West – Amboseli National Park",
+              "title": "3 Days Tsavo East & West - Amboseli National Park",
               "destination": "Tsavo & Amboseli",
               "durationLabel": "3 Days",
-              "description": "Day 1: Drive 100 Kms east to Tsavo East/West Park, home to the Red Elephant. Afternoon game drive and overnight at Ngulia / Kilaguni / Sentrim.\nDay 2: Proceed to Amboseli Park for lunch at Kibo / Sentrim / Serena. Afternoon game drive with chances to see Mt Kilimanjaro.\nDay 3: Early morning game drive, breakfast, then return to Mombasa.",
+              "description": "A three-day excursion to Tsavo East/West and Amboseli National Parks including game drives and overnight accommodation at safari lodges.",
               "categoryPath": ["Kenya Excursions", "Mombasa Excursions"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/excursions/amboseli.jpg",
+                  "alt": "Amboseli National Park"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/amboseli1.jpg",
+                  "caption": "Morning at Amboseli"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 3,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Drive to Tsavo East/West",
+                    "description": "Drive 100 Kms east to Tsavo East/West Park, home to the Red Elephant. Afternoon game drive and overnight at Ngulia / Kilaguni / Sentrim.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Amboseli National Park",
+                    "description": "Proceed to Amboseli Park for lunch at Kibo / Sentrim / Serena. Afternoon game drive with chances to see Mt Kilimanjaro.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Morning game drive", "Afternoon game drive"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Return to Mombasa",
+                    "description": "Early morning game drive, breakfast, then return to Mombasa.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Morning game drive", "Afternoon game drive"]
+                  }
+                ]
+              },
               "prices": {
                 "lowSeason": { "1-2": 1340, "3-4": 1800, "5-6": 2560, "7-8": 3120 },
-                "peakSeason": { "1-2": 1180, "3-4": 2240, "5-6": 2500, "7-8": 3920 }
+                "peakSeason": { "1-2": 1180, "3-4": 2240, "5-6": 2700, "7-8": 3920 }
               }
             },
             {
@@ -449,6 +509,12 @@
               "title": "Kiwayuu / Kipungani Islands (Upon Request)",
               "destination": "Kiwayuu / Kipungani",
               "durationLabel": "2 Days",
+              "images":[
+                {
+                  "src":"/images/safaris/kenya/excursions/kiwayuu.jpg",
+                  "alt":"Kiwayuu"
+                }
+              ],
               "description": "A choice of two get-away-from-it-all beach hideaways. Both are small and intimate with personalized service and excellent cuisine. Access is by air only from Nairobi or Mombasa. Full board at Kiwayuu Lodge.",
               "categoryPath": ["Kenya Excursions", "Mombasa Excursions"],
               "prices": null
@@ -460,6 +526,12 @@
               "destination": "Lamu",
               "durationLabel": "2 Days",
               "description": "This is Kenya's oldest living town with little change in appearance and character. Access is by boat or via the airstrip in nearby Manda Island. Places of interest include Swahili House Museum, Lamu Fort, Donkey Sanctuary, The beach, Matondoni Village, Shela Village, and Dhow trips. Accommodation options upon request.",
+              "images":[
+                {
+                  "src":"/images/safaris/kenya/excursions/lamu.jpg",
+                  "alt":"Lamu Island"
+                }
+              ],
               "categoryPath": ["Kenya Excursions", "Mombasa Excursions"],
               "prices": null
             },
@@ -470,6 +542,38 @@
               "destination": "Zanzibar",
               "durationLabel": "3 Days",
               "description": "Day 1: Fly via Mombasa to Zanzibar. Afternoon spice tour visiting clove plantations.\nDay 2: Morning tour of Stone Town including market, Sultan's Palace and Museum. Afternoon boat trip for swimming and snorkeling.\nDay 3: Guided shopping trip before transfer to airport. Accommodation upon request.",
+              "images":[
+                {
+                  "src":"/images/safaris/kenya/excursions/zanzibar.jpg",
+                  "alt":"Zanzibar"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 3,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Fly to Zanzibar",
+                    "description": "Fly via Mombasa to Zanzibar. Afternoon spice tour visiting clove plantations.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Flight", "Game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Stone Town Tour & Boat Trip",
+                    "description": "Morning tour of Stone Town including market, Sultan's Palace and Museum. Afternoon boat trip for swimming and snorkeling.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Morning game drive", "Afternoon game drive"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Departure",
+                    "description": "Guided shopping trip before transfer to airport. Accommodation upon request.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Shopping trip"]
+                  }
+                ]
+              },
               "categoryPath": ["Kenya Excursions", "Mombasa Excursions"],
               "prices": null
             }
@@ -480,7 +584,7 @@
     {
       "id": "kenya-budget-safaris",
       "title": "Kenya Budget Safaris",
-      "description": "There are two types of Camping in Kenya.",
+      "description": "Budget and Adventure camping safaris in Kenya",
       "subcategories": [
         {
           "id": "camping-types",
@@ -963,6 +1067,416 @@
                 "Lamu Museum – The building was originally used by the British colonial government. It houses collections of ethnographic materials from the Swahili, Orma and Pokomo ethnic groups.",
                 "Kiunga Marine Park – Also known as 'Enchanted underwater world' the marine eco system incorporates a chain of about 50 calcareous offshore islands and coral reefs in the Lamu Archipelago, running parallel to the coastline for about 60 km and adjacent to Dodori and Boni forest Reserves on the mainland."
               ],
+              "prices": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kenya-extreme-challenge-safaris",
+      "title": "Extreme Challenge Adventure Safaris",
+      "description": "Premium safari experiences with luxury accommodations",
+      "subcategories": [
+        {
+          "id": "extreme-challenge-adventure-destinations",
+          "title": "Extreme Adventure Safari Destinations",
+          "safaris": [
+            {
+              "id": "kaa-56",
+              "slug": "kaa-56-rock-climbing-naivasha-3-days",
+              "title": "ROCK CLIMBING AND HIKING",
+              "destination": "Hell's Gate National Park, Mt Longonot, Lake Naivasha",
+              "durationLabel": "3 Days",
+              "description": "A three days' rock climbing and hiking adventure safari in Kenya's Rift Valley. Experience the thrill of rock climbing in Hellsgate National park, hike Mt Longonot crater and cycle amongst wildlife in Hellsgate National park.",
+              "categoryPath": ["Kenya Luxury Safaris", "Luxury Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/extreme/rock2.jpg",
+                  "alt": "Hippos in Lake Naivasha"
+                },
+                {
+                  "src": "/images/safaris/kenya/extreme/rock.jpg",
+                  "caption": "Hellsgate National Park Rock Climbing"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 3,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Arrival & First Game Drive",
+                    "description": "Depart Nairobi to Lake Naivasha arriving in time for lunch. After lunch at the camp proceed for afternoon challenge and cycle amoungst wildlife at Hellsgate National park . Dinner and overnight at Carnellis camp or Fishermans camp.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Flight transfer", "Game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Naivasha",
+                    "description": "Rock climb Hellsgate National park including Both the Fischers and Central towers. Also visit Jorowa Gorges and Hells Kitchen. In the afternoon, have a boat ride among the hippos in Lake Naivasha. Dinner and overnight at the camp.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Rock Climbing", "Boat ride", "Camping" ]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Departure",
+                    "description": "Depart after early breakfast and hike Mt Longonot crater( 2700 mtrs high) in the morning. After lunch depart for Nairobi.",
+                    "meals": ["Breakfast"],
+                    "activities": ["Game drive", "Return flight"]
+                  }
+                ]
+              },
+              "prices": null
+            },
+            {
+              "id": "kaa-57",
+              "slug": "kaa-57-Laikipia-4-days",
+              "title": "LAIKIPIA PLATEAU CHALLENGE",
+              "destination": "Laikipia Plateau",
+              "durationLabel": "4 Days",
+              "description": "A four days' adventure safari on Laikipia plateau involving game drives, cycling, trekking and canopy walk in Mt Kenya forest.",
+              "images":[
+                { 
+                  "src": "/images/parks/olpajeta.jpg",
+                  "alt": "Hippos in Lake Naivasha"
+                },
+                {
+                  "src": "/images/safaris/kenya/extreme/rock.jpg",
+                  "caption": "Hellsgate National Park Rock Climbing"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 4,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Olpejeta Conservancy.",
+                    "description": "Depart Nairobi and drive north to Ol Pajeta conservancy arriving in time for lunch in this game reserve that cuts the equator both to the North and South. Afternoon game drive in 4x4 vehicles in  search of the big five. Dinner and overnight at Ol Pajeta camp.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Rift Valley Adventures",
+                    "description": "Full day cycling and biking around Mt Kenya. Dinner and overnight at Rift Valley Adventures camp.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Cycling", "Camping" ]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Ngare Ndare Forest Canopy",
+                    "description": "Full day trekking at this Natural equatorial forest with Canopy walk. Dinner and overnight at Nanyuki camp.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Trekking", "Canopy walk"]
+                  },
+                  {
+                    "dayNumber": 4,
+                    "title": "Departure",
+                    "description": "After breakfast return to Nairobi with picnic lunch enroute.",
+                    "meals": ["Breakfast"],
+                    "activities": ["Return drive"]
+                  }
+                ]
+              },
+              "prices": null
+            },
+            {
+              "id": "kaa-58",
+              "slug": "kaa-58-sagana-3-days",
+              "title": "WHITE WATER RAFTING AND KAYAKING",
+              "destination": "Sagana",
+              "durationLabel": "3 Days",
+              "description": "Three days of white water rafting and kayaking adventure safari in Sagana, central Kenya along the Tana River.",
+              "images":[
+                { 
+                  "src": "/images/safaris/kenya/extreme/rafting.jpg",
+                  "alt": "Sagana White Water Rafting"
+                },
+                {
+                  "src": "/images/safaris/kenya/extreme/rafting2.jpg",
+                  "caption": "Sagana white water rafting"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 3,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Sagana",
+                    "description": "Depart Nairobi to central Kenya at the slopes of Mt Kenya to Sagana town, the headquarters of water rafting in Kenya at The Tana River. Arrive in time for lunch. Afternoon rafting in the biggest river in Kenya. Dinner and overnight at Savage Camp.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Rafting"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Sagana",
+                    "description": "In the morning after breakfast, do Water sport Kayaking and in the afternoon do Rock climbing. Have a sundowner dinner on the banks of this mighty river. Dinner and overnight at the camp.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Kayaking", "Rock Climbing" ]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Sagana",
+                    "description": "In the morning proceed for Mt Biking between 20 km – 40 kms. In the afternoon, engage in a stand-up paddle board for 2 hrs. Dinner and overnight at the camp.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Paddle Boarding", "Mountain Biking"]
+                  }
+                ]
+              },
+              "prices": null
+            },
+            {
+              "id": "kaa-59",
+              "slug": "kaa-59-biking-maasai-mara-4-days",
+              "title": "Biking at Maasai Mara",
+              "destination": "Maasai Mara",
+              "durationLabel": "5 Days",
+              "description": "Five days biking adventure safari in Maasai Mara National Reserve involving game drives and biking among wildlife.",
+              "images":[
+                { 
+                  "src": "/images/safaris/kenya/extreme/biking.jpg",
+                  "alt": "Sagana White Water Rafting"
+                },
+                {
+                  "src": "/images/safaris/kenya/extreme/biking2.jpg",
+                  "caption": "Sagana white water rafting"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 3,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "70Km Cycle Ride",
+                    "description": "Drive from Nairobi to corner baridi on th outskirts of the city then cycle for 70 kms free fall down hill towards Masai Mara Game reserve. Dinner and overnight at a camp.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Rafting"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "40Km Cycle Ride among Wildlife",
+                    "description": "Cycle for 40 Kms amoungst wildlife in Maasai Mara National reserve. Dinner and overnight at the camp.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Kayaking", "Rock Climbing" ]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "8Km Cycle Ride & 4x4 Transfer",
+                    "description": "This day we only cycle for 8 Kms due to the difficult terrains then picked by 4x4 to our camp for dinner and overnight.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Paddle Boarding", "Mountain Biking"]
+                  },
+                  {
+                    "dayNumber": 4,
+                    "title": "50Km Cycle Ride",
+                    "description": "Cycle for further 50 Kms in this wonderful scenic Maasai people countyside with beautiful landscapes. Dinner and overnight at a camp.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Return drive"]
+                  },
+                  {
+                    "dayNumber": 5,
+                    "title": "Departure",
+                    "description": "After breakfast Return to Nairobi by Vehicle.",
+                    "meals": ["Breakfast"],
+                    "activities": ["Return drive"]
+                  }
+                ]
+              },
+              "prices": null
+            },
+            {
+              "id": "kaa-60",
+              "slug": "kaa-60-tri-adventure-challenge-10-days",
+              "title": "TRI ADVENTURE CHALLENGE",
+              "destination": "Chogoria",
+              "durationLabel": "10 Days",
+              "description": "Ten days tri adventure challenge safari involving hiking Mt Kenya, biking from Mt Kenya to Ol Pajeta conservancy and white water rafting and other water sports in Sagana.",
+              "images":[
+                { 
+                  "src": "/images/safaris/kenya/extreme/chogoria.jpg",
+                  "alt": "Sagana White Water Rafting"
+                },
+                {
+                  "src": "/images/parks/olpajeta.jpg",
+                  "caption": "Sagana white water rafting"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 10,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Nairobi - Chogoria",
+                    "description": "Drive from Nairobi to Chogoria town 4 hrs and proceed  to the Chogoria Forest gate for Lunch. In the afternoon, hike from the gate to Bush Clearing 2600 m. Dinner and overnight at the camp.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Flight transfer", "Game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Hike to Lake Ellis",
+                    "description": "Hike from Bush Clearing to Lake Ellis 3200m where prince William was engaged. Dinner and overnight at a camp.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Hiking", "Camping" ]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Hike to Mintos Hut",
+                    "description": "Hike from Lake ellis to Mintos Hut. In the afternoon Visit the temple.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Hiking", "Temple visit"]
+                  },
+                  {
+                    "dayNumber": 4,
+                    "title": "Summit Day",
+                    "description": "Summit Morning from 2 am to Summit point Lenana 4895m and down to old Moses camp.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Return drive"]
+                  },
+                  {
+                    "dayNumber": 5,
+                    "title": "Biking to Ol Pajeta Conservancy",
+                    "description": "Biking from Old Moses camp to Ol Pajeta Conservancy or Rift Valley Adventures Camp approximately 70 Kms.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Biking"]
+                  },
+                  {
+                    "dayNumber": 6,
+                    "title": "Biking to Savange Camp Sagana",
+                    "description": "Biking for approximately 50 Kms to Mweiga township where you are picked by vehicle and drive to Savange Camp Sagana on the banks of river Tana. Dinner and overnight at the Camp.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Biking" ]
+                  },
+                  {
+                    "dayNumber": 7,
+                    "title": "White Water Rafting",
+                    "description": " White water rafting in the morning followed by afternoon at leisure.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Rafting"]
+                  },
+                  {
+                    "dayNumber": 8,
+                    "title": "Rock Climbing & Kayaking",
+                    "description": "Water sport Kayaking in the morning. In the afternoon Do Rock Climbing followed by a Sun Downer dinner.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Kayaking", "Rock Climbing"]
+                  },
+                  {
+                    "dayNumber": 9,
+                    "title": "Mountain Biking & Paddle Boarding",
+                    "description": "Mt Biking for between 20 and 40 Kms in the morning followed in the afternoon by Stand up paddle board for 2 hrs.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Return drive"]
+                  },
+                  {
+                    "dayNumber": 10,
+                    "title": "Departure",
+                    "description": "Return to Nairobi or Relax.",
+                    "meals": ["Breakfast"],
+                    "activities": ["Return drive"]
+                  }
+                ]
+              },
+              "prices": null
+            },
+            {
+              "id": "kaa-60",
+              "slug": "kaa-60-tri-adventure-challenge-10-days",
+              "title": "EXPROLE THE GREAT RIFT VALLEY",
+              "destination": "The Great Rift Valley",
+              "durationLabel": "11 Days",
+              "description": "Eleven days adventure safari exploring the Great Rift Valley involving game drives, hiking, biking and bird watching.",
+              "images":[
+                { 
+                  "src": "/images/safaris/kenya/extreme/rift.jpg",
+                  "alt": "rift valley adventure"
+                },
+                {
+                  "src": "/images/safaris/kenya/extreme/rift1.jpg",
+                  "caption": "rift valley adventure"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 11,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Nairobi - Samburu",
+                    "description": "Drive from Nairobi to Umoja Camp in Samburu having lunch enroute.  Dinner and overnight at the camp.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Arrival drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Game Drive to Samburu",
+                    "description": "Morning and Afternoon game drives in Samburu Game Reserve. Dinner and overnight at the camp.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Game drive", "Camping" ]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Hike to Loldukokwe Centre",
+                    "description": "Drive from Archers post to Wamba Junction, then cycle for about 40 Kms to Loldukokwe Centre deep in the rift valley. Later after lunch picked by vehicle to Maralal Yare Camp for dinner and overnight.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Hiking", "Camping"]
+                  },
+                  {
+                    "dayNumber": 4,
+                    "title": "20Km Cycle to Mararal",
+                    "description": " Cycle for 20 Kms to Mararal town and back. This afternoon is spent interacting with the Samburu Normadic tribesmen.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Cycling"]
+                  },
+                  {
+                    "dayNumber": 5,
+                    "title": "Drive to Poror",
+                    "description": "Drive to Poror, The great Rift valley view point, Visit a Samburu traditional villages commonly referred to as Manyattas and back to camp for dinner and overnight.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Camping"]
+                  },
+                  {
+                    "dayNumber": 6,
+                    "title": "Drive to Mararal",
+                    "description": "Drive from Mararal to Lake Baringo at Roberts Camp for dinner and overnight.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Camping" ]
+                  },
+                  {
+                    "dayNumber": 7,
+                    "title": "Bird watching and Cycling",
+                    "description": "Drive from Kambi Samaki to Loruk township. From Here cycle for about 40 Kms in this scenic rift valley inhabited by the Pokot tribesmen. Afternoon spent doing  a Bird viewing walk in this area with over 600 species of birds. Dinner and overnight at Roberts camp.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Cycling", "Bird watching"]
+                  },
+                  {
+                    "dayNumber": 8,
+                    "title": "Drive to Lake Naivasha",
+                    "description": "Drive from Lake Baringo to Lake Naivasha at Fishermans Camp, having lunch enroute.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Drive"]
+                  },
+                  {
+                    "dayNumber": 9,
+                    "title": "Biking and Boat Ride",
+                    "description": "Morning spent Biking Hellsgate National Park and in the Afternoon have a boat ride to see different animals and birds at the crescent island.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Biking", "Boat ride"]
+                  },
+                  {
+                    "dayNumber": 10,
+                    "title": "Full day Hiking Mt Longonot",
+                    "description": "Full day hiking Mt Longonot  2700 m with meals at the camp.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Hiking"]
+                  },
+                  {
+                    "dayNumber": 11,
+                    "title": "Departure",
+                    "description": "Drive back to Nairobi.",
+                    "meals": ["Breakfast"],
+                    "activities": ["Return drive"]
+                  }
+                ]
+              },
               "prices": null
             }
           ]
