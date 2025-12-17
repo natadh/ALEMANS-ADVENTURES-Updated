@@ -6,13 +6,13 @@
       "description": "Most requested Kenya safari programs",
       "subcategories": [
         {
-          "id": "maasai-mara",
-          "title": "Maasai Mara Safaris",
+          "id": "kenya-popular",
+          "title": "Kenya Popular Safaris",
           "safaris": [
             {
-              "id": "3-day-maasai-mara",
+              "id": "kaa-001",
               "slug": "3-days-maasai-mara",
-              "title": "3 Days Maasai Mara Safari",
+              "title": "Maasai Mara Safari",
               "destination": "Masai Mara",
               "description": "A classic short safari covering Kenya's most famous reserve.",
               "categoryPath": ["Kenya Popular Safaris", "Maasai Mara"],
@@ -78,6 +78,347 @@
               "bookingInfo": {
                 "minPax": 2,
                 "departures": "Daily"
+              }
+            },
+            {
+              "id": "6-day-maasai-mara",
+              "slug": "6-days-mount-kenya-hiking-sirimon-out-chogoria-route",
+              "title": "MT. Kenya Hiking: SIRIMON OUT CHOGORIA ROUTE",
+              "destination": "Mount Kenya",
+              "description": "A 5-day hiking adventure on Mount Kenya via the Sirimon and Chogoria routes.",
+              "categoryPath": ["Kenya Popular Safaris", "Mount Kenya"],
+              "durationLabel": "6 Days",
+              "highlights": [
+                "Scenic hiking routes",
+                "Diverse flora and fauna",
+                "Stunning mountain views"
+              ],
+              "price": null,
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/mtkenya/image3.jpg",
+                  "alt": "Mount Kenya hiking"
+                },
+                {
+                  "src": "/images/safaris/kenya/mtkenya/image2.jpg",
+                  "caption": "Hiking trail"
+                },
+                {
+                  "src": "/images/safaris/kenya/mtkenya/image1.jpg",
+                  "caption": "Scenic mountain view"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 6,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "NAIROBI - NANYUKI",
+                    "description": "Meet and greet at the Airport and later depart and drive North to Naromoru town and transferred to Mountain rock Hotel or Equivalent for dinner and overnight.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Drive to Nanyuki"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "NANYUKI - SIRIMON GATE - OLD MOSES",
+                    "description": "Depart Nairobi or your base hotel and drive to sirimon park gate 2600 m and after park formalities hike to Judmeirs camp 3300m 3-4 hrs.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Hiking to Old Moses", "Scenic views"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "OLD MOSES - SHIPTONS CAMP",
+                    "description": "After breakfast hike to shiptons camp 4200m, the day is a bit long so we need a slow pace. Lunch en route, dinner/overnight at camp. 6 -7hrs.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Hiking to Shipton's Camp", "Wildlife spotting"]
+                  },
+                  {
+                    "dayNumber": 4,
+                    "title": "SHIPTONS CAMP",
+                    "description": "Stay at Shiptons Camp for another night to acclimatize and arrest day. This makes the summit day much more enjoyable. Dinner and overnight at Shiptons Camp.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Acclimatization", "Nature walks"]
+                  },
+                  {
+                    "dayNumber": 5,
+                    "title": "SUMMIT DAY - MERU BANDAS",
+                    "description": "Attempt point Lenana 4985m then down to hallstarn ( mintos ) for b/fast and go down to Meru Bandas. Lunch en route  dinner and overnight at the lodge. 8-9  hrs",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Hiking to Chogoria Camp", "Scenic views"]
+                  },
+                  {
+                    "dayNumber": 6,
+                    "title": "MERU BANDAS - NAIROBI",
+                    "description": "After breakfast we hike down through dense bamboo and rain forest for 6 hrs to meet with our vehicle for transfer to chogoria town for lunch then proceed to Nairobi arriving in the evening. Later transferred to the Airport for your outbound flight.",
+                    "meals": ["Breakfast", "Lunch"],
+                    "activities": ["Descent to Chogoria", "Drive to Nairobi"]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "6-day-amboseli-lake-naivasha-maasai-mara",
+              "slug": "6-day-amboseli-lake-naivasha-maasai-mara",
+              "title": "AMBOSELI - LAKE NAIVASHA - NAKURU- MAASAI MARA SAFARI",
+              "destination": [ "Amboseli", "Lake Naivasha", "Nakuru", "Maasai Mara"],
+              "description": "A 6-day safari covering Amboseli, Lake Naivasha, Lake Nakuru, and Maasai Mara National Reserves. Full board at Sentrim/ Kibo / Kilimanjaro amboseli and Pelican/ Sentrim Naivasha and Senrim/ Ol Moran / Mara leisure in Mara.",
+              "categoryPath": ["Kenya Popular Safaris", "Amboseli", "Lake Naivasha", "Lake Nakuru", "Maasai Mara"],
+              "durationLabel": "6 Days",
+              "highlights": [
+                "Big Five game drives",
+                "Scenic landscapes",
+                "Diverse wildlife"
+              ],
+              "price": null,
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/amboseli/image3.jpg",
+                  "alt": "Amboseli National Park hiking"
+                },
+                {
+                  "src": "/images/safaris/kenya/amboseli/image2.jpg",
+                  "caption": "Hiking trail"
+                },
+                {
+                  "src": "/images/safaris/kenya/amboseli/image1.jpg",
+                  "caption": "Scenic mountain view"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 6,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Amboseli Game Reserve",
+                    "description": "Drive south through Maasai country to Amboseli Game Reserve arriving at the lodge in the time for lunch. Afternoon game view beneath the snow capped peak of Mount Kilimanjaro. Dinner and overnight at a Safari lodge",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Drive to Amboseli", "Afternoon game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Amboseli Game Reserve",
+                    "description": "Dawn drive, returning to the lodge for breakfast. Rest for the morning at the leisure or by the swimming pool. Lunch and a fine game viewing drive in the late afternoon. Dinner and overnight at a Safari Lodge.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Morning game drive", "Afternoon game drive"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Lake Naivasha",
+                    "description": "Early breakfast and proceed to Lake Naivasha with lunch enroute. Afternoon at leisure or by thelake or free for optional excursions. Dinner and overnight at Lake Naivasha Hotel.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Drive to Lake Naivasha", "Boat ride"]
+                  },
+                  {
+                    "dayNumber": 4,
+                    "title": "Maasai Mara Game Reserve",
+                    "description": "Depart for Maasai Mara Game Reserve after an early breakfast. Lunch at the lodge an afternoon game viewing drive in the reserve the borders the Serengeti Park in Tanzania. Dinner and overnight at a lodge or tented camp.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Drive to Maasai Mara", "Afternoon game drive"]
+                  },
+                  {
+                    "dayNumber": 5,
+                    "title": "Maasai Mara Game Reserve",
+                    "description": "Morning and afternoon game viewing in the reserve, noted for it's black maned lion and leopard. Dinner and overnight at a lodge or tented camp.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Morning game drive", "Afternoon game drive"]
+                  },
+                  {
+                    "dayNumber": 6,
+                    "title": "NAIROBI",
+                    "description": "After an early breakfast depart Maasai Mara and drive to Nairobi arriving in the evening.",
+                    "meals": ["Breakfast"],
+                    "activities": ["Drive to Nairobi"]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "4-day-lake-nakuru-lake-naivasha-maasai-mara-safari",
+              "slug": "4-day-lake-nakuru-lake-naivasha-maasai-mara-safari",
+              "title": "LAKE NAKURU - LAKE NAIVASHA - MASAI MARA SAFARI",
+              "destination": [ "Amboseli", "Lake Naivasha", "Nakuru", "Maasai Mara", "Samburu"],
+              "description": "A 4-day safari covering Lake Nakuru, Lake Naivasha, and Maasai Mara National Reserves. Full board at Sentrim/ Kibo / Kilimanjaro amboseli and Pelican/ Sentrim Naivasha and Senrim/ Ol Moran / Mara leisure in Mara. Accommodations at Sentrim / Pelican Nakuru or Ol moran /Sentrim/ Mara Leisure in Mara",
+              "categoryPath": ["Kenya Popular Safaris", "Lake Nakuru", "Lake Naivasha", "Maasai Mara"],
+              "durationLabel": "4 Days",
+              "highlights": [
+                "Big Five game drives",
+                "Scenic landscapes",
+                "Diverse wildlife"
+              ],
+              "price": null,
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/maasai-mara/image2.jpg",
+                  "alt": "Kenya Classic Safari"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/lnaivasha1.jpg",
+                  "caption": "Morning game drive"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/lnakuru1.jpg",
+                  "caption": "Scenic mountain view"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 4,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Lake Nakuru National Park",
+                    "description": "Drive through lush tea and coffee plantations near Limuru.  Descend into the Great Rift Valley arriving at the famous bird sanctuary of Lake Nakuru Park.  Afternoon game drive, before proceeding to your lodge for the night (160 kms, 3 hrs).",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Drive to Lake Nakuru", "Afternoon game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Maasai Mara",
+                    "description": "Early morning drive past the extinct volcano of Mt. Longonot.  Arrive at the famous Maasai Mara for afternoon game drive and overnight (315 kms, 5 hrs).",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Drive to Maasai Mara", "Boat ride"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Maasai Mara Game Reserve",
+                    "description": "Enjoy a day of uninterrupted game drive in this popular reserve renowned for its huge numbers of plains game such as wildebeest and zebra, and its majestic predators.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Drive to Maasai Mara", "Afternoon game drive"]
+                  },
+                  {
+                    "dayNumber": 4,
+                    "title": "NAIROBI",
+                    "description": "Bid farewell to the Mara as you return to Nairobi before lunch (280 kms, 4 1/2 hrs).",
+                    "meals": ["Breakfast", "Lunch"],
+                    "activities": ["Drive to Nairobi"]
+                  }
+                ]
+              },
+              "includes": [
+                "Accommodation",
+                "Park entry fees",
+                "Game drives"
+              ],
+              "excludes": [
+                "International flights",
+                "Visa fees",
+                "Tips"
+              ]
+            },
+            {
+              "id": "4-day-mount-kenya-hiking-sirimon-route-safari",
+              "slug": "4-day-mount-kenya-hiking-sirimon-route-safari",
+              "title": "MOUNT KENYA HIKING: SIRIMON ROUTE",
+              "destination": [ "Mount Kenya", "Amboseli", "Maasai Mara"],
+              "description": "A 4-day hiking adventure on Mount Kenya via the Sirimon route.",
+              "categoryPath": ["Kenya Popular Safaris", "Samburu", "Amboseli", "Maasai Mara"],
+              "durationLabel": "4 Days",
+              "highlights": [
+                "Scenic hiking routes",
+                "Diverse flora and fauna",
+                "Stunning mountain views"
+              ],
+              "price": null,
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/mtkenya/image1.jpg",
+                  "alt": "Samburu National Reserve"
+                },
+                {
+                  "src": "/images/safaris/kenya/amboseli/image2.jpg",
+                  "caption": "Hiking trail"
+                },
+                {
+                  "src": "/images/safaris/kenya/maasai-mara/image1.jpg",
+                  "caption": "Scenic mountain view"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 4,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "NAIROBI - SIRIMON GATE - OLD MOSES",
+                    "description": "Depart Nairobi 7.00 am  for Sirimon Park Gate. After park formalities trek for 9 KM (3-4) hours, 690 metres ascend to Moses Camp. Dinner and overnight at the camp.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Drive to Sirimon Gate", "Hiking to Old Moses"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "OLD MOSES - SHIPTONS CAMP",
+                    "description": "Trek 14 KM about 6-7 hours 890 metres ascend to Shiptons Camp. Dinner and overnight at the camp.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Hiking to Shipton's Camp", "Scenic views"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "SUMMIT DAY",
+                    "description": "Trek 3-5 hours 755 Metres ascend to Point Lenana arriving  early  in the morning to witness the sunrise. Trek back to Old Moses Camp. Dinner and overnight at the camp.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Hiking to Point Lenana", "Scenic views"]
+                  },
+                  {
+                    "dayNumber": 4,
+                    "title": "OLD MOSES - NAIROBI",
+                    "description": "After breakfast descend further down to Sirimon Park Gate where you are transferred to Nairobi arriving in the evening.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Descent to Sirimon Gate", "Drive to Nairobi"]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "3-day-tsavo-east-and-west-amboseli-maasai-mara-safari",
+              "slug": "3-day-tsavo-east-and-west-amboseli-maasai-mara-safari",
+              "title": "Tsavo East & West - Amboseli National Park",
+              "destination": [ "Samburu", "Amboseli", "Maasai Mara"],
+              "description": "A 3-day safari covering Tsavo East & West and Amboseli National Parks.",
+              "categoryPath": ["Kenya Popular Safaris", "Amboseli", "Maasai Mara", "Tsavo East", "Tsavo West"],
+              "durationLabel": "3 Days",
+              "highlights": [
+                "Big Five game drives",
+                "Scenic landscapes",
+                "Diverse wildlife"
+              ],
+              "price": null,
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/excursions/tsavo1.jpg",
+                  "alt": "Samburu National Reserve"
+                },
+                {
+                  "src": "/images/safaris/kenya/amboseli/image2.jpg",
+                  "caption": "Hiking trail"
+                },
+                {
+                  "src": "/images/safaris/kenya/maasai-mara/image1.jpg",
+                  "caption": "Scenic mountain view"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 3,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "TSAVO EAST & WEST NATIONAL PARK",
+                    "description": "Drive 100 Kms east to Tsavo east/ West  Park, home to the Red Elephant. Viewing game enroute to Ngulia / Kilaguni/ Sentrim  for lunch, dinner and overnight. Afternoon game drive. ( 165 Kms )",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Drive to Tsavo East", "Afternoon game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "AMBOSELI NATIONAL PARK",
+                    "description": "Proceed to Amboseli Park arriving in time for lunch at Kibo/ Sentrim/Serena. Afternoon game drives in this swampy park with Natural Springs which attract wildlife. We have chances to see the snow capped top of Mt Kilimanjaro and also the  Plains animals. Dinner and overnight at the Lodge, (240 Kms ).Accommodation at Kibo or sentrim Amboseli.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Morning game drive", "Drive to Amboseli"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "MOMBASA",
+                    "description": "Early morning game drives before Breakfast. After breakfast drive back to Mombasa.",
+                    "meals": ["Breakfast"],
+                    "activities": ["Morning game drive", "Drive to Mombasa"]
+                  }
+                ]
               }
             }
           ]
@@ -726,12 +1067,73 @@
               "title": "8 Days TURKANA SCENIC SAFARI via CHALBI DESERT",
               "destination": "Lake Turkana, Chalbi Desert",
               "durationLabel": "8 Days",
-              "description": "Day 1 Nairobi/Samburu: Depart Nairobi in the morning for Samburu Game Reserve stopping in Nanyuki for lunch. You will pass through pleasant countryside with coffee and tea plantations providing a good view of Mt. Kenya. Game drive en route to your camp for dinner and overnight. Day 2 Samburu: Morning and afternoon game run in Samburu. Full board at your campsite. Day 3 Samburu/Marsabit: Early morning pre-breakfast game drive. After breakfast drive to Marsabit via the 'singing wells' of the Boran tribe. Late lunch at the camp. The afternoon will be at leisure. Dinner and overnight at your campsite. Day 4 Marsabit/Kalacha: After breakfast proceed on a game drive in the nearby Marsabit National Park including a stop at Lake Paradise, a natural water hole in the park. Drive on to Kalacha with picnic lunch en route. Dinner and overnight in your campsite in this tiny settlement at the edge of the Chalbi desert. Day 5 Kalacha/L. Turkana: After breakfast depart Kalacha for Loiyangalani, the south-eastern shore of L. Turkana. The afternoon will be at leisure after lunch on arrival. Dinner and overnight in the campsite. Day 6 L. Turkana: A full day by the shore of L. Turkana during which you can visit the El Molo tribesmen in their village. The El Molo are said to be the smallest tribe in Africa numbering less than 100 people. All meals and overnight at your camp. Day 7 L. Turkana/Maralal: After breakfast depart Loiyangalani for Maralal town, via pristine landscape and scenery. Lunch will be served en route. Dinner and overnight in your campsite in Maralal. Day 8 Maralal/Nairobi (via Thompson Falls): After breakfast depart for Nairobi via Thompson Falls with lunch en route. Arrive Nairobi in the early evening.",
+              "description": "This 8-day safari explores northern Kenya, starting in Nairobi and traveling through Samburu, Marsabit, Kalacha, Lake Turkana, and Maralal, before returning to Nairobi. The journey includes game drives in Samburu Game Reserve and Marsabit National Park, visits to unique natural features such as Lake Paradise, the Chalbi Desert, and Thompson Falls, and scenic drives past coffee and tea plantations with views of Mt. Kenya. Cultural highlights include visits to the Boran tribe's singing wells and the El Molo community on the shores of Lake Turkana. The itinerary balances wildlife viewing, cultural experiences, and leisure time, with full-board camping accommodations throughout the safari.",
               "categoryPath": ["Kenya Budget Safaris", "Budget Safari Destinations"],
               "prices": {
                 "lowSeason": { "Budget": 289, "Luxury": 605 },
                 "peakSeason": { "Budget": 310, "Luxury": 726 }
-              }
+              },
+              "itinerary":{
+                "durationDays":8,
+                "days":[
+                  {
+                    "dayNumber": 1,
+                    "title": "Nairobi/Samburu",
+                    "description": "Depart Nairobi in the morning for Samburu Game Reserve stopping in Nanyuki for lunch. You will pass through pleasant countryside with coffee and tea plantations providing a good view of Mt. Kenya. Game drive en route to your camp for dinner and overnight.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Morning game drive", "Drive to Mombasa"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Samburu",
+                    "description": "Morning and afternoon game run in Samburu. Full board at your campsite.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Morning game drive", "Afternoon game drive"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Samburu/Marsabit",
+                    "description": "Early morning pre-breakfast game drive. After breakfast drive to Marsabit via the 'singing wells' of the Boran tribe. Late lunch at the camp. The afternoon will be at leisure. Dinner and overnight at your campsite.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Morning game drive", "Drive to Marsabit"]
+                  },
+                  {
+                    "dayNumber": 4,
+                    "title": "Marsabit/Kalacha",
+                    "description": "After breakfast proceed on a game drive in the nearby Marsabit National Park including a stop at Lake Paradise, a natural water hole in the park. Drive on to Kalacha with picnic lunch en route. Dinner and overnight in your campsite in this tiny settlement at the edge of the Chalbi desert.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Game drive", "Drive to Kalacha"]
+                  },
+                  {
+                    "dayNumber": 5,
+                    "title": "Kalacha/L. Turkana",
+                    "description": "After breakfast depart Kalacha for Loiyangalani, the south-eastern shore of L. Turkana. The afternoon will be at leisure after lunch on arrival. Dinner and overnight in the campsite.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Drive to L. Turkana"]
+                  },
+                  {
+                    "dayNumber": 6,
+                    "title": "L. Turkana",
+                    "description": "A full day by the shore of L. Turkana during which you can visit the El Molo tribesmen in their village. The El Molo are said to be the smallest tribe in Africa numbering less than 100 people. All meals and overnight at your camp.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Visit El Molo village"]
+                  },
+                  {
+                    "dayNumber": 7,
+                    "title": "L. Turkana/Maralal",
+                    "description": "After breakfast depart Loiyangalani for Maralal town, via pristine landscape and scenery. Lunch will be served en route. Dinner and overnight in your campsite in Maralal.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Drive to Maralal"]
+                  },
+                  {
+                    "dayNumber": 8,
+                    "title": "Maralal/Nairobi (via Thompson Falls)",
+                    "description": "After breakfast depart for Nairobi via Thompson Falls with lunch en route. Arrive Nairobi in the early evening.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Drive to Nairobi"]
+                  }
+                ]
+            }
             },
             {
               "id": "kaa-29",
@@ -739,9 +1141,77 @@
               "title": "9 Days BEST OF KENYA LANDSCAPE TOUR (upon Request)",
               "destination": "Kenya",
               "durationLabel": "9 Days",
-              "description": "Day 1 Nairobi/Nakuru: Proceed to Hells Gate National Park for a morning of trekking inside the park. Proceed after lunch to Kariandusi prehistoric site and then on to Hyrax Hill prehistoric site. Overnight in Nakuru camp. Day 2 L. Nakuru/Bogoria/Baringo: Pre-breakfast game run in L. Nakuru National Park. After breakfast, proceed to camp in Lake Baringo for dinner and overnight. Day 3 L. Baringo/Saiwa Swamp: Baringo to Cherangani hills via Marigat. Here you will have a chance to see the rare Sitatunga antelope. Overnight in Saiwa Swamp or Kitale hotel. Day 4 Saiwa Swamp/ Mt Elgon: From Saiwa swamp via Kitale, we head to Mt Elgon, the second highest in Kenya arriving in time for lunch. Time allowing you will visit the Kiptum caves in Mt. Elgon. Dinner and overnight at the campsite or the Bandas. Day 5 Mt Elgon/Kakamega Forest: Proceed after breakfast to Kakamega forest via Webuye. Lunch en route. Afternoon visit of the Kakamega forest. Dinner and overnight in your campsite or Bandas. Day 6 Kakamega Forest/Kisii: After breakfast proceed to Kisii. Arrive in time for lunch in Kisii. In the afternoon visit a soapstone curving center at Tabaka area. Dinner and overnight in Kisii hotel. Day 7 Kisii/Maasai Mara: After breakfast drive to Maasai Mara via Kilgoris. Game runs en route to your campsite for dinner and overnight. Day 8 Maasai Mara: Full day in Maasai Mara Game Reserve with picnic lunch. Dinner and overnight in your campsite. Day 9 Maasai Mara/Nairobi: After breakfast drive out of the Reserve with game run en route. Picnic lunch will be served on your return to Nairobi. Arrival in Nairobi is in the afternoon.",
+              "description": "This 9-day safari explores western Kenya and the Rift Valley, starting and ending in Nairobi. The journey includes outdoor adventure, wildlife viewing, cultural experiences, and scenic landscapes. Highlights include trekking at Hell’s Gate National Park, visits to Kariandusi and Hyrax Hill prehistoric sites, and game drives in Lake Nakuru National Park. The safari continues through Lakes Bogoria and Baringo, the Cherangani Hills, and Saiwa Swamp, home to the rare Sitatunga antelope. Further exploration takes you to Mount Elgon, including a visit to the Kitum caves, and the biodiversity-rich Kakamega Forest. Cultural experiences include visiting the Tabaka soapstone carving center near Kisii. The safari concludes with extensive game drives in the Maasai Mara Game Reserve, including a full day with a picnic lunch, before returning to Nairobi.",
               "categoryPath": ["Kenya Budget Safaris", "Budget Safari Destinations"],
-              "prices": null
+              "prices": null,
+              "itinerary":{
+                "durationDays":9,
+                "days":[
+                  {
+                    "dayNumber": 1,
+                    "title": "Nairobi/Nakuru",
+                    "description": "Proceed to Hells Gate National Park for a morning of trekking inside the park. Proceed after lunch to Kariandusi prehistoric site and then on to Hyrax Hill prehistoric site. Overnight in Nakuru camp.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Drive to Nakuru", "Trekking"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "L. Nakuru/Bogoria/Baringo",
+                    "description": "Pre-breakfast game run in L. Nakuru National Park. After breakfast, proceed to camp in Lake Baringo for dinner and overnight.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Morning game drive", "Drive to Baringo"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "L. Baringo/Saiwa Swamp",
+                    "description": "Baringo to Cherangani hills via Marigat. Here you will have a chance to see the rare Sitatunga antelope. Overnight in Saiwa Swamp or Kitale hotel.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Drive to Saiwa Swamp"]
+                  },
+                  {                    
+                    "dayNumber": 4,
+                    "title": "Saiwa Swamp/ Mt Elgon",
+                    "description": "From Saiwa swamp via Kitale, we head to Mt Elgon, the second highest in Kenya arriving in time for lunch. Time allowing you will visit the Kiptum caves in Mt. Elgon. Dinner and overnight at the campsite or the Bandas.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Drive to Mt Elgon", "Visit Kiptum caves"]
+                  },
+                  {
+                    "dayNumber": 5,
+                    "title": "Mt Elgon/Kakamega Forest",
+                    "description": "Proceed after breakfast to Kakamega forest via Webuye. Lunch en route. Afternoon visit of the Kakamega forest. Dinner and overnight in your campsite or Bandas.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Drive to Kakamega Forest", "Forest visit"]
+                  },
+                  {
+                    "dayNumber": 6,
+                    "title": "Kakamega Forest/Kisii",
+                    "description": "After breakfast proceed to Kisii. Arrive in time for lunch in Kisii. In the afternoon visit a soapstone curving center at Tabaka area. Dinner and overnight in Kisii hotel.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Drive to Kisii", "Visit soapstone center"]
+                  },
+                  {
+                    "dayNumber": 7,
+                    "title": "Kisii/Maasai Mara",
+                    "description": "After breakfast drive to Maasai Mara via Kilgoris. Game runs en route to your campsite for dinner and overnight.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Drive to Maasai Mara", "Game drive"]
+                  },
+                  {
+                    "dayNumber": 8,
+                    "title": "Maasai Mara",
+                    "description": "Full day in Maasai Mara Game Reserve with picnic lunch. Dinner and overnight in your campsite.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Full day game drive"]
+                  },
+                  {
+                    "dayNumber": 9,
+                    "title": "Maasai Mara/Nairobi",
+                    "description": "After breakfast drive out of the Reserve with game run en route. Picnic lunch will be served on your return to Nairobi. Arrival in Nairobi is in the afternoon.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Drive to Nairobi", "Game drive"]
+                  }
+                ]
+              }
             }
           ]
         }
@@ -1473,6 +1943,144 @@
                     "title": "Departure",
                     "description": "Drive back to Nairobi.",
                     "meals": ["Breakfast"],
+                    "activities": ["Return drive"]
+                  }
+                ]
+              },
+              "prices": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kenya-safaris-across-east-africa",
+      "title": "Safaris Across East Africa",
+      "description": "Explore Kenya and its neighboring countries",
+      "subcategories": [
+        {
+          "id": "safaris-across-east-africa-destinations",
+          "title": "Safaris Across East Africa Destinations",
+          "safaris": [
+            {
+              "id": "kaa-61",
+              "slug": "kaa-61-kena-tanzania-11-days",
+              "title": "KENYA / TANZANIA SAFARI",
+              "destination": "Kenya, Tanzania",
+              "durationLabel": "11 Days",
+              "description": "A comprehensive safari exploring the best of Kenya and Tanzania including Amboseli, Samburu, Lake Nakuru, Nairobi, Lake Manyara, Serengeti and Ngorongoro Crater.",
+              "categoryPath": ["Safaris across East Africa", "Safaris across east africa Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/eastafrica/adv1.jpg",
+                  "alt": ""
+                },
+                {
+                  "src": "/images/safaris/kenya/eastafrica/adv2.jpg",
+                  "caption": ""
+                },
+                {
+                  "src": "/images/safaris/kenya/eastafrica/adv3.jpg",
+                  "caption": ""
+                },
+                {
+                  "src": "/images/safaris/kenya/eastafrica/adv4.jpg",
+                  "caption": ""
+                },
+                {
+                  "src": "/images/safaris/kenya/eastafrica/adv5.jpg",
+                  "caption": ""
+                }
+              ],
+              "includes": [
+                "Accommodation",
+                "Park entry fees",
+                "Game drives",
+                "Domestic flights"
+              ],
+              "excludes": [
+                "International flights",
+                "Visa fees",
+                "Tips"
+              ],
+              "itinerary": {
+                "durationDays": 11,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Tree Hotel",
+                    "description": "Morning drive to the forested highlands of the Aberdares. After lunch at the base hotel, transfer to your tree hotel for game watching at the floodlit water hole.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Samburu",
+                    "description": "Continue north across the equator to the home of the samburu people. Marvel at the rugged scenery of isolated crags and springs in this semi arid region. After a game drive, relax in the comfort of your lodge.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Rock Climbing", "Boat ride", "Camping" ]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Samburu",
+                    "description": "Morning and later afternoon, game drives along the Uaso Nyiro river. In addition to the carnivores, view the rare species of herbivores such as the Beisa oryx or the Grevy zebra.",
+                    "meals": ["Breakfast"],
+                    "activities": ["Game drive", "Return flight"]
+                  },
+                  {
+                    "dayNumber": 4,
+                    "title": "Nakuru",
+                    "description": "The drive to lake Nakuru provides stunning vistas between the escarpments of the Rift Valley. During the game drive, behold the amazing sight of candy pink flamingoes lining the waters of the alkaline lake.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Game drive", "Bird watching"]
+                  },
+                  {
+                    "dayNumber": 5,
+                    "title": "Nairobi",
+                    "description": "After breakfast, depart for Nairobi, arriving before lunch. Afternoon at your leisure.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Game drive", "Boat ride"]
+                  },
+                  {
+                    "dayNumber": 6,
+                    "title": "Lake Manyara",
+                    "description": "Cross the border to Tanzania at Namanga, stopping at Arusha for Lunch. Proceed to Lake Manyara for a game drive. Spend the night at the Lake Manyara Hotel.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Game drive"]
+                  },
+                  {
+                    "dayNumber": 7,
+                    "title": "Serengeti",
+                    "description": "Morning game drive reveals the famous tree climbing lions which spend most of the day along branches of acacia trees. After lunch, proceed to Serengeti Park for the night.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Game drive"]
+                  },
+                  {
+                    "dayNumber": 8,
+                    "title": "Serengeti",
+                    "description": "Experience an exciting spectacle of the astounding concentrations of game and extensive bird life at home on the Serengeti plains.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Game drive","Bird watching"]
+                  },
+                  {
+                    "dayNumber": 9,
+                    "title": "Ngorongoro",
+                    "description": "After a morning game drive in the Serengeti, continue to the 'cradle of Mankind' at Olduvai Gorge. Proceed to Ngorongoro for the night.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Game drive"]
+                  },
+                  {
+                    "dayNumber": 10,
+                    "title": "Ngorongoro",
+                    "description": "During the days game drives, discover this legendary crater containing the greatest permanent concentration of wildlife in Africa.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Game drive", "Camping"]
+                  },
+                  {
+                    "dayNumber": 11,
+                    "title": "return to Nairobi",
+                    "description": "Stopping at Arusha for Lunch, return to Nairobi via Namanga.",
+                    "meals": ["Breakfast", "Lunch"],
                     "activities": ["Return drive"]
                   }
                 ]
