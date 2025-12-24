@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-
+import ScrollToTopFAB from "./ScrollToTopFAB";
 interface LayoutProps {
   children: React.ReactNode;
   showHero?: boolean;
@@ -28,6 +28,7 @@ export default function Layout({
 
       {/* Footer */}
       <Footer />
+      <ScrollToTopFAB />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
+import ScrollToTopFAB from "../components/ScrollToTopFAB";
 
 export default function Home() {
   return (
@@ -251,6 +252,7 @@ export default function Home() {
           </a>
         </div>
       </section>
+      <ScrollToTopFAB />
     </Layout>
   );
 }
