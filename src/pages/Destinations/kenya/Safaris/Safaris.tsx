@@ -49,7 +49,10 @@ export default function Safaris() {
             <CategoryCard
               key={category.id}
               category={category}
-              onSelect={setActiveCategoryId}
+              onSelect={(id) => {
+                window.scrollTo({ top: 0, behavior: "instant" });
+                setActiveCategoryId(id);
+              }}
             />
           ))}
         </div>
@@ -76,7 +79,10 @@ export default function Safaris() {
                   <SafariCard
                     key={safari.id}
                     safari={safari}
-                    onClick={setActiveSafari} 
+                    onClick={(safari) => {
+                      window.scrollTo({ top: 0, behavior: "instant" });
+                      setActiveSafari(safari);
+                    }}
                   />
                 ))}
               </div>
