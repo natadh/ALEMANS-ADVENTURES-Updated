@@ -1,0 +1,58 @@
+{
+  "id": "camping-types",
+  "title": "Camping Safari Types",
+  "intro": "Camping safaris in Africa range from highly luxurious tented experiences to raw, adventurous wilderness camping. Below are the main camping styles available, each offering a unique way to experience the African bush.",
+
+  "sections": [
+    {
+      "type": "content",
+      "title": "Luxury Tented Camping",
+      "items": [
+        {
+          "paragraph": "Luxury tented camping involves the use of custom-made canvas tents designed to provide lodge-level comfort while maintaining a close connection to nature."
+        },
+        {
+          "paragraph": "These tented camps range from 2-star to 5-star standards and are fully inclusive, featuring en-suite bathrooms, comfortable beds, quality furnishings, and personalized service."
+        },
+        {
+          "paragraph": "The only real difference between a lodge and a luxury tented camp is the canvas roof — everything else offers the same level of comfort and refinement."
+        }
+      ],
+      "highlights": [
+        "Custom-made luxury canvas tents",
+        "2 to 5 star comfort levels",
+        "En-suite bathrooms and full amenities",
+        "Lodge-style service in a natural setting"
+      ]
+    },
+
+    {
+      "type": "content",
+      "title": "Adventure Camping",
+      "items": [
+        {
+          "paragraph": "Adventure camping safaris are designed for the young at heart and for travelers who truly love adventure and immersion in nature."
+        },
+        {
+          "paragraph": "This style of camping strips away modern luxuries such as flush toilets, running water, and electricity, offering a raw and authentic bush experience."
+        },
+        {
+          "paragraph": "Guests camp in simple canvas tents with nothing separating them from wildlife except the tent fabric and the glow of a campfire, creating an unforgettable sense of closeness to nature."
+        },
+        {
+          "paragraph": "Daily life at camp is interactive — guests may watch meals being prepared, assist with cooking, or help with camp duties such as washing dishes."
+        },
+        {
+          "paragraph": "After a full day of wildlife viewing — from predators hunting to prey grazing — guests retire knowing they will sleep in the same unfenced bush, guided only by torchlight and the sounds of the African night."
+        }
+      ],
+      "highlights": [
+        "Authentic wilderness experience",
+        "No electricity or permanent facilities",
+        "Close proximity to wildlife",
+        "Hands-on camp participation",
+        "True bush adventure atmosphere"
+      ]
+    }
+  ]
+}

@@ -1142,45 +1142,11 @@
       "id": "kenya-budget-safaris",
       "title": "Kenya Budget Safaris",
       "description": "Budget and Adventure camping safaris in Kenya",
+      "descriptor": {
+        "type": "campingTypesGuide",
+        "source": "camping-types"
+      },
       "subcategories": [
-        {
-          "id": "camping-types",
-          "title": "Camping Types",
-          "safaris": [
-            {
-              "id": "luxury-tented-camping",
-              "slug": "luxury-tented-camping",
-              "title": "Luxury Tented Camping",
-              "destination": "Various",
-              "durationLabel": "N/A",
-              "images": [
-                {
-                  "src": "/images/safaris/kenya/budget-safaris/luxury-tented-camping.png",
-                  "alt": "Luxury Tented Camping"
-                }
-              ],
-              "description": "This type of Camping involves using custom made luxury tents for accommodation. These tented camps range between 2 star to 5 star ratings and have all inclusive amenities inside the tent. The only difference between a Lodge and these tents is only the roof that is of canvas.",
-              "categoryPath": ["Kenya Budget Safaris", "Camping Types"],
-              "prices": null
-            },
-            {
-              "id": "adventure-camping",
-              "slug": "adventure-camping",
-              "title": "Adventure Camping",
-              "destination": "Various",
-              "durationLabel": "N/A",
-              "images": [
-                {
-                  "src": "/images/safaris/kenya/budget-safaris/adventure-camping.png",
-                  "alt": "Adventure Camping"
-                }
-              ],
-              "description": "This type of Camping safaris caters for the young at heart and for those who really love adventure whereby life's little luxuries such as flash toilets, running water or iced drinks come in handy. You can imagine being in an African bush with nothing between you and the animals except a sheet of canvas tent and the flames of a dying fire. Also imagine watching your cook prepare each and every meal as you watch and having the chance to show the group how good you are in the kitchen and having to share in the responsibilities of either cleaning the dishes or making the meals. Having spent the whole day watching different animals and their way of life e.g., the cats hunting and killing a prey and knowing you will be sleeping in the same bush with no fence or electricity and only having a flash light. This is camping adventure.",
-              "categoryPath": ["Kenya Budget Safaris", "Camping Types"],
-              "prices": null
-            }
-          ]
-        },
         {
           "id": "budget-safari-destinations",
           "title": "Budget Safari Destinations",
@@ -1594,10 +1560,81 @@
             {
               "id": "kaa-27",
               "slug": "kaa-27-lake-turkana-special-8-days",
-              "title": "8 Days LAKE TURKANA SPECIAL SAFARI",
+              "title": "LAKE TURKANA SPECIAL SAFARI",
               "destination": "Lake Turkana",
               "durationLabel": "8 Days",
-              "description": "Day 1 Nairobi/L. Baringo: Depart Nairobi in the morning stopping at the highest point of the Great Rift Valley. Lunch at Nakuru and arrive in L. Baringo in the late afternoon. Camp overnight at your campsite. Day 2 L. Baringo/Maralal: Climb out of the Rift Valley in the morning towards Maralal and the red ochred Samburu people still nomadic and proud. Full board at your campsite. Day 3 Maralal / Turkana: Break early in the morning for L. Turkana. Another spectacular climb leads you to Losiolo, descend down to Baragoi on your way to South Horr passing by a small stream; the rough road gets worse as we descend across ancient lava flows towards the Jade Sea and the Oasis Loiyangalani lying between the Lake and Mt. Kulal. Arrive in your permanent beach campsite soon after lunch and settle in the Turkana huts. Dinner and overnight in your campsite. Day 4 Turkana: Spend the day relaxing and bathing. A short boat excursion will follow to view crocodiles and other species of birds. You will also visit a Turkana Manyatta in the evening for traditional dances. Dinner and overnight in your camp. Day 5 Turkana/ Maralal: Drive up the Horr Valley back to Baragoi and proceed to camp in Maralal. Day 6 Maralal/Samburu: Drive to Samburu Game Reserve and settle by the canopy of trees in the Uaso Nyiro River campsite. Day 7 Samburu: Morning and afternoon game runs in Samburu. Full board in your campsite. Day 8 Samburu/Nairobi: After breakfast drive back to Nairobi with lunch in Nanyuki. Drop off clients who wish to climb Mt. Kenya. Arrival in Nairobi is late in the evening.",
+              "description": "This eight-day expedition ventures into Kenya's rugged northern frontier, starting with a drive from Nairobi to Lake Baringo via the Great Rift Valley. On day two, the journey climbs toward Maralal to encounter the nomadic Samburu people, followed by a spectacular day three trek across ancient lava flows to reach the 'Jade Sea' of Lake Turkana. Day four is spent at the Loiyangalani oasis, featuring a boat excursion to see crocodiles and a cultural visit to a Turkana Manyatta, before retracing the route back to Maralal on day five. The final leg of the safari transitions to the Samburu Game Reserve for two days of riverside game viewing along the Ewaso Ng'iro, ultimately returning to Nairobi on day eight with a stop in Nanyuki.",
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/budget-safaris/lake-turkana.jpg",
+                  "alt": "Lake Turkana"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/lnaivasha2.jpg",
+                  "caption": "Morning game drive"
+                }
+              ],
+              "itinerary":{
+                "durationDays":8,
+                "days":[
+                  {
+                    "dayNumber":1,
+                    "title":"Nairobi/L. Baringo",
+                    "description":"Depart Nairobi in the morning stopping at the highest point of the Great Rift Valley. Lunch at Nakuru and arrive in L. Baringo in the late afternoon. Camp overnight at your campsite.",
+                    "meals":["Lunch","Dinner"],
+                    "activities":["Drive to L. Baringo"]
+                  },
+                  {
+                    "dayNumber":2,
+                    "title":"L. Baringo/Maralal",
+                    "description":"Climb out of the Rift Valley in the morning towards Maralal and the red ochred Samburu people still nomadic and proud. Full board at your campsite.",
+                    "meals":["Breakfast","Lunch","Dinner"],
+                    "activities":["Drive to Maralal"]
+                  },
+                  {
+                    "dayNumber":3,
+                    "title":"Maralal / Turkana",
+                    "description":"Break early in the morning for L. Turkana. Another spectacular climb leads you to Losiolo, descend down to Baragoi on your way to South Horr passing by a small stream; the rough road gets worse as we descend across ancient lava flows towards the Jade Sea and the Oasis Loiyangalani lying between the Lake and Mt. Kulal. Arrive in your permanent beach campsite soon after lunch and settle in the Turkana huts. Dinner and overnight in your campsite.",
+                    "meals":["Breakfast","Lunch","Dinner"],
+                    "activities":["Drive to L. Turkana"]
+                  },
+                  {
+                    "dayNumber":4,
+                    "title":"Turkana",
+                    "description":"Spend the day relaxing and bathing. A short boat excursion will follow to view crocodiles and other species of birds. You will also visit a Turkana Manyatta in the evening for traditional dances. Dinner and overnight in your camp.",
+                    "meals":["Breakfast","Lunch","Dinner"],
+                    "activities":["Boat excursion","Visit Turkana Manyatta"]
+                  },
+                  {
+                    "dayNumber":5,
+                    "title":"Turkana/ Maralal",
+                    "description":"Drive up the Horr Valley back to Baragoi and proceed to camp in Maralal.",
+                    "meals":["Breakfast","Lunch","Dinner"],
+                    "activities":["Drive to Maralal"]
+                  },
+                  {
+                    "dayNumber":6,
+                    "title":"Maralal/Samburu",
+                    "description":"Drive to Samburu Game Reserve and settle by the canopy of trees in the Uaso Nyiro River campsite.",
+                    "meals":["Breakfast","Lunch","Dinner"],
+                    "activities":["Drive to Samburu"]
+                  },
+                  {
+                    "dayNumber":7,
+                    "title":"Samburu",
+                    "description":"Morning and afternoon game runs in Samburu. Full board in your campsite.",
+                    "meals":["Breakfast","Lunch","Dinner"],
+                    "activities":["Morning game drive","Afternoon game drive"]
+                  },
+                  {
+                    "dayNumber":8,
+                    "title":"Samburu/Nairobi",
+                    "description":"After breakfast drive back to Nairobi with lunch in Nanyuki. Drop off clients who wish to climb Mt. Kenya. Arrival in Nairobi is late in the evening.",
+                    "meals":["Breakfast","Lunch"],
+                    "activities":["Drive to Nairobi"]
+                  }
+                ]
+              },
               "categoryPath": ["Kenya Budget Safaris", "Budget Safari Destinations"],
               "prices": {
                 "lowSeason": { "Budget": 289, "Luxury": 605 },
@@ -1607,10 +1644,21 @@
             {
               "id": "kaa-28",
               "slug": "kaa-28-turkana-scenic-chalbi-desert-8-days",
-              "title": "8 Days TURKANA SCENIC SAFARI via CHALBI DESERT",
+              "title": "TURKANA SCENIC SAFARI via CHALBI DESERT",
               "destination": "Lake Turkana, Chalbi Desert",
               "durationLabel": "8 Days",
               "description": "This 8-day safari explores northern Kenya, starting in Nairobi and traveling through Samburu, Marsabit, Kalacha, Lake Turkana, and Maralal, before returning to Nairobi. The journey includes game drives in Samburu Game Reserve and Marsabit National Park, visits to unique natural features such as Lake Paradise, the Chalbi Desert, and Thompson Falls, and scenic drives past coffee and tea plantations with views of Mt. Kenya. Cultural highlights include visits to the Boran tribe's singing wells and the El Molo community on the shores of Lake Turkana. The itinerary balances wildlife viewing, cultural experiences, and leisure time, with full-board camping accommodations throughout the safari.",
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/budget-safaris/chalbi.png",
+                  "alt": "Lake Turkana"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/lnaivasha2.jpg",
+                  "caption": "Morning game drive"
+                }
+              ],
+
               "categoryPath": ["Kenya Budget Safaris", "Budget Safari Destinations"],
               "prices": {
                 "lowSeason": { "Budget": 289, "Luxury": 605 },
@@ -1681,10 +1729,20 @@
             {
               "id": "kaa-29",
               "slug": "kaa-29-best-of-kenya-landscape-9-days",
-              "title": "9 Days BEST OF KENYA LANDSCAPE TOUR (upon Request)",
+              "title": "BEST OF KENYA LANDSCAPE TOUR",
               "destination": "Kenya",
               "durationLabel": "9 Days",
               "description": "This 9-day safari explores western Kenya and the Rift Valley, starting and ending in Nairobi. The journey includes outdoor adventure, wildlife viewing, cultural experiences, and scenic landscapes. Highlights include trekking at Hell’s Gate National Park, visits to Kariandusi and Hyrax Hill prehistoric sites, and game drives in Lake Nakuru National Park. The safari continues through Lakes Bogoria and Baringo, the Cherangani Hills, and Saiwa Swamp, home to the rare Sitatunga antelope. Further exploration takes you to Mount Elgon, including a visit to the Kitum caves, and the biodiversity-rich Kakamega Forest. Cultural experiences include visiting the Tabaka soapstone carving center near Kisii. The safari concludes with extensive game drives in the Maasai Mara Game Reserve, including a full day with a picnic lunch, before returning to Nairobi.",
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/budget-safaris/lakebogoria.png",
+                  "alt": "Maasai Mara savannah"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/lnaivasha2.jpg",
+                  "caption": "Morning game drive"
+                }
+              ],
               "categoryPath": ["Kenya Budget Safaris", "Budget Safari Destinations"],
               "prices": null,
               "itinerary":{
@@ -3028,6 +3086,250 @@
                   }
                 ]
               },
+              "prices": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kenya-flying-safaris",
+      "title": "Kenya Flying Safaris",
+      "description": "Experience Kenya's wildlife from the air",
+      "descriptor": {
+        "type": "flyingSafariGuide",
+        "source": "flying-safaris"
+      },
+      "subcategories": [
+        {
+          "id": "kenya-flying-safari-destinations",
+          "title": "Kenya Flying Safari Destinations",
+          "safaris": [
+            {
+              "id": "kaa-62",
+              "slug": "kaa-62-maasai-mara-flying-safari-3-days",
+              "title": "Maasai Mara",
+              "destination": "Maasai Mara",
+              "durationLabel": "3 Days",
+              "description": "A three days flying safari exploring the best of Kenya's wildlife destinations including Maasai Mara National Reserve.",
+              "categoryPath": ["Kenya Flying Safaris", "Kenya Flying Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/flying/fly1.png",
+                  "alt": ""
+                },
+                {
+                  "src": "/images/safaris/kenya/flying/fly2.png",
+                  "caption": ""
+                }
+              ],
+              "itinerary": {
+                "durationDays": 3,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Maasai Mara",
+                    "description": "Transfer from Nairobi Hotel to Wilson airport for a 45 minute flight to Masai Mara game reserve. On arrival, transfer directly to a lodge or luxury tented camp where there will be a little time to relax before lunch. Later in the afternoon, game viewing with an expert driver or guide to look for the '  Big Five'",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Flight","Game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Maasai Mara",
+                    "description": "Rise at dawn for early morning game viewing followed by a well-earned breakfast. Further,  game viewing during the morning.  After lunch, take time for a siesta before an afternoon game drive.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Game drive"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Nairobi",
+                    "description": "Early morning game viewing and a last chance to look for any animals not yet seen. Later in the morning transfer to the airstrip for the flight back to Nairobi and onward transfer to hotel.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Flight transfer",  "Game drive"]
+                  }
+                ]
+              },
+              "prices": null
+            },
+            {
+              "id": "kaa-63",
+              "slug": "kaa-63-amboseli-flying-safari-2-days",
+              "title": "Amboseli",
+              "destination": "Amboseli",
+              "durationLabel": "2 Days",
+              "description": "A two days flying safari exploring Amboseli National Park.",
+              "categoryPath": ["Kenya Flying Safaris", "Kenya Flying Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/flying/fly2.png",
+                  "alt": "Amboseli Flying Safari"
+                },
+                {
+                  "src": "/images/safaris/kenya/flying/fly1.png",
+                  "caption": "Amboseli flying safari"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 2,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Maasai Mara",
+                    "description": "Early morning transfer from Nairobi hotel to Wilson for the flight to Amboseli National Park. Weather permitting birds-eye view of the sow capped peak of Mt Kilimanjaro will be a first introduction to this existing Wildlife haven. Game viewing before and after lunch may reveal Lion, Elephant, Buffalo, Giraffe and a host of other plains animals. Dinner and overnight at a Lodge or at a Luxury tented Camp.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Flight","Game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Nairobi",
+                    "description": "After breakfast return flight back to Nairobi hotel.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Flight transfer",  "Game drive"]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "kaa-64",
+              "slug": "kaa-64-maasai-mara-flying-safari-2-days",
+              "title": "Maasai Mara",
+              "destination": "Maasai Mara",
+              "durationLabel": "2 Days",
+              "description": "",
+              "categoryPath": ["Kenya Flying Safaris", "Kenya Flying Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/flying/fly1.png",
+                  "alt": ""
+                },
+                {
+                  "src": "/images/safaris/kenya/flying/fly2.png",
+                  "caption": ""
+                }
+              ],
+              "itinerary": {
+                "durationDays": 2,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Maasai Mara",
+                    "description": "An early morning transfer to Mombasa airport for the direct flight to the fabled Masai Mara game reserve. there will time to relax and take in the magnificent landscapes before a delicious buffet lunch at the lodge. Afternoon game viewing by four-wheel drive land cruiser may reveal the 'Big Five' or even the elusive cheetah.  Full board at Lodge or a luxury tented camp.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Flight","Game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Nairobi",
+                    "description": "After breakfast return flight back to Nairobi hotel.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Flight transfer",  "Game drive"]
+                  }
+                ]              },
+              "prices": null
+            },
+            {
+              "id": "kaa-65",
+              "slug": "kaa-65-samburu-flying-safari-3-days",
+              "title": "Samburu",
+              "destination": "Samburu",
+              "durationLabel": "3 Days",
+              "description": "A three days flying safari exploring Samburu National Reserve.",
+              "categoryPath": ["Kenya Flying Safaris", "Kenya Flying Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/samburu/image1.png",
+                  "alt": ""
+                },
+                {
+                  "src": "/images/safaris/kenya/flying/fly1.png",
+                  "caption": ""
+                }
+              ],
+              "itinerary": {
+                "durationDays": 3,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Lake Nakuru",
+                    "description": "Transfer from Nairobi hotel to Wilson airport for the flight to Samburu National Reserve. From the air, the Kikuyu farmlands can be seen as a fascinating patchwork quilt stretching 100 miles and culminating in the twin peaks of the snow-capped Mt Kenya. Beyond the mountain lies Samburu and your lodge or luxury camp on the banks of Uaso Ngiro river. After lunch a game viewing drive along the river.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Flight","Game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Samburu",
+                    "description": "Morning and afternoon game viewing. Samburu is home to many uncommon species such as the Reticulated Giraffe, Grevy Zebra, Oryx and the long-necked Gerenuk. In addition, Elephant, Lion, Leopard, and Crocodile can be seen. Full board and overnight at your lodge or Luxury Tented Camp.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Flight transfer",  "Game drive"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Nairobi",
+                    "description": "An early morning game drive. After breakfast return to Nairobi by air and onward transfer to hotel.",
+                    "meals": ["Breakfast"],
+                    "activities": ["Morning game drive", "Flight transfer"]
+                  }
+                ]
+              },
+              "prices": null
+            },
+            {
+              "id": "kaa-66",
+              "slug": "kaa-66-lamu-flying-safari-2-days",
+              "title": "Lamu",
+              "destination": "Lamu",
+              "durationLabel": "2 Days",
+              "description": "Fly from Nairobi directly to Lamu island and stay for 2 or more nights. Spend the time exploring the old town of Lamu, relax on the beach or walk across the island to some of the villages such as Matondoni where the dhows are still built by hand. Overnight at a hotel in Lamu. Tours and excursions on Lamu may also be pre-booked at supplementary cost.",
+              "categoryPath": ["Kenya Flying Safaris", "Kenya Flying Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/excursions/lamu.jpg",
+                  "alt": ""
+                },
+                {
+                  "src": "/images/safaris/kenya/flying/fly1.png",
+                  "caption": ""
+                }
+              ],
+              "itinerary": {
+                "durationDays": 2,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Lamu",
+                    "description": "Afternoon transfer from your beach hotel to Mombasa or Malindi airport for the short flight to Manda Island. Transfer by boat to Lamu island. Later in the evening enjoy a guided tour of Lamu town, and finally there will be time to relax by the beach or swim in the crystal-clear water before the return flight to Malindi or Mombasa and an onward transfer to beach hotel.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Flight","Boat ride","Town tour"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Early Morning Game Drive",
+                    "description": "Rise at dawn for early morning game viewing followed by a well-earned breakfast. Further,  game viewing during the morning.  After lunch, take time for a siesta before an afternoon game drive.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Game drive"]
+                  }
+                ]
+              },
+              "prices": null
+            },
+            {
+              "id": "kaa-67",
+              "slug": "kaa-67-amboseli-flying-safari-1-days",
+              "title": "Amboseli",
+              "destination": "Amboseli",
+              "durationLabel": "1 Day",
+              "description": "Transfer from your beach hotel to Mombasa Airport. It is about an hours flight directly to Amboseli. Weather permitting , enjoy fine views of Mt Kilimanjaro as the aircraft comes in to land. Morning and afternoon game viewing in the park with lunch at one of the lodges. Fly back to Mombasa late afternoon and onward transfer to your beach hotel.",
+              "categoryPath": ["Kenya Flying Safaris", "Kenya Flying Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/amboseli/image3.jpg",
+                  "alt": ""
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/amboseli1.jpg",
+                  "caption": ""
+                }
+              ],
               "prices": null
             }
           ]

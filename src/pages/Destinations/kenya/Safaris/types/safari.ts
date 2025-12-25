@@ -65,7 +65,14 @@ export type Category = {
   title: string;
   description?: string;
   subcategories: SubCategory[];
+  descriptor?: CategoryDescriptor;
 };
+
+export type CategoryDescriptor = {
+  type: string;   // e.g. "flyingSafariGuide"
+  source: string; // e.g. "flying-safaris"
+};
+
 export type SafariDescriptionSectionItem = {
   title: string;
   content: string;

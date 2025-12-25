@@ -1,0 +1,153 @@
+{
+  "id": "flying-safaris",
+  "title": "Kenya Safaris by Air / Flying Safaris",
+  "intro": "Best flying safari destinations in East Africa.",
+
+  "sections": [
+    {
+      "type": "destinations",
+      "title": "Kenya Flying Safari Destinations",
+      "items": [
+        {
+          "id": "masai-mara",
+          "title": "Masai Mara – Home of the Big Five and the Great Migration",
+          "flightTime": "45 minutes from Nairobi",
+          "description": "The Masai Mara is the crown jewel of Kenya’s safari destinations, landing you right in the heart of big cat territory.",
+          "highlights": [
+            "Witness the Great Migration (July–October)",
+            "Incredible big cat sightings — lions, leopards, and cheetahs",
+            "Hot air balloon safaris",
+            "Maasai tribesmen cultural visits"
+          ]
+        },
+        {
+          "id": "amboseli",
+          "title": "Amboseli National Park – Elephants with Kilimanjaro Backdrop",
+          "flightTime": "40 minutes from Nairobi",
+          "description": "Amboseli is world-famous for its large elephant herds and stunning views of Mount Kilimanjaro.",
+          "highlights": [
+            "Iconic elephant photos with Kilimanjaro backdrop",
+            "Excellent birdwatching (400+ species)",
+            "Balloon safari views of Mount Kilimanjaro",
+            "Lions, giraffes, and hyenas"
+          ]
+        },
+        {
+          "id": "samburu",
+          "title": "Samburu & Northern Kenya – Rare Northern Species",
+          "flightTime": "Under 2 hours",
+          "description": "Samburu National Reserve is a hidden gem in northern Kenya, rich in unique wildlife and culture.",
+          "highlights": [
+            "Samburu Special Five (Grevy’s zebra, reticulated giraffe, Somali ostrich, Beisa oryx, gerenuk)",
+            "Cultural encounters with Samburu communities",
+            "Dramatic landscapes along the Ewaso Nyiro River"
+          ]
+        },
+        {
+          "id": "tsavo",
+          "title": "Tsavo East & West Ecosystem – Red Elephants and Vast Wilderness",
+          "description": "Tsavo East and West form one of the largest national parks in the world, easily explored by air.",
+          "highlights": [
+            "Famous red elephants of Tsavo",
+            "Mzima Springs with hippos and crocodiles",
+            "Expansive, untouched wilderness landscapes"
+          ]
+        },
+        {
+          "id": "laikipia",
+          "title": "Laikipia & Mt. Kenya Conservancies – Private, Exclusive Camps",
+          "description": "Fly to Nanyuki or Laikipia conservancies for exclusive safari experiences in private reserves.",
+          "highlights": [
+            "Off-the-beaten-path safaris",
+            "Excellent black rhino sightings",
+            "Walking, horseback, and night game drives"
+          ]
+        }
+      ]
+    },
+
+    {
+      "type": "destinations",
+      "title": "Tanzania Flying Safari Destinations",
+      "items": [
+        {
+          "id": "serengeti",
+          "title": "Serengeti National Park",
+          "description": "Famous for vast plains and the Great Migration, flying allows access to different Serengeti regions efficiently."
+        },
+        {
+          "id": "ngorongoro",
+          "title": "Ngorongoro Crater",
+          "description": "Flying to the Ngorongoro area followed by a drive into the crater offers exceptional wildlife viewing in a rare ecosystem."
+        },
+        {
+          "id": "tarangire",
+          "title": "Tarangire National Park",
+          "description": "A quieter park rich in wildlife, especially during the dry season when animals gather around rivers."
+        }
+      ]
+    },
+
+    {
+      "type": "faq",
+      "title": "Flying Safari Tips",
+      "items": [
+        {
+          "key": "how-it-works",
+          "question": "How does a flying safari work?",
+          "answer": "Your safari begins at an international airport such as Nairobi, Mombasa, Kilimanjaro, Zanzibar, or Dar es Salaam, where you board a small charter aircraft to your safari destination."
+        },
+        {
+          "key": "duration",
+          "question": "How long is a typical flying safari?",
+          "answer": "Flying safaris range from 3–4 days to 10–12 days, with most travelers choosing 7–10 days to experience multiple destinations."
+        },
+        {
+          "key": "benefits",
+          "question": "What are the benefits of choosing a flying safari?",
+          "answer": "Flying safaris save time, provide scenic aerial views, access remote parks, and offer high comfort and luxury experiences."
+        },
+        {
+          "key": "safety",
+          "question": "Are flying safaris safe?",
+          "answer": "Yes. Flights are operated by licensed charter companies such as Air Kenya, Safarilink, Precision Air, and Mombasa Air with strict safety standards."
+        },
+        {
+          "key": "packing",
+          "question": "What should I pack for a flying safari?",
+          "answer": "Pack light using soft-sided luggage (15kg limit), neutral-colored clothing, warm layers, comfortable shoes, sunscreen, binoculars, and a camera."
+        },
+        {
+          "key": "beach-extension",
+          "question": "Can I combine a flying safari with a beach holiday?",
+          "answer": "Yes. Many travelers combine safaris with beach destinations such as Diani, Mombasa, Lamu, Malindi, or Zanzibar."
+        },
+        {
+          "key": "family",
+          "question": "Are flying safaris suitable for families?",
+          "answer": "Yes, flying safaris reduce long road travel and many lodges offer family-friendly accommodations and activities."
+        }
+      ]
+    },
+
+    {
+      "type": "list",
+      "title": "Common Flying Safari Destinations",
+      "items": [
+        "Masai Mara",
+        "Amboseli",
+        "Samburu",
+        "Tsavo",
+        "Serengeti",
+        "Nanyuki",
+        "Meru",
+        "Malindi",
+        "Kisumu",
+        "Lamu",
+        "Diani",
+        "Wasini Island",
+        "Arusha"
+      ]
+    }
+  ]
+}

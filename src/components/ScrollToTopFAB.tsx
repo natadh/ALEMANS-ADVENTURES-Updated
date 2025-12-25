@@ -29,7 +29,7 @@ export default function ScrollToTopFAB() {
         border border-gray-200
         shadow-lg shadow-black/10
         text-white
-        hover:text-[#F5D547] hover:shadow-xl
+        hover:text-[#F5D547] hover:shadow-xl hover:border-[#F5D547]
         transition-all
       "
     >
