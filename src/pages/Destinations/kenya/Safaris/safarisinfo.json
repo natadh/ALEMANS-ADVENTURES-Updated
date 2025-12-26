@@ -1164,7 +1164,7 @@
                   "alt": "Amboseli National Park"
                 },
                 {
-                  "src": "/images/safaris/kenya/excursions/amboseli2.jpg",
+                  "src": "/images/safaris/kenya/excursions/amboseli.jpg",
                   "caption": "Morning game drive"
                 }
               ],
@@ -3328,6 +3328,63 @@
                 {
                   "src": "/images/safaris/kenya/excursions/amboseli1.jpg",
                   "caption": ""
+                }
+              ],
+              "prices": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id":"kenya-cultural-experience-and-sports-safaris",
+      "title":"Kenya Cultural Experience and Sports Safaris",
+      "description":"",
+      "descriptor":{
+        "type":"culturesafaris",
+        "source":"culture-safaris"
+      },
+      "subcategories":[
+        {
+          "id":"culturesafaris",
+          "title":"Cultural Experience",
+          "safaris":[
+            {
+              "id":"kenya-cultural-walking-safari-1-day",
+              "slug":"kenya-cultural-walking-safari-1-day",
+              "title":"Walking Safari",
+              "destination": "Kenya",
+              "durationLabel": "1 Day",
+              "description": "Walking Safari itinerary is organized according the client's request.",
+              "categoryPath": ["Cultural Experience", "Culture Safaris"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/culture/i1.png",
+                  "alt": "walking safari"
+                },
+                {
+                  "src": "/images/safaris/kenya/culture/i2.png",
+                  "caption": "walking safari"
+                }
+              ],
+              "prices": null
+            },
+            {
+              "id":"kenya-cultural-camel-ride-safari-1-day",
+              "slug":"kenya-cultural-camel-ride-safari-1-day",
+              "title":"Camel Ride Safari",
+              "destination": "Mount Kenya",
+              "durationLabel": "6 Days",
+              "description": "5 nights 6-day trip through the wild and beautiful country just north of Mt. Kenya is an adventure in the true pioneering spirit and a tantalizing taste of Africa in the raw. The pace is leisurely, riding or walking with the camels during the morning. After picnic lunch there's time to relax or take a game viewing walk later in the afternoon. At the end of the day, there are welcome showers followed by dinner round the campfire. Accommodation at base camp is under canvas, while on safari, beds are provided under the stars. No riding skills are required as the camels are usually led, although a certain amount of walking is necessary. Start from Nairobi or the camel safari may be included as part of a longer safari.",
+              "categoryPath": ["Cultural Experience", "Culture Safaris", "Camel Ride Safari"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/culture/i2.png",
+                  "alt": "Camel Ride Safari"
+                },
+                {
+                  "src": "/images/safaris/kenya/culture/i3.png",
+                  "caption": "Camel Ride Safari"
                 }
               ],
               "prices": null

@@ -19,7 +19,7 @@ export default function Kenya() {
 
       {/* <KenyaHero /> */}
 
-      <div className="mx-auto">
+      <div className="mx-auto mt-16">
         {/* <h1 className="text-3xl font-bold text-[#1A0A0B] mb-6 mx-auto max-w-5xl">
           Kenya — {activeSection}
         </h1> */}

@@ -35,7 +35,7 @@ export default function NationalParks() {
   };
 
   return (
-    <div className="relative flex min-h-screen">
+    <div className="relative flex min-h-screen mt-14">
 
       {/* Mobile backdrop */}
       {isSidebarOpen && (
@@ -48,7 +48,7 @@ export default function NationalParks() {
       {/* Mobile pull-out tab */}
       <button
         onClick={toggleSidebar}
-        className={`md:hidden fixed top-1/4 z-30 p-2 rounded-r-lg shadow-lg bg-[#1A0A0B] text-white transition-all duration-300 ease-in-out transform ${
+        className={`md:hidden fixed top-1/2 z-30 p-2 rounded-r-lg shadow-lg bg-[#1A0A0B] text-white transition-all duration-300 ease-in-out transform ${
           isSidebarOpen ? "translate-x-64" : "translate-x-0"
         }`}
         style={{ left: -1, width: "40px" }}
@@ -95,60 +95,71 @@ export default function NationalParks() {
       </aside>
 
       {/* MAIN CONTENT AREA */}
-      <main className="flex-1 space-y-10 pb-10 px-4 md:px-0 md:ml-8 lg:ml-12 animate-fadeIn min-w-0">
+      <main className="flex-1 space-y-10 pb-10 px-4 md:px-4 md:ml-8 lg:ml-12 animate-fadeIn min-w-0 mt-10">
 
         {/* HEADER + DROPDOWN */}
-        <div className="flex items-center gap-3 relative">
-          <h1 className="text-3xl uppercase tracking-wider font-light text-[#1A0A0B]">
-            {category === "national"
-              ? "National Parks"
-              : category === "popular"
-              ? "Popular Parks"
-              : "Conservancies"}
-          </h1>
-
-          {/* Dropdown button */}
+        <div className="relative">
           <button
             onClick={() => setShowDropdown(!showDropdown)}
-            className="text-[#1A0A0B]"
+            className="
+              flex items-center gap-3
+              text-[#1A0A0B]
+              focus:outline-none
+            "
+            aria-haspopup="true"
+            aria-expanded={showDropdown}
           >
+            <h1 className="text-3xl uppercase tracking-wider font-light">
+              {category === "national"
+                ? "National Parks"
+                : category === "popular"
+                ? "Popular Parks"
+                : "Conservancies"}
+            </h1>
+
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth="2"
               stroke="currentColor"
-              className={`w-6 h-6 transition-transform ${showDropdown ? "rotate-180" : ""}`}
+              className={`w-6 h-6 transition-transform ${
+                showDropdown ? "rotate-180" : ""
+              }`}
             >
-              <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M19 9l-7 7-7-7"
+              />
             </svg>
           </button>
 
           {/* DROPDOWN MENU */}
-          {/* DROPDOWN MENU */}
-{showDropdown && (
-  <div className="absolute top-10 left-0 bg-white border border-gray-200 shadow-md rounded-md w-48 z-50">
-    <button
-      className="w-full text-left px-4 py-2 hover:bg-gray-100"
-      onClick={() => handleCategoryChange("national")}
-    >
-      National Parks
-    </button>
-    <button
-      className="w-full text-left px-4 py-2 hover:bg-gray-100"
-      onClick={() => handleCategoryChange("popular")}
-    >
-      Popular Parks
-    </button>
-    <button
-      className="w-full text-left px-4 py-2 hover:bg-gray-100"
-      onClick={() => handleCategoryChange("conservancies")}
-    >
-      Conservancies
-    </button>
-  </div>
-)}
+          {showDropdown && (
+            <div className="absolute top-12 left-0 bg-white border border-gray-200 shadow-md rounded-md w-48 z-50">
+              <button
+                className="w-full text-left px-4 py-2 hover:bg-gray-100"
+                onClick={() => handleCategoryChange("national")}
+              >
+                National Parks
+              </button>
+              <button
+                className="w-full text-left px-4 py-2 hover:bg-gray-100"
+                onClick={() => handleCategoryChange("popular")}
+              >
+                Popular Parks
+              </button>
+              <button
+                className="w-full text-left px-4 py-2 hover:bg-gray-100"
+                onClick={() => handleCategoryChange("conservancies")}
+              >
+                Conservancies
+              </button>
+            </div>
+          )}
         </div>
+
 
         <ParkDetails section={activePark} />
       </main>

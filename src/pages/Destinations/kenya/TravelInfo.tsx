@@ -11,7 +11,8 @@ export default function TravelInfo() {
   };
 
   return (
-    <div className="space-y-6 text-gray-700 leading-relaxed">
+    // mt-24 offsets sticky header
+    <div className="mt-24 space-y-6 text-gray-700 leading-relaxed">
       {travelInfoData.map((section, index) => (
         <SectionBlock
           key={index}
@@ -34,17 +35,23 @@ function SectionBlock({
   onToggle: () => void;
 }) {
   return (
-    <section className="max-w-5xl space-y-4 mx-auto">
+    <section
+      className="
+        max-w-5xl mx-auto space-y-4
+        px-4 sm:px-6 lg:px-0
+        scroll-mt-24
+      "
+    >
       {/* Header */}
       <button
         onClick={onToggle}
-        className="w-full text-left flex items-center justify-between"
+        className="w-full text-left flex items-center justify-between gap-4"
       >
         <h2 className="text-2xl font-light uppercase tracking-wide text-[#1A0A0B]">
           {section.header}
         </h2>
 
-        <span className="text-xl text-[#1A0A0B]">
+        <span className="text-xl text-[#1A0A0B] shrink-0">
           {isOpen ? "−" : "+"}
         </span>
       </button>
@@ -65,7 +72,6 @@ function SectionBlock({
                 <p className="text-gray-700">{section.content}</p>
               )}
 
-
               {section.subsections.length > 0 && (
                 <div className="space-y-4">
                   {section.subsections.map((sub, i) => (
@@ -73,34 +79,41 @@ function SectionBlock({
                       <h3 className="font-semibold text-[#1A0A0B]">
                         {sub.subheader}
                       </h3>
-                      {sub.content && (
-  <p className="text-gray-700">{sub.content}</p>
-                    )}
-                    {sub.table && (
-                      <div className="overflow-x-auto">
-                        <table className="w-full text-left border-collapse">
-                          <thead>
-                            <tr className="border-b">
-                              <th className="py-2 font-semibold">Area</th>
-                              <th className="py-2 font-semibold">Altitude (ft)</th>
-                              <th className="py-2 font-semibold">Avg Rain (in)</th>
-                              <th className="py-2 font-semibold">Temp (°F)</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            {sub.table.map((row, rIndex) => (
-                              <tr key={rIndex} className="border-b">
-                                <td className="py-2">{row.area}</td>
-                                <td className="py-2">{row.altitude}</td>
-                                <td className="py-2">{row.rain}</td>
-                                <td className="py-2">{row.temperature}</td>
-                              </tr>
-                            ))}
-                          </tbody>
-                        </table>
-                      </div>
-                    )}
 
+                      {sub.content && (
+                        <p className="text-gray-700">{sub.content}</p>
+                      )}
+
+                      {sub.table && (
+                        <div className="overflow-x-auto">
+                          <table className="w-full text-left border-collapse">
+                            <thead>
+                              <tr className="border-b">
+                                <th className="py-2 font-semibold">Area</th>
+                                <th className="py-2 font-semibold">
+                                  Altitude (ft)
+                                </th>
+                                <th className="py-2 font-semibold">
+                                  Avg Rain (in)
+                                </th>
+                                <th className="py-2 font-semibold">
+                                  Temp (°F)
+                                </th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {sub.table.map((row, rIndex) => (
+                                <tr key={rIndex} className="border-b">
+                                  <td className="py-2">{row.area}</td>
+                                  <td className="py-2">{row.altitude}</td>
+                                  <td className="py-2">{row.rain}</td>
+                                  <td className="py-2">{row.temperature}</td>
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                      )}
                     </div>
                   ))}
                 </div>

@@ -37,7 +37,7 @@ export default function Safaris() {
   // VIEW 2: CATEGORIES & LISTS
   // ----------------------------------------------------
   return (
-    <div className="min-h-screen mt-10 px-4 md:px-10 pb-20">
+    <div className="min-h-screen px-4 md:px-10 pb-20">
       <header className="py-10">
         <h1 className="text-3xl md:text-4xl uppercase tracking-wider font-light text-[#1A0A0B]">
           Tours & Safaris
