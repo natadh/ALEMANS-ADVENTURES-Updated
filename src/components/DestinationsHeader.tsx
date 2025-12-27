@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function DestinationsHeader({
   currentCountry = "Kenya",
@@ -11,7 +11,6 @@ export default function DestinationsHeader({
   const [openMobileSubmenu, setOpenMobileSubmenu] = useState<string | null>(null);
 
   const navigate = useNavigate();
-  const location = useLocation();
 
   const countries = ["Kenya", "Tanzania", "Uganda", "Rwanda", "Zanzibar"];
 
