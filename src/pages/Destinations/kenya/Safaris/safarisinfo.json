@@ -1206,7 +1206,7 @@
                   "alt": "Maasai Mara savannah"
                 },
                 {
-                  "src": "/images/safaris/kenya/excursions/maasaimara1.png",
+                  "src": "/images/safaris/kenya/maasai-mara/image2.jpg",
                   "caption": "Morning game drive"
                 }
               ],
@@ -2556,7 +2556,7 @@
             {
               "id": "kaa-56",
               "slug": "kaa-56-rock-climbing-naivasha-3-days",
-              "title": "ROCK CLIMBING AND HIKING",
+              "title": "Rock Climbing & Hiking Challenge",
               "destination": "Hell's Gate National Park, Mt Longonot, Lake Naivasha",
               "durationLabel": "3 Days",
               "description": "A three days' rock climbing and hiking adventure safari in Kenya's Rift Valley. Experience the thrill of rock climbing in Hellsgate National park, hike Mt Longonot crater and cycle amongst wildlife in Hellsgate National park.",
@@ -2602,7 +2602,7 @@
             {
               "id": "kaa-57",
               "slug": "kaa-57-Laikipia-4-days",
-              "title": "LAIKIPIA PLATEAU CHALLENGE",
+              "title": "Laikipia Adventure Safari",
               "destination": "Laikipia Plateau",
               "durationLabel": "4 Days",
               "description": "A four days' adventure safari on Laikipia plateau involving game drives, cycling, trekking and canopy walk in Mt Kenya forest.",
@@ -2654,7 +2654,7 @@
             {
               "id": "kaa-58",
               "slug": "kaa-58-sagana-3-days",
-              "title": "WHITE WATER RAFTING AND KAYAKING",
+              "title": "Sagana White Water Rafting & Kayaking",
               "destination": "Sagana",
               "durationLabel": "3 Days",
               "description": "Three days of white water rafting and kayaking adventure safari in Sagana, central Kenya along the Tana River.",
@@ -2758,7 +2758,7 @@
             {
               "id": "kaa-60",
               "slug": "kaa-60-tri-adventure-challenge-10-days",
-              "title": "TRI ADVENTURE CHALLENGE",
+              "title": "Tri Adventure Challenge",
               "destination": "Chogoria",
               "durationLabel": "10 Days",
               "description": "Ten days tri adventure challenge safari involving hiking Mt Kenya, biking from Mt Kenya to Ol Pajeta conservancy and white water rafting and other water sports in Sagana.",
@@ -2852,7 +2852,7 @@
             {
               "id": "kaa-60",
               "slug": "kaa-60-tri-adventure-challenge-10-days",
-              "title": "EXPROLE THE GREAT RIFT VALLEY",
+              "title": "Explore The Great Rift Valley",
               "destination": "The Great Rift Valley",
               "durationLabel": "11 Days",
               "description": "Eleven days adventure safari exploring the Great Rift Valley involving game drives, hiking, biking and bird watching.",
@@ -3339,11 +3339,7 @@
     {
       "id":"kenya-cultural-experience-and-sports-safaris",
       "title":"Kenya Cultural Experience and Sports Safaris",
-      "description":"",
-      "descriptor":{
-        "type":"culturesafaris",
-        "source":"culture-safaris"
-      },
+      "description":"Explore Kenya's rich cultural heritage and enjoy various sports activities",
       "subcategories":[
         {
           "id":"culturesafaris",
@@ -3388,6 +3384,728 @@
                 }
               ],
               "prices": null
+            },
+            {
+              "id":"kenya-cultural-lunatic-express-safari-1-days",
+              "slug":"kenya-cultural-lunatic-express-safari-1-days",
+              "title":"The Lunatic Express",
+              "destination": "Kenya",
+              "durationLabel": "1 Day",
+              "description": "The Lunatic Express is a journey by train from Nairobi to Mombasa along the historic Uganda Railway, built between 1896 and 1901. The railway was dubbed the 'Lunatic Express' because of the enormous cost in lives and money to build it through some of the most inhospitable country on earth. Today, the train journey is a fascinating experience, passing through small towns and villages, over impressive viaducts and through tunnels. The train has several classes of travel, from basic second class to first class with air-conditioned carriages and sleeper berths. Meals are served in the dining car, and there is a bar car for drinks and snacks. The journey takes about 12 hours, and it is possible to break the journey with overnight stops at various points along the route.",
+              "categoryPath": ["Cultural Experience", "Culture Safaris", "The Lunatic Express"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/culture/i4.png",
+                  "alt": "The Lunatic Express"
+                },
+                {
+                  "src": "/images/safaris/kenya/culture/i5.png",
+                  "caption": "The Lunatic Express"
+                }
+              ],
+              "prices": null
+            },
+            {
+              "id":"kenya-cultural-lake-victoria-fishing-safari-1-day",
+              "slug":"kenya-cultural-lake-victoria-fishing-safari-1-day",
+              "title":"Lake Victoria Fishing Safari",
+              "destination": "Kenya",
+              "durationLabel": "1 Days",
+              "description": "This trip operates from Masai Mara. Lake Victoria, the world's second largest freshwater lake, is notable for its huge Nile Perch. Depart by light from from the Mara either at dawn or after breakfast. The fishing base is on Rusinga or Mfangano islands. The day is spent fishing by boat with breakfast, lunch, soft drinks and beer provided. Return to your Mara lodge or camp during the afternoon. Visitors may also stay overnight and extend the safari as desired. ",
+              "categoryPath": ["Cultural Experience", "Culture Safaris", "Fishing Safari"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/culture/i6.png",
+                  "alt": "Lake Victoria Fishing Safari"
+                }
+              ],
+              "prices": null
+            },
+            {
+              "id":"kenya-cultural-horse-riding-safari-1-day",
+              "slug":"kenya-cultural-horse-riding-safari-1-day",
+              "title":"Horse Riding Safari",
+              "destination": "Kenya",
+              "durationLabel": "1 Day",
+              "description": "Horse riding safaris are available in several parts of Kenya including the Masai Mara, Laikipia and Mount Kenya regions. These safaris offer a unique way to explore the diverse landscapes and wildlife of Kenya while enjoying the companionship of horses. Riders can expect to see a variety of wildlife including zebras, giraffes, antelopes, and sometimes even predators like lions and cheetahs from a safe distance. The pace of the safari can be adjusted to suit the riders' experience levels, with options for leisurely rides or more challenging treks.",
+              "categoryPath": ["Cultural Experience", "Culture Safaris", "Horse Riding Safari"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/culture/i7.png",
+                  "alt": "Horse Riding Safari"
+                }
+              ],
+              "prices": null
+            },
+            {
+              "id":"kenya-cultural-sports-safaris",
+              "slug":"kenya-cultural-sports-safaris",
+              "title":"Sports Safaris",
+              "destination": "Kenya",
+              "durationLabel": "On Request",
+              "description": "Sports safaris in Kenya offer an exciting blend of adventure, endurance, and unique sporting experiences set against the country's spectacular natural landscapes. These safaris include mountain biking along the scenic slopes of Mount Kenya, participation in the annual Kenya Open Golf Tournament, and the renowned Lewa Marathon, where runners share the terrain with wildlife in a truly unforgettable test of stamina. Thrill-seekers can take part in the legendary Rhino Charge, an intense off-road 4x4 challenge involving extreme terrain such as cliffs, swamps, and rugged wilderness. Kenya also hosts the globally celebrated Safaricom Sevens rugby tournament, reflecting the country's strong international rugby standing, as well as the International Camel Derby held in Maralal, offering a distinctive sporting spectacle in the dry, sun-soaked landscapes of northern Kenya.",
+              "categoryPath": ["Cultural Experience", "Culture Safaris", "Sports Safaris"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/culture/i8.png",
+                  "alt": "Sports Safaris"
+                },
+                {
+                  "src": "/images/safaris/kenya/culture/i9.png",
+                  "caption": "Sports Safaris"
+                }
+              ],
+              "prices": null
+            },
+            {
+              "id":"kenya-cultural-water-sports-safari-1-day",
+              "slug":"kenya-cultural-water-sports-safari-1-day",
+              "title":"Water Sports Safari",
+              "destination": "Mombasa",
+              "durationLabel": "1 Day",
+              "description": "The waters of Kenya's coast is the main setting for water sports such as windsurfing, water skating, snorkeling, scuba diving, rowing, dhow safaris and deep sea fishing just beyond the coral reef viewing expeditions on request.",
+              "categoryPath": ["Cultural Experience", "Culture Safaris", "Water Sports Safari"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/culture/i10.png",
+                  "alt": "Water Sports Safari"
+                }
+              ],
+              "prices": null
+            },
+            {
+              "id":"kenya-cultural-cruises-safari-1-day",
+              "slug":"kenya-cultural-cruises-safari-1-day",
+              "title":"Cruise Ships",
+              "destination": "Mombasa",
+              "durationLabel": "1 Day",
+              "description": "Mombasa is fast emerging as an important cruise ship centre. Flying safaris to distant wildlife parks and road safaris to distant wildlife parks and road safaris to the nearby parks of Tsavo and Amboseli are easily arranged. Day safaris to Lamu archipelago and deep sea fishing expeditions are also arranged for the cruise ship passengers. Mombasa is also the base to home ported cruise ships which offer services within the Indian Ocean cruise circuit.",
+              "categoryPath": ["Cultural Experience", "Culture Safaris", "Cycling Safari"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/culture/i11.png",
+                  "alt": "Cruising Safari"
+                }
+              ],
+              "prices": null
+            },
+            {
+              "id":"kenya-cultural-wedding-safari-1-day",
+              "slug":"kenya-cultural-wedding-safari-1-day",
+              "title":"Wedding Safari",
+              "destination": "Kenya",
+              "durationLabel": "1 Day",
+              "description":"Many newly-weds have enjoyed a romantic honeymoon in Kenya, but why not go the whole hog and get married there too? We can make all the arrangements in advance for the ceremony and any additional extras such as photographer, wedding cake, bouquet or other celebrations. Weddings can take place at many of the beach hotels or other exotic locations by special arrangement.",
+              "categoryPath": ["Cultural Experience", "Culture Safaris", "Wedding Safari"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/culture/i12.png",
+                  "alt": "Wedding Safari"
+                }
+              ],
+              "prices": null
+            },
+            {
+              
+              "id":"kenya-cultural-conference-safari-1-day",
+              "slug":"kenya-cultural-conference-safari-1-day",
+              "title":"Conference Safari",
+              "destination": "Kenya",
+              "durationLabel": "1 Day",
+              "description":"What could be a better and more fulfilling experience than holding your next business conference or seminar in a setting that is exactly right and which has everything it takes to organize a successful conference or seminar. Kenya is arguably the answer to this basic question.",
+              "categoryPath": ["Cultural Experience", "Culture Safaris", "Conference Safari"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/culture/i13.png",
+                  "alt": "Conference Safari"
+                }
+              ],
+              "prices": null
+            },
+            {
+              "id":"kenya-cultural-farm-and-ranch-safari-1-day",
+              "slug":"kenya-cultural-farm-and-ranch-safari-1-day",
+              "title":"Farm and Ranch Safari",
+              "destination": "Kenya",
+              "durationLabel": "1 Day",
+              "description":"Why not stay on one of Kenya's farms or ranches where wildlife often co-exists with domestic stock. Accommodation is in comfortable farm houses or log cabins with meals provided. Guests are usually hosted by the farm owners who also offer escorted walks, horse riding, game drives or guided tours of the working farm.",
+              "categoryPath": ["Cultural Experience", "Culture Safaris", "Farm and Ranch Safari"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/culture/i14.png",
+                  "alt": "Farm and Ranch Safari"
+                }
+              ],
+              "prices": null
+            },
+            {
+              "description":"Self-drive or chauffer driven car is available from Nairobi or Mombasa. In addition to the normal range of car categories, we can offer Suzuki (2 seat) and Land cruiser (4-5 seat) 4-wheel drive vehicles. We can also offer one-way rental between Nairobi and Mombasa or vice-versa. Accommodation for self-drive itineraries may be pre-booked through our offices.",
+              "id":"kenya-cultural-car-hire-safari-1-day",
+              "slug":"kenya-cultural-car-hire-safari-1-day",
+              "title":"Car Hire",
+              "destination": "Kenya",
+              "durationLabel": "1 Day",
+              "categoryPath": ["Cultural Experience", "Culture Safaris", "car-hire-safari"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/culture/i15.png",
+                  "alt": "Care Hire"
+                }
+              ],
+              "prices": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id":"kenya-photographic-and-scenery-safaris",
+      "title":"PHOTOGRAPHIC AND SCENERY SAFARIS",
+      "description":"Capture the beauty of Kenya's landscapes and wildlife through photography.",
+      "subcategories":[
+        {
+          "id":"photographicsafaris",
+          "title":"Photographic Safaris",
+          "safaris":[
+            {
+              "title":"6 Days CENTRAL KENYA CIRCUIT",
+              "slug":"6-days-central-kenya-circuit",
+              "id":"6-days-central-kenya-circuit",
+              "destination": "Central Kenya",
+              "durationLabel": "6 Days",
+              "description":"This photographic safari takes you through some of Central Kenya's most scenic landscapes and wildlife-rich areas. Starting from Nairobi, you'll visit Lake Naivasha, Hell's Gate National Park, Mount Longonot, and Aberdare National Park, capturing stunning images of the diverse flora and fauna along the way.",
+              "categoryPath": ["Photographic Safaris", "Photographic and Scenery Safaris"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/photo/i1.png",
+                  "alt": "Central Kenya Circuit"
+                },
+                {
+                  "src": "/images/safaris/kenya/photo/i2.png",
+                  "caption": "Central Kenya Circuit"
+                }
+              ],
+              "itinerary":{
+                "durationDays":6,
+                "days":[
+                  {
+                    "dayNumber":1,
+                    "title":"Mt. Kenya Guest House – Biking Mt. Kenya",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":2,
+                    "title":"Mt. Kenya Guest House – Rafting the Tana River",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":3,
+                    "title":"Mt Kenya Hiking day trip",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":4,
+                    "title":"Meru National Park / Samburu game Reserve",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":5,
+                    "title":"Mt. Kenya Guest House",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":6,
+                    "title":"Nairobi",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  }
+                ]
+              },
+              "prices": null
+            },
+            {
+              "title":"7 Days EASTERN CIRCUIT",
+              "slug":"7-days-eastern-circuit",
+              "id":"7-days-eastern-circuit",
+              "destination": "Eastern Kenya",
+              "durationLabel": "7 Days",
+              "description":"This photographic safari takes you through some of Eastern Kenya's most scenic landscapes and wildlife-rich areas. Starting from Nairobi, you'll visit Amboseli National Park, Tsavo East and West National Parks, and the Chyulu Hills, capturing stunning images of the diverse flora and fauna along the way.",
+              "categoryPath": ["Photographic Safaris", "Photographic and Scenery Safaris"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/excursions/tsavo3.jpg",
+                  "alt": "Eastern Circuit"
+                },
+                {
+                  "src": "/images/safaris/kenya/budget-safaris/adventurers.png",
+                  "caption": "Eastern Circuit"
+                }
+              ],
+              "itinerary":{
+                "durationDays":7,
+                "days":[
+                  {
+                    "dayNumber":1,
+                    "title":"Nairobi -  Amboseli National Park",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":2,
+                    "title":"Amboseli National Park",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":3,
+                    "title":"Tsavo West National Park",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":4,
+                    "title":"Mombasa",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":5,
+                    "title":"Mombasa",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":6,
+                    "title":"Mombasa",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":7,
+                    "title":"Mombasa - Nairobi",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  }
+                ]
+              },
+              "prices": null
+            },
+            {
+              "title":"8 Days Southern Kenya Circuit (Trekking and Wildlife)",
+              "slug":"8-days-southern-kenya-circuit-trekking-and-wildlife",
+              "id":"8-days-southern-kenya-circuit-trekking-and-wildlife",
+              "destination": "Southern Kenya",
+              "durationLabel": "8 Days",
+              "description":"This photographic safari takes you through some of Southern Kenya's most scenic landscapes and wildlife-rich areas. Starting from Nairobi, you'll visit the Maasai Mara National Reserve, Lake Naivasha, Hell's Gate National Park, and Mount Longonot, capturing stunning images of the diverse flora and fauna along the way.",
+              "categoryPath": ["Photographic Safaris", "Photographic and Scenery Safaris"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/excursions/lnaivasha2.jpg",
+                  "alt": "Southern Kenya Circuit"
+                },
+                {
+                  "src": "/images/safaris/kenya/maasai-mara/image2.jpg",
+                  "caption": "Southern Kenya Circuit"
+                }
+              ],
+              "itinerary":{
+                "durationDays":8,
+                "days":[
+                  {
+                    "dayNumber":1,
+                    "title":"Nairobi – Narok – Maji Moto",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":2,
+                    "title":"Ndarara – Letukuyi",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":3,
+                    "title":"Letukuyi – Morijo",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":4,
+                    "title":"Morijo – Enkutoto",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":5,
+                    "title":"Enkutoto – Nguruman Escapment",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":6,
+                    "title":"Nguruman - Masai Mara Game Reserve",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":7,
+                    "title":"Masai Mara Game Reserve",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":8,
+                    "title":"Nairobi",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  }
+                ]
+              },
+              "prices": null
+            },
+            {
+              "title":"9 Days KENYA COASTAL CIRCUIT",
+              "slug":"9-days-kenya-coastal-circuit",
+              "id":"9-days-kenya-coastal-circuit",
+              "destination": "Kenya Coast",
+              "durationLabel": "9 Days",
+              "description":"This photographic safari takes you through some of Kenya's most scenic coastal landscapes and wildlife-rich areas. Starting from Mombasa, you'll visit Diani Beach, Shimba Hills National Reserve, and Watamu Marine National Park, capturing stunning images of the diverse flora and fauna along the way.",
+              "categoryPath": ["Photographic Safaris", "Photographic and Scenery Safaris"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/lamu/image.png",
+                  "alt": "Kenya Coastal Circuit"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/lamu.jpg",
+                  "caption": "Kenya Coastal Circuit"
+                }
+              ],
+              "itinerary":{
+                "durationDays":9,
+                "days":[
+                  {
+                    "dayNumber":1,
+                    "title":"Mombasa – City tours",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":2,
+                    "title":"Mombasa – Excursions",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":3,
+                    "title":"Mombasa – Malindi – Watamu",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":4,
+                    "title":"Malindi Marine and Excursions",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":5,
+                    "title":"Lamu",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":6,
+                    "title":"Lamu",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":7,
+                    "title":"Lamu",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":8,
+                    "title":"Lamu - Tsavo East National Park",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":9,
+                    "title":"Tsavo – Mombasa",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  }
+                ]
+              }
+            },
+            {
+              "title":"11 Days NORTHERN KENYA CIRCUIT",
+              "slug":"11-days-northern-kenya-circuit",
+              "id":"11-days-northern-kenya-circuit",
+              "destination": "Northern Kenya",
+              "durationLabel": "11 Days",
+              "description":"This photographic safari takes you through some of Northern Kenya's most scenic landscapes and wildlife-rich areas. Starting from Nairobi, you'll visit Samburu National Reserve, Buffalo Springs National Reserve, and Mount Kulal, capturing stunning images of the diverse flora and fauna along the way.",
+              "categoryPath": ["Photographic Safaris", "Photographic and Scenery Safaris"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/excursions/lnaivasha2.jpg",
+                  "alt": "Northern Kenya Circuit"
+                },
+                {
+                  "src": "/images/safaris/kenya/samburu/image1.png",
+                  "caption": "Northern Kenya Circuit"
+                }
+              ],
+              "itinerary":{
+                "durationDays":11,
+                "days":[
+                  {
+                    "dayNumber":1,
+                    "title":"Nairobi – Naivasha",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":2,
+                    "title":"Naivasha – Lake Baringo",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":3,
+                    "title":"Lake Baringo – Mararal",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":4,
+                    "title":"Mararal – Lake Turkana",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":5,
+                    "title":"Lake Turkana",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":6,
+                    "title":"Lake Turkana Kalacha",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":7,
+                    "title":"Kalacha – Marsabit",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":8,
+                    "title":"Marsabit – Samburu Game Reserve",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":9,
+                    "title":"Samburu Game Reserve",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":10,
+                    "title":"Samburu – Mt. Kenya",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":11,
+                    "title":"Mt. Kenya - Nairobi",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  }
+                ]
+              },
+              "prices": null
+            },
+            {
+              "title":"15 Days WESTERN KENYA CIRCUIT",
+              "slug":"15-days-western-kenya-circuit",
+              "id":"15-days-western-kenya-circuit",
+              "destination": "Western Kenya",
+              "durationLabel": "15 Days",
+              "description":"This photographic safari takes you through some of Western Kenya's most scenic landscapes and wildlife-rich areas. Starting from Nairobi, you'll visit Kakamega Forest, Ruma National Park, and Lake Victoria, capturing stunning images of the diverse flora and fauna along the way.",
+              "categoryPath": ["Photographic Safaris", "Photographic and Scenery Safaris"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/excursions/lnaivasha2.jpg",
+                  "alt": "Western Kenya Circuit"
+                },
+                {
+                  "src": "/images/safaris/kenya/budget-safaris/adventurers.png",
+                  "caption": "Western Kenya Circuit"
+                }
+              ],
+              "itinerary":{
+                "durationDays":15,
+                "days":[
+                  {
+                    "dayNumber":1,
+                    "title":"Nairobi – Naivasha",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":2,
+                    "title":"Naivasha – Hellsgate",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":3,
+                    "title":"Nakuru",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":4,
+                    "title":"Nakuru – Lake Baringo",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":5,
+                    "title":"Lake Baringo",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":6,
+                    "title":"Lake Baringo – Saiwa swamp",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":7,
+                    "title":"Saiwa swamp – Kitale",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":8,
+                    "title":"Kitale – Mt Elgon",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":9,
+                    "title":"Mt Elgon – Kakamega Forest",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":10,
+                    "title":"Kakamega forest – Kisumu",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":11,
+                    "title":"Kisumu – Kisii",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":12,
+                    "title":"Kisii Tabaka Soap stone carvings",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":13,
+                    "title":"Kisii – Masai Mara",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":14,
+                    "title":"Masai Mara",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  },
+                  {
+                    "dayNumber":15,
+                    "title":"Masai Mara – Nairobi",
+                    "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
+                    "meals":["meals"],
+                    "activities":["Photography"]
+                  }
+                ]
+              }
             }
           ]
         }

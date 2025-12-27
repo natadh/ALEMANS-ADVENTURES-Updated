@@ -17,6 +17,10 @@ export default function SafariDetail({ safari, onBack }: SafariDetailProps) {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, [safari]);
+  const handleBack = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    onBack();
+  };
 
   return (
     <div className="pb-20 bg-white animate-fade-in">
@@ -61,7 +65,7 @@ export default function SafariDetail({ safari, onBack }: SafariDetailProps) {
       {/* Back to Safaris (bottom link) */}
       <div className="max-w-5xl mx-auto px-6 mt-20">
         <button
-          onClick={onBack}
+          onClick={handleBack}
           className="
             inline-flex items-center gap-2
             text-sm font-medium tracking-wide
