@@ -1,5 +1,5 @@
 import Layout from "../../../components/Layout";
-import DestinationsHeader from "../../../components/DestinationsHeader";
+import DestinationsHeader from "../../../components/DestinationsHeader/index";
 import TravelInfo from "./TravelInfo"
 import { Routes, Route } from "react-router-dom";
 //import TzSections from "../../../components/destinations/Tz/TzSections";

@@ -8,7 +8,7 @@ export const popularParksData: ParkSection[] = [
             "/images/parks/aberdare1.jpg",
             "/images/parks/aberdare2.jpg"
         ],
-        header: "Masai Mara National Reserve",
+        header: "Maasai Mara National Reserve",
         content: `Known locally as the Mara, the Masai Mara National Reserve is Kenya’s most famous national park, not least because from July to October, it’s the route for the Great Migration, the spectacle of thousands of wildebeest, giraffes and zebra traveling from the Serengeti in southern Tanzania across the Mara River to the lush grass of Kenya. Nile crocodiles lie on the riverbanks waiting for their prey.
 The semi-nomadic Maasai communities are another draw, with travelers attracted to their traditional singing and dancing, warrior traditions and colorful dress. The Maasai people own several private reserves around the Mara, which are leased to different safari companies, and these are one way to support community-powered tourism. A bush walk with a Maasai warrior is a wonderful way to appreciate the community’s connection with the land, as they point out wildlife and medicinal plants.
 It’s not always easy to ensure cultural tourism experiences are genuinely ethical and non-exploitative. Ideally, visit a Maasai-run project, or ask your tour operator exactly where your money goes. If companies claim to support community projects, ask how and if you can see them. Conversely, some tourists report being overcharged (for crafts or a photo, for example), but this is often the consequence of years of communities seeing wealthy travelers pass through their villages on expensive tours that haven’t benefited them.

@@ -97,68 +97,85 @@ export default function NationalParks() {
       {/* MAIN CONTENT AREA */}
       <main className="flex-1 space-y-10 pb-10 px-4 md:px-4 md:ml-8 lg:ml-12 animate-fadeIn min-w-0 mt-10">
 
-        {/* HEADER + DROPDOWN */}
-        <div className="relative">
-          <button
-            onClick={() => setShowDropdown(!showDropdown)}
-            className="
-              flex items-center gap-3
-              text-[#1A0A0B]
-              focus:outline-none
-            "
-            aria-haspopup="true"
-            aria-expanded={showDropdown}
+      {/* HEADER + DROPDOWN */}
+      <div className="relative">
+        <button
+          onClick={() => setShowDropdown(!showDropdown)}
+          className="
+            flex items-center gap-3
+            text-[#1A0A0B]
+            px-4 py-2
+            bg-transparent
+            focus:outline-none
+            transition-colors
+            hover:bg-[#1A0A0B]
+            hover:text-white
+          "
+          aria-haspopup="true"
+          aria-expanded={showDropdown}
+        >
+          <h1 className="text-3xl uppercase tracking-wider font-light">
+            {category === "national"
+              ? "National Parks"
+              : category === "popular"
+              ? "Popular Parks"
+              : "Conservancies"}
+          </h1>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth="2"
+            stroke="currentColor"
+            className={`w-6 h-6 transition-transform ${
+              showDropdown ? "rotate-180" : ""
+            }`}
           >
-            <h1 className="text-3xl uppercase tracking-wider font-light">
-              {category === "national"
-                ? "National Parks"
-                : category === "popular"
-                ? "Popular Parks"
-                : "Conservancies"}
-            </h1>
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M19 9l-7 7-7-7"
+            />
+          </svg>
+        </button>
 
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth="2"
-              stroke="currentColor"
-              className={`w-6 h-6 transition-transform ${
-                showDropdown ? "rotate-180" : ""
-              }`}
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M19 9l-7 7-7-7"
-              />
-            </svg>
-          </button>
+        {/* DROPDOWN MENU */}
+        {showDropdown && (
+          <div className="
+            absolute top-14 left-0
+            w-52
+            bg-[#1A0A0B]
+            border border-[#1A0A0B]
+            shadow-lg
+            z-50
+          ">
+            {[
+              { label: "National Parks", value: "national" },
+              { label: "Popular Parks", value: "popular" },
+              { label: "Conservancies", value: "conservancies" },
+            ].map((item) => (
+              <button
+                key={item.value}
+                className="
+                  w-full text-left
+                  px-4 py-3
+                  text-white
+                  uppercase tracking-wide text-sm
+                  border-b border-white/10
+                  transition-colors
+                  hover:bg-white
+                  hover:text-[#1A0A0B]
+                "
+                onClick={() => handleCategoryChange(item.value)}
+              >
+                {item.label}
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
 
-          {/* DROPDOWN MENU */}
-          {showDropdown && (
-            <div className="absolute top-12 left-0 bg-white border border-gray-200 shadow-md rounded-md w-48 z-50">
-              <button
-                className="w-full text-left px-4 py-2 hover:bg-gray-100"
-                onClick={() => handleCategoryChange("national")}
-              >
-                National Parks
-              </button>
-              <button
-                className="w-full text-left px-4 py-2 hover:bg-gray-100"
-                onClick={() => handleCategoryChange("popular")}
-              >
-                Popular Parks
-              </button>
-              <button
-                className="w-full text-left px-4 py-2 hover:bg-gray-100"
-                onClick={() => handleCategoryChange("conservancies")}
-              >
-                Conservancies
-              </button>
-            </div>
-          )}
-        </div>
 
 
         <ParkDetails section={activePark} />
@@ -169,11 +186,20 @@ export default function NationalParks() {
 
 function ParkDetails({ section }: { section: ParkSection }) {
   return (
-    <div className="space-y-6">
-      <h1 className="text-3xl uppercase tracking-wider font-light text-[#1A0A0B]">{section.header}</h1>
+    <div className="space-y-10">
+      {/* SECTION HEADER */}
+      <h1 className="
+        text-3xl uppercase tracking-widest font-light
+        text-[#1A0A0B]
+        border-b border-[#1A0A0B]
+        pb-3
+      ">
+        {section.header}
+      </h1>
 
+      {/* HERO IMAGE */}
       {section.image && (
-        <div className="w-full h-[360px] overflow-hidden shadow-sm">
+        <div className="w-full h-[360px] overflow-hidden border border-[#1A0A0B]">
           <img
             src={section.image}
             alt={section.header}
@@ -182,16 +208,31 @@ function ParkDetails({ section }: { section: ParkSection }) {
         </div>
       )}
 
+      {/* MAIN CONTENT */}
       {section.content && (
-        <p className="text-gray-700 leading-relaxed text-[15px]">{section.content}</p>
+        <div className="max-w-4xl space-y-5">
+          <p className="
+            text-[#1A0A0B]/85
+            text-[16px]
+            leading-[1.9]
+            text-justify
+          ">
+            {section.content}
+          </p>
+        </div>
       )}
 
+      {/* GALLERY */}
       {section.gallery && section.gallery.length > 0 && (
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {section.gallery.map((img, i) => (
-            <div key={i} className="overflow-hidden h-44 shadow-sm transition-all duration-500 hover:opacity-90">
+            <div
+              key={i}
+              className="h-44 overflow-hidden border border-[#1A0A0B] hover:opacity-90 transition-opacity"
+            >
               <img
                 src={img}
+                alt=""
                 className="w-full h-full object-cover transition-transform duration-700 ease-out hover:scale-110"
               />
             </div>
@@ -199,16 +240,37 @@ function ParkDetails({ section }: { section: ParkSection }) {
         </div>
       )}
 
+      {/* SUBSECTIONS */}
       {section.subsections?.length > 0 && (
-        <div className="space-y-8">
+        <div className="space-y-12 max-w-4xl">
           {section.subsections.map((sub, idx) => (
-            <div key={idx} className="space-y-2">
-              <h3 className="text-lg font-medium text-[#1A0A0B] tracking-wide">{sub.subheader}</h3>
-              {sub.content && <p className="text-gray-700 leading-relaxed text-[15px]">{sub.content}</p>}
+            <div
+              key={idx}
+              className="border-l-2 border-[#1A0A0B] pl-5 space-y-4"
+            >
+              <h3 className="
+                text-lg uppercase tracking-wide font-medium
+                text-[#1A0A0B]
+              ">
+                {sub.subheader}
+              </h3>
+
+              {sub.content && (
+                <p className="
+                  text-[#1A0A0B]/85
+                  text-[16px]
+                  leading-[1.9]
+                  text-justify
+                ">
+                  {sub.content}
+                </p>
+              )}
             </div>
           ))}
         </div>
       )}
     </div>
-  );
+  )
 }
+
+

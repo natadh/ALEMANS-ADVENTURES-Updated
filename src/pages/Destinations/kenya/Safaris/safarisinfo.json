@@ -3568,7 +3568,7 @@
           "title":"Photographic Safaris",
           "safaris":[
             {
-              "title":"6 Days CENTRAL KENYA CIRCUIT",
+              "title":"CENTRAL KENYA CIRCUIT",
               "slug":"6-days-central-kenya-circuit",
               "id":"6-days-central-kenya-circuit",
               "destination": "Central Kenya",
@@ -3635,7 +3635,7 @@
               "prices": null
             },
             {
-              "title":"7 Days EASTERN CIRCUIT",
+              "title":"EASTERN CIRCUIT",
               "slug":"7-days-eastern-circuit",
               "id":"7-days-eastern-circuit",
               "destination": "Eastern Kenya",
@@ -3709,7 +3709,7 @@
               "prices": null
             },
             {
-              "title":"8 Days Southern Kenya Circuit (Trekking and Wildlife)",
+              "title":"Southern Kenya Circuit (Trekking and Wildlife)",
               "slug":"8-days-southern-kenya-circuit-trekking-and-wildlife",
               "id":"8-days-southern-kenya-circuit-trekking-and-wildlife",
               "destination": "Southern Kenya",
@@ -3790,7 +3790,7 @@
               "prices": null
             },
             {
-              "title":"9 Days KENYA COASTAL CIRCUIT",
+              "title":"KENYA COASTAL CIRCUIT",
               "slug":"9-days-kenya-coastal-circuit",
               "id":"9-days-kenya-coastal-circuit",
               "destination": "Kenya Coast",
@@ -3877,7 +3877,7 @@
               }
             },
             {
-              "title":"11 Days NORTHERN KENYA CIRCUIT",
+              "title":"NORTHERN KENYA CIRCUIT",
               "slug":"11-days-northern-kenya-circuit",
               "id":"11-days-northern-kenya-circuit",
               "destination": "Northern Kenya",
@@ -3979,7 +3979,7 @@
               "prices": null
             },
             {
-              "title":"15 Days WESTERN KENYA CIRCUIT",
+              "title":"WESTERN KENYA CIRCUIT",
               "slug":"15-days-western-kenya-circuit",
               "id":"15-days-western-kenya-circuit",
               "destination": "Western Kenya",
@@ -4103,6 +4103,63 @@
                     "description":"Detailed program Itinerary and cost upon request. Please write to us for more information.",
                     "meals":["meals"],
                     "activities":["Photography"]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id":"kenya-balloon-safaris",
+      "title":"Balloon Safaris",
+      "description":"Experience the thrill of a hot air balloon safari over Kenya's stunning landscapes.",
+      "subcategories":[
+        {
+          "id":"balloonsafaris",
+          "title":"Balloon Safaris",
+          "safaris":[
+            {
+              "id":"kenya-balloon-safari-1-day",
+              "slug":"kenya-balloon-safari-1-day",
+              "title":"Masai Mara and Serengeti National parks",
+              "destination": "Kenya",
+              "durationLabel": "1 Day",
+              "description":"Balloon Safaris are operated from all the major lodges and camps in the Masai Mara and Serengeti. It is an enthralling sight, as just before dawn, the balloons are inflated and prepared for flight. As the sun rises the balloon slowly lifts above the trees to catch the gentle early morning air current. Drifting silently a few hundred feet above the ground, reveals a new dimension to the landscape of the Mara and Serengeti. Marvel at herds of Wildebeest peacefully grazing on the still damp grass, while elephant and buffalo can be seen picking their way through the riveline forests. Look out for lion families perched haughtily on a knoll, surveying their domain. After about 1 hour flight, descend slowly to the open plain for an assisted landing. It is then time to relax as the sun warms the plain and the staff prepares a sumptuous al-fresco breakfast.",
+              "categoryPath": ["Balloon Safaris", "Balloon Safaris"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/balloon/i1.png",
+                  "alt": "Balloon Safari"
+                }
+              ],
+              "prices": null
+            },
+            {
+              "description":"Picture this – as you climb into the basket, the breeze gently starts to lift you up, the sun just starts to rise and you can feel it’s warmth on your face, cutting through the crisp clean air of Amboseli. You continue to ascend and slowly start to drift over the open wood savannah grasslands peppered with Acacia tortilis (Vachellia tortilis) trees through which a vast array of wild and majestic animals criss-cross. Across the vista, you see one side of the park crowned by the magical Mt. Kilimanjaro, the world’s highest free-standing mountain. And on the other side, the view is of lush green wetlands, open savannah grassland and Lake Amboseli. You continue to float over pristine wilderness until the time comes to descend and land, and you are whisked away for a delectable champagne breakfast – a perfect way to end an unforgettable day.",
+              "id":"kenya-amboseli-balloon-safari-1-day",
+              "slug":"kenya-amboseli-balloon-safari-1-day",
+              "title":"Amboseli National Park",
+              "destination": "Amboseli National Park",
+              "durationLabel": "1 Day",
+              "categoryPath": ["Balloon Safaris", "Balloon Safaris"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/balloon/i2.png",
+                  "alt": "Amboseli Balloon Safari"
+                }
+              ],
+              "prices": null,
+              "itinerary": {
+                "durationDays":1,
+                "days":[
+                  {
+                    "dayNumber":1,
+                    "title":"Amboseli National Park Balloon Safari",
+                    "description":"The pick-up time for your balloon safari varies depending on the Camp or Lodge you are staying at, and the time of the year. All pick-ups are scheduled to ensure that our Guests arrive at the Balloon Camp, at approximately 5:15am. Depending on the timing and distance from your Camp or Lodge, pick-ups may begin as early as 4:15am, to ensure a smooth and well-planned flight. Once in flight, you’ll enjoy a spectacular 360° panorama as the sun rises in the east, bringing the earth to life below. The journey offers breathtaking views of the diverse Amboseli ecosystem, with Mount Kilimanjaro to the south and Amboseli National Park stretching out to the north. Along the way, you may spot the abundant wildlife Kenya is renowned for, as well as traditional Maasai manyattas and bomas scattered across the landscape. Be sure to bring your cameras and binoculars to capture the experience. Flights typically last about one hour, though actual airtime may range from 45 minutes to up to 1½ hours depending on weather conditions and the gifts of Mother Nature.",
+                    "meals":["Breakfast"],
+                    "activities":["Hot Air Balloon Ride", "Wildlife Viewing"]
                   }
                 ]
               }

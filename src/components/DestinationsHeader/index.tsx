@@ -31,9 +31,9 @@ export default function DestinationsHeader({
     Kenya: {
       "Tours and Safaris": "safaris",
       "National Parks": "national-parks",
-      "Trekking & Hiking": "trekking-hiking",
+      "Hiking & Trekking": "trekking-hiking",
       "Cultural & Sports": "cultural-sports",
-      "Beach & Water Sports": "beach-water-sports",
+      "Beach & Water Sports": "water-sports",
       "Bird Watching": "bird-watching",
       "Travel Info": "travel-info",
     },
