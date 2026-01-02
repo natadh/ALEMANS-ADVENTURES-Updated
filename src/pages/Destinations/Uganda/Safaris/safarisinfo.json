@@ -1,0 +1,1473 @@
+{
+    "categories": [
+        {
+            "id": "uganda-popular",
+            "title": "Uganda Popular Safaris",
+            "description": "Most requested Uganda safari programs including Gorilla and Chimpanzee tracking",
+            "subcategories": [
+                {
+                    "id": "gorilla-chimpanzee-tracking",
+                    "title": "Gorilla & Chimpanzee Tracking",
+                    "intro": "The name Bwindi refers to 'Impenetrable' in a local Bantu dialect! This gives a full description of Bwindi Impenetrable Forest National Park. The Forest N.P. was first gazetted as a Forest Reserve in 1942 and graduated into a National Park in 1992. The park later ascended to a platform of a World Heritage Site in December 1994 because of the diversity of wildlife that it harbors. Bwindi covers a total area of 327sqkms of a rugged landscape which are basically thick forested highlands. The longevity of the Bwindi forest that spans over 25,000yrs explains the collection of a litany of wildlife species such as 310 species of butterflies, 51 reptiles, 200 tree species, 88 moths and a remarkable 120 mammal species including 10 man-like (primate) species. Among the ape-residents are Chimpanzees, L' Hoist’s, red tailed and blue monkeys, black & white colobus monkeys, baboons and the highlight of the primate-world \"The Great Mountain Gorillas\"!! Bwindi is home to more than half of the remaining Mountain Gorillas on planet earth! Avid birdwatchers and ornithologists love exploring the diversity of birdlife that Bwindi supports. There are 350 recorded bird species most of which are Albertine Rift endemics thus not seen in other parts of East Africa",
+                    "notes": [
+                        "Please note that gorilla tracking is a strenuous activity and one should be physically fit to enjoy this tour.",
+                        "Minimum tracking age is 15 years.",
+                        "Anyone with signs of communicable diseases will NOT be allowed to track.",
+                        "While possession of a gorilla permit is a guarantee of trekking and sighting the gorillas, the quality of the gorilla trekking cannot be guaranteed.",
+                        "Maximum time allowed with the gorillas will NOT exceed ONE hour."
+                    ],
+                    "recommendedItems": [
+                        "Rain poncho (lightweight)",
+                        "Long-sleeved shirt",
+                        "Waterproof trousers",
+                        "Sturdy hiking boots",
+                        "Leather gardening-type gloves",
+                        "Sunscreen",
+                        "Insect repellent",
+                        "Necessary medications",
+                        "Still Cameras and Video Cameras with their respective accessories"
+                    ],
+                    "safariRequirements": [
+                        "Warm and light clothes",
+                        "Sunscreen",
+                        "Insect repellent",
+                        "Some cash to cover personal expenses like soft and alcoholic drinks",
+                        "Walking/hiking shoes",
+                        "You may carry cameras and binoculars if you possess them",
+                        "Enough dose for those who may be on medication",
+                        "An extra pair of glasses for those with eye defects.",
+                        "Sun glasses and hat/cap",
+                        "Basic personal items in general"
+                    ],
+                    "safaris": [
+                        {
+                            "id": "uaa-08",
+                            "slug": "uaa-08-gorilla-express-4-days",
+                            "title": "Gorilla Express Safari",
+                            "destination": "Bwindi",
+                            "durationLabel": "4 Days",
+                            "description": "A 4-day gorilla tracking safari to Bwindi Impenetrable National Park, offering the chance to encounter mountain gorillas in their natural habitat.",
+                            "categoryPath": [
+                                "Uganda Popular Safaris",
+                                "Gorilla & Chimpanzee Tracking"
+                            ],
+                            "images": [
+                                {
+                                    "src": "/images/safaris/uganda/bwindi/gorilla1.jpg",
+                                    "alt": "Mountain Gorillas in Bwindi"
+                                },
+                                {
+                                    "src": "/images/safaris/uganda/bwindi/forest.jpg",
+                                    "caption": "Bwindi Impenetrable Forest"
+                                }
+                            ],
+                            "itinerary": {
+                                "durationDays": 4,
+                                "days": [
+                                    {
+                                        "dayNumber": 1,
+                                        "title": "Kampala to Bwindi",
+                                        "description": "Drive South west of Kampala, across the equator to Mbarara for lunch. Continue through spectacular sceneries of Kabale, to Buhoma in Bwindi National Park, Proceed to your tented camp for the night.",
+                                        "meals": [
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Scenic drive",
+                                            "Equator crossing"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 2,
+                                        "title": "Gorilla Tracking - Bwindi",
+                                        "description": "Early morning tracking with the guides in search for mountain Gorillas. Meals and overnight at the camp.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Gorilla tracking"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 3,
+                                        "title": "Second Gorilla Tracking - Kabale",
+                                        "description": "Early morning gorilla tracking. Evening drive to Kabale for overnight.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Gorilla tracking"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 4,
+                                        "title": "Return to Kampala",
+                                        "description": "After breakfast, return to Kampala via Mbarara for lunch.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch"
+                                        ],
+                                        "activities": [
+                                            "Scenic drive"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "prices": null
+                        },
+                        {
+                            "id": "uaa-09",
+                            "slug": "uaa-09-great-apes-safari-7-days",
+                            "title": "The Great Apes Safari - Gorilla and Chimpanzee",
+                            "destination": "Kibale, Queen Elizabeth, Bwindi, Lake Mburo",
+                            "durationLabel": "7 Days",
+                            "description": "A comprehensive 7-day safari combining chimpanzee tracking in Kibale Forest and gorilla tracking in Bwindi, with game drives in Queen Elizabeth National Park and Lake Mburo.",
+                            "categoryPath": [
+                                "Uganda Popular Safaris",
+                                "Gorilla & Chimpanzee Tracking"
+                            ],
+                            "images": [
+                                {
+                                    "src": "/images/safaris/uganda/kibale/chimps.jpg",
+                                    "alt": "Chimpanzees in Kibale"
+                                },
+                                {
+                                    "src": "/images/safaris/uganda/bwindi/gorilla2.jpg",
+                                    "caption": "Mountain Gorillas"
+                                }
+                            ],
+                            "itinerary": {
+                                "durationDays": 7,
+                                "days": [
+                                    {
+                                        "dayNumber": 1,
+                                        "title": "Entebbe/Kampala - Kibale Forest N.P.",
+                                        "description": "Wake up to rhythm of nature, have breakfast, check-out and embark on a long scenic ride via Kampala Mityana and Mubende respectively to Fort Portal town. Continue to Kibale Forest National Park, settle-in at Primate Lodge and a hot meal shall be served. After lunch, embark on the scenic exploration of Kibale area for as long as time permits.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Scenic drive"
+                                        ],
+                                        "transferTime": "About 7hrs"
+                                    },
+                                    {
+                                        "dayNumber": 2,
+                                        "title": "Chimpanzee Tracking - Queen Elizabeth N.P.",
+                                        "description": "Early morning wake-up and have breakfast, attend briefing by the Ranger-guide and enter the sanctuary to embark on your morning Chimpanzee tracking session. Exit the park heading to Queen Elizabeth N.P. via Fort Portal and Kasese Towns. Take an introductory game drive as your transfer to the lodging facility.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Chimpanzee tracking",
+                                            "Game drive"
+                                        ],
+                                        "transferTime": "About 3hrs"
+                                    },
+                                    {
+                                        "dayNumber": 3,
+                                        "title": "Sunrise Game-drive - Kazinga Boat-Launch",
+                                        "description": "Wake-up to the sounds of nature, embark on a sunrise game-drive. Look-out for lions, leopards, elephants, warthogs, bushbucks, cape buffaloes and waterbucks. After lunch, transfer to the pier for your afternoon boat-ride on Kazinga Channel.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Morning game drive",
+                                            "Boat cruise",
+                                            "Afternoon game drive"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 4,
+                                        "title": "To Ishasha - Bwindi Impenetrable Forest",
+                                        "description": "After breakfast, take an en-route game drive as you exit Mweya Peninsular heading to Ishasha section renowned for tree-climbing lions. After picnic lunch, proceed to Bwindi Impenetrable Forest National Park.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Game drive",
+                                            "Tree-climbing lion viewing"
+                                        ],
+                                        "transferTime": "About 5hrs"
+                                    },
+                                    {
+                                        "dayNumber": 5,
+                                        "title": "Gorilla Tracking Day",
+                                        "description": "Wake-up and prepare for the summit of your Uganda Safari; the encounter with the critically endangered Mountain Gorillas. Pack lunch, water and rain gear. After briefing, follow your ranger-guide into the gorilla sanctuary. On sight of the gorillas, keep calm and watch them feed, play and swing from branches. Maximum time allowed: ONE hour.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Gorilla tracking",
+                                            "Possible Batwa Community visit"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 6,
+                                        "title": "Bwindi - Lake Mburo N.P.",
+                                        "description": "After breakfast, drive to Lake Mburo National Park. After lunch, enjoy a boat-ride on Lake Mburo offering opportunities to see Hippos, Nile Crocs. The birdlife is rich with 332 recorded species. On landing, enjoy a sundown game-drive to see Elands, Zebras, Impala and reedbucks.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Boat ride",
+                                            "Game drive"
+                                        ],
+                                        "transferTime": "About 6hrs"
+                                    },
+                                    {
+                                        "dayNumber": 7,
+                                        "title": "Serengeti",
+                                        "description": "Morning game drive reveals the famous tree climbing lions. After lunch, proceed to Serengeti Park for the night.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Game drive",
+                                            "Tree climbing lions"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 8,
+                                        "title": "Serengeti Game Viewing",
+                                        "description": "Experience an exciting spectacle of the astounding concentrations of game and extensive bird life at home on the Serengeti plains.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Full day game drive"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 9,
+                                        "title": "Ngorongoro",
+                                        "description": "After a morning game drive in the Serengeti, continue to the 'cradle of Mankind' at Olduvai Gorge. Proceed to Ngorongoro for the night.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Game drive",
+                                            "Olduvai Gorge visit"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 10,
+                                        "title": "Ngorongoro Crater",
+                                        "description": "During the day's game drives, discover this legendary crater containing the greatest permanent concentration of wildlife in Africa.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Crater game drive"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 11,
+                                        "title": "Return to Nairobi",
+                                        "description": "Stopping at Arusha for Lunch, return to Nairobi via Namanga.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch"
+                                        ],
+                                        "activities": [
+                                            "Border crossing",
+                                            "Return transfer"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "prices": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "uganda-balloon-safaris",
+            "title": "Uganda Balloon Safaris",
+            "description": "Hot air balloon experiences over Uganda's national parks",
+            "subcategories": [
+                {
+                    "id": "balloon-safari-destinations",
+                    "title": "Balloon Safari Destinations",
+                    "safaris": [
+                        {
+                            "id": "uaa-13",
+                            "slug": "uaa-13-murchison-falls-balloon",
+                            "title": "Hot Air Balloon Murchison Falls",
+                            "destination": "Murchison Falls National Park",
+                            "durationLabel": "1 Day",
+                            "description": "Balloon safaris in Uganda are a recently introduced tourist activity by the Uganda Wildlife Authority (UWA) in the Murchison Falls National Park. Hot air ballooning is handled by Dream Balloons who are certified by Uganda Civil Aviation Authority, National Environment Management Authority, Uganda Wildlife Authority and Uganda Communications Commission.",
+                            "categoryPath": [
+                                "Uganda Balloon Safaris",
+                                "Balloon Safari Destinations"
+                            ],
+                            "images": [
+                                {
+                                    "src": "/images/safaris/uganda/balloon/murchison.jpg",
+                                    "alt": "Hot Air Balloon over Murchison Falls"
+                                }
+                            ],
+                            "highlights": [
+                                "Maximum 8 passengers per balloon",
+                                "Minimum age: 6 years",
+                                "Flight altitude: up to 10,000 feet",
+                                "Certified pilots by Ugandan and Egyptian Aviation Authorities",
+                                "Breathtaking aerial views of wildlife and landscapes"
+                            ],
+                            "prices": null
+                        },
+                        {
+                            "id": "uaa-14",
+                            "slug": "uaa-14-queen-elizabeth-balloon",
+                            "title": "Queen Elizabeth National Park Balloon Safari",
+                            "destination": "Queen Elizabeth National Park",
+                            "durationLabel": "1 Day",
+                            "description": "Experience breathtaking views of Uganda's wildlife and landscapes with a sunrise hot air balloon safari over Queen Elizabeth National Park. Float above elephants, lions, hippos, antelopes and the scenic Rwenzori Mountains.",
+                            "categoryPath": [
+                                "Uganda Balloon Safaris",
+                                "Balloon Safari Destinations"
+                            ],
+                            "images": [
+                                {
+                                    "src": "/images/safaris/uganda/balloon/queen.jpg",
+                                    "alt": "Balloon Safari Queen Elizabeth"
+                                }
+                            ],
+                            "itinerary": {
+                                "durationDays": 1,
+                                "days": [
+                                    {
+                                        "dayNumber": 1,
+                                        "title": "Sunrise Balloon Safari",
+                                        "description": "Pickup from lodges around 5:30 AM, transported to Kasenyi Gate. Safety briefing and refreshments (tea/coffee) while balloon inflates. Flight lasts approximately 1 hour, taking off around 6:15 AM. Altitudes range up to 760 meters (2,500 feet). The balloon drifts over Kazinga Channel, Ishasha Plains, crater lakes, Kyambura Gorge, Lake Edward, Lake George and the Rwenzori Mountains. Upon landing, enjoy bush breakfast prepared by Mweya Safari Lodge with sparkling juice. Receive souvenir balloon safari certificate.",
+                                        "meals": [
+                                            "Bush Breakfast"
+                                        ],
+                                        "activities": [
+                                            "Hot air balloon flight",
+                                            "Wildlife viewing",
+                                            "Bush breakfast"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "highlights": [
+                                "Operated by Balloon Tours Uganda Ltd",
+                                "Maximum capacity: 16 passengers",
+                                "Minimum age: 6 years (accompanied by parent)",
+                                "Daily flights year-round, weather permitting",
+                                "Full refunds if weather prevents safe landing",
+                                "Spot tree-climbing lions, elephants, buffaloes, hippos, leopards",
+                                "Aerial views of rift valley escarpments and crater lakes"
+                            ],
+                            "recommendations": [
+                                "Bring small daypack with camera and binoculars",
+                                "Dress comfortably for morning temperature",
+                                "Best season: dry months (June–August, December–February)",
+                                "Main luggage stays at lodge"
+                            ],
+                            "prices": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "uganda-flying-safaris",
+            "title": "Uganda Flying Safaris",
+            "description": "Domestic flight connections to major safari destinations",
+            "subcategories": [
+                {
+                    "id": "flying-safari-destinations",
+                    "title": "Flying Safari Destinations",
+                    "intro": "Our Uganda Flying Safari Holidays fly you to the major safari and tour destinations around Uganda including: Kasese (Kibale), Mbarara (Lake Mburo), Jinja, Kaiso (Lake Albert), Kisoro (Mgahinga, Clouds), Chobe, Bulago, Fort Portal (Kibale), Kayonza (Bwindi, Buhoma), Kidepo, Mweya (Queen Elizabeth National Park), Semliki, Tororo (Mt. Elgon National Park), Kidepo Valley National Park (Apoka Airstrip), Kihihi (Queen Elizabeth National Park, Bwindi), Ishasha (Queen Elizabeth National Park, Bwindi), Pakuba (Murchison Falls National Park North Bank), Murchison Falls National Park at Bugungu (South Bank).",
+                    "safaris": [
+                        {
+                            "id": "uaa-15",
+                            "slug": "uaa-15-luxury-flying-safari",
+                            "title": "Uganda Luxury Flying Safari",
+                            "destination": "Entebbe, Murchison Falls, Queen Elizabeth, Bwindi",
+                            "durationLabel": "Multi-Day",
+                            "description": "A flying safari gives you the opportunity to fly between each destination rather than by road, so you can spend more time enjoying game drives and experiencing luxury camps and lodges. This safari takes in Uganda's main National Parks that are linked easily by air.",
+                            "categoryPath": [
+                                "Uganda Flying Safaris",
+                                "Flying Safari Destinations"
+                            ],
+                            "images": [
+                                {
+                                    "src": "/images/safaris/uganda/flying/aerial.jpg",
+                                    "alt": "Aerial view of Uganda"
+                                }
+                            ],
+                            "destinations": [
+                                {
+                                    "name": "Entebbe",
+                                    "description": "Start your trip with a stay in a comfortable hotel with great views over the famous lake. With spa facilities, a golf course and a selection of restaurants. Located conveniently close to Entebbe airport."
+                                },
+                                {
+                                    "name": "Murchison Falls",
+                                    "description": "After breakfast head to airport for short flight to Murchison Falls airstrip. Note: baggage limited to 15kg/33lbs for soft bag and 5kg/11lbs hand luggage. Met and taken straight on safari in 4x4 vehicle. Next day at leisure for full day vehicle safari, shorter drives or water-based activities including birding trip to delta."
+                                },
+                                {
+                                    "name": "Queen Elizabeth II National Park",
+                                    "description": "Short hop to Queen Elizabeth National Park. Immediately start safari experience tailored to your desires. Explore Ishasha for tree climbing lions. Take water safari on Kazinga Channel to get close to hippos while watching wildlife drinking at water's edge."
+                                },
+                                {
+                                    "name": "Bwindi Impenetrable National Park",
+                                    "description": "Drive through park to Bwindi. Early morning wake up for gorilla trekking. Allocated guide and gorilla family. Highly recommend hiring porter. After trek, freshen up and share stories before dinner. Morning flight back to Entebbe."
+                                }
+                            ],
+                            "includes": [
+                                "Domestic flights and transfers",
+                                "Driver/guide for safari experiences",
+                                "Accommodations as per program",
+                                "All National Park fees and entrance fees",
+                                "Gorilla permit $1100pp"
+                            ],
+                            "notes": [
+                                "Safari can be tailored to meet personal needs",
+                                "Flexible length of trip and accommodation",
+                                "Optional international flights",
+                                "Extra luggage needs can be discussed"
+                            ],
+                            "prices": null
+                        },
+                        {
+                            "id": "uaa-16",
+                            "slug": "uaa-16-bwindi-mgahinga-flying",
+                            "title": "Bwindi & Mgahinga Flying Safari",
+                            "destination": "Bwindi, Mgahinga",
+                            "durationLabel": "Multi-Day",
+                            "description": "Fly to Bwindi Impenetrable National Park and Mgahinga National Park via Kihihi & Kisoro Airstrips. One of the most thrilling experiences in Uganda is gorilla trekking. These destinations lie approximately 500 kilometers from Entebbe, requiring 10-hour drive. Take one-hour domestic flight instead.",
+                            "categoryPath": [
+                                "Uganda Flying Safaris",
+                                "Flying Safari Destinations"
+                            ],
+                            "images": [
+                                {
+                                    "src": "/images/safaris/uganda/flying/bwindi.jpg",
+                                    "alt": "Flying to Bwindi"
+                                }
+                            ],
+                            "route": "Entebbe – Bwindi Impenetrable National Park",
+                            "airstrips": [
+                                {
+                                    "name": "Kihihi Airstrip",
+                                    "serves": "Northern Buhoma Sector",
+                                    "transfer": "2-hour drive to nearby lodges"
+                                },
+                                {
+                                    "name": "Kisoro Airstrip",
+                                    "serves": "Southern Nkuringo & Rushaga Sectors of Bwindi and Mgahinga National Park",
+                                    "transfer": "1½-hour transfer to lodges"
+                                }
+                            ],
+                            "highlights": [
+                                "Aerolink Uganda offers daily flights",
+                                "Breathtaking aerial views of southwestern landscapes",
+                                "Flight experience compared to Nepal's rugged highlands",
+                                "Must-do for aerial photography enthusiasts",
+                                "Seamless safari adventure"
+                            ],
+                            "prices": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "uganda-cultural-sports-safaris",
+            "title": "Uganda Cultural and Sports Safaris",
+            "description": "Experience Uganda's rich cultural heritage and sporting activities",
+            "subcategories": [
+                {
+                    "id": "cultural-experiences",
+                    "title": "Cultural Experiences",
+                    "intro": "Uganda is a culturally diverse country that offers a range of unique and authentic experiences. From traditional villages to cultural festivals, traditional crafts to royal kingdoms, historical sites to community tourism, Uganda has something to offer everyone.",
+                    "safaris": [
+                        {
+                            "id": "uaa-17",
+                            "slug": "uaa-17-cultural-experiences",
+                            "title": "Uganda Cultural Experiences",
+                            "destination": "Various",
+                            "durationLabel": "Variable",
+                            "description": "Uganda is home to many indigenous communities that have preserved their unique cultures. Experience traditional villages, cultural festivals, crafts, cuisine, royal kingdoms, historical sites, music, dance and more.",
+                            "categoryPath": [
+                                "Uganda Cultural and Sports Safaris",
+                                "Cultural Experiences"
+                            ],
+                            "images": [
+                                {
+                                    "src": "/images/safaris/uganda/culture/batwa.jpg",
+                                    "alt": "Batwa People"
+                                },
+                                {
+                                    "src": "/images/safaris/uganda/culture/crafts.jpg",
+                                    "caption": "Traditional Crafts"
+                                }
+                            ],
+                            "culturalHighlights": [
+                                {
+                                    "title": "Traditional Villages",
+                                    "description": "Visit traditional villages and explore customs of Batwa pygmies in Bwindi, farming practices of Bagisu people in Mbale, or tribal culture of Karamojong people in northeast."
+                                },
+                                {
+                                    "title": "Cultural Festivals",
+                                    "description": "Witness traditional dances, music and cultural practices. Nyege Nyege festival in Jinja celebrates African music and culture. Imbalu circumcision festival of Bagisu people in Mbale is unique cultural experience."
+                                },
+                                {
+                                    "title": "Traditional Crafts",
+                                    "description": "Learn about traditional crafts such as weaving, pottery, and basketry. Ndere Centre in Kampala is great place to experience traditional dances, music, and cultural practices."
+                                },
+                                {
+                                    "title": "Traditional Food",
+                                    "description": "Try traditional dishes such as matooke (mashed bananas), Luwombo (meat/chicken/fish wrapped in banana leaves), and local delicacies like roasted grasshoppers."
+                                },
+                                {
+                                    "title": "Royal Kingdoms",
+                                    "description": "Explore ancient palaces of Buganda, Tooro, Bunyoro, and Busoga kingdoms. Learn about rich history and interact with royal families."
+                                },
+                                {
+                                    "title": "Historical Sites",
+                                    "description": "Explore ancient rock paintings in Karamoja, Kabaka's palace in Kampala, or historic Kasubi Tombs (UNESCO World Heritage site)."
+                                },
+                                {
+                                    "title": "Music and Dance",
+                                    "description": "Traditional dances such as Bwola dance of Acholi people or Amagunjju dance of Baganda people. Attend live music performances in Kampala."
+                                },
+                                {
+                                    "title": "Religious Sites",
+                                    "description": "Visit Namugongo Martyrs' Shrine (UNESCO World Heritage site) where 22 Ugandan martyrs were killed in 1886. Tour the Bahai Temple in Kampala."
+                                },
+                                {
+                                    "title": "Language Learning",
+                                    "description": "Over 50 languages spoken. Take language classes or immerse in local community. English and Swahili are official languages."
+                                },
+                                {
+                                    "title": "Community Tourism",
+                                    "description": "Stay in community-owned lodges, eat locally sourced food, participate in community activities. Supports local community development."
+                                }
+                            ],
+                            "topExperiences": [
+                                {
+                                    "title": "Visit the Buganda Kingdom",
+                                    "highlights": [
+                                        "Explore Kabaka's Palace in Mengo",
+                                        "Visit Kasubi Tombs (UNESCO World Heritage Site)",
+                                        "Witness traditional Ganda architecture",
+                                        "Learn about Kabaka (king) role in modern Uganda"
+                                    ]
+                                },
+                                {
+                                    "title": "Batwa Cultural Experience",
+                                    "highlights": [
+                                        "Visit Batwa Pygmies near Bwindi or Mgahinga",
+                                        "Traditional forest walks with Batwa guides",
+                                        "Learn about medicinal plants and hunting techniques",
+                                        "Batwa music and dance performances",
+                                        "Supports Batwa communities"
+                                    ]
+                                },
+                                {
+                                    "title": "Karamojong Manyatta Visits",
+                                    "highlights": [
+                                        "Visit traditional villages (manyattas) in Karamoja",
+                                        "Engage in cattle herding and jewelry crafting",
+                                        "Learn about nomadic lifestyle",
+                                        "Traditional dance around campfire",
+                                        "Hire local guide for deeper understanding"
+                                    ]
+                                },
+                                {
+                                    "title": "Ndere Cultural Centre",
+                                    "highlights": [
+                                        "Attend cultural show with music, dance, storytelling",
+                                        "Features various ethnic groups in single evening",
+                                        "Enjoy traditional Ugandan meal",
+                                        "Perfect for visitors with limited time"
+                                    ]
+                                },
+                                {
+                                    "title": "Uganda Museum",
+                                    "highlights": [
+                                        "Artifacts and historical exhibits",
+                                        "Ethnographic section with traditional tools",
+                                        "Musical instruments and crafts",
+                                        "Prehistoric and colonial history",
+                                        "Combine with local artisan shops"
+                                    ]
+                                },
+                                {
+                                    "title": "Traditional Cuisine",
+                                    "highlights": [
+                                        "Luwombo: meat/groundnut sauce in banana leaves",
+                                        "Rolex: rolled chapati with eggs and vegetables",
+                                        "Matoke: steamed green bananas",
+                                        "Eshabwe: creamy ghee sauce from western Uganda",
+                                        "Join cooking class"
+                                    ]
+                                },
+                                {
+                                    "title": "Igongo Cultural Centre",
+                                    "highlights": [
+                                        "Heritage of Ankole and Bahima cultures",
+                                        "Eriijukiro Museum with artifacts",
+                                        "Taste eshabwe dish",
+                                        "Gardens with indigenous plants",
+                                        "En route to Bwindi or Queen Elizabeth"
+                                    ]
+                                },
+                                {
+                                    "title": "Amabere Caves",
+                                    "highlights": [
+                                        "Linked to Tooro Kingdom folklore",
+                                        "Stalactites and stalagmites",
+                                        "Local legend of Princess Nyinamwiru",
+                                        "Nearby waterfalls and crater lakes",
+                                        "Combine with Tooro royal palace tour"
+                                    ]
+                                },
+                                {
+                                    "title": "Cultural Festivals",
+                                    "highlights": [
+                                        "Imbalu Circumcision Ceremony (Bagisu people)",
+                                        "Bayimba International Festival (arts)",
+                                        "Rolex Festival (street food celebration)",
+                                        "Check festival calendar"
+                                    ]
+                                },
+                                {
+                                    "title": "Toro Kingdom Royal Experience",
+                                    "highlights": [
+                                        "Visit Karuziika Palace",
+                                        "Learn about Toro traditions",
+                                        "Explore beautiful palace gardens"
+                                    ]
+                                },
+                                {
+                                    "title": "Religious Sites",
+                                    "highlights": [
+                                        "Rubaga Cathedral with Kampala views",
+                                        "Namugongo Martyrs' Shrine",
+                                        "Learn about 19th century Christian martyrs",
+                                        "Intersection of religion and history"
+                                    ]
+                                },
+                                {
+                                    "title": "Traditional Handicrafts",
+                                    "highlights": [
+                                        "Shop for baskets, beaded jewelry, bark cloth",
+                                        "Buganda Road Craft Market in Kampala",
+                                        "Local workshops with artisan demonstrations"
+                                    ]
+                                }
+                            ],
+                            "prices": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "uganda-extreme-safaris",
+            "title": "Uganda Extreme Safaris",
+            "description": "Adventure activities and extreme sports in Uganda",
+            "subcategories": [
+                {
+                    "id": "extreme-adventure-activities",
+                    "title": "Extreme Adventure Activities",
+                    "safaris": [
+                        {
+                            "id": "uaa-18",
+                            "slug": "uaa-18-white-water-rafting",
+                            "title": "White Water Rafting the Nile - The Overnighter 45 Km",
+                            "destination": "River Nile",
+                            "durationLabel": "2 Days",
+                            "description": "Imagine camping on a secluded Island mid-river! This trip is undoubtedly the best way to experience the Nile. Rafting 45 Km in total, you will be exhilarated by the huge whitewater of day one. On day two we combine exciting rapids such as Nile Special and Mulalu with plenty of relaxation.",
+                            "categoryPath": [
+                                "Uganda Extreme Safaris",
+                                "Extreme Adventure Activities"
+                            ],
+                            "images": [
+                                {
+                                    "src": "/images/safaris/uganda/rafting/nile.jpg",
+                                    "alt": "White Water Rafting on the Nile"
+                                }
+                            ],
+                            "highlights": [
+                                "Camp on secluded island mid-river",
+                                "45 Km of rafting over 2 days",
+                                "Huge whitewater rapids",
+                                "Nile Special and Mulalu rapids",
+                                "Float through lush forested islands",
+                                "Local plantations on banks",
+                                "Drift among Busoga tribesmen in canoes",
+                                "Swim and relax on the raft",
+                                "Spot monkeys, Fish Eagles, Monitors, Otters",
+                                "Numerous bird colonies"
+                            ],
+                            "includes": [
+                                "Meals and drinks",
+                                "Tents"
+                            ],
+                            "whatToBring": [
+                                "Small bag of clothes",
+                                "Sleeping bag",
+                                "Pillow"
+                            ],
+                            "notes": [
+                                "Oar boat option available for more sedate trip",
+                                "Guide rows with oars - just sit back and enjoy",
+                                "Takes conservative lines - capsizes unusual",
+                                "Still thrills but not the spills"
+                            ],
+                            "prices": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "uganda-photographic-safaris",
+            "title": "Uganda Photographic & Scenery Safaris",
+            "description": "Photography-focused safari experiences showcasing Uganda's diverse landscapes",
+            "subcategories": [
+                {
+                    "id": "photographic-safari-destinations",
+                    "title": "Photographic Safari Destinations",
+                    "intro": "Uganda, known as the 'Pearl of Africa,' offers a wealth of stunning photography locations, showcasing its diverse landscapes, rich wildlife, and vibrant cultures. Discover these top photography hotspots in Uganda that are sure to inspire your next photographic adventure.",
+                    "safaris": [
+                        {
+                            "id": "uaa-19",
+                            "slug": "uaa-19-photography-locations",
+                            "title": "Uganda Photography Locations",
+                            "destination": "Various",
+                            "durationLabel": "Variable",
+                            "description": "Uganda offers diverse natural beauty, rich wildlife, and vibrant cultures for photographers. From mountain gorillas to stunning waterfalls, volcanic landscapes to bustling cities.",
+                            "categoryPath": [
+                                "Uganda Photographic & Scenery Safaris",
+                                "Photographic Safari Destinations"
+                            ],
+                            "images": [
+                                {
+                                    "src": "/images/safaris/uganda/photography/bwindi.jpg",
+                                    "alt": "Bwindi Mountain Gorillas"
+                                },
+                                {
+                                    "src": "/images/safaris/uganda/photography/murchison.jpg",
+                                    "caption": "Murchison Falls"
+                                }
+                            ],
+                            "topLocations": [
+                                {
+                                    "name": "Bwindi Impenetrable National Park",
+                                    "description": "Renowned for mountain gorilla population. Once-in-a-lifetime opportunity to capture these endangered creatures up close in natural habitat."
+                                },
+                                {
+                                    "name": "Queen Elizabeth National Park",
+                                    "description": "Diverse landscapes including savannah, wetlands, and forests. Home to elephants, lions, buffalo. Ideal for wildlife photography."
+                                },
+                                {
+                                    "name": "Murchison Falls National Park",
+                                    "description": "Dramatic photo opportunities as Nile River surges through narrow gorge before plunging into Devil's Cauldron. Wide array of wildlife and diverse landscapes."
+                                },
+                                {
+                                    "name": "Kidepo Valley National Park",
+                                    "description": "Remote park in northeastern Uganda. Stunning landscapes with rugged mountain ranges and vast savannah plains. Giraffes, zebras, and lions."
+                                },
+                                {
+                                    "name": "Lake Bunyonyi",
+                                    "description": "Surrounded by terraced hillsides and dotted with small islands. Picturesque setting for landscape photography and local culture."
+                                },
+                                {
+                                    "name": "Rwenzori Mountains National Park",
+                                    "description": "Home to legendary 'Mountains of the Moon'. Striking mountain landscapes, unique flora, and trekking photography opportunities."
+                                },
+                                {
+                                    "name": "Sipi Falls",
+                                    "description": "Located in eastern Uganda. Series of three stunning waterfalls cascading down slopes of Mount Elgon. Spectacular photo opportunities."
+                                },
+                                {
+                                    "name": "Kampala",
+                                    "description": "Bustling capital city with urban photography opportunities. Street scenes, markets, historic landmarks like Kasubi Tombs and Uganda National Mosque."
+                                },
+                                {
+                                    "name": "Mgahinga Gorilla National Park",
+                                    "description": "Mountain gorillas and rare golden monkeys. Unique wildlife photography in stunning volcanic landscapes."
+                                },
+                                {
+                                    "name": "Lake Mburo National Park",
+                                    "description": "Small but diverse park. Acacia woodlands, wetlands, and savannah plains. Home to zebras, impalas, and leopards."
+                                }
+                            ],
+                            "prices": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+    "title": "Safari Walk - Return to Kampala",
+    "description": "Follow your ranger-guide on an early morning Safari Walk. A unique opportunity to see wildlife on foot. After breakfast, take an en-route game drive as you exit the park. Stop at Equator Point for photo opportunity and shopping. Drop-off at Entebbe for onward flight.",
+    "meals": [
+        "Breakfast",
+        "Lunch"
+    ],
+    "activities": [
+        "Walking safari",
+        "Equator stop"
+    ],
+    "transferTime": "About 6hrs"
+,
+"includes": [
+    "Road Transport throughout the trip",
+    "A Chimpanzee tracking permit",
+    "A Gorilla tracking permit",
+    "Park entrance fees",
+    "Activities mentioned in itinerary",
+    "Meals per choice of lodging category",
+    "English-speaking driver/guide",
+    "A liter of bottled water per day",
+    "Accommodation as indicated"
+],
+"excludes": [
+    "Visas/Entry Permit for Uganda if required",
+    "Pre & Post Tour Accommodation in Kampala or Entebbe",
+    "Personal Insurance Covers",
+    "Tips, Beverages and Souvenirs",
+    "All items of personal nature"
+],
+"accommodation": {
+    "budget": [
+        "Isunga Lodge",
+        "Bush Lodge (Banda)",
+        "Buhoma Community Rest Camp",
+        "Eagles' Nest Mburo"
+    ]
+},
+"prices": null
+},
+{
+"id": "uaa-10",
+"slug": "uaa-10-gorilla-express-5-days",
+"title": "Gorilla Express Safari - 5 Days",
+"destination": "Bwindi",
+"durationLabel": "5 Days",
+"description": "A 5-day gorilla tracking safari with transfers from Entebbe, offering a more relaxed pace with pre and post-tour accommodation.",
+"categoryPath": [
+    "Uganda Popular Safaris",
+    "Gorilla & Chimpanzee Tracking"
+],
+"images": [
+    {
+        "src": "/images/safaris/uganda/bwindi/tracking.jpg",
+        "alt": "Gorilla Tracking"
+    }
+],
+"itinerary": {
+    "durationDays": 5,
+    "days": [
+        {
+            "dayNumber": 1,
+            "title": "Arrival - Kampala",
+            "description": "Meet and assist upon arrival at Entebbe International Airport and transfer to your lodging facility in Entebbe or Kampala. Check-in, relax and rest for the evening.",
+            "meals": [
+                "Bed Only"
+            ],
+            "activities": [
+                "Airport transfer"
+            ],
+            "transferTime": "About 10 Minutes"
+        },
+        {
+            "dayNumber": 2,
+            "title": "Kampala - Bwindi Forest",
+            "description": "At 0600hrs, meet and assist at your residence. Get on board and undergo safari briefing. Start journeying westwards. Stop at The Equator Point for photo-opportunity. Break for lunch in Mbarara Town. Follow snaking routes of Kigezi Highlands 'Switzerland of Africa'. Check-in at your reserved lodging facility.",
+            "meals": [
+                "Lunch",
+                "Dinner"
+            ],
+            "activities": [
+                "Equator stop",
+                "Scenic drive"
+            ],
+            "transferTime": "About 9hrs"
+        },
+        {
+            "dayNumber": 3,
+            "title": "Gorilla Tracking Day",
+            "description": "Wake-up early, have breakfast, pack lunch and attend briefing by head-ranger. Get your walking-stick and follow your ranger-guide to track mountain gorillas. Once you locate them, keep calm and watch them play, feed and swing. Maximum time: ONE Hour. Return to base, receive tracking certificate and return to lodge.",
+            "meals": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+            ],
+            "activities": [
+                "Gorilla tracking"
+            ]
+        },
+        {
+            "dayNumber": 4,
+            "title": "Bwindi - Kampala/Entebbe",
+            "description": "Wake-up to watch sunrise. Exploit your last moments with mountain gorillas. After breakfast, join your driver on long-picturesque drive with lunch break en-route. Check-in at lodging facility for the evening.",
+            "meals": [
+                "Breakfast",
+                "Lunch"
+            ],
+            "activities": [
+                "Scenic drive"
+            ],
+            "transferTime": "About 9hrs"
+        },
+        {
+            "dayNumber": 5,
+            "title": "Entebbe - Flight Out",
+            "description": "Morning at Leisure in Entebbe Peninsula, breakfast, check-out and transfer to Entebbe Airport for your onward flight out.",
+            "meals": [
+                "Breakfast"
+            ],
+            "activities": [
+                "Airport transfer"
+            ],
+            "transferTime": "About 10 Minutes"
+        }
+    ]
+},
+"includes": [
+    "Road Transport throughout the trip",
+    "A gorilla tracking permit",
+    "Meals as indicated",
+    "English-speaking driver/guide",
+    "A liter of bottled water per day",
+    "Accommodation in Bwindi for Two Nights",
+    "Pre and Post Tour Accommodation"
+],
+"excludes": [
+    "Visas/Entry Permit for Uganda if required",
+    "Personal Insurance Covers",
+    "Tips, Beverages and Souvenirs",
+    "All items of personal nature"
+],
+"accommodation": {
+    "budget": [
+        "Buhoma Community Camp",
+        "Humura Resort",
+        "Airport Guesthouse"
+    ]
+},
+"prices": null
+},
+{
+"id": "uaa-11",
+"slug": "uaa-11-gorilla-thriller-7-days",
+"title": "Gorilla Thriller/Express - 7 Days",
+"destination": "Bwindi, Lake Bunyonyi",
+"durationLabel": "7 Days",
+"description": "A comprehensive 7-day gorilla safari from Nairobi, including two days of gorilla tracking and a visit to Lake Bunyonyi.",
+"categoryPath": [
+    "Uganda Popular Safaris",
+    "Gorilla & Chimpanzee Tracking"
+],
+"images": [
+    {
+        "src": "/images/safaris/uganda/bunyonyi/lake.jpg",
+        "alt": "Lake Bunyonyi"
+    }
+],
+"itinerary": {
+    "durationDays": 7,
+    "days": [
+        {
+            "dayNumber": 1,
+            "title": "Nairobi - Kampala",
+            "description": "Travel from Nairobi to Kampala. Overnight in a hotel in Kampala booked on bed and breakfast basis.",
+            "meals": [
+                "Bed and Breakfast"
+            ],
+            "activities": [
+                "Road transfer"
+            ]
+        },
+        {
+            "dayNumber": 2,
+            "title": "Kampala - Buhoma",
+            "description": "Early morning start from Kampala to southwest across the equator. Drive through savannah grasslands seeing banana plantations and Ankole cattle. Ascend into Kigezi highlands 'Switzerland of Africa' with terraced farming. Drive through to Buhoma. Overnight in tented camp.",
+            "meals": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+            ],
+            "activities": [
+                "Scenic drive"
+            ]
+        },
+        {
+            "dayNumber": 3,
+            "title": "Buhoma - Gorilla Tracking",
+            "description": "Enter sanctuary at dawn and enjoy the beauty of the forest, home to mountain gorillas. After briefing, proceed through dense bush to trek for these endangered species. Other primates include black and white colobus, redtail monkey and chimpanzee. Return to tented camp.",
+            "meals": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+            ],
+            "activities": [
+                "Gorilla tracking"
+            ]
+        },
+        {
+            "dayNumber": 4,
+            "title": "Buhoma - Second Gorilla Tracking",
+            "description": "Re-enter the forest for a second exciting day of tracking. Return to your tented camp for dinner and overnight.",
+            "meals": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+            ],
+            "activities": [
+                "Gorilla tracking"
+            ]
+        },
+        {
+            "dayNumber": 5,
+            "title": "Buhoma - Lake Bunyonyi",
+            "description": "Depart the forest for Lake Bunyonyi, the lake of little birds, renowned for its variety and abundance of avians. Enjoy a canoe ride on this beautiful narrow lake surrounded by green hills. Dinner and overnight in a hotel.",
+            "meals": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+            ],
+            "activities": [
+                "Canoe ride",
+                "Bird watching"
+            ]
+        },
+        {
+            "dayNumber": 6,
+            "title": "Lake Bunyonyi - Kampala",
+            "description": "Return to Kampala after breakfast. Overnight in a hotel in Kampala.",
+            "meals": [
+                "Breakfast",
+                "Dinner"
+            ],
+            "activities": [
+                "Scenic drive"
+            ]
+        },
+        {
+            "dayNumber": 7,
+            "title": "Kampala - Nairobi",
+            "description": "Early morning departure to Nairobi where you arrive in the late afternoon.",
+            "meals": [
+                "Breakfast"
+            ],
+            "activities": [
+                "Road transfer"
+            ]
+        }
+    ]
+},
+"notes": [
+    "The above package can be reduced to five days by eliminating day 4 and 5.",
+    "The return journey Nairobi-Kampala-Nairobi can be substituted with flights.",
+    "Trekkers are advised to bring heavy leather gloves, stout hiking boots, long sleeve shirts, long pants, a light backpack and a water bottle."
+],
+"healthRegulations": [
+    "Yellow fever and Cholera vaccinations are required",
+    "Anti Malaria tablets are recommended",
+    "Tracking can be strenuous - one must be reasonably fit",
+    "Good boots and clothing covering arms and legs required for heavy rains and dense forest"
+],
+"prices": null
+}
+]
+}
+]
+},
+{
+"id": "uganda-excursions",
+"title": "Uganda Excursions",
+"description": "Day trips and short excursions in Uganda",
+"subcategories": [
+{
+"id": "uganda-day-trips",
+"title": "Uganda Day Trips",
+"safaris": [
+{
+"id": "uaa-01",
+"slug": "uaa-01-uganda-excursion",
+"title": "Uganda Excursions",
+"destination": "Various",
+"durationLabel": "1 Day",
+"description": "Various day excursions available throughout Uganda. Content to be provided.",
+"categoryPath": [
+    "Uganda Excursions",
+    "Uganda Day Trips"
+],
+"prices": null
+},
+{
+"id": "uaa-02",
+"slug": "uaa-02-uganda-day-trip",
+"title": "Uganda Day Trip",
+"destination": "Various",
+"durationLabel": "1 Day",
+"description": "Day trip options in Uganda. Content to be provided.",
+"categoryPath": [
+    "Uganda Excursions",
+    "Uganda Day Trips"
+],
+"prices": null
+}
+]
+}
+]
+},
+{
+"id": "uganda-top-requested",
+"title": "Uganda Top Requested Safaris",
+"description": "Most popular safari programs in Uganda",
+"subcategories": [
+{
+"id": "top-requested-programs",
+"title": "Top Requested Programs",
+"safaris": [
+{
+"id": "uaa-03",
+"slug": "uaa-03-top-requested-safari",
+"title": "Uganda Top Safari",
+"destination": "Various",
+"durationLabel": "Various",
+"description": "Content to be provided.",
+"categoryPath": [
+    "Uganda Top Requested Safaris"
+],
+"prices": null
+},
+{
+"id": "uaa-04",
+"slug": "uaa-04-popular-safari",
+"title": "Popular Uganda Safari",
+"destination": "Various",
+"durationLabel": "Various",
+"description": "Content to be provided.",
+"categoryPath": [
+    "Uganda Top Requested Safaris"
+],
+"prices": null
+}
+]
+}
+]
+},
+{
+"id": "uganda-budget-safaris",
+"title": "Uganda Budget Safaris",
+"description": "Affordable safari options in Uganda",
+"subcategories": [
+{
+"id": "budget-safari-destinations",
+"title": "Budget Safari Destinations",
+"safaris": [
+{
+"id": "uaa-05",
+"slug": "uaa-05-murchison-falls-3-days",
+"title": "Murchison Falls",
+"destination": "Murchison Falls",
+"durationLabel": "3 Days",
+"description": "A 3-day budget safari to Murchison Falls National Park, featuring game drives and a boat cruise to the breathtaking falls.",
+"categoryPath": [
+    "Uganda Budget Safaris",
+    "Budget Safari Destinations"
+],
+"images": [
+    {
+        "src": "/images/safaris/uganda/murchison/falls.jpg",
+        "alt": "Murchison Falls"
+    }
+],
+"itinerary": {
+    "durationDays": 3,
+    "days": [
+        {
+            "dayNumber": 1,
+            "title": "Kampala to Paraa",
+            "description": "Drive through Luwero triangle, arriving at Masindi for Lunch. Proceed to the park for game drive with overnight at paraa.",
+            "meals": [
+                "Lunch",
+                "Dinner"
+            ],
+            "activities": [
+                "Game drive"
+            ]
+        },
+        {
+            "dayNumber": 2,
+            "title": "Murchison Falls Exploration",
+            "description": "After an early morning game drive, take a boat cruise along the Nile to the bottom of the breath taking falls. After lunch, drive to the top of the falls. Overnight at Paraa.",
+            "meals": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+            ],
+            "activities": [
+                "Morning game drive",
+                "Boat cruise",
+                "Falls viewing"
+            ]
+        },
+        {
+            "dayNumber": 3,
+            "title": "Return to Kampala",
+            "description": "After breakfast, return to Kampala via Masindi for lunch.",
+            "meals": [
+                "Breakfast",
+                "Lunch"
+            ],
+            "activities": [
+                "Scenic drive"
+            ]
+        }
+    ]
+},
+"prices": null
+},
+{
+"id": "uaa-06",
+"slug": "uaa-06-queen-elizabeth-kibale-4-days",
+"title": "Queen Elizabeth - Kibale Forest",
+"destination": "Queen Elizabeth, Kibale Forest",
+"durationLabel": "4 Days",
+"description": "A 4-day budget safari combining Queen Elizabeth National Park and Kibale Forest for primate tracking.",
+"categoryPath": [
+    "Uganda Budget Safaris",
+    "Budget Safari Destinations"
+],
+"images": [
+    {
+        "src": "/images/safaris/uganda/queen/mweya.jpg",
+        "alt": "Queen Elizabeth National Park"
+    }
+],
+"itinerary": {
+    "durationDays": 4,
+    "days": [
+        {
+            "dayNumber": 1,
+            "title": "Kampala to Mweya",
+            "description": "Head towards western Uganda. Stop over at the local drum industry, the equator, Masaka, and Mbarara for lunch. Evening game drive proceeding to Mweya for the night.",
+            "meals": [
+                "Lunch",
+                "Dinner"
+            ],
+            "activities": [
+                "Equator stop",
+                "Evening game drive"
+            ]
+        },
+        {
+            "dayNumber": 2,
+            "title": "Queen Elizabeth Park",
+            "description": "Drive through volcanic formations of the western Rift Valley. The descent reveals stunning panorama of Lakes George and Edward. After game drives and lunch, take a boat trip on the Kazinga channel. Resume game viewing before returning to lodge.",
+            "meals": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+            ],
+            "activities": [
+                "Game drive",
+                "Boat cruise on Kazinga Channel"
+            ]
+        },
+        {
+            "dayNumber": 3,
+            "title": "Kibale Forest - Fort Portal",
+            "description": "After breakfast, depart for Kibale forest to track a variety of primate species. Overnight at the hotel.",
+            "meals": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+            ],
+            "activities": [
+                "Primate tracking"
+            ]
+        },
+        {
+            "dayNumber": 4,
+            "title": "Return to Kampala",
+            "description": "After breakfast, return to Kampala via Mubende.",
+            "meals": [
+                "Breakfast",
+                "Lunch"
+            ],
+            "activities": [
+                "Scenic drive"
+            ]
+        }
+    ]
+},
+"prices": null
+}
+]
+}
+]
+},
+{
+"id": "uganda-luxury-safaris",
+"title": "Uganda Luxury Safaris",
+"description": "Premium safari experiences in Uganda",
+"subcategories": [
+{
+"id": "luxury-safari-destinations",
+"title": "Luxury Safari Destinations",
+"safaris": [
+{
+"id": "uaa-07",
+"slug": "uaa-07-luxury-safari",
+"title": "Uganda Luxury Safari",
+"destination": "Various",
+"durationLabel": "Various",
+"description": "Content to be provided.",
+"categoryPath": [
+    "Uganda Luxury Safaris",
+    "Luxury Safari Destinations"
+],
+"prices": null
+}
+]
+}
+]
+},
+{
+"id": "uganda-safaris-across-east-africa",
+"title": "Safaris Across East Africa",
+"description": "Multi-country safari experiences",
+"subcategories": [
+{
+"id": "east-africa-combinations",
+"title": "East Africa Safari Combinations",
+"safaris": [
+{
+"id": "uaa-12",
+"slug": "uaa-12-kenya-tanzania-11-days",
+"title": "Kenya / Tanzania Safari",
+"destination": "Kenya, Tanzania, Uganda",
+"durationLabel": "11 Days",
+"description": "An 11-day safari covering the best of Kenya and Tanzania, including tree hotels, Samburu, Lake Nakuru, Lake Manyara, Serengeti and Ngorongoro Crater.",
+"categoryPath": [
+    "Safaris Across East Africa",
+    "East Africa Safari Combinations"
+],
+"images": [
+    {
+        "src": "/images/safaris/uganda/eastafrica/combo.jpg",
+        "alt": "East Africa Safari"
+    }
+],
+"itinerary": {
+    "durationDays": 11,
+    "days": [
+        {
+            "dayNumber": 1,
+            "title": "Tree Hotel",
+            "description": "Morning drive to the forested highlands of the Aberdares. After lunch at the base hotel, transfer to your tree hotel for game watching at the floodlit water hole.",
+            "meals": [
+                "Lunch",
+                "Dinner"
+            ],
+            "activities": [
+                "Game watching"
+            ]
+        },
+        {
+            "dayNumber": 2,
+            "title": "Samburu",
+            "description": "Continue north across the equator to the home of the samburu people. Marvel at the rugged scenery of isolated crags and springs. After a game drive, relax in the comfort of your lodge.",
+            "meals": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+            ],
+            "activities": [
+                "Game drive"
+            ]
+        },
+        {
+            "dayNumber": 3,
+            "title": "Samburu Game Viewing",
+            "description": "Morning and afternoon game drives along the Uaso Nyiro river. View carnivores and rare herbivores such as the Beisa oryx or the Grevy zebra.",
+            "meals": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+            ],
+            "activities": [
+                "Morning and afternoon game drives"
+            ]
+        },
+        {
+            "dayNumber": 4,
+            "title": "Lake Nakuru",
+            "description": "Drive to Lake Nakuru with stunning vistas between the escarpments of the Rift Valley. During game drive, behold the sight of pink flamingoes lining the alkaline lake.",
+            "meals": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+            ],
+            "activities": [
+                "Game drive",
+                "Flamingo viewing"
+            ]
+        },
+        {
+            "dayNumber": 5,
+            "title": "Nairobi",
+            "description": "After breakfast, depart for Nairobi, arriving before lunch. Afternoon at your leisure.",
+            "meals": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+            ],
+            "activities": [
+                "At leisure"
+            ]
+        },
+        {
+            "dayNumber": 6,
+            "title": "Lake Manyara",
+            "description": "Cross the border to Tanzania at Namanga, stopping at Arusha for Lunch. Proceed to Lake Manyara for a game drive. Spend the night at the Lake Manyara Hotel.",
+            "meals": [
+                "Breakfast",
+                "Lunch",
+                "Dinner"
+            ],
+            "activities": [
+                "Border crossing",
+                "Game drive"
+            ]
+        },
