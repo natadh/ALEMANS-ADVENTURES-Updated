@@ -1,0 +1,945 @@
+{
+  "categories": [
+    {
+      "id": "tanzania-excursions",
+      "title": "Tanzania Safari Excursions",
+      "description": "Day trips and excursions from Arusha and Moshi",
+      "subcategories": [
+        {
+          "id": "arusha-moshi-excursions",
+          "title": "Excursions from Arusha/Moshi",
+          "safaris": [
+            {
+              "id": "taa-01",
+              "slug": "taa-01-coffee-farm-mangalia-waterfalls",
+              "title": "Coffee Farm and Mangalia Waterfalls Tour",
+              "destination": "Arusha",
+              "durationLabel": "1 Day",
+              "description": "Enjoy the perfect blend of culture, nature, and relaxation on this two-part Tanzanian adventure. Your journey begins with a hotel pick-up, taking you to a local coffee farm for a guided coffee tour. Learn about the entire process of coffee-making, from bean to brew, and discover the rich history of Tanzanian coffee.",
+              "categoryPath": ["Tanzania Safari Excursions", "Excursions from Arusha/Moshi"],
+              "images": [
+                {
+                  "src": "/images/safaris/tanzania/excursions/coffee_farm.jpg",
+                  "alt": "Coffee Farm Tour"
+                },
+                {
+                  "src": "/images/safaris/tanzania/excursions/mangalia_falls.jpg",
+                  "caption": "Mangalia Waterfalls"
+                }
+              ],
+              "highlights": [
+                "Guided coffee farm tour",
+                "Learn coffee-making process from bean to brew",
+                "Views of Mount Meru and Mount Kilimanjaro",
+                "Try banana wine",
+                "Visit Mangalia Waterfalls",
+                "Swimming opportunity",
+                "Local snacks and fresh fruits"
+              ],
+              "prices": null
+            },
+            {
+              "id": "taa-02",
+              "slug": "taa-02-arusha-walking-city-tour",
+              "title": "Arusha Walking City Tour - History, Culture & Lifestyle",
+              "destination": "Arusha",
+              "durationLabel": "1 Day",
+              "description": "Discover the vibrant heart of Arusha on our immersive Walking City Tour, a perfect blend of culture, history, and local life. Journey through governmental districts, museums, markets, and cultural centers.",
+              "categoryPath": ["Tanzania Safari Excursions", "Excursions from Arusha/Moshi"],
+              "images": [
+                {
+                  "src": "/images/safaris/tanzania/excursions/arusha_city.jpg",
+                  "alt": "Arusha City Tour"
+                }
+              ],
+              "highlights": [
+                "Natural History Museum in colonial German fortress",
+                "East African Community Headquarters",
+                "Mount Meru Hospital",
+                "Arusha International Conference Centre (AICC)",
+                "Tanzanite Experience Museum",
+                "Arusha Clock Tower (midpoint Cairo-Cape Town)",
+                "Maasai Market with traditional crafts",
+                "Central Food Market",
+                "African Art Gallery and Cultural Heritage Centre"
+              ],
+              "prices": null
+            },
+            {
+              "id": "taa-03",
+              "slug": "taa-03-materuni-waterfalls-coffee-hotsprings",
+              "title": "Materuni Waterfalls, Coffee, and Hotsprings Tour",
+              "destination": "Materuni Village",
+              "durationLabel": "1 Day",
+              "description": "Following pickup from your accommodation, head to Materuni Village. Take a short but challenging hike to Materuni Falls with beautiful views. Visit a coffee farm to learn about growing, harvesting, and processing. Try roasting and preparing fresh local coffee.",
+              "categoryPath": ["Tanzania Safari Excursions", "Excursions from Arusha/Moshi"],
+              "images": [
+                {
+                  "src": "/images/safaris/tanzania/excursions/materuni_falls.jpg",
+                  "alt": "Materuni Waterfalls"
+                }
+              ],
+              "highlights": [
+                "Hike to Materuni Falls",
+                "Coffee farm visit",
+                "Learn harvesting and processing",
+                "Roast and prepare fresh coffee",
+                "Local lunch in Materuni village",
+                "Warm-water spring swimming"
+              ],
+              "prices": null
+            },
+            {
+              "id": "taa-04",
+              "slug": "taa-04-arusha-national-park-full-day",
+              "title": "Arusha National Park Full-Day Safari",
+              "destination": "Arusha National Park",
+              "durationLabel": "1 Day",
+              "description": "Explore Arusha National Park, home of Mt Meru. Opportunity to see giraffes, Cape buffalos, zebras, warthogs, colobus monkeys, blue monkeys, flamingos, elephants, bushbucks, and many other animals. Leopard population present but rarely seen.",
+              "categoryPath": ["Tanzania Safari Excursions", "Excursions from Arusha/Moshi"],
+              "images": [
+                {
+                  "src": "/images/safaris/tanzania/excursions/arusha_np.jpg",
+                  "alt": "Arusha National Park"
+                }
+              ],
+              "highlights": [
+                "Morning game drive",
+                "Lunch overlooking lake",
+                "Afternoon game drive",
+                "Famous fig tree viewing",
+                "Black-and-white colobus monkeys",
+                "Blue monkeys",
+                "Giraffes and zebras"
+              ],
+              "includes": [
+                "Pick-up and drop-off from Arusha",
+                "Park Fees and Entrance",
+                "English-speaking guide",
+                "Lunch"
+              ],
+              "prices": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tanzania-top-requested",
+      "title": "Tanzania Top Requested Safaris",
+      "description": "The best 5 safari destinations in Tanzania",
+      "subcategories": [
+        {
+          "id": "best-safari-destinations",
+          "title": "Best Safari Destinations",
+          "safaris": [
+            {
+              "id": "taa-05",
+              "slug": "taa-05-great-migration-serengeti",
+              "title": "Witness the Great Migration in Serengeti",
+              "destination": "Serengeti",
+              "durationLabel": "Variable",
+              "description": "Experiencing the Great Migration in the Serengeti is without question one of the best Tanzania safaris, where over 1.5 million wildebeest and zebras storm across golden plains in search of greener pastures.",
+              "categoryPath": ["Tanzania Top Requested Safaris", "Best Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/tanzania/serengeti/migration.jpg",
+                  "alt": "Great Migration"
+                }
+              ],
+              "highlights": [
+                "Over 1.5 million wildebeest and zebras",
+                "Peak season: June to October",
+                "Mara River crossings",
+                "January-February Ndutu calving season",
+                "Intense predator-prey interactions",
+                "Classic game drives",
+                "Sunrise hot air balloon rides"
+              ],
+              "prices": null
+            },
+            {
+              "id": "taa-06",
+              "slug": "taa-06-climb-mount-kilimanjaro",
+              "title": "Climb Mount Kilimanjaro",
+              "destination": "Mount Kilimanjaro",
+              "durationLabel": "5-9 Days",
+              "description": "Trekking Mount Kilimanjaro, Africa's highest peak at 5,895 meters, offers one of the most iconic challenges. With no technical gear required, climbers journey through ecological zones from rainforest to alpine desert before reaching snow-capped summit at Uhuru Peak.",
+              "categoryPath": ["Tanzania Top Requested Safaris", "Best Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/tanzania/kilimanjaro/summit.jpg",
+                  "alt": "Mount Kilimanjaro"
+                }
+              ],
+              "highlights": [
+                "Africa's highest peak at 5,895 meters",
+                "No technical gear required",
+                "Ecological zones from rainforest to alpine",
+                "Machame and Lemosho routes popular",
+                "Snow-capped Uhuru Peak summit",
+                "Physical and spiritual triumph",
+                "Unforgettable sunrises"
+              ],
+              "prices": null
+            },
+            {
+              "id": "taa-07",
+              "slug": "taa-07-chimpanzee-mahale-mountains",
+              "title": "Track Wild Chimpanzees in Mahale Mountains",
+              "destination": "Mahale Mountains",
+              "durationLabel": "Variable",
+              "description": "In the remote jungles along Lake Tanganyika, chimpanzee tracking in Mahale Mountains ranks among the most soulful Tanzania safaris. With limited tourist traffic, the experience feels deeply personal.",
+              "categoryPath": ["Tanzania Top Requested Safaris", "Best Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/tanzania/mahale/chimps.jpg",
+                  "alt": "Chimpanzees in Mahale"
+                }
+              ],
+              "highlights": [
+                "Remote jungle location",
+                "Limited tourist traffic",
+                "Dense forest trails",
+                "Observe primates in natural habitat",
+                "Face-to-face chimp family encounters",
+                "Crystalline Lake Tanganyika views",
+                "Greystoke Mahale barefoot luxury"
+              ],
+              "prices": null
+            },
+            {
+              "id": "taa-08",
+              "slug": "taa-08-hot-air-balloon-safari",
+              "title": "Hot Air Balloon Safari",
+              "destination": "Serengeti",
+              "durationLabel": "Half Day",
+              "description": "Gliding above the Serengeti at sunrise in a hot air balloon is one of the most magical Tanzania safaris. As the sky shifts from blush to gold, the savannah comes alive below.",
+              "categoryPath": ["Tanzania Top Requested Safaris", "Best Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/tanzania/balloon/serengeti.jpg",
+                  "alt": "Hot Air Balloon Safari"
+                }
+              ],
+              "highlights": [
+                "Sunrise flight over Serengeti",
+                "Herds of wildebeest below",
+                "Lions stalking the grasses",
+                "Giraffes moving like shadows",
+                "Champagne bush breakfast under acacia",
+                "Aerial perspective of savannah"
+              ],
+              "prices": null
+            },
+            {
+              "id": "taa-09",
+              "slug": "taa-09-ngorongoro-crater",
+              "title": "Explore Ngorongoro Crater",
+              "destination": "Ngorongoro Crater",
+              "durationLabel": "1-2 Days",
+              "description": "Descending into the Ngorongoro Crater, a vast ancient volcanic caldera, is like entering a lost world. This 600-meter-deep basin shelters incredible variety of wildlife.",
+              "categoryPath": ["Tanzania Top Requested Safaris", "Best Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/tanzania/ngorongoro/crater.jpg",
+                  "alt": "Ngorongoro Crater"
+                }
+              ],
+              "highlights": [
+                "600-meter-deep volcanic caldera",
+                "Black rhinos, lions, buffaloes",
+                "Thousands of flamingos on crater lake",
+                "Big Five in single day",
+                "Panoramic views from rim",
+                "Maasai cultural encounters",
+                "Easy compact game viewing"
+              ],
+              "prices": null
+            },
+            {
+              "id": "taa-10",
+              "slug": "taa-10-zanzibar-island",
+              "title": "Visit Zanzibar Island",
+              "destination": "Zanzibar",
+              "durationLabel": "3-7 Days",
+              "description": "Embark on an unforgettable journey through Zanzibar, the ultimate tropical paradise known for pristine beaches, vibrant culture, and historic charm. Explore Stone Town's rich heritage, relax on Nungwi's golden sands, or snorkel in turquoise waters of Mnemba Island.",
+              "categoryPath": ["Tanzania Top Requested Safaris", "Best Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/tanzania/zanzibar/beach.jpg",
+                  "alt": "Zanzibar Beach"
+                },
+                {
+                  "src": "/images/safaris/tanzania/zanzibar/stonetown.jpg",
+                  "caption": "Stone Town"
+                }
+              ],
+              "highlights": [
+                "Pristine beaches",
+                "Stone Town historic heritage",
+                "Nungwi golden sands",
+                "Mnemba Island snorkeling",
+                "Rich culture and history",
+                "Spice tours",
+                "Crystal-clear Indian Ocean waters"
+              ],
+              "seasonInfo": {
+                "drySeason": "June to October and December to February",
+                "rainyMonths": "Can bring heavy downpours",
+                "bestTime": "Dry seasons for beach activities and sightseeing",
+                "festivals": "Zanzibar International Film Festival in July"
+              },
+              "prices": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tanzania-budget-safaris",
+      "title": "Tanzania Budget Safaris",
+      "description": "Affordable safari options in Tanzania",
+      "subcategories": [
+        {
+          "id": "budget-safari-destinations",
+          "title": "Budget Safari Destinations",
+          "safaris": [
+            {
+              "id": "taa-11",
+              "slug": "taa-11-lake-manyara-serengeti-ngorongoro-6-days",
+              "title": "Lake Manyara - Serengeti - Ngorongoro Crater",
+              "destination": "Lake Manyara, Serengeti, Ngorongoro",
+              "durationLabel": "6 Days",
+              "description": "A 6-day budget safari covering Lake Manyara, Serengeti and Ngorongoro Crater, offering incredible wildlife viewing opportunities.",
+              "categoryPath": ["Tanzania Budget Safaris", "Budget Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/tanzania/budget/manyara.jpg",
+                  "alt": "Lake Manyara"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 6,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Lake Manyara",
+                    "description": "Head west towards Lake Manyara Park. After a game drive proceed to the Lake Manyara Hotel overlooking the Great Rift Valley and shimmering lake (130 kms, 2 1/2 hrs.)",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Game drive"],
+                    "distance": "130 kms, 2.5 hrs"
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Serengeti",
+                    "description": "After morning game drive, proceed to Serengeti Park noticing the change in terrain from highland forest to open plain. View game enroute to the lodge for overnight (205 kms, 4 hrs).",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Morning game drive", "Transfer to Serengeti"],
+                    "distance": "205 kms, 4 hrs"
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Serengeti",
+                    "description": "Spend the day in the heart of Tanzania's big game viewing country.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Full day game drive"]
+                  },
+                  {
+                    "dayNumber": 4,
+                    "title": "Ngorongoro",
+                    "description": "After morning game drive, continue to Olduvai Gorge to see the famous archeological site. Proceed towards Ngorongoro, where you will spend the night at a lodge overlooking the crater (250 kms, 6 hrs.)",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Morning game drive", "Olduvai Gorge visit"],
+                    "distance": "250 kms, 6 hrs"
+                  },
+                  {
+                    "dayNumber": 5,
+                    "title": "Ngorongoro",
+                    "description": "Spend a full day in the legendary crater viewing an astonishing array of wildlife.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Full day crater game drive"]
+                  },
+                  {
+                    "dayNumber": 6,
+                    "title": "Return to Arusha",
+                    "description": "Depart for Arusha arriving before lunch (190 kms, 4 hrs).",
+                    "meals": ["Breakfast", "Lunch"],
+                    "activities": ["Transfer to Arusha"],
+                    "distance": "190 kms, 4 hrs"
+                  }
+                ]
+              },
+              "prices": null
+            },
+            {
+              "id": "taa-12",
+              "slug": "taa-12-tarangire-manyara-serengeti-ngorongoro-7-days",
+              "title": "Tarangire - Lake Manyara - Serengeti - Ngorongoro Crater",
+              "destination": "Tarangire, Lake Manyara, Serengeti, Ngorongoro",
+              "durationLabel": "7 Days",
+              "description": "A comprehensive 7-day budget safari covering Tarangire, Lake Manyara, Serengeti and Ngorongoro Crater.",
+              "categoryPath": ["Tanzania Budget Safaris", "Budget Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/tanzania/budget/tarangire.jpg",
+                  "alt": "Tarangire National Park"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 7,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Tarangire",
+                    "description": "Morning drive to Tarangire National Park, situated in a vast valley offering beautiful views over savannah grassland. After lunch and a game drive, retire to the lodge for the night (120 kms, 2 hrs).",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Game drive"],
+                    "distance": "120 kms, 2 hrs"
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Lake Manyara",
+                    "description": "Continue to Lake Manyara Park for lunch game drive and overnight (205 kms, 4 1/2 hrs).",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Game drive"],
+                    "distance": "205 kms, 4.5 hrs"
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Serengeti",
+                    "description": "After breakfast proceed to Gibb's farm for lunch. Continue to Serengeti National Park for the night.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Transfer to Serengeti"]
+                  },
+                  {
+                    "dayNumber": 4,
+                    "title": "Serengeti",
+                    "description": "Full day game viewing in the Serengeti encompassing the largest migratory concentration of plains game in the world.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Full day game drive"]
+                  },
+                  {
+                    "dayNumber": 5,
+                    "title": "Ngorongoro",
+                    "description": "After a morning game drive and breakfast, continue to Olduvai Gorge. Proceed to Ngorongoro for the night (250 kms, 6 hrs).",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Morning game drive", "Olduvai Gorge"],
+                    "distance": "250 kms, 6 hrs"
+                  },
+                  {
+                    "dayNumber": 6,
+                    "title": "Ngorongoro",
+                    "description": "Descend 2000 Ft to the crater floor, for a full day of game viewing amongst the panoply of wildlife.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Full day crater game drive"]
+                  },
+                  {
+                    "dayNumber": 7,
+                    "title": "Return to Arusha",
+                    "description": "After breakfast return to Arusha, arriving before lunch (190 Kms, 4Hrs).",
+                    "meals": ["Breakfast", "Lunch"],
+                    "activities": ["Transfer to Arusha"],
+                    "distance": "190 kms, 4 hrs"
+                  }
+                ]
+              },
+              "notes": [
+                "Tanzania road safaris also originate from Nairobi or Mombasa",
+                "Border formalities at Namanga or Taveta respectively",
+                "Regular flights available from Nairobi and Mombasa to Tanzania"
+              ],
+              "prices": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tanzania-luxury-safaris",
+      "title": "Tanzania Luxury Safaris",
+      "description": "Premium safari experiences in Tanzania",
+      "subcategories": [
+        {
+          "id": "luxury-safari-destinations",
+          "title": "Luxury Safari Destinations",
+          "safaris": [
+            {
+              "id": "taa-13",
+              "slug": "taa-13-ngorongoro-manyara-arusha-4-days",
+              "title": "Ngorongoro - Lake Manyara - Arusha",
+              "destination": "Ngorongoro, Lake Manyara, Arusha",
+              "durationLabel": "4 Days",
+              "description": "A 4-day luxury safari featuring Ngorongoro Crater and Lake Manyara with stays at premium lodges.",
+              "categoryPath": ["Tanzania Luxury Safaris", "Luxury Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/tanzania/luxury/ngorongoro_lodge.jpg",
+                  "alt": "Ngorongoro Wildlife Lodge"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 4,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Ngorongoro Crater",
+                    "description": "Morning departures from Nairobi for Tanzania, crossing the border at Namanga and arriving in Arusha in time for lunch. Continue to the Ngorongoro crater arriving at the Wildlife Lodge, built on the crater rim. Dinner and overnight at Ngorongoro Wildlife Lodge.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Border crossing", "Transfer to Ngorongoro"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Ngorongoro",
+                    "description": "Breakfast at the lodge and descend into the crater floor by special 4-wheel drive vehicle for a full day of game viewing. The magnificent black-maned Lion, elephant, buffalo, and rhino all exist in greater concentration here than anywhere else in Africa. Dinner and overnight at Ngorongoro Wildlife Lodge.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Full day crater game drive"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Lake Manyara",
+                    "description": "Breakfast at Ngorongoro and depart for Lake Manyara Hotel overlooking the Rift valley and the lake. Lunch at the hotel and afternoon game drive in the park around the lake where a great variety of game and birds live including the famous tree climbing lions.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Transfer to Lake Manyara", "Afternoon game drive"]
+                  },
+                  {
+                    "dayNumber": 4,
+                    "title": "Return to Arusha",
+                    "description": "After breakfast proceed to Arusha for Lunch.",
+                    "meals": ["Breakfast", "Lunch"],
+                    "activities": ["Transfer to Arusha"]
+                  }
+                ]
+              },
+              "prices": null
+            },
+            {
+              "id": "taa-14",
+              "slug": "taa-14-lake-manyara-serengeti-ngorongoro-6-days",
+              "title": "Lake Manyara - Serengeti - Ngorongoro Crater",
+              "destination": "Lake Manyara, Serengeti, Ngorongoro",
+              "durationLabel": "6 Days",
+              "description": "A 6-day luxury safari covering the highlights of Tanzania's northern circuit with premium accommodations.",
+              "categoryPath": ["Tanzania Luxury Safaris", "Luxury Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/tanzania/luxury/serengeti_lodge.jpg",
+                  "alt": "Serengeti Lodge"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 6,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Lake Manyara",
+                    "description": "Head west towards Lake Manyara Park. After a game drive proceed to the Lake Manyara Hotel overlooking the great Rift Valley and the shimmering lake.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Serengeti",
+                    "description": "After morning game drive, proceed to the Serengeti Park noticing the change in Terrain from highland forest to open plain. View game enroute to the lodge for overnight.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Morning game drive", "Transfer to Serengeti"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Serengeti",
+                    "description": "Spend the day in the heart of Tanzania's big game viewing country.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Full day game drive"]
+                  },
+                  {
+                    "dayNumber": 4,
+                    "title": "Ngorongoro",
+                    "description": "After morning game drive, continue to Olduvai Gorge to see the famous archeological site. Proceed towards Ngorongoro, where you will spend the night at a lodge overlooking the crater.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Morning game drive", "Olduvai Gorge visit"]
+                  },
+                  {
+                    "dayNumber": 5,
+                    "title": "Ngorongoro",
+                    "description": "Spend a full day in the legendary crater viewing an astonishing array of wildlife.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Full day crater game drive"]
+                  },
+                  {
+                    "dayNumber": 6,
+                    "title": "Return to Arusha",
+                    "description": "Depart for Arusha arriving before lunch.",
+                    "meals": ["Breakfast", "Lunch"],
+                    "activities": ["Transfer to Arusha"]
+                  }
+                ]
+              },
+              "prices": null
+            },
+            {
+              "id": "taa-15",
+              "slug": "taa-15-tarangire-manyara-serengeti-ngorongoro-7-days",
+              "title": "Tarangire - Lake Manyara - Serengeti - Ngorongoro Crater",
+              "destination": "Tarangire, Lake Manyara, Serengeti, Ngorongoro",
+              "durationLabel": "7 Days",
+              "description": "A comprehensive 7-day luxury safari covering all major northern Tanzania parks with premium lodges.",
+              "categoryPath": ["Tanzania Luxury Safaris", "Luxury Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/tanzania/luxury/tarangire_lodge.jpg",
+                  "alt": "Tarangire Lodge"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 7,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Tarangire",
+                    "description": "Morning drive to Tarangire National Park, situated in a vast valley offering beautiful views over savannah grassland. After lunch and a game drive, retire to the lodge for the night.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Lake Manyara",
+                    "description": "Continue to Lake Manyara Park for lunch game drive and overnight.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Game drive"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Serengeti",
+                    "description": "After breakfast, proceed to Gibb's farm for lunch. Continue to Serengeti National Park for the night.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Transfer to Serengeti"]
+                  },
+                  {
+                    "dayNumber": 4,
+                    "title": "Serengeti",
+                    "description": "Full day game viewing in the Serengeti encompassing the largest migratory concentration of plains game in the world.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Full day game drive"]
+                  },
+                  {
+                    "dayNumber": 5,
+                    "title": "Ngorongoro",
+                    "description": "After a morning game drive and breakfast, continue to Olduvai Gorge. Proceed to Ngorongoro for the night.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Morning game drive", "Olduvai Gorge"]
+                  },
+                  {
+                    "dayNumber": 6,
+                    "title": "Ngorongoro",
+                    "description": "Descend 2000 ft to the crater floor, for a full day of game viewing amongst the panoply of wildlife.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Full day crater game drive"]
+                  },
+                  {
+                    "dayNumber": 7,
+                    "title": "Return to Arusha",
+                    "description": "After breakfast, return to Arusha, arriving before lunch.",
+                    "meals": ["Breakfast", "Lunch"],
+                    "activities": ["Transfer to Arusha"]
+                  }
+                ]
+              },
+              "prices": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tanzania-popular-safaris",
+      "title": "Tanzania Popular Safaris",
+      "description": "Most requested Tanzania safari programs",
+      "subcategories": [
+        {
+          "id": "popular-safari-programs",
+          "title": "Popular Safari Programs",
+          "safaris": [
+            {
+              "id": "taa-16",
+              "slug": "taa-16-popular-safari-1",
+              "title": "Tanzania Popular Safari 1",
+              "destination": "Various",
+              "durationLabel": "Variable",
+              "description": "Content to be provided.",
+              "categoryPath": ["Tanzania Popular Safaris", "Popular Safari Programs"],
+              "prices": null
+            },
+            {
+              "id": "taa-17",
+              "slug": "taa-17-popular-safari-2",
+              "title": "Tanzania Popular Safari 2",
+              "destination": "Various",
+              "durationLabel": "Variable",
+              "description": "Content to be provided.",
+              "categoryPath": ["Tanzania Popular Safaris", "Popular Safari Programs"],
+              "prices": null
+            },
+            {
+              "id": "taa-18",
+              "slug": "taa-18-popular-safari-3",
+              "title": "Tanzania Popular Safari 3",
+              "destination": "Various",
+              "durationLabel": "Variable",
+              "description": "Content to be provided.",
+              "categoryPath": ["Tanzania Popular Safaris", "Popular Safari Programs"],
+              "prices": null
+            },
+            {
+              "id": "taa-19",
+              "slug": "taa-19-popular-safari-4",
+              "title": "Tanzania Popular Safari 4",
+              "destination": "Various",
+              "durationLabel": "Variable",
+              "description": "Content to be provided.",
+              "categoryPath": ["Tanzania Popular Safaris", "Popular Safari Programs"],
+              "prices": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tanzania-birding-destinations",
+      "title": "Tanzania Birding Destinations",
+      "description": "Top birding locations in Tanzania with over 1,000 recorded bird species",
+      "intro": "Top birding destinations in Tanzania include the Serengeti, Ngorongoro Crater, Lake Manyara, Tarangire, Ruaha, Selous (Nyerere National Park), the Usambara and Udzungwa Mountains, and areas around Lake Victoria. The best time for birdwatching is generally between November and April, though the dry season is better for combining birding with big game viewing.",
+      "subcategories": [
+        {
+          "id": "birding-locations",
+          "title": "Birding Locations",
+          "safaris": [
+            {
+              "id": "taa-20",
+              "slug": "taa-20-birding-destinations",
+              "title": "Tanzania Birding Destinations",
+              "destination": "Various",
+              "durationLabel": "Variable",
+              "description": "Tanzania offers exceptional birding opportunities with over 1,000 recorded bird species across diverse habitats from coastal forests to mountain highlands.",
+              "categoryPath": ["Tanzania Birding Destinations", "Birding Locations"],
+              "images": [
+                {
+                  "src": "/images/safaris/tanzania/birding/flamingos.jpg",
+                  "alt": "Flamingos in Tanzania"
+                }
+              ],
+              "birdingLocations": [
+                {
+                  "name": "Mount Kilimanjaro",
+                  "description": "Forested between 1,500m and 3,000m with National Park lying above 2,700m. Home to alpine and woodland species including Hill Chat, Scarlet-tufted Malachite Sunbird, Abbott's Starling and Lammergeier.",
+                  "altitude": "1,500m - 3,000m",
+                  "specialSpecies": ["Hill Chat", "Scarlet-tufted Malachite Sunbird", "Abbott's Starling", "Lammergeier"]
+                },
+                {
+                  "name": "Ruaha National Park",
+                  "description": "One of the driest protected areas in Tanzania with over 400 species. Holds important populations of two Tanzanian endemics: Ashy Starling and Yellow-collared Lovebird.",
+                  "speciesCount": "400+",
+                  "endemics": ["Ashy Starling", "Yellow-collared Lovebird"]
+                },
+                {
+                  "name": "Serengeti National Park",
+                  "description": "One of the best-known parks in Africa, between Lake Victoria and Eastern Rift Valley, adjacent to Kenya's Masai Mara. Holds three Tanzanian endemics: Grey-breasted Spurfowl, Fischer's Lovebird, and Rufous-tailed Weaver. Many large flocks of African and Palearctic migrants during peak periods.",
+                  "endemics": ["Grey-breasted Spurfowl", "Fischer's Lovebird", "Rufous-tailed Weaver"]
+                },
+                {
+                  "name": "Selous Game Reserve (Nyerere National Park)",
+                  "description": "In south-east Tanzania, one of the largest protected areas in Africa at 50,000 km2. Numerous miombo endemics occur here. Rufigi River excellent for water birds such as African Skimmer.",
+                  "area": "50,000 km2",
+                  "specialSpecies": ["African Skimmer", "Miombo endemics"]
+                },
+                {
+                  "name": "Ngorongoro Conservation Area",
+                  "description": "Part of crater highlands, altitude from 1,700m at crater floor to 3,000m at rim. Over 500 species including largest known population of Fischer's Lovebird. Important wetlands for Greater and Lesser Flamingo. Black Rhinoceros cradled in scenic caldera.",
+                  "speciesCount": "500+",
+                  "altitude": "1,700m - 3,000m",
+                  "specialSpecies": ["Fischer's Lovebird", "Greater Flamingo", "Lesser Flamingo"]
+                },
+                {
+                  "name": "Dar es Salaam Coast",
+                  "description": "Includes tidal mudflats, river inlets, saltpans, mangroves, thickets, and offshore islands creating diverse habitat with over 450 species. Major importance for migratory waders including Grey Plover, Little Stint, and Curlew Sandpiper.",
+                  "speciesCount": "450+",
+                  "habitat": ["Tidal mudflats", "Mangroves", "Offshore islands"]
+                },
+                {
+                  "name": "Lake Victoria",
+                  "description": "Has four Important Birding Areas important for cormorants, egrets, and herons. Rubondo Island National Park holds Sitatunga and Spotted-necked Otters.",
+                  "specialSpecies": ["Cormorants", "Egrets", "Herons"]
+                },
+                {
+                  "name": "Lake Natron",
+                  "description": "Shallow soda lake on Eastern Rift valley floor, extends 58 km south of Kenyan border. Most important breeding site for majority of world population of Lesser Flamingo. Arid surrounding habitat offers Buff-crested Bustard, Spike-heeled Lark. Excellent for mammals: Gerenuk, Steenbok, occasionally Lesser Kudu.",
+                  "length": "58 km",
+                  "specialSpecies": ["Lesser Flamingo breeding site", "Buff-crested Bustard", "Spike-heeled Lark"]
+                },
+                {
+                  "name": "Mkomazi Game Reserve",
+                  "description": "Holds species at southern limit of range, extending to southern base of South Pare Mountains. Includes Friedmann's Lark, Pygmy Batis, Three-streaked Tchagra, Shelley's Starling, and Pringle's Puffback.",
+                  "specialSpecies": ["Friedmann's Lark", "Pygmy Batis", "Shelley's Starling"]
+                },
+                {
+                  "name": "Kitulo Plateau National Park",
+                  "description": "One of the best places to see Denham's Bustard and Blue Swallow as well as amazing ground orchids.",
+                  "specialSpecies": ["Denham's Bustard", "Blue Swallow"]
+                },
+                {
+                  "name": "Zanzibar",
+                  "description": "Has two Important Birding Areas important for waders and terns including non-breeding populations of Crab-plover. Jozani Forest Reserve contains only remaining forest with endemic races of Fischer's Turaco, Little Greenbul, and Grey Sunbird. East Coast Akalat can be found along with Zanzibar Red Colobus, Ader's Duiker and Pemba Flying Fox.",
+                  "endemics": ["Fischer's Turaco", "Little Greenbul", "Grey Sunbird", "East Coast Akalat"]
+                },
+                {
+                  "name": "Kilombero Floodplain",
+                  "description": "260 km long and up to 52 km wide, one of the largest wetlands in Africa. Confluence of rivers and seasonally-flooded marshes home to rich birdlife including endemic species: Kilombero weaver, Kilombero cisticola, Melodius cisticola, Iringa akalat, and Dappled throated mountain robin.",
+                  "size": "260 km x 52 km",
+                  "endemics": ["Kilombero weaver", "Kilombero cisticola", "Iringa akalat"]
+                },
+                {
+                  "name": "Lindi District Coastal Forests",
+                  "description": "Important for coastal forest birds such as Southern Banded Snake Eagle, East Coast Akalat, Spotted Ground-Thrush, and specialities like Livingstone's Flycatcher.",
+                  "specialSpecies": ["Southern Banded Snake Eagle", "East Coast Akalat", "Livingstone's Flycatcher"]
+                },
+                {
+                  "name": "Pemba Island",
+                  "description": "Lies 55 km off mainland, holds 4 endemic species: Pemba Green Pigeon, Pemba Scops Owl, Pemba Sunbird, and Pemba White-eye.",
+                  "distance": "55 km offshore",
+                  "endemics": ["Pemba Green Pigeon", "Pemba Scops Owl", "Pemba Sunbird", "Pemba White-eye"]
+                },
+                {
+                  "name": "East Usambara Mountains",
+                  "description": "One of most important areas on African mainland for conservation of globally threatened species. Includes Usambara Eagle Owl, Sokoke Scops Owl, Long-billed Tailorbird, Dappled Mountain-Robin, Swynnerton's Robin and Usambara Weaver. West Usambara important for Usambara Akalat, Banded Sunbird, Sharpe's Starling. Best locations: Mazumbai and Magamba.",
+                  "endemics": ["Usambara Eagle Owl", "Long-billed Tailorbird", "Usambara Weaver"]
+                },
+                {
+                  "name": "Uluguru Mountains",
+                  "description": "Halfway between Udzungwa and Dar. Only locality for Uluguru Bush-Shrike and Loveridge's Sunbird plus 5 endemic subspecies. May see Abbott's Duiker, one of rarest African antelopes.",
+                  "endemics": ["Uluguru Bush-Shrike", "Loveridge's Sunbird"]
+                },
+                {
+                  "name": "Udzungwa Mountains",
+                  "description": "South-west of Dar es Salaam. Forest reserves hold Udzungwa Partridge, Dappled Mountain-Robin, Sharpe's Akalat, Olive-flanked Robin-Chat, and White-chested Alethe. Best accessed via spectacular Sanje waterfalls from Udzungwa National Park HQ at Mangula.",
+                  "endemics": ["Udzungwa Partridge", "Sharpe's Akalat"]
+                }
+              ],
+              "bestTime": "November to April for birdwatching, dry season better for combining with big game viewing",
+              "prices": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tanzania-safaris-across-east-africa",
+      "title": "Safaris Across East Africa",
+      "description": "Multi-country safari experiences",
+      "subcategories": [
+        {
+          "id": "east-africa-combinations",
+          "title": "East Africa Safari Combinations",
+          "safaris": [
+            {
+              "id": "taa-21",
+              "slug": "taa-21-kenya-tanzania-11-days",
+              "title": "Kenya / Tanzania Safari",
+              "destination": "Kenya, Tanzania",
+              "durationLabel": "11 Days",
+              "description": "An 11-day safari covering the best of Kenya and Tanzania, including tree hotels, Samburu, Lake Nakuru, Lake Manyara, Serengeti and Ngorongoro Crater.",
+              "categoryPath": ["Safaris Across East Africa", "East Africa Safari Combinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/tanzania/eastafrica/combo.jpg",
+                  "alt": "East Africa Safari"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 11,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Tree Hotel",
+                    "description": "Morning drive to the forested highlands of the Aberdares. After lunch at the base hotel, transfer to your tree hotel for game watching at the floodlit water hole.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Game watching"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Samburu",
+                    "description": "Continue north across the equator to the home of the Samburu people. Marvel at the rugged scenery of isolated crags and springs in this semi arid region. After a game drive, relax in the comfort of your lodge.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Game drive"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Samburu Game Viewing",
+                    "description": "Morning and later afternoon, game drives along the Uaso Nyiro river. In addition to the carnivores, view the rare species of herbivores such as the Beisa oryx or the Grevy zebra.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Morning and afternoon game drives"]
+                  },
+                  {
+                    "dayNumber": 4,
+                    "title": "Lake Nakuru",
+                    "description": "The drive to Lake Nakuru provides stunning vistas between the escarpments of the Rift Valley. During the game drive, behold the amazing sight of candy pink flamingoes lining the waters of the alkaline lake.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Game drive", "Flamingo viewing"]
+                  },
+                  {
+                    "dayNumber": 5,
+                    "title": "Nairobi",
+                    "description": "After breakfast, depart for Nairobi, arriving before lunch. Afternoon at your leisure.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["At leisure"]
+                  },
+                  {
+                    "dayNumber": 6,
+                    "title": "Lake Manyara",
+                    "description": "Cross the border to Tanzania at Namanga, stopping at Arusha for Lunch. Proceed to Lake Manyara for a game drive. Spend the night at the Lake Manyara Hotel.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Border crossing", "Game drive"]
+                  },
+                  {
+                    "dayNumber": 7,
+                    "title": "Serengeti",
+                    "description": "Morning game drive reveals the famous tree climbing lions which spend most of the day along branches of acacia trees. After lunch, proceed to Serengeti Park for the night.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Game drive", "Tree climbing lions"]
+                  },
+                  {
+                    "dayNumber": 8,
+                    "title": "Serengeti Game Viewing",
+                    "description": "Experience an exciting spectacle of the astounding concentrations of game and extensive bird life at home on the Serengeti plains.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Full day game drive"]
+                  },
+                  {
+                    "dayNumber": 9,
+                    "title": "Ngorongoro",
+                    "description": "After a morning game drive in the Serengeti, continue to the 'cradle of Mankind' at Olduvai Gorge. Proceed to Ngorongoro for the night.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Game drive", "Olduvai Gorge visit"]
+                  },
+                  {
+                    "dayNumber": 10,
+                    "title": "Ngorongoro Crater",
+                    "description": "During the day's game drives, discover this legendary crater containing the greatest permanent concentration of wildlife in Africa.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Crater game drive"]
+                  },
+                  {
+                    "dayNumber": 11,
+                    "title": "Return to Nairobi",
+                    "description": "Stopping at Arusha for Lunch, return to Nairobi via Namanga.",
+                    "meals": ["Breakfast", "Lunch"],
+                    "activities": ["Border crossing", "Return transfer"]
+                  }
+                ]
+              },
+              "prices": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
