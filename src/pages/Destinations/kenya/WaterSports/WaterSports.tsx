@@ -1,5 +1,4 @@
 import { waterSportsData } from "./data"
-import { Camera } from "lucide-react";
 
 export default function WaterSports() {
   const data = waterSportsData

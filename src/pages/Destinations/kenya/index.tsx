@@ -4,8 +4,9 @@ import WaterSports from "./WaterSports/WaterSports";
 import TravelInfo from "./TravelInfo"
 import NationalParks from "./NationalParks/NationalParks";
 import Safaris from "./Safaris/Safaris";
+import HikingSafaris from "./Hiking/HikingSafaris";
 import ScrollToTopFAB from "../../../components/ScrollToTopFAB";
-
+import HikingRoutes from "./Hiking/HikingRoutes";
 
 import { Routes, Route, Navigate } from "react-router-dom";
 
@@ -18,6 +19,8 @@ export default function Kenya() {
         <Routes>
           <Route index element={<Navigate to="safaris/" replace />} />
           <Route path="water-sports" element={<WaterSports/>}/>
+          <Route path="hiking" element={<HikingSafaris />} />
+          <Route path="hiking/*" element={<HikingRoutes />} />
           <Route path="national-parks" element={<NationalParks />} />
           <Route path="travel-info" element={<TravelInfo />} />
           <Route path="safaris/*" element={<Safaris />} />

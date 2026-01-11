@@ -1,0 +1,482 @@
+[
+  {
+    "title": "Kenya Mountain Trekking and Hiking Safaris",
+    "requirements": {
+      "intro": "Make sure you have everything you need to help you successfully summit the Roof of Africa with this handy final checklist.",
+      "travelDocuments": [
+        "Valid passport and visa",
+        "Airline ticket",
+        "International health card with immunizations (Yellow Fever)",
+        "Travel insurance",
+        "Medical insurance",
+        "US$ cash / Travelers Cheques / Credit Card"
+      ],
+      "essentialItems": [
+        "Duffel bag - large enough for all climbing gear and clothing (carried by porters)",
+        "Extra bag to be left at the hotel with spare gear",
+        "Small luggage lock",
+        "Day backpack (20-35 litres)",
+        "Sleeping bag",
+        "Ski-pole / walking stick",
+        "Water bottle / containers",
+        "Kilimanjaro map (available at park gate)"
+      ],
+      "highAltitudeGear": [
+        "Waterproof, breathable & windproof jacket (Ventex, Gore-Tex, Jeantex)",
+        "Waterproof, breathable & windproof pants",
+        "Polar fleece (middle layer)",
+        "Thermal underwear",
+        "Mittens or warm gloves",
+        "Glove liners (optional)",
+        "Thermal (Polartec) socks - one pair",
+        "Balaclava",
+        "Gaiters",
+        "Thermal water flask"
+      ],
+      "hikingGear": [
+        "Shorts",
+        "Hiking pants",
+        "Regular underwear",
+        "T-shirts",
+        "Raincoat or poncho"
+      ],
+      "footwear": [
+        "Water-resistant semi-stiff hiking boots",
+        "Shoes for overnight camps (sneakers / running shoes)",
+        "Several pairs of socks",
+        "Liner socks to reduce blisters"
+      ],
+      "equipment": [
+        "Sun hat with brim",
+        "Collapsible ski stick (optional but recommended)",
+        "Water bottles (total capacity at least 6 litres)",
+        "Headlamp with spare batteries and bulb",
+        "Water purification tablets",
+        "Sunglasses with dark lenses and securing strap",
+        "Flashlight (torch) with spare batteries"
+      ],
+      "personalItems": [
+        "Toiletries (soap, toothbrush, wet wipes, etc.)",
+        "Towel",
+        "Sunscreen and lip protection (SPF 30+)",
+        "Ziploc bags for camera and electronics",
+        "Toilet paper",
+        "Money belt for passport and valuables"
+      ],
+      "medicalAndFirstAid": [
+        "Headaches - Syndol",
+        "Altitude sickness - Diamox (if not allergic to sulpha)",
+        "Diarrhoea - Imodium",
+        "Nausea - Valoid",
+        "Malaria prophylaxis",
+        "Painkillers",
+        "Supplies for sprains, blisters, cuts (plasters, bandages)",
+        "Antiseptic cream (Betadine)",
+        "Flu and cold medication",
+        "Eyedrops",
+        "Insect repellent"
+      ],
+      "optionalItems": [
+        "Camera, extra lenses and film",
+        "Binoculars",
+        "Powdered sports / isotonic drinks",
+        "Pocket knife",
+        "Notebook and pencil",
+        "Plastic bags to keep clothing dry",
+        "Energy snacks and sweets",
+        "Video camera, batteries and tripod"
+      ]
+    },
+    "destinations": {
+      "heading": "Hiking and Trekking Safari Destinations",
+      "safaris": [
+        {
+          "code": "kaa-hiking-001",
+          "title": "Mt. Kenya Hiking and Trekking",
+          "duration": "4 Days",
+          "route": "Sirimon Out Sirimon Route",
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "title": "Nairobi - Sirimon Gate - Old Moses",
+              "description": "Depart Nairobi at 7:00 am for Sirimon Park Gate. After park formalities, trek 9 km (3-4 hours), ascending 690 metres to Old Moses Camp. Dinner and overnight at the camp."
+            },
+            {
+              "day": "Day 2",
+              "title": "Old Moses - Shiptons Camp",
+              "description": "Trek 14 km (6-7 hours), ascending 890 metres to Shiptons Camp. Dinner and overnight at the camp."
+            },
+            {
+              "day": "Day 3",
+              "title": "Summit Day",
+              "description": "Trek 3-5 hours, ascending 755 metres to Point Lenana to witness sunrise. Descend back to Old Moses Camp. Dinner and overnight."
+            },
+            {
+              "day": "Day 4",
+              "title": "Old Moses - Nairobi",
+              "description": "After breakfast descend to Sirimon Park Gate and transfer to Nairobi, arriving in the evening."
+            }
+          ],
+          "pricing": {
+            "seasons": [
+              "Low season (Jan - June)",
+              "Peak season (July - Dec)"
+            ],
+            "paxCategories": [
+              "1-2 Pax",
+              "3-4 Pax",
+              "5-6 Pax",
+              "7-8 Pax"
+            ],
+            "note": "Prices available on request"
+          }
+        },
+        {
+          "code": "kaa-hiking-002",
+          "title": "Mt. Kenya Traverse",
+          "duration": "5 Days",
+          "route": "Sirimon Out Naro Moru Traverse",
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "title": "Nairobi - Sirimon Gate - Old Moses Camp",
+              "description": "Depart Nairobi at 7:00 am and drive to Sirimon Park Gate. Trek to Old Moses Camp. Dinner and overnight."
+            },
+            {
+              "day": "Day 2",
+              "title": "Old Moses Camp - Shiptons Camp",
+              "description": "Trek 13 km (6-7 hours), ascending 890 metres to Shiptons Camp. Dinner and overnight at Mackinder\u00e2\u20ac\u2122s Camp."
+            },
+            {
+              "day": "Day 3",
+              "title": "Shiptons - Mackinders Camp",
+              "description": "Hike through the western circuit via Hausberg Col and Two Tarn to Mackinders Camp. Distance 8 km, 5-6 hours. Dinner and overnight."
+            },
+            {
+              "day": "Day 4",
+              "title": "Mackinders - Summit - Met Station Camp",
+              "description": "Early morning summit attempt to Point Lenana (4-5 hours). Descend approximately 12 km to Met Station Camp with lunch en route. Dinner and overnight."
+            },
+            {
+              "day": "Day 5",
+              "title": "Met Station - Naro Moru Gate - Nairobi",
+              "description": "After breakfast descend to Naro Moru Gate and transfer back to Nairobi, arriving in the afternoon."
+            }
+          ],
+          "notes": "We acknowledge and accommodate route changes recommended by our clients."
+        },
+        {
+          "code": "kaa-hiking-003",
+          "title": "MT. KENYA : NAROMORU ROUTE",
+          "duration": "4 Days",
+          "route": "Naro Moru Route",
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "title": "NAIROBI - MET STATION",
+              "description": "Depart Nairobi at 7:00 am for Naro Moru Park Gate. After park formalities, trek 10 km (4-5 hours), ascending 900 metres to Met Station Camp. Dinner and overnight at the camp."
+            },
+            {
+              "day": "Day 2",
+              "title": "MET STATION - MACKINDERS CAMP",
+              "description": "Trek 8 km (5-6 hours), ascending 950 metres to Mackinders Camp. Dinner and overnight at the camp."
+            },
+            {
+              "day": "Day 3",
+              "title": "SUMMIT DAY",
+              "description": "Trek 4-5 hours, ascending 755 metres to Point Lenana to witness sunrise. Descend back to Met Station Camp. Dinner and overnight."
+            },
+            {
+              "day": "Day 4",
+              "title": "MACKINDERS CAMP - NAIROBI",
+              "description": "After breakfast descend further down to Naromoru Park Gate where you are transferred to Nairobi arriving in the evening."
+            }
+          ],
+          "pricing": {
+            "seasons": [
+              "Low season (Jan - June)",
+              "Peak season (July - Dec)"
+            ],
+            "paxCategories": [
+              "1-2 Pax",
+              "3-4 Pax",
+              "5-6 Pax",
+              "7-8 Pax"
+            ],
+            "note": "Prices available on request"
+          }
+        },
+        {
+          "code": "kaa-hiking-004",
+          "title": "Mt KENYA BATIAN TECHNICAL CLIMBING",
+          "duration": "8 Days",
+          "route": "Batian Route",
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "title": "NAIROBI - NANYUKI",
+              "description": "Depart Nairobi at 8:00 am for Nanyuki. Overnight at a hotel."
+            },
+            {
+              "day": "Day 2",
+              "title": "NANYUKI - SIRIMON GATE - OLD MOSES CAMP ( JUDIMEIRS )",
+              "description": "After breakfast drive to Sirimon Park Gate. Trek 9 km (3-4 hours), ascending 690 metres to Old Moses Camp. Dinner and overnight at the camp."
+            },
+            {
+              "day": "Day 3",
+              "title": "OLD MOSES CAMP - SHIPTONS CAMP",
+              "description": "After breakfast we hike via Likii and mackinders valley with lunch en route to shiptons camp 4200 mtrs 6-7 hrs 14 km for dinner/ overnight."
+            },
+            {
+              "day": "Day 4",
+              "title": "SHIPTONS CAMP",
+              "description": "This day after b/fast the client will walk to the climbing base explore the route as well as take their equipment ready to start the climb following day. Lunch, dinner and overnight at shiptons camp 4200 mts."
+            },
+            {
+              "day": "Day 5",
+              "title": "SUMMIT DAYS",
+              "description": "Start the climb early in the morning to reach the summit of batian 5199 mtrs via the normal route (6-8 hrs) then descend back to shiptons camp for lunch dinner and overnight."
+            },
+            {
+              "day": "Day 6",
+              "title": "SUMMIT DAYS",
+              "description": "Start the climb early in the morning to reach the summit of batian 5199 mtrs via the normal route (6-8 hrs) then descend back to shiptons camp for lunch dinner and overnight."
+            },
+            {
+              "day": "Day 7",
+              "title": "NANYUKI/ NARO MORU",
+              "description": "After breakfast descend to Naro moru park gate and transfer to Nanyuki for overnight at a hotel."
+            },
+            {
+              "day": "Day 8",
+              "title": "NANYUKI - NAIROBI",
+              "description": "After breakfast drive back to Nairobi arriving in the afternoon."
+            }
+          ],
+          "pricing": {
+            "seasons": [
+              "Low season (Jan - June)",
+              "Peak season (July - Dec)"
+            ],
+            "paxCategories": [
+              "1-2 Pax",
+              "3-4 Pax",
+              "5-6 Pax",
+              "7-8 Pax"
+            ],
+            "note": "Prices available on request"
+          }
+        },
+        {
+          "code": "kaa-hiking-005",
+          "title": "MT. KENYA: IN SIRIMON - OUT NARO MORU",
+          "duration": "6 Days",
+          "route": "Sirimon Out Naro Moru Route",
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "title": "ARRIVAL NAIROBI - NANYUKI",
+              "description": "Meet and greet at the Airport and later depart and drive North to Naromoru town and transferred to Mountain rock Hotel or Equivalent for dinner and overnight."
+            },
+            {
+              "day": "Day 2",
+              "title": "NANYUKI - SIRIMON GATE - OLD MOSES CAMP",
+              "description": "After breakfast drive to Sirimon Park Gate. Trek 9 km (3-4 hours), ascending 690 metres to Old Moses Camp. Dinner and overnight at the camp."
+            },
+            {
+              "day": "Day 3",
+              "title": "OLD MOSES CAMP - SHIPTONS CAMP",
+              "description": "Trek 14 km (6-7 hours), ascending 890 metres to Shiptons Camp. Dinner and overnight at the camp."
+            },
+            {
+              "day": "Day 4",
+              "title": "SHIPTONS CAMP - MACKINDERS CAMP",
+              "description": "Hike through the western circuit via Hausberg Col and Two Tarn to Mackinders Camp. Distance 8 km, 5-6 hours. Dinner and overnight."
+            },
+            {
+              "day": "Day 5",
+              "title": "SUMMIT DAY",
+              "description": "Wake up at 2.30 am  and ascend to Point Lenana arriving  early  in the morning to witness the sunrise. Trek down to Mackinders for breakfast and then further more to Met station.  Dinner and overnight at the camp."
+            },
+            {
+              "day": "Day 6",
+              "title": "MET STATION - NAIROBI",
+              "description": "After breakfast descend further down to Naromoru Park Gate where you are transferred to Nairobi having lunch en-route arriving in the evening at the Airport for your onward flight."
+            }
+          ],
+          "pricing": {
+            "seasons": [
+              "Low season (Jan - June)",
+              "Peak season (July - Dec)"
+            ],
+            "paxCategories": [
+              "1-2 Pax",
+              "3-4 Pax",
+              "5-6 Pax",
+              "7-8 Pax"
+            ],
+            "note": "Prices available on request"
+          }
+        },
+        {
+          "code": "kaa-hiking-006",
+          "title": "MT. KENYA: IN NARO MORU - OUT CHOGORIA",
+          "duration": "6 Days",
+          "route": "Naromoru - Chogoria Route",
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "title": "NAIROBI - NANYUKI",
+              "description": "Meet and greet at the Airport and later depart and drive North to Naromoru town and transferred to Mountain Rock Hotel or equivalent for dinner and overnight."
+            },
+            {
+              "day": "Day 2",
+              "title": "NANYUKI - NARO MORU GATE - MET STATION",
+              "description": "Depart at 7.00 am for Naromoru Park Gate. After park formalities trek 10 km (3-4 hours), ascending 690 metres to Met Station. Dinner and overnight at the camp."
+            },
+            {
+              "day": "Day 3",
+              "title": "MET STATION - MACKINDERS CAMP",
+              "description": "After breakfast, continue ascending to Mackinders Camp. Dinner and overnight at the camp."
+            },
+            {
+              "day": "Day 4",
+              "title": "MACKINDERS CAMP - SUMMIT - MINTOS HUT",
+              "description": "Wake up at 2.30 am and ascend to Point Lenana to witness sunrise. Descend to Mintos Hut for breakfast and relaxation. Dinner and overnight at the camp."
+            },
+            {
+              "day": "Day 5",
+              "title": "MINTOS HUT - MERU BANDAS",
+              "description": "After breakfast descend to Meru Bandas for lunch. Afternoon at leisure. Dinner and overnight at the bandas."
+            },
+            {
+              "day": "Day 6",
+              "title": "MERU BANDAS - CHOGORIA - NAIROBI",
+              "description": "Descend to Chogoria town with an option of walking or using a 4x4 vehicle. Lunch en-route, then drive to Nairobi Airport for outbound flight."
+            }
+          ],
+          "pricing": {
+            "seasons": [
+              "Low season (Jan - June)",
+              "Peak season (July - Dec)"
+            ],
+            "paxCategories": [
+              "1-2 Pax",
+              "3-4 Pax",
+              "5-6 Pax",
+              "7-8 Pax"
+            ],
+            "note": "Prices available on request"
+          }
+        },
+        {
+          "code": "kaa-hiking-007",
+          "title": "MT. KENYA: SIRIMON - OUT CHOGORIA",
+          "duration": "6 Days",
+          "route": "Sirimon - Chogoria Route",
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "title": "NAIROBI - NANYUKI",
+              "description": "Meet and greet at the Airport and drive north to Naromoru town. Dinner and overnight at Mountain Rock Hotel or equivalent."
+            },
+            {
+              "day": "Day 2",
+              "title": "NANYUKI - SIRIMON GATE - OLD MOSES CAMP",
+              "description": "Drive to Sirimon Park Gate (2600m). After park formalities hike to Old Moses (Judmeirs) Camp at 3300m, taking 3-4 hours."
+            },
+            {
+              "day": "Day 3",
+              "title": "OLD MOSES CAMP - SHIPTONS CAMP",
+              "description": "After breakfast hike to Shiptons Camp (4200m). Lunch en route. Dinner and overnight at the camp. Trek takes 6-7 hours."
+            },
+            {
+              "day": "Day 4",
+              "title": "SHIPTONS CAMP - ACCLIMATIZATION",
+              "description": "Acclimatization day at Shiptons Camp. Rest day to prepare for summit. Dinner and overnight at Shiptons Camp."
+            },
+            {
+              "day": "Day 5",
+              "title": "SUMMIT DAY - MERU BANDAS",
+              "description": "Attempt Point Lenana (4985m). Descend via Mintos for breakfast, then continue to Meru Bandas. Lunch en route. Dinner and overnight at the lodge. 8-9 hours."
+            },
+            {
+              "day": "Day 6",
+              "title": "MERU BANDAS - CHOGORIA - NAIROBI",
+              "description": "Descend through bamboo and rainforest to meet vehicle for transfer to Chogoria town, then proceed to Nairobi arriving in the evening. Transfer to airport."
+            }
+          ],
+          "pricing": {
+            "seasons": [
+              "Low season (Jan - June)",
+              "Peak season (July - Dec)"
+            ],
+            "paxCategories": [
+              "1-2 Pax",
+              "3-4 Pax",
+              "5-6 Pax",
+              "7-8 Pax"
+            ],
+            "note": "Prices available on request"
+          }
+        },
+        {
+          "code": "kaa-hiking-008",
+          "title": "MT. KENYA: IN SIRIMON - OUT CHOGORIA",
+          "duration": "7 Days",
+          "route": "Sirimon - Chogoria Route",
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "title": "NAIROBI - NANYUKI",
+              "description": "Meet and greet at the Airport and drive north to Naromoru town. Dinner and overnight at Mountain Rock Hotel or equivalent."
+            },
+            {
+              "day": "Day 2",
+              "title": "NANYUKI - SIRIMON GATE - OLD MOSES CAMP",
+              "description": "Drive to Sirimon Park Gate and trek to Old Moses Camp. Dinner and overnight."
+            },
+            {
+              "day": "Day 3",
+              "title": "OLD MOSES CAMP - SHIPTONS CAMP",
+              "description": "Trek 13 km (6-7 hours), ascending 890 metres to Shiptons Camp. Dinner and overnight."
+            },
+            {
+              "day": "Day 4",
+              "title": "SHIPTONS CAMP - MACKINDERS CAMP",
+              "description": "Hike via Hausberg Col and Two Tarn to Mackinders Camp (4300m). Distance 8 km, 5-6 hours."
+            },
+            {
+              "day": "Day 5",
+              "title": "SUMMIT DAY",
+              "description": "Early morning ascent to Point Lenana for sunrise. Descend to Meru Bandas for breakfast and relaxation. Dinner and overnight."
+            },
+            {
+              "day": "Day 6",
+              "title": "MERU BANDAS - CHOGORIA - NAIROBI",
+              "description": "Descend to Chogoria town with walking or 4x4 option. Lunch en-route then drive to Nairobi. Dinner and overnight at hotel."
+            },
+            {
+              "day": "Day 7",
+              "title": "DEPARTURE",
+              "description": "Breakfast at the hotel, check-out and transfer to the airport for outbound flight."
+            }
+          ],
+          "pricing": {
+            "seasons": [
+              "Low season (Jan - June)",
+              "Peak season (July - Dec)"
+            ],
+            "paxCategories": [
+              "1-2 Pax",
+              "3-4 Pax",
+              "5-6 Pax",
+              "7-8 Pax"
+            ],
+            "note": "Prices available on request"
+          }
+        }
+      ]
+    }
+  }
+]

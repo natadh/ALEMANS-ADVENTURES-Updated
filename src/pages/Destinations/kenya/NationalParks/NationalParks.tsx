@@ -3,10 +3,11 @@ import { nationalParksData } from "./NationalParksInfo";
 import { popularParksData } from "./PopularParksInfo";
 import { conservanciesData } from "./ConservanciesInfo";
 import type { ParkSection } from "./NationalParksInfo";
+type ParkCategory = "national" | "popular" | "conservancies";
 
 export default function NationalParks() {
   const [activeIndex, setActiveIndex] = useState(0);
-  const [category, setCategory] = useState<"national" | "popular" | "conservancies">("national");
+  const [category, setCategory] = useState<ParkCategory>("national");  
   const [showDropdown, setShowDropdown] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
@@ -24,11 +25,16 @@ export default function NationalParks() {
     setIsSidebarOpen(false);
   };
 
-  const handleCategoryChange = (newCategory: typeof category) => {
+  const handleCategoryChange = (newCategory: ParkCategory) => {
     setCategory(newCategory);
     setActiveIndex(0);
     setShowDropdown(false);
   };
+  const CATEGORY_OPTIONS: { label: string; value: ParkCategory }[] = [
+    { label: "National Parks", value: "national" },
+    { label: "Popular Parks", value: "popular" },
+    { label: "Conservancies", value: "conservancies" },
+  ];
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
@@ -150,28 +156,18 @@ export default function NationalParks() {
             shadow-lg
             z-50
           ">
-            {[
-              { label: "National Parks", value: "national" },
-              { label: "Popular Parks", value: "popular" },
-              { label: "Conservancies", value: "conservancies" },
-            ].map((item) => (
+            {CATEGORY_OPTIONS.map((item) => (
               <button
                 key={item.value}
-                className="
-                  w-full text-left
-                  px-4 py-3
-                  text-white
-                  uppercase tracking-wide text-sm
-                  border-b border-white/10
-                  transition-colors
-                  hover:bg-white
-                  hover:text-[#1A0A0B]
-                "
                 onClick={() => handleCategoryChange(item.value)}
+                className="w-full text-left px-4 py-3 text-white uppercase tracking-wide text-sm
+                          border-b border-white/10 transition-colors
+                          hover:bg-white hover:text-[#1A0A0B]"
               >
                 {item.label}
               </button>
             ))}
+
           </div>
         )}
       </div>

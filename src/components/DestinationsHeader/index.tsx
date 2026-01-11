@@ -31,7 +31,7 @@ export default function DestinationsHeader({
     Kenya: {
       "Tours and Safaris": "safaris",
       "National Parks": "national-parks",
-      "Hiking & Trekking": "trekking-hiking",
+      "Hiking & Trekking": "hiking",
       "Cultural & Sports": "cultural-sports",
       "Beach & Water Sports": "water-sports",
       "Bird Watching": "bird-watching",
@@ -44,6 +44,9 @@ export default function DestinationsHeader({
     },
     Uganda: {
       "Safaris": "safaris",
+      "Bird Watching": "bird-watching",
+      "Water Rafting": "rafting",
+      "Hiking & Trekking": "hiking",
       "National Parks": "national-parks",
       "Travel Info": "travel-info",
     },
