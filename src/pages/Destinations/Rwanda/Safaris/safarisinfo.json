@@ -1,0 +1,439 @@
+{
+  "categories": [
+    {
+      "id": "rwanda-excursions",
+      "title": "Rwanda Excursions",
+      "description": "Day trips and short excursions in Rwanda",
+      "subcategories": [
+        {
+          "id": "kigali-excursions",
+          "title": "Kigali Excursions",
+          "safaris": [
+            {
+              "id": "raa-01",
+              "slug": "raa-01-kigali-city-tour",
+              "title": "Kigali City Tour",
+              "destination": "Kigali",
+              "durationLabel": "1 Day",
+              "description": "Visit Kigali Genocide Memorial, Kimironko Market, and enjoy ziplining or horse riding. Experience the vibrant capital city of Rwanda with cultural and adventure activities.",
+              "categoryPath": ["Rwanda Excursions", "Kigali Excursions"],
+              "images": [
+                {
+                  "src": "/images/safaris/rwanda/excursions/kigali_memorial.jpg",
+                  "alt": "Kigali Genocide Memorial"
+                },
+                {
+                  "src": "/images/safaris/rwanda/excursions/kimironko_market.jpg",
+                  "caption": "Kimironko Market"
+                }
+              ],
+              "highlights": [
+                "Kigali Genocide Memorial Centre",
+                "Kimironko Market experience",
+                "Ziplining or horse riding activities",
+                "Local lunch at traditional restaurant",
+                "City panoramic views"
+              ],
+              "prices": null
+            },
+            {
+              "id": "raa-02",
+              "slug": "raa-02-kigali-gorilla-trekking-1-day",
+              "title": "Kigali & Gorilla Trekking",
+              "destination": "Kigali, Volcanoes National Park",
+              "durationLabel": "1 Day",
+              "description": "Explore the vibrant city of Kigali with a guided city tour, followed by a thrilling 1-day gorilla trekking adventure in Volcanoes National Park. Perfect for a quick but unforgettable wildlife encounter.",
+              "categoryPath": ["Rwanda Excursions", "Kigali Excursions"],
+              "images": [
+                {
+                  "src": "/images/safaris/rwanda/volcanoes/gorilla.jpg",
+                  "alt": "Mountain Gorilla"
+                }
+              ],
+              "highlights": [
+                "Guided Kigali city tour",
+                "Gorilla trekking in Volcanoes National Park",
+                "Quick but unforgettable wildlife encounter",
+                "Professional guide",
+                "Gorilla permit included"
+              ],
+              "prices": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rwanda-budget-safaris",
+      "title": "Rwanda Budget Safaris",
+      "description": "Affordable safari experiences in the Land of a Thousand Hills",
+      "intro": "Rwanda is not your average safari destination. Unlike most other countries on Africa's safari circuit, it is relatively small in area, it supports a greater amount of forest than savannah, and its number one attraction is primate watching. Volcanoes National Park is probably the best place anywhere to track mountain gorillas, a bucket-list activity that many would regard to be the world's most engaging wildlife encounter. Other activities offered in Rwanda include chimp trekking, golden monkey trekking and forest walks in biodiverse Nyungwe National Park. Furthermore, while Rwanda isn't widely associated with the Big Five, its underrated Akagera National Park is now home to the full deck of lion, leopard, elephant, buffalo, black rhino and white rhino.",
+      "subcategories": [
+        {
+          "id": "budget-safari-destinations",
+          "title": "Budget Safari Destinations",
+          "safaris": [
+            {
+              "id": "raa-03",
+              "slug": "raa-03-kigali-gorilla-trekking-2-days",
+              "title": "Kigali & Gorilla Trekking",
+              "destination": "Kigali, Volcanoes National Park",
+              "durationLabel": "2 Days",
+              "description": "Explore the vibrant city of Kigali with a guided city tour, followed by a thrilling 1-day gorilla trekking adventure in Volcanoes National Park. Perfect for a quick but unforgettable wildlife encounter.",
+              "categoryPath": ["Rwanda Budget Safaris", "Budget Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/rwanda/volcanoes/trekking.jpg",
+                  "alt": "Gorilla Trekking"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 2,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Kigali City Tour",
+                    "description": "Explore the vibrant city of Kigali with a guided city tour including visits to Kigali Genocide Memorial, local markets, and cultural sites.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["City tour", "Cultural visits"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Gorilla Trekking - Volcanoes National Park",
+                    "description": "Early morning departure for Volcanoes National Park. After briefing, trek through the forest to encounter mountain gorillas in their natural habitat. Return to Kigali in the evening.",
+                    "meals": ["Breakfast", "Lunch"],
+                    "activities": ["Gorilla trekking", "Return to Kigali"]
+                  }
+                ]
+              },
+              "highlights": [
+                "Guided Kigali city tour",
+                "Kigali Genocide Memorial visit",
+                "Mountain gorilla trekking",
+                "Professional guide",
+                "Quick but memorable experience"
+              ],
+              "prices": null
+            },
+            {
+              "id": "raa-04",
+              "slug": "raa-04-gorilla-experience-3-days",
+              "title": "Gorilla Experience",
+              "destination": "Volcanoes National Park",
+              "durationLabel": "3 Days",
+              "description": "Spend the day trekking gorillas in Volcanoes National Park and enjoy a visit to see the golden monkeys or hike the famous Dian Fossey trail. Ideal for wildlife enthusiasts wanting an authentic Rwandan gorilla experience.",
+              "categoryPath": ["Rwanda Budget Safaris", "Budget Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/rwanda/volcanoes/golden_monkeys.jpg",
+                  "alt": "Golden Monkeys"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 3,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Arrival - Transfer to Volcanoes",
+                    "description": "Pick up from Kigali and transfer to Volcanoes National Park. Check in at lodge and relax for the evening. Optional village walk.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Transfer to Volcanoes", "Optional village walk"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Gorilla Trekking",
+                    "description": "Early morning briefing followed by gorilla trekking in Volcanoes National Park. Spend up to one hour with the gorilla family. Return to lodge for lunch and relaxation.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Gorilla trekking"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Golden Monkeys or Dian Fossey Trail",
+                    "description": "Morning activity: either golden monkey trekking or hike the Dian Fossey trail. Transfer back to Kigali after lunch.",
+                    "meals": ["Breakfast", "Lunch"],
+                    "activities": ["Golden monkey trekking or Dian Fossey trail", "Transfer to Kigali"]
+                  }
+                ]
+              },
+              "highlights": [
+                "Mountain gorilla trekking",
+                "Golden monkey viewing",
+                "Dian Fossey trail option",
+                "Authentic Rwandan experience",
+                "Professional guides"
+              ],
+              "prices": null
+            },
+            {
+              "id": "raa-05",
+              "slug": "raa-05-akagera-safari-3-days",
+              "title": "Akagera Safari",
+              "destination": "Akagera National Park",
+              "durationLabel": "3 Days",
+              "description": "Discover Rwanda's Big Five on a game drive through Akagera National Park, complemented by scenic landscapes and diverse wildlife. A perfect escape for safari lovers with limited time.",
+              "categoryPath": ["Rwanda Budget Safaris", "Budget Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/rwanda/akagera/wildlife.jpg",
+                  "alt": "Akagera Wildlife"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 3,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Transfer to Akagera",
+                    "description": "Pick up from Kigali and transfer to Akagera National Park. Afternoon game drive. Check in at lodge for dinner and overnight.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Transfer to Akagera", "Afternoon game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Full Day Akagera Safari",
+                    "description": "Full day game drive in Akagera National Park. Search for the Big Five: lion, leopard, elephant, buffalo, and rhino. Picnic lunch in the park.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Full day game drive", "Big Five search"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Morning Game Drive - Return to Kigali",
+                    "description": "Early morning game drive. Return to lodge for breakfast, then transfer back to Kigali.",
+                    "meals": ["Breakfast", "Lunch"],
+                    "activities": ["Morning game drive", "Transfer to Kigali"]
+                  }
+                ]
+              },
+              "highlights": [
+                "Big Five wildlife viewing",
+                "Scenic landscapes",
+                "Diverse wildlife",
+                "Boat safari option",
+                "Perfect for limited time"
+              ],
+              "prices": null
+            },
+            {
+              "id": "raa-06",
+              "slug": "raa-06-wildlife-safari-7-days",
+              "title": "Wildlife Safari",
+              "destination": "Akagera, Volcanoes, Nyungwe",
+              "durationLabel": "7 Days",
+              "description": "A complete safari adventure. Search for the Big Five in Akagera, trek gorillas in Volcanoes, and walk the canopy bridges of Nyungwe Forest.",
+              "categoryPath": ["Rwanda Budget Safaris", "Budget Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/rwanda/nyungwe/canopy.jpg",
+                  "alt": "Nyungwe Canopy Walk"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 7,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Arrival Kigali - Transfer to Akagera",
+                    "description": "Pick up from Kigali and transfer to Akagera National Park. Afternoon game drive. Overnight at lodge.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Transfer", "Afternoon game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Full Day Akagera Safari",
+                    "description": "Full day exploring Akagera National Park. Search for Big Five and other wildlife. Boat safari on Lake Ihema.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Full day game drive", "Boat safari"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Transfer to Volcanoes National Park",
+                    "description": "Morning game drive in Akagera. After lunch, transfer to Volcanoes National Park. Evening at leisure.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Morning game drive", "Transfer to Volcanoes"]
+                  },
+                  {
+                    "dayNumber": 4,
+                    "title": "Gorilla Trekking",
+                    "description": "Early morning gorilla trekking in Volcanoes National Park. Spend one hour with mountain gorillas. Afternoon at leisure or optional village visit.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Gorilla trekking", "Optional village visit"]
+                  },
+                  {
+                    "dayNumber": 5,
+                    "title": "Golden Monkeys - Transfer to Nyungwe",
+                    "description": "Morning golden monkey trekking or Dian Fossey trail. After lunch, transfer to Nyungwe Forest National Park.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Golden monkey trekking", "Transfer to Nyungwe"]
+                  },
+                  {
+                    "dayNumber": 6,
+                    "title": "Nyungwe Canopy Walk & Chimpanzee Trekking",
+                    "description": "Morning chimpanzee trekking in Nyungwe Forest. Afternoon canopy walk 50 meters above the forest floor. Nature walks.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Chimpanzee trekking", "Canopy walk"]
+                  },
+                  {
+                    "dayNumber": 7,
+                    "title": "Return to Kigali",
+                    "description": "Morning nature walk or waterfall visit. Transfer back to Kigali with scenic stops along the way.",
+                    "meals": ["Breakfast", "Lunch"],
+                    "activities": ["Nature walk", "Transfer to Kigali"]
+                  }
+                ]
+              },
+              "highlights": [
+                "Big Five in Akagera",
+                "Mountain gorilla trekking",
+                "Golden monkey viewing",
+                "Nyungwe canopy walk",
+                "Chimpanzee trekking",
+                "Complete Rwanda experience"
+              ],
+              "prices": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rwanda-luxury-safaris",
+      "title": "Rwanda Luxury Safaris",
+      "description": "Premium safari experiences in the Land of a Thousand Hills",
+      "subcategories": [
+        {
+          "id": "luxury-safari-destinations",
+          "title": "Luxury Safari Destinations",
+          "intro": "Gorilla tours in Rwanda and Uganda enable visitors meet endangered mountain gorillas face-to-face in their natural habitat. A well-organised gorilla safari will get you in touch with one of the habituated gorilla families in either Bwindi impenetrable national park in Uganda or Volcanoes national park in Rwanda. Unlike other wildlife experiences, gorilla trekking is only available in these two destinations in the whole world. This is because mountain gorillas can only be found here and have not survived in any other place across the globe.",
+          "safaris": [
+            {
+              "id": "raa-07",
+              "slug": "raa-07-land-of-thousand-hills",
+              "title": "Rwanda: Land of a Thousand Hills",
+              "destination": "Volcanoes, Akagera, Nyungwe, Lake Kivu",
+              "durationLabel": "Variable",
+              "description": "Discover the land of a thousand hills with gorilla trekking, wildlife safaris, and vibrant culture. Experience Volcanoes National Park, Akagera National Park, Nyungwe Forest and the beautiful Lake Kivu.",
+              "categoryPath": ["Rwanda Luxury Safaris", "Luxury Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/rwanda/luxury/volcanoes.jpg",
+                  "alt": "Volcanoes National Park"
+                },
+                {
+                  "src": "/images/safaris/rwanda/luxury/lake_kivu.jpg",
+                  "caption": "Lake Kivu"
+                }
+              ],
+              "highlights": [
+                "Mountain Gorilla Trekking",
+                "Big 5 Wildlife Safari",
+                "Cultural Experiences",
+                "Nyungwe Canopy Walk",
+                "Lake Kivu relaxation",
+                "Luxury lodge accommodations",
+                "Professional guides",
+                "All-inclusive experience"
+              ],
+              "experiences": [
+                {
+                  "title": "Volcanoes National Park",
+                  "description": "World-class mountain gorilla trekking experience with luxury lodge accommodation"
+                },
+                {
+                  "title": "Akagera National Park",
+                  "description": "Big Five wildlife safari with scenic landscapes and boat safaris"
+                },
+                {
+                  "title": "Nyungwe Forest",
+                  "description": "Chimpanzee trekking and spectacular canopy walk experience"
+                },
+                {
+                  "title": "Lake Kivu",
+                  "description": "Relaxation on beautiful lake shores with water activities and stunning views"
+                }
+              ],
+              "prices": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rwanda-flying-safaris",
+      "title": "Rwanda Flying Safaris",
+      "description": "Domestic flight connections for seamless safari experiences",
+      "subcategories": [
+        {
+          "id": "flying-safari-destinations",
+          "title": "Flying Safari Destinations",
+          "safaris": [
+            {
+              "id": "raa-08",
+              "slug": "raa-08-nyungwe-flying-safari-3-days",
+              "title": "Nyungwe Flying Safari",
+              "destination": "Nyungwe Forest",
+              "durationLabel": "3 Days",
+              "description": "Trek chimpanzees and explore Nyungwe's canopy walkway with flights via Kamembe. Experience the best of Nyungwe Forest with convenient air access.",
+              "categoryPath": ["Rwanda Flying Safaris", "Flying Safari Destinations"],
+              "images": [
+                {
+                  "src": "/images/safaris/rwanda/flying/nyungwe_aerial.jpg",
+                  "alt": "Aerial View Nyungwe"
+                },
+                {
+                  "src": "/images/safaris/rwanda/nyungwe/canopy_walk.jpg",
+                  "caption": "Nyungwe Canopy Walk"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 3,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Flight to Kamembe - Transfer to Nyungwe",
+                    "description": "Morning flight from Kigali to Kamembe Airport. Transfer to luxury lodge in Nyungwe Forest. Afternoon nature walk to explore the forest. Evening at leisure.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Flight to Kamembe", "Nature walk"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Chimpanzee Trekking & Canopy Walk",
+                    "description": "Early morning chimpanzee trekking in Nyungwe Forest. Afternoon canopy walkway experience 50 meters above the forest floor. Guided nature walks to explore waterfalls and biodiversity.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Chimpanzee trekking", "Canopy walk", "Nature walks"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Morning Walk - Return Flight",
+                    "description": "Early morning bird watching walk (over 300 species). Optional waterfall visit or cultural interaction with local communities. Transfer to Kamembe Airport for return flight to Kigali.",
+                    "meals": ["Breakfast", "Lunch"],
+                    "activities": ["Bird watching", "Cultural visit", "Return flight"]
+                  }
+                ]
+              },
+              "highlights": [
+                "Round-trip flights to Kamembe Airport for swift access",
+                "Chimpanzee trekking in Nyungwe National Park",
+                "Canopy walkway experience 50 meters above the forest",
+                "Guided nature walks to explore waterfalls and biodiversity",
+                "Luxury lodge accommodation with stunning forest views",
+                "Bird watching with over 300 species to spot",
+                "Cultural interaction with local communities"
+              ],
+              "includes": [
+                "Round-trip flights Kigali-Kamembe-Kigali",
+                "Airport transfers",
+                "Luxury lodge accommodation",
+                "All meals as specified",
+                "Chimpanzee trekking permit",
+                "Canopy walk fees",
+                "Professional guide",
+                "Park entrance fees"
+              ],
+              "prices": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
