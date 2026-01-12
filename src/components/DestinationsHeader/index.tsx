@@ -38,8 +38,8 @@ export default function DestinationsHeader({
       "Travel Info": "travel-info",
     },
     Tanzania: {
-      "National Parks": "national-parks",
       "Safaris": "safaris",
+      "National Parks": "national-parks",
       "Travel Info": "travel-info",
     },
     Uganda: {
@@ -51,13 +51,13 @@ export default function DestinationsHeader({
       "Travel Info": "travel-info",
     },
     Rwanda: {
-      "National Parks": "national-parks",
       "Safaris": "safaris",
+      "National Parks": "national-parks",
       "Travel Info": "travel-info",
     },
     Zanzibar: {
-      "National Parks": "national-parks",
       "Safaris": "safaris",
+      "National Parks": "national-parks",
       "Travel Info": "travel-info",
     },
   };
