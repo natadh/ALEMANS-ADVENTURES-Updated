@@ -1,0 +1,38 @@
+{
+    "types": [
+        {
+            "category": "Waterbirds",
+            "items": ["Greater Flamingo", "Lesser Flamingo", "Pelican", "Heron", "Egret"]
+        },
+        {
+            "category": "Birds of Prey",
+            "items": ["Martial Eagle", "African Fish Eagle", "Verreaux's Eagle", "Augur Buzzard", "Lanner Falcon"]
+        },
+        {
+            "category": "Forest Birds",
+            "items": [  "Great Blue Turaco", "Hartlaub's Turaco", "Blue-headed Bee-eater", "Eastern Double-collared Sunbird"]
+        }
+    ],
+    "essentials": [
+        {
+            "item": "Binoculars",
+            "description": "Essential for spotting and identifying birds from a distance."
+        },
+        {
+            "item": "Field Guide",
+            "description": "A bird field guide specific to East Africa or Kenya."
+        },
+        {
+            "item": "Camera",
+            "description": "With a good zoom lens for capturing bird images."
+        },
+        {
+            "item": "Clothing",
+            "description": "Lightweight, neutral-colored clothing to blend in with the environment; warm layers for early mornings."
+        },
+        {
+            "item": "Footwear",
+            "description": "Comfortable walking shoes or boots, especially for forest and savannah birdwatching."
+        }
+]
+}

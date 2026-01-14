@@ -2,28 +2,28 @@ import { Globe, Map, Users } from "lucide-react";
 import Layout from "../components/Layout";
 import Hero from "../components/about/Hero";
 export default function AboutPage() {
-  const team = [
-    {
-      name: "Jackson Miano",
-      role: "Regional Director East Africa",
-      image: "/images/team/team2.jpeg"
-    },
-    {
-      name: "Sharon Maina",
-      role: "Sales & Marketing Manager",
-      image: "/images/team/team1.jpeg"
-    },
-    {
-      name: "Alex Murimi",
-      role: "Operations Manager",
-      image: "/images/team/team3.jpeg"
-    },
-    {
-      name: "Chris Maina",
-      role: "Travel Consultant",
-      image: "/images/team/team4.jpeg"
-    }
-  ];
+  // const team = [
+  //   {
+  //     name: "Jackson Miano",
+  //     role: "Regional Director East Africa",
+  //     image: "/images/team/team2.jpeg"
+  //   },
+  //   {
+  //     name: "Sharon Maina",
+  //     role: "Sales & Marketing Manager",
+  //     image: "/images/team/team1.jpeg"
+  //   },
+  //   {
+  //     name: "Alex Murimi",
+  //     role: "Operations Manager",
+  //     image: "/images/team/team3.jpeg"
+  //   },
+  //   {
+  //     name: "Chris Maina",
+  //     role: "Travel Consultant",
+  //     image: "/images/team/team4.jpeg"
+  //   }
+  // ];
 
   return (
     <Layout showHero={true} HeroComponent={<Hero />}>
@@ -127,25 +127,25 @@ export default function AboutPage() {
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-gray-200 border border-gray-200">
-          {team.map((member, index) => (
+          {/* {team.map((member, index) => (
             <div key={index} className="bg-white group overflow-hidden">
-              <div className="aspect-square overflow-hidden">
+              {/* <div className="aspect-square overflow-hidden">
                 <img
-                  src={member.image}
+                  // src={member.image}
                   alt={member.name}
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
                 />
-              </div>
+              </div> 
               <div className="p-6 bg-white group-hover:bg-[#FAFAF8] transition-colors duration-300">
                 <h3 className="font-medium text-base uppercase tracking-wider text-[#1A0A0B] mb-1">
                   {member.name}
                 </h3>
-                <p className="text-sm text-gray-600 font-light tracking-wide">
+                 <p className="text-sm text-gray-600 font-light tracking-wide">
                   {member.role}
-                </p>
+                </p> 
               </div>
             </div>
-          ))}
+          ))} */}
         </div>
       </section>
     </main>

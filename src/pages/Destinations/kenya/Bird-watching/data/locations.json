@@ -1,0 +1,19 @@
+{
+    "locations": [
+        {
+            "id": "maasai-mara",
+            "name": "Maasai Mara National Reserve",
+            "description": "Over 400 bird species across savannah and riverine forests. Excellent year-round birding with migration peaks."
+        },
+        {
+            "id": "lake-nakuru",
+            "name": "Lake Nakuru National Park",
+            "description": "Iconic flamingo flocks and over 450 species supported by wetlands and woodlands."
+        },
+        {
+            "id": "amboseli",
+            "name": "Amboseli National Park",
+            "description": "Over 600 species set against Mount Kilimanjaro, with wetlands attracting resident and migratory birds."
+        }
+    ]
+}

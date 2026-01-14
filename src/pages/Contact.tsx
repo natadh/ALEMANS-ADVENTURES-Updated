@@ -49,7 +49,7 @@ export default function Contact() {
               </div>
 
               {/* UK */}
-              <div>
+              {/* <div>
                 <h2 className="text-xl font-semibold text-[#340608] mb-2">
                   United Kingdom
                 </h2>
@@ -62,7 +62,7 @@ export default function Contact() {
               </div>
 
               {/* Germany */}
-              <div>
+              {/* <div>
                 <h2 className="text-xl font-semibold text-[#340608] mb-2">
                   Germany
                 </h2>
@@ -72,10 +72,10 @@ export default function Contact() {
                 <p className="text-gray-700">Location: Humburg, Germany</p>
                 <p className="text-sm text-gray-500 mt-1">Contact: Phylis Frienderichs – German Representative</p>
 
-              </div>
+              </div> */}
 
               {/* America */}
-              <div>
+              {/* <div>
                 <h2 className="text-xl font-semibold text-[#340608] mb-2">
                   United States
                 </h2>
@@ -85,7 +85,7 @@ export default function Contact() {
                 <p className="text-gray-700">Location: Seattle, California, USA</p>
                 <p className="text-sm text-gray-500 mt-1">Contact: Andrew Alemoh – North America Coordinator</p>
 
-              </div>
+              </div>  */}
             </div>
           </div>
 

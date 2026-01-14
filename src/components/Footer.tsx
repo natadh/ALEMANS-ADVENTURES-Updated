@@ -37,7 +37,7 @@ export default function Footer() {
           </div>
 
           {/* UK */}
-          <div className="space-y-2 pb-4 border-b border-[#F5D547]/20">
+          {/* <div className="space-y-2 pb-4 border-b border-[#F5D547]/20">
             <h3 className="text-[#F5D547] text-xs uppercase tracking-wider font-semibold">
               United Kingdom
             </h3>
@@ -47,20 +47,20 @@ export default function Footer() {
             <p className="flex items-center gap-3">
               <Mail className="w-4 h-4 text-[#F5D547]" /> uk@alemansadventures.com
             </p>
-          </div>
+          </div> */}
 
           {/* Germany */}
-          <div className="space-y-2 pb-4 border-b border-[#F5D547]/20">
+          {/* <div className="space-y-2 pb-4 border-b border-[#F5D547]/20">
             <h3 className="text-[#F5D547] text-xs uppercase tracking-wider font-semibold">
               Germany
             </h3>
             <p className="flex items-center gap-3">
               <Mail className="w-4 h-4 text-[#F5D547]" /> de@alemansadventures.com
             </p>
-          </div>
+          </div> */}
 
           {/* USA */}
-          <div className="space-y-2">
+          {/* <div className="space-y-2">
             <h3 className="text-[#F5D547] text-xs uppercase tracking-wider font-semibold">
               United States
             </h3>
@@ -70,7 +70,7 @@ export default function Footer() {
             <p className="flex items-center gap-3">
               <Mail className="w-4 h-4 text-[#F5D547]" /> us@alemansadventures.com
             </p>
-          </div>
+          </div> */}
 
         </div>
       </div>

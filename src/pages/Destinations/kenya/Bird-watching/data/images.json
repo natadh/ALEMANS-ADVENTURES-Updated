@@ -1,0 +1,12 @@
+{
+    "birds": [
+        "/images/birds/bird1.jpg",
+        "/images/birds/bird2.jpg",
+        "/images/birds/bird3.jpg"
+    ],
+    "locations": [
+        "/images/areas/area1.jpg",
+        "/images/areas/area2.jpg",
+        "/images/areas/area3.jpg"
+    ]
+}
