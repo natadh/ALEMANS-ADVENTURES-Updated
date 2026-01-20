@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { ugandaTravelInfoData } from "./TravelInfoData";
+import { zanzibarTravelInfoData } from "./TravelInfoData";
 import type { TravelSection } from "./TravelInfoData";
 
-export default function UgandaTravelInfo() {
+export default function ZanzibarTravelInfo() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   const toggleSection = (index: number) => {
@@ -13,7 +13,7 @@ export default function UgandaTravelInfo() {
   return (
     // mt-24 offsets sticky header
     <div className="mt-24 space-y-6 text-gray-700 leading-relaxed">
-      {ugandaTravelInfoData.map((section, index) => (
+      {zanzibarTravelInfoData.map((section, index) => (
         <SectionBlock
           key={index}
           section={section}
@@ -82,37 +82,6 @@ function SectionBlock({
 
                       {sub.content && (
                         <p className="text-gray-700">{sub.content}</p>
-                      )}
-
-                      {sub.table && (
-                        <div className="overflow-x-auto">
-                          <table className="w-full text-left border-collapse">
-                            <thead>
-                              <tr className="border-b">
-                                <th className="py-2 font-semibold">Area</th>
-                                <th className="py-2 font-semibold">
-                                  Altitude (ft)
-                                </th>
-                                <th className="py-2 font-semibold">
-                                  Avg Rain (in)
-                                </th>
-                                <th className="py-2 font-semibold">
-                                  Temp (°F)
-                                </th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              {sub.table.map((row, rIndex) => (
-                                <tr key={rIndex} className="border-b">
-                                  <td className="py-2">{row.area}</td>
-                                  <td className="py-2">{row.altitude}</td>
-                                  <td className="py-2">{row.rain}</td>
-                                  <td className="py-2">{row.temperature}</td>
-                                </tr>
-                              ))}
-                            </tbody>
-                          </table>
-                        </div>
                       )}
                     </div>
                   ))}

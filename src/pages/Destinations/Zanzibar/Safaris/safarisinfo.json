@@ -1,0 +1,391 @@
+{
+  "categories": [
+    {
+      "id": "zanzibar-excursions",
+      "title": "Excursions From Zanzibar",
+      "description": "Zanzibar offers a variety of exciting excursions, including cultural tours, snorkeling adventures, and unique dining experiences, making it a perfect destination for all types of travelers.",
+      "subcategories": [
+        {
+          "id": "cultural-historical-excursions",
+          "title": "Cultural & Historical Excursions",
+          "safaris": [
+            {
+              "id": "zaa-01",
+              "slug": "zaa-01-stone-town-walking-tour",
+              "title": "Stone Town Walking Tour",
+              "destination": "Stone Town, Zanzibar",
+              "durationLabel": "Half Day",
+              "description": "Explore the historic heart of Zanzibar, a UNESCO World Heritage site. Stone Town is the capital of Zanzibar and a fine example of Swahili coastal trading towns of East Africa. The town's urban fabric and original townscape is virtually intact and contains many fine buildings that reflect its particular culture; a culture that has brought together and homogenized disparate elements of the cultures of Africa, the Arab region, India, and Europe over more than a millennium.",
+              "categoryPath": ["Excursions From Zanzibar", "Cultural & Historical Excursions"],
+              "images": [
+                {
+                  "src": "/images/safaris/zanzibar/excursions/stone_town.jpg",
+                  "alt": "Stone Town Historic Streets"
+                },
+                {
+                  "src": "/images/safaris/zanzibar/excursions/stone_town_market.jpg",
+                  "caption": "Stone Town Market"
+                }
+              ],
+              "highlights": [
+                "UNESCO World Heritage site exploration",
+                "Former slave market visit",
+                "Palace Museum tour",
+                "Local spice markets",
+                "Walking through historic narrow alleys",
+                "Rich history and culture discovery",
+                "Swahili coastal architecture"
+              ],
+              "prices": null
+            },
+            {
+              "id": "zaa-04",
+              "slug": "zaa-04-prison-island-tour",
+              "title": "Prison Island Tour",
+              "destination": "Changuu Island (Prison Island)",
+              "durationLabel": "Half Day",
+              "description": "Prison Island, also known as Changuu Island, is about 30 minutes by boat from Stone Town. The island was formerly owned by an Arab who used it for the confinement of refractory slaves, but no prisoners were ever properly housed there; instead, the island became a quarantine station for the yellow fever epidemic. The actual jail was built in 1893, hence the name 'PRISON ISLAND', and is still standing.",
+              "categoryPath": ["Excursions From Zanzibar", "Cultural & Historical Excursions"],
+              "images": [
+                {
+                  "src": "/images/safaris/zanzibar/excursions/prison_island.jpg",
+                  "alt": "Prison Island Giant Tortoise"
+                },
+                {
+                  "src": "/images/safaris/zanzibar/excursions/prison_island_beach.jpg",
+                  "caption": "Prison Island Beach"
+                }
+              ],
+              "highlights": [
+                "30-minute boat ride from Stone Town",
+                "Observe and feed giant tortoises",
+                "Historic prison building from 1893",
+                "Swimming and snorkeling opportunities",
+                "Sunbathing on pristine beaches",
+                "Spot shy and elusive Duikers (tiny antelope species)",
+                "Yellow fever quarantine station history"
+              ],
+              "prices": null
+            },
+            {
+              "id": "zaa-09",
+              "slug": "zaa-09-zanzibar-slave-market",
+              "title": "The Zanzibar Slave Market",
+              "destination": "Stone Town, Zanzibar",
+              "durationLabel": "2-3 Hours",
+              "description": "The slave market of Stone Town has been inactive for decades, but memorials provide a stark reminder of the horrific acts that once took place here. Visit this site and reflect on the atrocities of the past as you stand in the shadow of the Anglican Church. Learn about the important role slavery played in Zanzibar's history, where, for nearly 1,000 years, Arab traders traveled to the interior of Africa, sometimes as far as the Congo, to purchase or kidnap healthy young people.",
+              "categoryPath": ["Excursions From Zanzibar", "Cultural & Historical Excursions"],
+              "images": [
+                {
+                  "src": "/images/safaris/zanzibar/excursions/slave_market.jpg",
+                  "alt": "Zanzibar Slave Market Memorial"
+                },
+                {
+                  "src": "/images/safaris/zanzibar/excursions/anglican_church.jpg",
+                  "caption": "Anglican Church at Slave Market Site"
+                }
+              ],
+              "highlights": [
+                "Historical slave market site visit",
+                "Anglican Church exploration",
+                "Memorial and reflection on slavery's history",
+                "Nearly 1,000 years of slave trade history",
+                "Learn about Arab traders' routes to the Congo",
+                "Educational and sobering experience",
+                "Important cultural heritage site"
+              ],
+              "prices": null
+            }
+          ]
+        },
+        {
+          "id": "nature-wildlife-excursions",
+          "title": "Nature & Wildlife Excursions",
+          "safaris": [
+            {
+              "id": "zaa-02",
+              "slug": "zaa-02-mnemba-island-snorkeling",
+              "title": "Mnemba Island Snorkeling",
+              "destination": "Mnemba Atoll",
+              "durationLabel": "Full Day",
+              "description": "Experience some of the best snorkeling in East Africa at Mnemba Atoll. This excursion offers opportunities to see vibrant marine life, including sea turtles and dolphins, in crystal-clear waters. Most tours include equipment and a lunch on a pristine sandbank.",
+              "categoryPath": ["Excursions From Zanzibar", "Nature & Wildlife Excursions"],
+              "images": [
+                {
+                  "src": "/images/safaris/zanzibar/excursions/mnemba_snorkeling.jpg",
+                  "alt": "Snorkeling at Mnemba Island"
+                },
+                {
+                  "src": "/images/safaris/zanzibar/excursions/mnemba_dolphins.jpg",
+                  "caption": "Dolphins at Mnemba Atoll"
+                }
+              ],
+              "highlights": [
+                "Best snorkeling in East Africa",
+                "Vibrant marine life encounters",
+                "Sea turtles sightings",
+                "Dolphin watching opportunities",
+                "Crystal-clear waters",
+                "Lunch on pristine sandbank",
+                "Snorkeling equipment included",
+                "Professional guides"
+              ],
+              "prices": null
+            },
+            {
+              "id": "zaa-03",
+              "slug": "zaa-03-tumbatu-island",
+              "title": "Tumbatu Island",
+              "destination": "Tumbatu Island",
+              "durationLabel": "Full Day",
+              "description": "Tumbatu Island, the third-largest island in the Zanzibar Archipelago, is a hidden gem off the coast of Tanzania, steeped in rich history and unique culture. Known for its secluded beaches, lush vegetation, and vibrant local life, Tumbatu offers a tranquil retreat from the bustling mainland. The island's inhabitants, the Watumbatu people, are renowned for their traditional Goma music and dance, which visitors can experience firsthand.",
+              "categoryPath": ["Excursions From Zanzibar", "Nature & Wildlife Excursions"],
+              "images": [
+                {
+                  "src": "/images/safaris/zanzibar/excursions/tumbatu_island.jpg",
+                  "alt": "Tumbatu Island Beach"
+                },
+                {
+                  "src": "/images/safaris/zanzibar/excursions/tumbatu_culture.jpg",
+                  "caption": "Watumbatu Traditional Dance"
+                }
+              ],
+              "highlights": [
+                "Third-largest island in Zanzibar Archipelago",
+                "Secluded pristine beaches",
+                "Lush vegetation and natural beauty",
+                "Traditional Goma music and dance",
+                "Ancient ruins of medieval Swahili town of Jongowe",
+                "Snorkeling and diving paradise",
+                "Rich marine life",
+                "Watumbatu people cultural experience",
+                "Tranquil retreat from mainland"
+              ],
+              "prices": null
+            },
+            {
+              "id": "zaa-05",
+              "slug": "zaa-05-spice-plantation-tour",
+              "title": "Spice Plantation Tour",
+              "destination": "Zanzibar Spice Farms",
+              "durationLabel": "Half Day",
+              "description": "The Spice Tour is one of the most popular things to do in Zanzibar. The island got its nickname 'the Spice Island' as a result of it being one of the world's leading producers of spices such as clove, nutmeg and cinnamon during the 19th century. Your tour guide will describe how the various different plants can be used and you will have the chance to smell and taste a variety of spices, herbs and tropical fruits.",
+              "categoryPath": ["Excursions From Zanzibar", "Nature & Wildlife Excursions"],
+              "images": [
+                {
+                  "src": "/images/safaris/zanzibar/excursions/spice_plantation.jpg",
+                  "alt": "Spice Plantation Tour"
+                },
+                {
+                  "src": "/images/safaris/zanzibar/excursions/spices.jpg",
+                  "caption": "Zanzibar Spices"
+                }
+              ],
+              "highlights": [
+                "Most popular Zanzibar activity",
+                "The 'Spice Island' experience",
+                "Smell and taste variety of spices",
+                "Clove, nutmeg, and cinnamon plantations",
+                "Lemongrass, turmeric, and vanilla",
+                "Tropical fruits: papaya, jackfruit, oranges",
+                "Black pepper, cardamom, and cassava",
+                "Coconut and chili plants",
+                "Expert guide explanations",
+                "Learn traditional uses of plants"
+              ],
+              "prices": null
+            },
+            {
+              "id": "zaa-06",
+              "slug": "zaa-06-jozani-forest-tour",
+              "title": "Jozani Forest Tour",
+              "destination": "Jozani Chwaka Bay National Park",
+              "durationLabel": "Half Day",
+              "description": "This forest is one of the last remaining sanctuaries of the red colobus monkeys in the world and it was declared a nature reserve in the 1960s. At one time, the monkeys were an endangered species, but numbers have increased in recent years thanks to the conservation work by the nature reserve, working closely with the local people. A walk through this impressive flora and fauna offers wonderful photo opportunities as well as sightings of these rare creatures.",
+              "categoryPath": ["Excursions From Zanzibar", "Nature & Wildlife Excursions"],
+              "images": [
+                {
+                  "src": "/images/safaris/zanzibar/excursions/jozani_forest.jpg",
+                  "alt": "Jozani Forest"
+                },
+                {
+                  "src": "/images/safaris/zanzibar/excursions/red_colobus_monkey.jpg",
+                  "caption": "Red Colobus Monkey"
+                }
+              ],
+              "highlights": [
+                "Last sanctuary of red colobus monkeys",
+                "Nature reserve since the 1960s",
+                "Endangered species conservation success",
+                "Impressive flora and fauna",
+                "Wonderful photo opportunities",
+                "Rare creature sightings",
+                "Guided nature walks",
+                "Educational conservation experience",
+                "One of Zanzibar's highlights"
+              ],
+              "prices": null
+            },
+            {
+              "id": "zaa-08",
+              "slug": "zaa-08-mikumi-safari-tour",
+              "title": "Mikumi Safari Tour",
+              "destination": "Mikumi National Park, Tanzania",
+              "durationLabel": "1 Day",
+              "description": "For those interested in wildlife, consider a day trip to Mikumi National Park. This excursion includes a flight from Zanzibar and a game drive to see various African wildlife in their natural habitat. Experience the mainland Tanzania safari adventure while based in Zanzibar.",
+              "categoryPath": ["Excursions From Zanzibar", "Nature & Wildlife Excursions"],
+              "images": [
+                {
+                  "src": "/images/safaris/zanzibar/excursions/mikumi_wildlife.jpg",
+                  "alt": "Mikumi National Park Wildlife"
+                },
+                {
+                  "src": "/images/safaris/zanzibar/excursions/mikumi_elephants.jpg",
+                  "caption": "Elephants in Mikumi"
+                }
+              ],
+              "highlights": [
+                "Day trip from Zanzibar to mainland",
+                "Flight from Zanzibar included",
+                "Game drive in Mikumi National Park",
+                "African wildlife in natural habitat",
+                "Elephants, lions, giraffes, zebras",
+                "Buffalo and antelope sightings",
+                "Professional safari guide",
+                "Combine beach and safari experience"
+              ],
+              "prices": null
+            }
+          ]
+        },
+        {
+          "id": "unique-experiences",
+          "title": "Unique Experiences",
+          "safaris": [
+            {
+              "id": "zaa-07",
+              "slug": "zaa-07-the-rock-restaurant",
+              "title": "The Rock Restaurant",
+              "destination": "Michamvi Pingwe Beach",
+              "durationLabel": "Lunch/Dinner",
+              "description": "The Rock, situated on the southeast coast of Zanzibar at Michamvi Pingwe beach, stands out as a unique dining destination, affectionately dubbed the 'floating restaurant' due to its appearance at high tide. This once simple fishing outpost has been transformed into a picturesque eatery that blends seamlessly with its natural surroundings, offering guests the rare opportunity to dine amidst panoramic seascapes.",
+              "categoryPath": ["Excursions From Zanzibar", "Unique Experiences"],
+              "images": [
+                {
+                  "src": "/images/safaris/zanzibar/excursions/the_rock_restaurant.jpg",
+                  "alt": "The Rock Restaurant"
+                },
+                {
+                  "src": "/images/safaris/zanzibar/excursions/the_rock_high_tide.jpg",
+                  "caption": "The Rock at High Tide"
+                }
+              ],
+              "highlights": [
+                "Unique 'floating restaurant' experience",
+                "Southeast coast of Zanzibar",
+                "Accessible by foot at low tide",
+                "Complimentary boat service at high tide",
+                "Panoramic seascape views",
+                "Open-air terrace for drinks",
+                "Minimal environmental impact",
+                "Picturesque dining destination",
+                "Transformed fishing outpost",
+                "Unforgettable culinary experience"
+              ],
+              "prices": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zanzibar-budget-safaris",
+      "title": "Zanzibar Budget Safaris",
+      "description": "Affordable multi-day packages combining culture, history, and island experiences",
+      "intro": "Lying 38 km off East African Coast, Zanzibar has in the past come under the influence of Sumerians, Assyrians, Hindus, Egyptians, Portuguese and Arabs. It was from this Island that great African explorers, like Burton, Speke, Grant and Livingston, set out on their journeys of discovery. In the 18th Century the Island was a focus of the slave trade. The 'Stone Town' is steeped in history and in the north of the Island there are many superb beaches. Known as the Spice Island, it was the cloves that were particularly prized and Vasco da Gama took cargo back to Portugal after his voyage. Outside the town there are many places of interest to visit including the Maruhubi Palace - formerly the Sultan's harem, the Kidichi baths, Mangapwani Village, the former site of the notorious slave pits and Kizimkazi with its recently renovated 12th Century Persian Mosque. Access to Zanzibar is by air from Nairobi and Mombasa or by Hydrofoil from Dar es Salaam.",
+      "subcategories": [
+        {
+          "id": "budget-island-packages",
+          "title": "Budget Island Packages",
+          "safaris": [
+            {
+              "id": "zaa-10",
+              "slug": "zaa-10-zanzibar-island-3-days",
+              "title": "3 Days Zanzibar Island",
+              "destination": "Zanzibar Island",
+              "durationLabel": "3 Days",
+              "description": "Experience the best of Zanzibar in three days. Explore the historic Stone Town, visit spice plantations, enjoy island boat trips for swimming and snorkeling, and discover the cultural heritage of this fascinating island. Perfect for those wanting a comprehensive Zanzibar experience on a budget.",
+              "categoryPath": ["Zanzibar Budget Safaris", "Budget Island Packages"],
+              "images": [
+                {
+                  "src": "/images/safaris/zanzibar/budget/stone_town_aerial.jpg",
+                  "alt": "Stone Town Aerial View"
+                },
+                {
+                  "src": "/images/safaris/zanzibar/budget/spice_tour.jpg",
+                  "caption": "Spice Plantation"
+                },
+                {
+                  "src": "/images/safaris/zanzibar/budget/island_boat.jpg",
+                  "caption": "Island Boat Trip"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 3,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Arrival & Spice Tour",
+                    "description": "Fly via Mombasa to land on the 'Clove Island' of Zanzibar where you will be met and transferred to a traditional hotel in the 'Stone Town'. In the afternoon, enjoy the spice tour visiting the plantations of cloves and other spices for which Zanzibar is renowned.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Flight to Zanzibar", "Transfer to Stone Town hotel", "Spice plantation tour"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Stone Town Tour & Island Excursion",
+                    "description": "The next morning tour the fascinating 'Stone Town' with visits to the market, Sultan's Palace and Museum, followed by lunch. In the afternoon, enjoy a boat trip to an island for swimming and snorkeling.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Stone Town walking tour", "Market visit", "Sultan's Palace and Museum", "Boat trip to island", "Swimming and snorkeling"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Shopping & Departure",
+                    "description": "The next morning there is time for a guided shopping trip before transfer to the airport to catch the departing flight.",
+                    "meals": ["Breakfast"],
+                    "activities": ["Guided shopping trip", "Transfer to airport", "Departure"]
+                  }
+                ]
+              },
+              "highlights": [
+                "Historic Stone Town UNESCO site",
+                "Spice plantation tour",
+                "Sultan's Palace and Museum",
+                "Traditional markets exploration",
+                "Boat trip to nearby island",
+                "Swimming and snorkeling",
+                "Guided shopping experience",
+                "Traditional hotel accommodation",
+                "Cultural immersion",
+                "Island hopping adventure"
+              ],
+              "includes": [
+                "Flight via Mombasa to Zanzibar",
+                "Airport transfers",
+                "Traditional hotel accommodation in Stone Town",
+                "Meals as specified in itinerary",
+                "Spice plantation tour",
+                "Stone Town guided tour",
+                "Boat trip to island",
+                "Snorkeling equipment",
+                "Guided shopping trip",
+                "All entrance fees"
+              ],
+              "note": "Accommodations available upon request. This package can be customized based on your preferences and budget.",
+              "prices": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
