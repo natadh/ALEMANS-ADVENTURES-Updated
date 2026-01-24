@@ -1,0 +1,82 @@
+{
+  "safaris": [
+    {
+      "title": "Walking Safaris",
+      "slug": "walking-safaris",
+      "code": "KAA 82",
+      "images": [],
+      "description": "Walking safari itineraries are organized according to the client's request, offering a personalized and immersive experience in nature.",
+      "duration": null
+    },
+    {
+      "title": "Camel & Horse Riding Safaris",
+      "slug": "camel-horse-riding-safaris",
+      "code": "KAA 83",
+      "images": [],
+      "description": "Horse riding safaris are arranged on request. The camel safari is a 5-night, 6-day journey north of Mt. Kenya through wild and scenic landscapes. Guests ride or walk alongside camels, enjoy picnic lunches, evening campfires, showers, and sleep under canvas or beneath the stars. No riding skills are required.",
+      "duration": "5 nights 6 days"
+    },
+    {
+      "title": "Farms and Ranches Stay",
+      "slug": "farms-and-ranches",
+      "code": "KAA 85",
+      "images": [],
+      "description": "Stay on working farms or ranches where wildlife co-exists with domestic animals. Accommodation includes comfortable farmhouses or log cabins with meals. Activities include escorted walks, horse riding, game drives, and guided farm tours.",
+      "duration": null
+    },
+    {
+      "title": "Lake Victoria Fishing Safari",
+      "slug": "lake-victoria-fishing",
+      "code": "KAA 86",
+      "images": [],
+      "description": "Operating from Masai Mara, this trip offers fishing on Lake Victoria, famous for Nile Perch. Travel by light aircraft to Rusinga or Mfangano islands and spend the day fishing by boat with meals and drinks included. Overnight stays can be arranged.",
+      "duration": "1 day (extendable)"
+    },
+    {
+      "title": "The Lunatic Express Train Journey",
+      "slug": "lunatic-express-train-journey",
+      "code": "KAA 87",
+      "images": [],
+      "description": "A historic overnight railway journey between Nairobi and Mombasa. Travel in comfortable sleeper cabins with meals and bedding, retracing the legendary railway that opened up Kenya’s interior.",
+      "duration": "Overnight"
+    },
+    {
+      "title": "Wedding & Honeymoon Safaris",
+      "slug": "wedding-honeymoon-safaris",
+      "code": "KAA 88",
+      "images": [],
+      "description": "Romantic wedding and honeymoon packages with full arrangements including ceremonies, photography, cakes, and special celebrations at beach hotels or unique scenic locations.",
+      "duration": null
+    },
+    {
+      "title": "Incentive Travel & Conferences",
+      "slug": "incentive-travel-conferences",
+      "code": "KAA 89",
+      "images": [],
+      "description": "Corporate travel and conference packages with facilities and services designed to host successful seminars, business meetings, and events in inspiring Kenyan locations.",
+      "duration": null
+    },
+    {
+      "title": "Cruises & Coastal Safaris",
+      "slug": "cruises-coastal-safaris",
+      "code": "KAA 90",
+      "images": [],
+      "description": "Mombasa serves as a cruise hub with access to flying safaris, road safaris to Tsavo and Amboseli, deep-sea fishing, and trips to the Lamu archipelago. Indian Ocean cruise routes are also available.",
+      "duration": null
+    }
+  ],
+  "generalInfo": [
+    {
+      "title": "People and Cultural Heritage",
+      "description": "Kenya is home to over forty ethnic groups, primarily Bantus, Nilotes, and Cushites, alongside Asian, Arab, and European communities. This diversity has created a rich cultural heritage expressed through music, dance, art, and handicrafts. Kiswahili is widely spoken, while English is the official language. Visitors can experience traditional performances and ceremonies at cultural centers such as the Bomas of Kenya near Nairobi."
+    },
+    {
+      "title": "Car Hire Services",
+      "description": "Self-drive or chauffeur-driven vehicles are available from Nairobi or Mombasa, including 4WD options such as Suzuki and Land Cruiser models. One-way rentals are possible between cities, and accommodation for self-drive itineraries can be arranged in advance."
+    },
+    {
+      "title": "Water Sports",
+      "description": "Kenya’s coast offers activities such as windsurfing, water skiing, snorkeling, scuba diving, rowing, dhow safaris, and deep-sea fishing beyond the coral reefs. Viewing expeditions can be arranged on request."
+    }
+  ]
+}

@@ -8,6 +8,7 @@ import HikingSafaris from "./Hiking/HikingSafaris";
 import ScrollToTopFAB from "../../../components/ScrollToTopFAB";
 import HikingRoutes from "./Hiking/HikingRoutes";
 import Birdwatching from "./Bird-watching/Birds";
+import Culture from "./Culture/culture";
 
 import { Routes, Route, Navigate } from "react-router-dom";
 
@@ -26,6 +27,7 @@ export default function Kenya() {
           <Route path="travel-info" element={<TravelInfo />} />
           <Route path="safaris/*" element={<Safaris />} />
           <Route path="bird-watching" element={<Birdwatching />} />
+          <Route path="culture" element={<Culture />} />
         </Routes>
       </div>
 
