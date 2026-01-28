@@ -8,6 +8,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo + Brand */}
+          <a href="/">
           <div className="shrink-0 flex items-center space-x-4 group">
             <img
               className="h-10 w-10 object-cover border border-[#F5D547] group-hover:border-white transition-colors duration-300"
@@ -23,6 +24,7 @@ export default function Header() {
               </span>
             </span>
           </div>
+         </a>
 
           {/* Navigation */}
           <nav className="hidden md:flex space-x-8 font-light">

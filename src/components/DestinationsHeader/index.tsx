@@ -39,6 +39,9 @@ export default function DestinationsHeader({
     },
     Tanzania: {
       "Safaris": "safaris",
+      "Rafting and Kayaking": "rafting",
+      "Balloon Safaris": "balloon-safaris",
+      "Air Safaris": "air-safaris",
       "National Parks": "national-parks",
       "Travel Info": "travel-info",
     },
