@@ -7,6 +7,7 @@ import Tanzania from './pages/Destinations/Tanzania'
 import Uganda from './pages/Destinations/Uganda'
 import Contact from './pages/Contact'
 import Rwanda from './pages/Destinations/Rwanda'
+import Zanzibar from './pages/Destinations/Zanzibar'
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
         <Route path='/destinations/tanzania/*' element={<Tanzania />}/>
         <Route path='/destinations/uganda/*' element={<Uganda />}/>
         <Route path='/destinations/rwanda/*' element={<Rwanda />}/>
+        <Route path='/destinations/zanzibar/*' element={<Zanzibar />}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
     </BrowserRouter>
