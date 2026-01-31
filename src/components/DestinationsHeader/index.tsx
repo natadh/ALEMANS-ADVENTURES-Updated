@@ -42,6 +42,7 @@ export default function DestinationsHeader({
       "Rafting and Kayaking": "rafting",
       "Balloon Safaris": "balloon-safaris",
       "Air Safaris": "air-safaris",
+      "Culture & Sports": "culture",
       "National Parks": "national-parks",
       "Travel Info": "travel-info",
     },

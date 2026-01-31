@@ -15,7 +15,7 @@ export interface ParkSection {
 export const ugandaConservanciesData: ParkSection[] = [
     {
         id: "overview",
-        image: "/images/uganda/conservation.jpg",
+        image: "/images/conservancies/uganda/2.jpg",
         gallery: [],
         header: "Uganda Conservation Overview",
         content: `Uganda is a biodiversity hotspot, home to numerous conservation initiatives aimed at protecting its unique wildlife and ecosystems. Uganda is recognized as one of Africa's richest countries in terms of biodiversity, ranking second for mammals and birds. It is home to iconic species such as mountain gorillas, Rothschild giraffes, and various endemic plants. The country's diverse ecosystems, including wetlands and forests, support a wide range of flora and fauna, making it a critical area for conservation efforts.`,

@@ -15,10 +15,10 @@ export interface ParkSection {
 export const ugandaPopularParksData: ParkSection[] = [
     {
         id: "bwindi",
-        image: "/images/uganda/bwindi.jpg",
+        image: "/images/safaris/uganda/bwindi/forest.jpg",
         gallery: [
-            "/images/uganda/bwindi1.jpg",
-            "/images/uganda/bwindi2.jpg"
+            "/images/safaris/uganda/bwindi/tracking.jpg",
+            "/images/safaris/uganda/bwindi/gorilla1.jpg"
         ],
         header: "Bwindi Impenetrable National Park",
         content: `Bwindi Impenetrable National Park, located in south-western Uganda on the edge of the Rift Valley, is one of Africa's most ancient and biologically diverse rainforests. Dating back over 25,000 years, this mist-covered jungle is home to an incredible 400 plant species and provides refuge to some of the world's rarest wildlife. Most famously, Bwindi protects approximately 459 mountain gorillas—almost half of the world's remaining population. This "impenetrable forest" is one of the best places on earth to experience gorilla trekking, offering visitors the chance to come face-to-face with these majestic primates in their natural habitat.`,
@@ -43,10 +43,8 @@ export const ugandaPopularParksData: ParkSection[] = [
     },
     {
         id: "kibale",
-        image: "/images/uganda/kibale.jpg",
+        image: "/images/safaris/uganda/kibale/chimps.jpg",
         gallery: [
-            "/images/uganda/kibale1.jpg",
-            "/images/uganda/kibale2.jpg"
         ],
         header: "Kibale Forest National Park",
         content: `Kibale National Park is renowned for its extraordinary primate diversity, and the Kanyanchu Primate Walk stands as the park's flagship experience. This immersive trek offers visitors a rare chance to encounter 13 different primate species, with diurnal monkeys such as red colobus, black-and-white colobus, L'Hoest's monkey, and grey-cheeked mangabey frequently spotted in the forest canopy. However, the undisputed highlight of this walk is the Kibale chimpanzees—one of Uganda's greatest wildlife spectacles.`,
@@ -67,10 +65,8 @@ export const ugandaPopularParksData: ParkSection[] = [
     },
     {
         id: "queen-elizabeth",
-        image: "/images/uganda/queen-elizabeth.jpg",
+        image: "/images/safaris/uganda/queen/mweya.jpg",
         gallery: [
-            "/images/uganda/queen-elizabeth1.jpg",
-            "/images/uganda/queen-elizabeth2.jpg"
         ],
         header: "Queen Elizabeth National Park",
         content: `Queen Elizabeth National Park is Uganda's most popular and biodiverse safari destination, offering breathtaking landscapes, abundant wildlife, and rich cultural heritage. Straddling the equator, the park features monuments marking the exact spot where it crosses latitude 00. Originally founded as Kazinga National Park in 1952, it was renamed in 1954 to commemorate a visit by Queen Elizabeth II of England. Today, it stands as one of Africa's greatest wildlife havens, home to over 95 mammal species and an astonishing 600+ bird species.`,
@@ -95,10 +91,8 @@ export const ugandaPopularParksData: ParkSection[] = [
     },
     {
         id: "murchison-falls",
-        image: "/images/uganda/murchison.jpg",
+        image: "/images/safaris/uganda/murchison/falls.jpg",
         gallery: [
-            "/images/uganda/murchison1.jpg",
-            "/images/uganda/murchison2.jpg"
         ],
         header: "Murchison Falls National Park",
         content: `Murchison Falls National Park is Uganda's oldest and largest conservation area, covering vast expanses of savanna, woodland, and riverine forests. Originally gazetted as a game reserve in 1926, the park was officially designated as one of Uganda's first national parks in 1952. It lies at the northern end of the Albertine Rift Valley, where the Bunyoro escarpment descends into rolling, palm-dotted plains, offering one of the most dramatic landscapes in East Africa.`,
@@ -119,10 +113,8 @@ export const ugandaPopularParksData: ParkSection[] = [
     },
     {
         id: "lake-mburo",
-        image: "/images/uganda/lake-mburo.jpg",
+        image: "/images/safaris/uganda/semuliki/3.jpg",
         gallery: [
-            "/images/uganda/lake-mburo1.jpg",
-            "/images/uganda/lake-mburo2.jpg"
         ],
         header: "Lake Mburo National Park",
         content: `Lake Mburo National Park may be Uganda's smallest savanna park, but it is rich in biodiversity, scenic beauty, and cultural significance. Conveniently located near the highway linking Kampala to western Uganda, the park offers an accessible yet immersive safari experience. Despite its size, wetlands cover 20% of the park's surface, forming part of a 50km-long wetland system connected by swamps and five lakes within the park's borders.`,
@@ -143,10 +135,9 @@ export const ugandaPopularParksData: ParkSection[] = [
     },
     {
         id: "kidepo-valley",
-        image: "/images/uganda/kidepo.jpg",
+        image: "/images/safaris/uganda/kidepo/1.jpg",
         gallery: [
-            "/images/uganda/kidepo1.jpg",
-            "/images/uganda/kidepo2.jpg"
+            "/images/safaris/uganda/kidepo/2.jpg"
         ],
         header: "Kidepo Valley National Park",
         content: `Kidepo Valley National Park is Uganda's most remote and least explored national park, yet it is widely regarded as one of Africa's most breathtaking wilderness areas. Located in the semi-arid valleys of Karamoja, the park borders South Sudan to the northwest and Kenya just 5km to the east, sitting approximately 700km from Kampala. First gazetted as a national park in 1962, Kidepo is a true safari gem, boasting an incredible variety of big game, unique landscapes, and rich birdlife. It is home to over 77 mammal species and an impressive 476 bird species.`,
