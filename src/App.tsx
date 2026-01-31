@@ -8,10 +8,12 @@ import Uganda from './pages/Destinations/Uganda'
 import Contact from './pages/Contact'
 import Rwanda from './pages/Destinations/Rwanda'
 import Zanzibar from './pages/Destinations/Zanzibar'
+import ScrollToTop from './components/ScrollToTop'
 function App() {
   return (
     <>
     <BrowserRouter>
+    <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />

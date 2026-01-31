@@ -5,7 +5,9 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import Safaris from "./Safaris/Safaris";
 import UgandaParks from "./NationalParks";
 import ScrollToTopFAB from "../../../components/ScrollToTopFAB";
-import Birdwatching from "./Bird-watching/Birds";
+import Birdwatching from "./Birds";
+import WaterSports from "./Rafting";
+import HikingUganda from "./Hiking";
 
 export default function Uganda() {
   
@@ -21,6 +23,8 @@ export default function Uganda() {
             <Route path="safaris/*" element={<Safaris />} />
             <Route path="bird-watching" element={<Birdwatching />} />
             <Route path="national-parks" element={<UgandaParks/>}/>
+            <Route path="rafting" element={<WaterSports/>}/>
+            <Route path="hiking" element={<HikingUganda/>}/>
         </Routes>
       </div>
 
