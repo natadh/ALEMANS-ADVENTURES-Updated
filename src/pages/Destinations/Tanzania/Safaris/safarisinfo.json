@@ -651,59 +651,6 @@
       ]
     },
     {
-      "id": "tanzania-popular-safaris",
-      "title": "Tanzania Popular Safaris",
-      "description": "Most requested Tanzania safari programs",
-      "subcategories": [
-        {
-          "id": "popular-safari-programs",
-          "title": "Popular Safari Programs",
-          "safaris": [
-            {
-              "id": "taa-16",
-              "slug": "taa-16-popular-safari-1",
-              "title": "Tanzania Popular Safari 1",
-              "destination": "Various",
-              "durationLabel": "Variable",
-              "description": "Content to be provided.",
-              "categoryPath": ["Tanzania Popular Safaris", "Popular Safari Programs"],
-              "prices": null
-            },
-            {
-              "id": "taa-17",
-              "slug": "taa-17-popular-safari-2",
-              "title": "Tanzania Popular Safari 2",
-              "destination": "Various",
-              "durationLabel": "Variable",
-              "description": "Content to be provided.",
-              "categoryPath": ["Tanzania Popular Safaris", "Popular Safari Programs"],
-              "prices": null
-            },
-            {
-              "id": "taa-18",
-              "slug": "taa-18-popular-safari-3",
-              "title": "Tanzania Popular Safari 3",
-              "destination": "Various",
-              "durationLabel": "Variable",
-              "description": "Content to be provided.",
-              "categoryPath": ["Tanzania Popular Safaris", "Popular Safari Programs"],
-              "prices": null
-            },
-            {
-              "id": "taa-19",
-              "slug": "taa-19-popular-safari-4",
-              "title": "Tanzania Popular Safari 4",
-              "destination": "Various",
-              "durationLabel": "Variable",
-              "description": "Content to be provided.",
-              "categoryPath": ["Tanzania Popular Safaris", "Popular Safari Programs"],
-              "prices": null
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "tanzania-birding-destinations",
       "title": "Tanzania Birding Destinations",
       "description": "Top birding locations in Tanzania with over 1,000 recorded bird species",
