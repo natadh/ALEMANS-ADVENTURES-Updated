@@ -8,6 +8,8 @@ import Uganda from './pages/Destinations/Uganda'
 import Contact from './pages/Contact'
 import Rwanda from './pages/Destinations/Rwanda'
 import Zanzibar from './pages/Destinations/Zanzibar'
+import SearchResults from './pages/SearchResults'
+
 import ScrollToTop from './components/ScrollToTop'
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
         <Route path='/destinations/rwanda/*' element={<Rwanda />}/>
         <Route path='/destinations/zanzibar/*' element={<Zanzibar />}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path="/search" element={<SearchResults />} />
       </Routes>
     </BrowserRouter>
     </>

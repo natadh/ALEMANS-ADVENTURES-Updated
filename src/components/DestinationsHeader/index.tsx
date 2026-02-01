@@ -5,6 +5,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import CountrySelector from "./CountrySelector";
 import DesktopSections from "./DesktopSections";
 import MobileSections from "./MobileSections";
+import DestinationSearch from "./DestinationSearch";
 
 export default function DestinationsHeader({
   currentCountry = "Kenya",
@@ -82,14 +83,13 @@ export default function DestinationsHeader({
 
   return (
     <div className="bg-[#0F0809] border-b border-[#F5D547]/30 text-[#F5D547]/90 sticky top-16 z-40">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
         <CountrySelector
           countries={countries}
           currentCountry={currentCountry}
           onChange={handleCountryChange}
         />
-
+        <DestinationSearch />
         <DesktopSections
           sections={sections}
           onNavigate={handleSectionClick}
