@@ -13,7 +13,7 @@ export default function Destinations() {
         "Diani Beach - Pristine white sand coastline",
         "Nairobi National Park - Wildlife at the city's edge"
       ],
-      image: "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1200&h=800&fit=crop"
+      image: "/images/safaris/kenya/excursions/aberdares.jpg"
     },
     {
       name: "Tanzania",
@@ -39,7 +39,7 @@ export default function Destinations() {
         "Murchison Falls - The Nile's most powerful waterfall",
         "Kibale Forest - Chimpanzee tracking paradise"
       ],
-      image: "https://images.unsplash.com/photo-1621414050346-53ecf2b2afa1?w=1200&h=800&fit=crop"
+      image: "/images/safaris/uganda/semuliki/2.jpg"
     },
     {
       name: "Rwanda",
@@ -52,7 +52,7 @@ export default function Destinations() {
         "Lake Kivu - Scenic beaches and water activities",
         "Nyungwe Forest - Canopy walks and primate tracking"
       ],
-      image: "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=1200&h=800&fit=crop"
+      image: "/images/rwanda/akagera.jpg"
     },
     {
       name: "Zanzibar",
@@ -65,7 +65,7 @@ export default function Destinations() {
         "Spice Tours - Discover the island's aromatic heritage",
         "Snorkeling & Diving - Pristine coral reefs"
       ],
-      image: "https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?w=1200&h=800&fit=crop"
+      image: "/images/safaris/zanzibar/budget/spice_tour.jpg"
     }
   ];
 

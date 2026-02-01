@@ -3,8 +3,8 @@ import DestinationsHeader from "../../../components/DestinationsHeader/index";
 import TravelInfo from "./TravelInfo"
 import { Routes, Route, Navigate } from "react-router-dom";
 import Safaris from "./Safaris/Safaris";
-import ZanzibarParks from "./NationalParks";
 import ScrollToTopFAB from "../../../components/ScrollToTopFAB";
+import ZanzibarPage from "./ZanzibarPage";
 export default function Zanzibar() {
   
 
@@ -17,7 +17,7 @@ export default function Zanzibar() {
             <Route index element={<Navigate to="safaris/" replace />} />
             <Route path="travel-info" element={<TravelInfo />} />
             <Route path="safaris/*" element={<Safaris />} />
-            <Route path="national-parks" element={<ZanzibarParks/>}/>
+            <Route path="overview" element={<ZanzibarPage />} />
         </Routes>
       </div>
 

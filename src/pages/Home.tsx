@@ -66,7 +66,7 @@ export default function Home() {
         <div className="grid md:grid-cols-3 gap-px bg-gray-200 border border-gray-200">
           <div className="relative h-[300px] overflow-hidden group">
             <img
-              src="https://images.unsplash.com/photo-1535338454770-93e7ab994d98?w=800&h=600&fit=crop"
+              src="/images/safaris/kenya/excursions/amboseli.jpg"
               alt="Wildlife Safari"
               className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
             />
@@ -77,7 +77,7 @@ export default function Home() {
           </div>
           <div className="relative h-[300px] overflow-hidden group">
             <img
-              src="https://images.unsplash.com/photo-1523805009345-7448845a9e53?w=800&h=600&fit=crop"
+              src="/images/safaris/kenya/mtkenya/i3.jpg"
               alt="Mountain Trekking"
               className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
             />
@@ -88,7 +88,7 @@ export default function Home() {
           </div>
           <div className="relative h-[300px] overflow-hidden group">
             <img
-              src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop"
+              src="/images/safaris/zanzibar/budget/spice_tour.jpg"
               alt="Cultural Experiences"
               className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
             />
@@ -136,7 +136,7 @@ export default function Home() {
               </div>
               <div className="relative h-[300px] border border-gray-200">
                 <img
-                  src="https://images.unsplash.com/photo-1534177616072-ef7dc120449d?w=800&h=600&fit=crop"
+                  src="/images/birds/owl.jpg"
                   alt="Wildlife in East Africa"
                   className="w-full h-full object-cover"
                 />
@@ -180,7 +180,7 @@ export default function Home() {
               </div>
               <div className="relative h-[300px] border border-gray-200">
                 <img
-                  src="https://images.unsplash.com/photo-1566375068224-459f1caf3aba?w=800&h=600&fit=crop"
+                  src="/images/safaris/zanzibar/budget/spice_tour.jpg"
                   alt="African Culture"
                   className="w-full h-full object-cover"
                 />

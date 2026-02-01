@@ -61,7 +61,7 @@ export default function DestinationsHeader({
     },
     Zanzibar: {
       "Safaris": "safaris",
-      "National Parks": "national-parks",
+      "Heart of the Archipelago": "overview",
       "Travel Info": "travel-info",
     },
   };
