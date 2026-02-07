@@ -75,14 +75,6 @@ export default function NationalParks() {
 
       {/* MAIN CONTENT AREA */}
       <main className="flex-1 space-y-10 pb-10 px-4 md:px-4 md:ml-8 lg:ml-12 animate-fadeIn min-w-0 mt-10">
-
-        {/* HEADER */}
-        <div className="relative">
-          <h1 className="text-3xl uppercase tracking-wider font-light text-[#1A0A0B] border-b border-[#1A0A0B] pb-3">
-            Tanzania National Parks & Reserves
-          </h1>
-        </div>
-
         <ParkDetails section={activePark} />
       </main>
     </div>

@@ -1,12 +1,10 @@
 import Layout from "../../../components/Layout";
-import DestinationsHeader from "../../../components/DestinationsHeader/index";
-import RwandaTravelInfo from "./TravelInfo";
-// import TravelInfo from "./TravelInfo"
 import { Routes, Route, Navigate } from "react-router-dom";
+import DestinationsHeader from "../../../components/DestinationsHeader/index";
 import Safaris from "./Safaris/Safaris";
 import ScrollToTopFAB from "../../../components/ScrollToTopFAB";
 import RwandaParks from "./NationalParks";
-
+import RwandaTravelInfo from "./TravelInfo";
 
 
 export default function Rwanda() {
@@ -20,7 +18,6 @@ export default function Rwanda() {
           <Route path="safaris/*" element={<Safaris />} />
           <Route path="national-parks" element={<RwandaParks/>}/>
           <Route path="travel-info" element={<RwandaTravelInfo />} />
-
         </Routes>
       </div>
 

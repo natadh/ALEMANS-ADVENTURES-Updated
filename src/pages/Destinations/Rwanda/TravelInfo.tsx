@@ -4,6 +4,7 @@ import { rwandaTravelInfoData } from "./TravelInfoData";
 import type { TravelSection } from "./TravelInfoData";
 
 export default function RwandaTravelInfo() {
+  console.log("RwandaTravelInfo mounted");
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   const toggleSection = (index: number) => {

@@ -92,7 +92,7 @@
       "safaris": [
         {
           "code": "kaa-hiking-001",
-          "title": "Mt. Kenya Hiking and Trekking",
+          "title": "MT. KENYA : SIRIMON OUT SIRIMON ROUTE",
           "duration": "4 Days",
           "route": "Sirimon Out Sirimon Route",
           "images": [
@@ -138,7 +138,7 @@
         },
         {
           "code": "kaa-hiking-002",
-          "title": "Mt. Kenya Traverse",
+          "title": "MT. KENYA : SIRIMON OUT NAROMORU TRAVERSE",
           "duration": "5 Days",
           "route": "Sirimon Out Naro Moru Traverse",
           "images": [
@@ -483,6 +483,311 @@
               "day": "Day 7",
               "title": "DEPARTURE",
               "description": "Breakfast at the hotel, check-out and transfer to the airport for outbound flight."
+            }
+          ],
+          "pricing": {
+            "seasons": [
+              "Low season (Jan - June)",
+              "Peak season (July - Dec)"
+            ],
+            "paxCategories": [
+              "1-2 Pax",
+              "3-4 Pax",
+              "5-6 Pax",
+              "7-8 Pax"
+            ],
+            "note": "Prices available on request"
+          }
+        },
+        {
+          "code": "kaa-hiking-009",
+          "title": "MT. KENYA: IN NARO MORU – OUT CHOGORIA",
+          "duration": "7 Days",
+          "route": "Naro Moru - Chogoria Route",
+          "images": [
+            "/images/safaris/kenya/mtkenya/i6.jpg"
+          ],
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "title": "NAIROBI - NANYUKI",
+              "description": "Meet and greet at the Airport and drive north to Naromoru town. Dinner and overnight at Mountain Rock Hotel or equivalent."
+            },
+            {
+              "day": "Day 2",
+              "title": "NANYUKI - NARO MORU GATE - MET STATION",
+              "description": "Depart at 7.00 am for Naromoru Park Gate. After park formalities trek 10 km (3-4 hours), ascending 690 metres to Met Station. Dinner and overnight at the camp."
+            },
+            {
+              "day": "Day 3",
+              "title": "MET STATION - MACKINDERS CAMP",
+              "description": "After breakfast, continue ascending to Mackinders Camp. Dinner and overnight at the camp."
+            },
+            {
+              "day": "Day 4",
+              "title": "SUMMIT DAY",
+              "description": "Wake up at 2.30 am  and ascend to Point Lenana arriving  early  in the morning to witness the sunrise. Trek more to Mintos hut for breakfast and relaxation.  Dinner and overnight at the camp."
+            },
+            {
+              "day": "Day 5",
+              "title": "MINTOS HUT - MERU BANDAS",
+              "description": "Breakfast, descend to Meru Bandas for lunch. Afternoon at leisure. Dinner and overnight at the Bandas."
+            },
+            {
+              "day": "Day 6",
+              "title": "MERU BANDAS - CHOGORIA - NAIROBI",
+              "description": "Descend from Meru Bandas to Chogoria Town with option of walking half way for 7 hrs or take a 4x4 vehicle and drive for 2 hrs to Chogoria town for lunch. Later drive for about 3 hrs to Nairobi. Dinner and overnight at Sentrim Boulevard or Sentrim 680 Hotel."
+            },
+            {
+              "day": "Day 7",
+              "title": "DEPARTURE",
+              "description": "Breakfast at the hotel, check-out and transfer to the airport for outbound flight." 
+            }
+            ],
+          "pricing": {
+            "seasons": [
+              "Low season (Jan - June)",
+              "Peak season (July - Dec)"
+            ],
+            "paxCategories": [
+              "1-2 Pax",
+              "3-4 Pax",
+              "5-6 Pax",
+              "7-8 Pax"
+            ],
+            "note": "Prices available on request"
+          }
+        },
+        {
+          "code": "kaa-hiking-010",
+          "title": "MT. KENYA: IN SIRIMON – OUT NARO MORU",
+          "duration": "7 Days",
+          "route": "Sirimon - Naro Moru Route",
+          "images": [
+            "/images/safaris/kenya/mtkenya/i7.jpg"
+          ],
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "title": "NAIROBI - NANYUKI",
+              "description": "Meet and greet at the Airport and later depart and drive North to Naromoru town and transferred to Mountain rock Hotel or Equivalent for dinner and overnight."
+            },
+            {
+              "day": "Day 2",
+              "title": "NANYUKI - SIRIMON GATE - OLD MOSES CAMP",
+              "description": "Depart 7:00am drive to Sirimon Park gate. After park formalities trek Old Moses Camp. Dinner and overnight at Old Moses Camp."
+            },
+            {
+              "day": "Day 3",
+              "title": "OLD MOSES - SHIPTONS CAMP",
+              "description": "Trek 13 Kilometres (6-7) hours, 890 Metres ascend to Shiptons Camp. Dinner and overnight at Shiptons Camp."
+            },
+            {
+              "day": "Day 4",
+              "title": "SHIPTONS CAMP - MACKINDERS CAMP",
+              "description": "Hike via Hausberg Col and Two Tarn to Mackinders Camp (4300m). Distance 8 km, 5-6 hours."
+            },
+            {
+              "day": "Day 5",
+              "title": "SUMMIT DAY",
+              "description": "Early morning ascent to Point Lenana for sunrise. Descend to Meru Bandas for breakfast and relaxation. Dinner and overnight."
+            },
+            {
+              "day": "Day 6",
+              "title": "MERU BANDAS - NARO MORU - NANYUKI",
+              "description": "Descend to Naro Moru Park Gate, then transfer to Nanyuki for lunch. Afternoon at leisure. Dinner and overnight at Mountain Rock Hotel or equivalent."
+            },
+            {
+              "day": "Day 7",
+              "title": "NANYUKI - NAIROBI - DEPARTURE",
+              "description": "After breakfast drive back to Nairobi arriving in the afternoon for your outbound flight."
+            }
+            ],
+          "pricing": {
+            "seasons": [
+              "Low season (Jan - June)",
+              "Peak season (July - Dec)"
+            ],
+            "paxCategories": [
+              "1-2 Pax",
+              "3-4 Pax",
+              "5-6 Pax",
+              "7-8 Pax"
+            ],
+            "note": "Prices available on request"
+          }
+        },
+        {
+          "code": "kaa-hiking-011",
+          "title": "Mt Kenya Climb / Solio Ranch / Samburu Game Reserve",
+          "duration": "11 Days",
+          "route": "Sirimon - Naro Moru Route",
+          "images": [
+            "/images/safaris/kenya/mtkenya/i8.jpg"
+          ],
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "title": "Arrival Nairobi - Transfer to Mt Kenya Region",
+              "description": "Meet and greet at the Airport, briefing and later transferred to Mount Kenya region approximately 3 hrs drive for lunch or dinner. Dinner and overnight at Aberdare Country Club or Equivalent."
+            },
+            {
+              "day": "Day 2",
+              "title": "NANYUKI - SIRIMON GATE - OLD MOSES CAMP",
+              "description": "Breakfast at Aberdare country club or equivalent, drive to Solio Ranch for morning and afternoon game drives with picnic lunches. This Ranch has abundant wildlife and about 300 species of birds. Dinner and overnight at Aberdare Country Club or Equivalent."
+            },
+            {
+              "day": "Day 3",
+              "title": "Aberdares - Old Moses",
+              "description": "Depart 7:00am drive to Sirimon Park gate. After park formalities trek to Old Moses Camp. Dinner and overnight at Old Moses Camp."
+            },
+            {
+              "day": "Day 4",
+              "title": "Old Moses - Shiptons Camp",
+              "description": "Trek 13 Kilometres (6-7) hours, 890 Metres ascend to Shiptons Camp. Dinner and overnight at Mackinder's Camp."
+            },
+            {
+              "day": "Day 5",
+              "title": "Mackinders Camp",
+              "description": "Hike through the western circuit to hausberg col and tarn. Then from two tarn to mackinders camp 4300 mts distance 8 kms taking 5-6 hrs. Dinner and overnight."
+            },
+            {
+              "day": "Day 6",
+              "title": "Attempt Point Lenana - Met station",
+              "description": "At around 2 am we attempt point Lenana 4985 mts 4-5 hrs and descend more down for about 12 kms to met station having lunch en route. Dinner and overnight."
+            },
+            {
+              "day": "Day 7",
+              "title": "Met Station - NaroMoru Gate - Aberdare National Park",
+              "description": "After breakfast trek further down to Naro Moru Gate from where you are transferred to Aberdare National Park arriving for lunch in the afternoon. After lunch, you are transferred to the Tree Lodge ( The Ark ) having game drives enroute. Spend the evening watching different wild animals as the come to drink water from the water hole. Dinner and overnight at the Ark Tree Lodge."
+            },
+            {
+              "day": "Day 8",
+              "title": "Aberdare National Park - Samburu Game Reserve",
+              "description": "After breakfast, Depart and drive more North past the Equator to Samburu Game Reserve. This is a semi arid area and thus has many Animal species adaptive to dry and hot climate and not found in many other parks in Kenya including, the Reticulated Giraffe, Long - necked gerenuk, Oryx, Grevy's Zebra and many more. Dinner and overnight at Samburu Sopa Lodge Or Samburu Sentrim Camp."
+            },
+            {
+              "day": "Day 9",
+              "title": "SAMBURU GAME RESERVE",
+              "description": "On this day you enjoy Morning and Afternoon Game drives on a full board basis. Mid afternoon at leisure at the swimming pool."
+            },
+            {
+              "day": "Day 10",
+              "title": "SAMBURU GAME RESERVE - NAIROBI",
+              "description": "After breakfast, have an en-route Game drive as you depart for Nairobi arriving late afternoon. Drop off at Sentrim Boulevard or 680 Hotel Nairobi."
+            },
+            {
+              "day": "Day 11",
+              "title": "DEPARTURE",
+              "description": "Breakfast at the hotel, check-out and transfer to the airport for outbound flight."
+            }
+          ],
+          "pricing": {
+            "seasons": [
+              "Low season (Jan - June)",
+              "Peak season (July - Dec)"
+            ],
+            "paxCategories": [
+              "1-2 Pax",
+              "3-4 Pax",
+              "5-6 Pax",
+              "7-8 Pax"
+            ],
+            "note": "Prices available on request"
+          }
+        },
+        {
+          "code": "kaa-hiking-012",
+          "title": "ABERDARE RANGES HIKE",
+          "duration": "6 Days",
+          "route": "Aberdares Ranges Hike",
+          "images": [
+            "/images/safaris/kenya/mtkenya/i9.jpg"
+          ],
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "title": "NAIROBI - NYERI",
+              "description": "Depart Nairobi through Kikuyu land to Nyeri in time for lunch. This is a medium sized town which you explore in the afternoon. Dinner and overnight in a budget hotel."
+            },
+            {
+              "day": "Day 2",
+              "title": "Hike to Reedbuck Camp",
+              "description": "After breakfast hike to Reedbuck camp through the dense Bamboo forest arriving in time for lunch noodles and sandwich, a distance of about 9 km duration of about 4-5 kms depending on the trekkers pace. Afternoon by a vehicle to several view points ie, Karuru falls, Gura falls and the Queens caves. Dinner and overnight at a campsite."
+            },
+            {
+              "day": "Day 3",
+              "title": "Hike to Hygenia Camp",
+              "description": "Hike to Hygenia  camp. Here, the vegetation opens up and superb views and wildlife can be seen when trekking like Buffalo, as well as a variety of antelopes. This day too we visit Chania falls. Distance of 14 kms taking about 5-7 hrs. Dinner and overnight at a campsite."
+            },
+            {
+              "day": "Day 4",
+              "title": "Trek to Car Park Camp",
+              "description": "After breakfast we trek through the hygenia which is covered to Car park camp for lunch and then on a 4x4 we ascend to road head. From here on a clear day you are able to see the whole mountain from different directions. Distance 14 kms taking about 5-7 hrs. Dinner and overnight."
+            },
+            {
+              "day": "Day 5",
+              "title": "Oldony Lesatima Summit",
+              "description": "After breakfast we start for the summit Olndoinyo Lesatima. The views on this day are spectacular and superb especially if the weather is clear. We return to the camp for lunch and after descend further to the Ark / Treetops tree hotel for dinner and overnight. Distance of 13 kms taking about 5-6 hrs."
+            },
+            {
+              "day": "Day 6",
+              "title": "DEPARTURE",
+              "description": "After breakfast the clients are driven to Nairobi or to other destinations as per the program."
+            }
+            ],
+          "pricing": {
+            "seasons": [
+              "Low season (Jan - June)",
+              "Peak season (July - Dec)"
+            ],
+            "paxCategories": [
+              "1-2 Pax",
+              "3-4 Pax",
+              "5-6 Pax",
+              "7-8 Pax"
+            ],
+            "note": "Prices available on request"
+          }
+        },
+        {
+          "code": "kaa-hiking-013",
+          "title": "LOITA HILLS TREKKING",
+          "duration": "6 Days",
+          "route": "Loita Hills Trekking",
+          "images": [
+            "/images/safaris/kenya/mtkenya/i11.jpg"
+          ],
+          "itinerary": [
+            {
+              "day": "Day 1",
+              "title": "Nairobi – Maji Moto- Ndarara Camp",
+              "description": "Leave Nairobi at 9.30 am to Maji Moto for lunch. Hike to the Olganyiru hill to view the panorama, later return to our camp for dinner and overnight Ndarara main camp."
+            },
+            {
+              "day": "Day 2",
+              "title": "Ndarara – Letukunyi",
+              "description": "After breakfast walk to the hills to see the beautiful sceneries and proceed to Letukuyi for dinner and overnight. Trek takes 5-6 hrs."
+            },
+            {
+              "day": "Day 3",
+              "title": "Letukuyi – Morijo",
+              "description": "Leave Motorok after breakfast after breakfast to Nadugoro Caves ( oltulelei ) via Narosora shopping centre. Dinner and over night at Morijo camp."
+            },
+            {
+              "day": "Day 4",
+              "title": "Morijo – Enkutoto",
+              "description": "After breakfast leave Morijo camp the walk will be through the forest lunch enroute to Enkutoto camp for dinner and overnight."
+            },
+            {
+              "day": "Day 5",
+              "title": "Enkutoto – Nguruman.",
+              "description": "Leave Enkutoto and walk through the left side of the Great Rift Valley via the nguruman escarpment to Nguruman town for dinner and overnight. En route to the camp offers a good and clear view of Lake Magadi, Ngong hills and Lake Natron in Tanzania in a clear day."
+            },
+            {
+              "day": "Day 6",
+              "title": "Nguruman – Nairobi",
+              "description": "After breakfast drive back to Nairobi arriving in the afternoon for your outbound flight."
             }
           ],
           "pricing": {
