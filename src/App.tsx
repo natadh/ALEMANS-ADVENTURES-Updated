@@ -10,25 +10,33 @@ import Rwanda from './pages/Destinations/Rwanda'
 import Zanzibar from './pages/Destinations/Zanzibar'
 import SearchResults from './pages/SearchResults'
 
+// New imports for Journals and Reviews
+import JournalsPage from './pages/Journals/index'
+import JournalDetail from './pages/Journals/JournalDetail'
+import ReviewsPage from './pages/Reviews/index'
+
 import ScrollToTop from './components/ScrollToTop'
 function App() {
   return (
     <>
-    <BrowserRouter>
-    <ScrollToTop />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path='/destinations' element={<Destinations/>}/>
-        <Route path='/destinations/kenya/*' element={<Kenya/>}/>
-        <Route path='/destinations/tanzania/*' element={<Tanzania />}/>
-        <Route path='/destinations/uganda/*' element={<Uganda />}/>
-        <Route path='/destinations/rwanda/*' element={<Rwanda />}/>
-        <Route path='/destinations/zanzibar/*' element={<Zanzibar />}/>
-        <Route path='/contact' element={<Contact/>}/>
-        <Route path="/search" element={<SearchResults />} />
-      </Routes>
-    </BrowserRouter>
+      <BrowserRouter>
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path='/destinations' element={<Destinations />} />
+          <Route path='/destinations/kenya/*' element={<Kenya />} />
+          <Route path='/destinations/tanzania/*' element={<Tanzania />} />
+          <Route path='/destinations/uganda/*' element={<Uganda />} />
+          <Route path='/destinations/rwanda/*' element={<Rwanda />} />
+          <Route path='/destinations/zanzibar/*' element={<Zanzibar />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path="/search" element={<SearchResults />} />
+          <Route path="/journals" element={<JournalsPage />} />
+          <Route path="/journals/:id" element={<JournalDetail />} />
+          <Route path="/reviews" element={<ReviewsPage />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }

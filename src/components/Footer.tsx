@@ -11,33 +11,33 @@ export default function Footer() {
   return (
     <footer className="bg-[#1A0A0B] text-[#F5D547]/90 border-t border-[#F5D547]/20">
       <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-3 gap-12">
-        
-      {/* Contact Info */}
-      <div>
-        <h2 className="text-sm font-semibold uppercase tracking-[0.15em] text-[#F5D547] mb-4">
-          Contact Us
-        </h2>
 
-        <div className="space-y-6 text-sm text-gray-300">
+        {/* Contact Info */}
+        <div>
+          <h2 className="text-sm font-semibold uppercase tracking-[0.15em] text-[#F5D547] mb-4">
+            Contact Us
+          </h2>
 
-          {/* Kenya */}
-          <div className="space-y-2 pb-4 border-b border-[#F5D547]/20">
-            <h3 className="text-[#F5D547] text-xs uppercase tracking-wider font-semibold">
-              Kenya (Head Office)
-            </h3>
-            <p className="flex items-center gap-3">
-              <Phone className="w-4 h-4 text-[#F5D547]" /> +254 700 012 344
-            </p>
-            <p className="flex items-center gap-3">
-              <Phone className="w-4 h-4 text-[#F5D547]" /> +254 713 491 692
-            </p>
-            <p className="flex items-center gap-3">
-              <Mail className="w-4 h-4 text-[#F5D547]" /> info@alemansadventures.com
-            </p>
-          </div>
+          <div className="space-y-6 text-sm text-gray-300">
 
-          {/* UK */}
-          {/* <div className="space-y-2 pb-4 border-b border-[#F5D547]/20">
+            {/* Kenya */}
+            <div className="space-y-2 pb-4 border-b border-[#F5D547]/20">
+              <h3 className="text-[#F5D547] text-xs uppercase tracking-wider font-semibold">
+                Kenya (Head Office)
+              </h3>
+              <p className="flex items-center gap-3">
+                <Phone className="w-4 h-4 text-[#F5D547]" /> +254 700 012 344
+              </p>
+              <p className="flex items-center gap-3">
+                <Phone className="w-4 h-4 text-[#F5D547]" /> +254 713 491 692
+              </p>
+              <p className="flex items-center gap-3">
+                <Mail className="w-4 h-4 text-[#F5D547]" /> info@alemansadventures.com
+              </p>
+            </div>
+
+            {/* UK */}
+            {/* <div className="space-y-2 pb-4 border-b border-[#F5D547]/20">
             <h3 className="text-[#F5D547] text-xs uppercase tracking-wider font-semibold">
               United Kingdom
             </h3>
@@ -49,8 +49,8 @@ export default function Footer() {
             </p>
           </div> */}
 
-          {/* Germany */}
-          {/* <div className="space-y-2 pb-4 border-b border-[#F5D547]/20">
+            {/* Germany */}
+            {/* <div className="space-y-2 pb-4 border-b border-[#F5D547]/20">
             <h3 className="text-[#F5D547] text-xs uppercase tracking-wider font-semibold">
               Germany
             </h3>
@@ -59,8 +59,8 @@ export default function Footer() {
             </p>
           </div> */}
 
-          {/* USA */}
-          {/* <div className="space-y-2">
+            {/* USA */}
+            {/* <div className="space-y-2">
             <h3 className="text-[#F5D547] text-xs uppercase tracking-wider font-semibold">
               United States
             </h3>
@@ -72,8 +72,8 @@ export default function Footer() {
             </p>
           </div> */}
 
+          </div>
         </div>
-      </div>
 
 
         {/* Quick Links */}
@@ -87,6 +87,8 @@ export default function Footer() {
               { label: "About", href: "/about" },
               { label: "Destinations", href: "/destinations" },
               { label: "Safaris", href: "/safaris" },
+              { label: "Journals", href: "/journals" }, //added journals
+              { label: "Reviews", href: "/reviews" }, //added reviews
               { label: "Contact", href: "/contact" },
             ].map((link) => (
               <li key={link.label}>

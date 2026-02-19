@@ -9,22 +9,22 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo + Brand */}
           <a href="/">
-          <div className="shrink-0 flex items-center space-x-4 group">
-            <img
-              className="h-10 w-10 object-cover border border-[#F5D547] group-hover:border-white transition-colors duration-300"
-              src="/logo.jpeg"
-              alt="Alemans Adventures Logo"
-            />
-            <span className="uppercase text-base sm:text-lg tracking-[0.2em] font-light">
-              <span className="text-white group-hover:text-[#F5D547] transition-colors duration-300">
-                ALEMANS
+            <div className="shrink-0 flex items-center space-x-4 group">
+              <img
+                className="h-10 w-10 object-cover border border-[#F5D547] group-hover:border-white transition-colors duration-300"
+                src="/logo.jpeg"
+                alt="Alemans Adventures Logo"
+              />
+              <span className="uppercase text-base sm:text-lg tracking-[0.2em] font-light">
+                <span className="text-white group-hover:text-[#F5D547] transition-colors duration-300">
+                  ALEMANS
+                </span>
+                <span className="text-[#F5D547]/60 ml-2 text-sm tracking-[0.15em]">
+                  ADVENTURES
+                </span>
               </span>
-              <span className="text-[#F5D547]/60 ml-2 text-sm tracking-[0.15em]">
-                ADVENTURES
-              </span>
-            </span>
-          </div>
-         </a>
+            </div>
+          </a>
 
           {/* Navigation */}
           <nav className="hidden md:flex space-x-8 font-light">
@@ -32,6 +32,8 @@ export default function Header() {
               { name: "Home", path: "/" },
               { name: "About", path: "/about" },
               { name: "Destinations", path: "/destinations" },
+              { name: "Journals", path: "/journals" }, //added journals
+              { name: "Reviews", path: "/reviews" }, //added reviews
               { name: "Contact", path: "/contact" },
             ].map((link) => (
               <a
@@ -53,19 +55,16 @@ export default function Header() {
           >
             <div className="relative w-6 h-6">
               <span
-                className={`absolute top-1/2 left-0 w-full h-px bg-current transform transition-all duration-300 ${
-                  menuOpen ? "rotate-45 translate-y-0" : "-translate-y-2"
-                }`}
+                className={`absolute top-1/2 left-0 w-full h-px bg-current transform transition-all duration-300 ${menuOpen ? "rotate-45 translate-y-0" : "-translate-y-2"
+                  }`}
               ></span>
               <span
-                className={`absolute top-1/2 left-0 w-full h-px bg-current transition-all duration-300 ${
-                  menuOpen ? "opacity-0" : "opacity-100"
-                }`}
+                className={`absolute top-1/2 left-0 w-full h-px bg-current transition-all duration-300 ${menuOpen ? "opacity-0" : "opacity-100"
+                  }`}
               ></span>
               <span
-                className={`absolute top-1/2 left-0 w-full h-px bg-current transform transition-all duration-300 ${
-                  menuOpen ? "-rotate-45 translate-y-0" : "translate-y-2"
-                }`}
+                className={`absolute top-1/2 left-0 w-full h-px bg-current transform transition-all duration-300 ${menuOpen ? "-rotate-45 translate-y-0" : "translate-y-2"
+                  }`}
               ></span>
             </div>
           </button>
@@ -73,9 +72,8 @@ export default function Header() {
 
         {/* Mobile Dropdown Menu */}
         <div
-          className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
-            menuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
-          }`}
+          className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${menuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
+            }`}
         >
           <div className="py-4 space-y-px border-t border-[#F5D547]/20">
             {[
