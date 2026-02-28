@@ -30,29 +30,29 @@ export default function DestinationsHeader({
   /** Section → route mapping (THIS IS THE IMPORTANT PART) */
   const sectionRoutes: Record<string, Record<string, string>> = {
     Kenya: {
-      "Tours and Safaris": "safaris",
+      "Travel Info": "travel-info",
       "National Parks": "national-parks",
-      "Hiking & Trekking": "hiking",
-      "Culture & Sports": "culture",
+      "Tours and Safaris": "safaris",
       "Beach & Water Sports": "water-sports",
       "Bird Watching": "bird-watching",
-      "Travel Info": "travel-info",
+      "Hiking & Trekking": "hiking",
+      "Culture & Sports": "culture",
     },
     Tanzania: {
+      "Travel Info": "travel-info",
+      "National Parks": "national-parks",
       "Safaris": "safaris",
       "Watersports": "rafting",
       "Air & Balloon": "air-safaris",
       "Culture": "culture",
-      "National Parks": "national-parks",
-      "Travel Info": "travel-info",
     },
     Uganda: {
+      "National Parks": "national-parks",
+      "Travel Info": "travel-info",
       "Safaris": "safaris",
       "Bird Watching": "bird-watching",
       "Water Rafting": "rafting",
       "Hiking & Trekking": "hiking",
-      "National Parks": "national-parks",
-      "Travel Info": "travel-info",
     },
     Rwanda: {
       "Safaris": "safaris",

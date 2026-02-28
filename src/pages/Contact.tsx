@@ -37,7 +37,7 @@ export default function Contact() {
         message: formData.message
       });
 
-      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/uzf321r2.php`, {
+      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/email/uzf321r2.php`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',

@@ -3,9 +3,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import safarisInfo from "./safarisinfo.json";
 import CategoryCard from "./components/CategoryCard";
 import SafariCard from "./components/SafariCard";
-import SafariDetail from "./SafariDetail";
+import { SafariDetailRoute } from "./DetailRoute";
 import CategoryDescriptor from "./descriptors/CategoryDescriptor";
-import type { Category, Safari } from "./types/safari";
+import type { Category } from "./types/safari";
 import React from "react";
 import type { Variants } from "framer-motion";
 
@@ -128,7 +128,6 @@ function SafariCategory() {
             <CategoryDescriptor type={activeCategory.descriptor.type} />
           </motion.div>
         )}
-
         {categoryView === "safaris" && (
           <motion.div
             key="safaris"
@@ -147,8 +146,9 @@ function SafariCategory() {
                     <SafariCard
                       key={safari.id}
                       safari={safari}
-                      onClick={() => {
+                      onClick={async () => {
                         window.scrollTo({ top: 0, behavior: "instant" });
+                        await trackClick(safari.id);
                         navigate(safari.id);
                       }}
                     />
@@ -163,27 +163,22 @@ function SafariCategory() {
   );
 }
 
-function SafariDetailRoute() {
-  const { categoryId, safariId } = useParams();
-  const navigate = useNavigate();
+async function trackClick(safariId: string, timeSpent: number = 0) {
+  try {
+    const res = await fetch(
+      `${import.meta.env.VITE_API_BASE_URL}/trackers/track_click.php`,
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ safariId, timeSpent }),
+      }
+    );
 
-  const categories = safarisInfo.categories as Category[];
-  const activeCategory = categories.find((c) => c.id === categoryId);
-
-  if (!activeCategory) return <div>Category not found</div>;
-
-  let activeSafari: Safari | undefined;
-  for (const sub of activeCategory.subcategories) {
-    activeSafari = sub.safaris.find((s) => s.id === safariId);
-    if (activeSafari) break;
+    return await res.json();
+  } catch (err) {
+    console.error("Failed to track click:", err);
   }
-
-  if (!activeSafari) return <div>Safari not found</div>;
-
-  return (
-    <SafariDetail
-      safari={activeSafari}
-      onBack={() => navigate(-1)}
-    />
-  );
 }
+
+
+

@@ -1,5 +1,6 @@
 import Layout from "../../components/Layout"
 import Hero from "../../components/destinations/Hero"
+import SEO from "../../components/SEO";
 export default function Destinations() {
   const destinations = [
     {
@@ -71,6 +72,12 @@ export default function Destinations() {
 
   return (
     <Layout showHero={true} HeroComponent={<Hero/>}>
+      <SEO
+        title="East Africa Safari Destinations | Alemans Adventures"
+        description="Explore Kenya, Tanzania, Uganda, Rwanda and Zanzibar safari tours."
+        canonical="https://www.alemansadventures.com/destinations"
+      />
+
     <main className="bg-white">
       {/* Destinations Grid */}
       <section className="max-w-7xl mx-auto py-20 px-6">
