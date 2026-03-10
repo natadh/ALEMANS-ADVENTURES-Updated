@@ -1,7 +1,8 @@
 import { useNavigate } from "react-router-dom";
-import { Upload, BookOpen, Star } from "lucide-react";
+import { Upload, BookOpen, Star, MapPin, CalendarCheck } from "lucide-react"; // added icons
 import { motion } from "framer-motion";
 import AdminHeader from "./components/adminHeader";
+
 export default function AdminIndexPage() {
   const navigate = useNavigate();
 
@@ -24,11 +25,23 @@ export default function AdminIndexPage() {
       icon: <Star className="w-6 h-6" strokeWidth={1.5} />,
       action: () => navigate("/admin/reviews"),
     },
+    {
+      title: "Manage Safaris",
+      description: "Add, edit, and organize safari tours and packages.",
+      icon: <MapPin className="w-6 h-6" strokeWidth={1.5} />,
+      action: () => navigate("/admin/safaris"),
+    },
+    {
+      title: "View Bookings",
+      description: "View and manage customer bookings for tours.",
+      icon: <CalendarCheck className="w-6 h-6" strokeWidth={1.5} />,
+      action: () => navigate("/admin/bookings"),
+    },
   ];
 
   return (
     <div className="min-h-screen bg-white text-gray-800">
-      <AdminHeader/>
+      <AdminHeader />
       <div className="max-w-6xl mx-auto py-20 px-6">
 
         {/* Header */}
@@ -51,9 +64,7 @@ export default function AdminIndexPage() {
             >
               {/* Icon + Title */}
               <div>
-                <div className="text-[#F5D547] mb-4">
-                  {option.icon}
-                </div>
+                <div className="text-[#F5D547] mb-4">{option.icon}</div>
                 <h2 className="font-medium text-base uppercase tracking-wider text-[#1A0A0B] mb-2">
                   {option.title}
                 </h2>

@@ -1,27 +1,63 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import { Upload, BookOpen, Star, LayoutDashboard, Globe, Menu, X } from "lucide-react";
+import { Upload, BookOpen, Star, LayoutDashboard, Globe, Menu, X, CalendarCheck, MapPin } from "lucide-react";
+
+// Use your environment variable for API base URL
+const API_BASE = import.meta.env.VITE_API_BASE_URL;
 
 const navItems = [
   { label: "Dashboard", path: "/admin", icon: <LayoutDashboard className="w-4 h-4" strokeWidth={1.5} /> },
   { label: "Upload Document", path: "/admin/uploads", icon: <Upload className="w-4 h-4" strokeWidth={1.5} /> },
-  { label: "Journal", path: "/admin/journal", icon: <BookOpen className="w-4 h-4" strokeWidth={1.5} /> },
+  { label: "Journals", path: "/admin/journal", icon: <BookOpen className="w-4 h-4" strokeWidth={1.5} /> },
   { label: "Reviews", path: "/admin/reviews", icon: <Star className="w-4 h-4" strokeWidth={1.5} /> },
+  { label: "Safaris", path: "/admin/safaris", icon: <MapPin className="w-4 h-4" strokeWidth={1.5} /> },
+  { label: "Bookings", path: "/admin/bookings", icon: <CalendarCheck className="w-4 h-4" strokeWidth={1.5} />, showUnread: true },
 ];
 
 export default function AdminHeader() {
   const navigate = useNavigate();
   const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
+  const [unreadCount, setUnreadCount] = useState(0);
 
   const handleNavigate = (path: string) => {
     navigate(path);
     setMenuOpen(false);
   };
+  const handleLogout = async () => {
+    try {
+      await fetch(`${API_BASE}/auth/logout.php`, {
+        method: "POST",
+        credentials: "include",
+      });
+
+      navigate("/admin/login");
+    } catch (err) {
+      console.error("Logout failed", err);
+    }
+  };
+  // Fetch unread bookings count
+  useEffect(() => {
+    const fetchUnread = async () => {
+      try {
+        const res = await fetch(`${API_BASE}/booking/unread.php`);
+        const data = await res.json();
+        if (data.unreadCount !== undefined) {
+          setUnreadCount(data.unreadCount);
+        }
+      } catch (err) {
+        console.error("Failed to fetch unread bookings", err);
+      }
+    };
+
+    fetchUnread();
+    // Optional: refresh every 30s
+    const interval = setInterval(fetchUnread, 30000);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
-      {/* Main bar */}
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between gap-6">
 
         {/* Brand */}
@@ -51,6 +87,9 @@ export default function AdminHeader() {
               >
                 {item.icon}
                 {item.label}
+                {item.showUnread && unreadCount > 0 && (
+                  <sup className="text-[10px] font-bold hover:text-[#1A0A0B]">{unreadCount}</sup>
+                )}
               </button>
             );
           })}
@@ -58,7 +97,7 @@ export default function AdminHeader() {
 
         {/* Right side */}
         <div className="flex items-center gap-3 shrink-0">
-          {/* Back to site — desktop */}
+
           <button
             onClick={() => handleNavigate("/")}
             className="hidden md:flex items-center gap-2 border border-[#1A0A0B] text-[#1A0A0B] text-xs uppercase tracking-[0.2em] px-4 py-2 font-light hover:bg-[#1A0A0B] hover:text-white transition-colors duration-300"
@@ -67,7 +106,13 @@ export default function AdminHeader() {
             Website
           </button>
 
-          {/* Hamburger — mobile */}
+          <button
+            onClick={handleLogout}
+            className="hidden md:flex items-center gap-2 border border-[#1A0A0B] text-[#1A0A0B] text-xs uppercase tracking-[0.2em] px-4 py-2 font-light hover:bg-[#1A0A0B] hover:text-white transition-colors duration-300"
+          >
+            Logout
+          </button>
+
           <button
             onClick={() => setMenuOpen((prev) => !prev)}
             className="md:hidden text-[#1A0A0B] hover:text-gray-600 transition-colors duration-200"
@@ -98,11 +143,13 @@ export default function AdminHeader() {
                 >
                   {item.icon}
                   {item.label}
+                  {item.showUnread && unreadCount > 0 && (
+                    <sup className="ml-1 text-[10px] bg-red-500 text-white px-1 rounded-full">{unreadCount}</sup>
+                  )}
                 </button>
               );
             })}
 
-            {/* Back to site — mobile */}
             <button
               onClick={() => handleNavigate("/")}
               className="flex items-center gap-3 px-6 py-4 text-xs uppercase tracking-[0.15em] font-light text-gray-600 hover:text-[#1A0A0B] hover:bg-[#FAFAF8] transition-colors duration-200"

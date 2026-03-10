@@ -1,53 +1,8 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Layout from "../../components/Layout";
 import ReviewForm from "../../components/reviews/ReviewForm";
 import ReviewCard, { type Review } from "../../components/reviews/ReviewCard";
 
-// MOCK DATA — these are just fake reviews so the page looks populated. I'll add a sample to see if it populates
-// Later, when the backend is ready, you'd replace this with a fetch() call...
-// to get reviews from the database. For now I think this is fine.
-const MOCK_REVIEWS: Review[] = [
-  {
-    id: 1,
-    name: "Sophie Müller",
-    age: 38,
-    rating: 5,
-    destination: "Kenya Safari",
-    comment:
-      "An absolutely life-changing experience. Our guide knew every animal by name and the lodge was beyond what we imagined. The Maasai Mara at sunrise will stay with me forever. Alemans handled every detail perfectly — zero stress, pure wonder.",
-    date: "January 2025",
-  },
-  {
-    id: 2,
-    name: "James Okonkwo",
-    age: 45,
-    rating: 5,
-    destination: "Tanzania Safari",
-    comment:
-      "We came for the Serengeti and left completely in love with East Africa. Witnessing the great migration was humbling. The team at Alemans went above and beyond — from airport pickup to the last goodbye. Already planning our return.",
-    date: "December 2024",
-  },
-  {
-    id: 3,
-    name: "Clara Fontaine",
-    age: 29,
-    rating: 4,
-    destination: "Zanzibar Beach",
-    comment:
-      "Stone Town was a highlight I didn't expect — so much history and flavor in every alley. The beach resort was stunning. Only small hiccup was a short delay on day one, but it was sorted quickly and the rest was flawless.",
-    date: "November 2024",
-  },
-  {
-    id: 4,
-    name: "David Kamau",
-    age: 52,
-    rating: 5,
-    destination: "Rwanda Gorillas",
-    comment:
-      "Tracking the mountain gorillas in Volcanoes National Park is something words can't fully capture. Alemans prepared us perfectly — fitness tips, what to bring, what to expect. The moment a silverback looked at me directly, I nearly cried.",
-    date: "October 2024",
-  },
-];
 
 // Helper: to calculate average rating from a list of reviews
 function averageRating(reviews: Review[]) {
@@ -57,20 +12,30 @@ function averageRating(reviews: Review[]) {
 
 export default function ReviewsPage() {
   // useState to store ALL reviews (mock + newly submitted ones)
-  const [reviews, setReviews] = useState<Review[]>(MOCK_REVIEWS);
+  const API_BASE = import.meta.env.VITE_API_BASE_URL;
 
-  // This function is passed DOWN to ReviewForm as a prop.
-  // When the form submits, it calls this, and we ADD the new review to our list.
-  function handleNewReview(newReview: Omit<Review, "id" | "date">) {
-    const review: Review = {
-      ...newReview,         // spread all the fields from the form
-      id: Date.now(),       // temporary unique ID using current timestamp
-      date: new Date().toLocaleDateString("en-US", { month: "long", year: "numeric" }),
-    };
-    // use spread [...reviews, review] to add to the array.
-    setReviews([review, ...reviews]);
-  }
+  const [reviews, setReviews] = useState<Review[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
 
+  // Fetch active reviews on mount
+  useEffect(() => {
+    async function fetchReviews() {
+      setLoading(true);
+      try {
+        const res = await fetch(`${API_BASE}/reviews/getActiveReviews.php`);
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.message || "Failed to fetch reviews");
+        setReviews(data.reviews || []);
+      } catch (err: any) {
+        setError(err.message || "Something went wrong");
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    fetchReviews();
+  }, []);
   const avg = averageRating(reviews);
   const totalReviews = reviews.length;
 
@@ -143,21 +108,21 @@ export default function ReviewsPage() {
       <section className="max-w-6xl mx-auto py-16 px-6">
         <div className="grid lg:grid-cols-3 gap-12">
 
-          {/* LEFT: Reviews list (takes 2/3 of the width on large screens) */}
           <div className="lg:col-span-2">
             <div className="w-8 h-px bg-[#F5D547] mb-4"></div>
             <h2 className="text-2xl font-light uppercase tracking-[0.15em] text-[#1A0A0B] mb-8">
               All Reviews
             </h2>
 
-            {reviews.length === 0 ? (
+            {loading ? (
+              <p className="text-gray-400 font-light text-sm">Loading reviews...</p>
+            ) : error ? (
+              <p className="text-red-500 font-light text-sm">{error}</p>
+            ) : reviews.length === 0 ? (
               <p className="text-gray-400 font-light text-sm">No reviews yet. Be the first!</p>
             ) : (
               <div className="space-y-6">
                 {reviews.map((review) => (
-                  // We pass the full review object as a prop to ReviewCard
-                  // The "key" prop is required by React when rendering lists —
-                  // it helps React track which item is which.
                   <ReviewCard key={review.id} review={review} />
                 ))}
               </div>
@@ -168,7 +133,7 @@ export default function ReviewsPage() {
           <div className="lg:col-span-1">
             {/* Sticky so the form stays visible while scrolling reviews */}
             <div className="sticky top-24">
-              <ReviewForm onSubmit={handleNewReview} />
+              <ReviewForm />
             </div>
           </div>
         </div>

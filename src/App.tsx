@@ -13,10 +13,13 @@ import SearchResults from './pages/SearchResults'
 import AdminUploadsPage from './pages/Admin/adminUploads/AdminUpload';
 import AdminIndexPage from './pages/Admin/Index'
 import AdminLogin from './pages/Admin/Login'
-import AdminJournalPage from './pages/Admin/JournalPage'
+import AdminJournalPage from './pages/Admin/Journals/JournalPage'
 import AdminReviewsPage from './pages/Admin/ReviewPage'
-import ProtectedRoute from './pages/Admin/ProtectedRoute'
+import AdminSafarisPage from './pages/Admin/Safaris'
 
+import ProtectedRoute from './pages/Admin/ProtectedRoute'
+import BookingPage from "./pages/booking/BookingPage";
+import Bookings from './pages/Admin/booking/Booking';
 
 // New imports for Journals and Reviews
 import JournalsPage from './pages/Journals/index'
@@ -39,6 +42,7 @@ function App() {
         <Route path="/journals" element={<JournalsPage />} />
         <Route path="/journals/:id" element={<JournalDetail />} />
         <Route path="/reviews" element={<ReviewsPage />} />
+        <Route path="/booking" element={<BookingPage />} />
         <Route path="/:section/:footerName" element={<DocumentPage />} />
         <Route path='/destinations/kenya/*' element={<Kenya/>}/>
         <Route path='/destinations/tanzania/*' element={<Tanzania />}/>
@@ -50,6 +54,8 @@ function App() {
         <Route path='/admin/login' element={<AdminLogin/>}/>
         <Route path='/admin/journal' element={<ProtectedRoute><AdminJournalPage/></ProtectedRoute>}/>
         <Route path='/admin/reviews' element={<ProtectedRoute><AdminReviewsPage/></ProtectedRoute>}/>
+        <Route path="/admin/bookings"element={<ProtectedRoute><Bookings/></ProtectedRoute>}/>
+        <Route path="/admin/safaris" element={<ProtectedRoute><AdminSafarisPage/></ProtectedRoute>}/>
       </Routes>
     </BrowserRouter>
     </>

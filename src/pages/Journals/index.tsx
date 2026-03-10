@@ -1,29 +1,60 @@
+import { useEffect, useState } from "react";
 import Layout from "../../components/Layout";
 import JournalCard from "../../components/journals/JournalCard";
-import { MOCK_JOURNALS } from "../../data/mockJournals";
 
-// This is the LISTING page — /journals
-// It shows all journals as cards in a grid.
-// Clicking a card navigates to /journals/:id (the detail page).
-//
-// NOTE: Right now data comes from MOCK_JOURNALS (the fake data file).
-// When the backend is ready, replace MOCK_JOURNALS with:
-//
-//   const [journals, setJournals] = useState([]);
-//   useEffect(() => {
-//     fetch("https://your-api.com/journals")
-//       .then(res => res.json())
-//       .then(data => setJournals(data));
-//   }, []);
-//
-// The rest of the component stays the same
+interface Journal {
+  id: number;
+  title: string;
+  excerpt: string;
+  content: string;
+  destination: string;
+  date: string;
+  imageUrl: string;
+  author: string;
+  readTime: string;
+}
 
 export default function JournalsPage() {
-  const journals = MOCK_JOURNALS;
+  const API_BASE = import.meta.env.VITE_API_BASE_URL;
+
+  const [journals, setJournals] = useState<Journal[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
+
+  useEffect(() => {
+    const fetchJournals = async () => {
+      try {
+        const res = await fetch(`${API_BASE}/journals/getJournals.php`);
+        const data = await res.json();
+
+        if (!data.success) throw new Error(data.message || "Failed to fetch journals");
+
+        // Append API_BASE to local image paths
+        const formatted: Journal[] = data.journals.map((j: Journal) => {
+          let imgUrl = j.imageUrl;
+          if (imgUrl.startsWith("/uploads/")) {
+            imgUrl = API_BASE + imgUrl;
+          }
+          return { ...j, imageUrl: imgUrl };
+        });
+
+        setJournals(formatted);
+      } catch (err: any) {
+        setError(err.message || "Something went wrong");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchJournals();
+  }, [API_BASE]);
+
+  if (loading) return <Layout><p className="text-center py-20">Loading journals...</p></Layout>;
+  if (error) return <Layout><p className="text-center py-20 text-red-500">{error}</p></Layout>;
 
   return (
     <Layout>
-      {/* Page Banner — dark header consistent with rest of site */}
+      {/* Page Banner */}
       <section className="relative bg-[#1A0A0B] pt-32 pb-16 px-6 border-b border-[#F5D547]/20">
         <div className="max-w-6xl mx-auto">
           <div className="w-12 h-px bg-[#F5D547] mb-6"></div>
@@ -37,7 +68,7 @@ export default function JournalsPage() {
         </div>
       </section>
 
-      {/* Featured Journal — first entry gets a big hero treatment */}
+      {/* Featured Journal */}
       {journals.length > 0 && (
         <section className="max-w-7xl mx-auto py-16 px-6">
           <div className="w-8 h-px bg-[#F5D547] mb-4"></div>
@@ -66,7 +97,7 @@ export default function JournalsPage() {
               {/* Text */}
               <div className="p-10 bg-[#FAFAF8] flex flex-col justify-center">
                 <div className="w-8 h-px bg-[#F5D547] mb-4"></div>
-                <h2 className="text-2xl md:text-3xl font-light uppercase tracking-[0.1em] text-[#1A0A0B] mb-4 leading-snug">
+                <h2 className="text-2xl md:text-3xl font-light uppercase tracking-widest text-[#1A0A0B] mb-4 leading-snug">
                   {journals[0].title}
                 </h2>
                 <p className="text-gray-600 font-light leading-relaxed text-sm mb-6">
@@ -86,7 +117,7 @@ export default function JournalsPage() {
         </section>
       )}
 
-      {/* Rest of journals in a 3-column grid */}
+      {/* Rest of journals */}
       {journals.length > 1 && (
         <section className="max-w-7xl mx-auto pb-20 px-6">
           <div className="border-t border-gray-200 pt-12">
