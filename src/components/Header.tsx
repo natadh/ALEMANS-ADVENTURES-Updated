@@ -78,10 +78,11 @@ export default function Header() {
           <div className="py-4 space-y-px border-t border-[#F5D547]/20">
             {[
               { name: "Home", path: "/" },
-              { name: "About", path: "/about" },
+              { name: "About Us", path: "/about" },
               { name: "Destinations", path: "/destinations" },
-              { name: "Safaris", path: "/safaris" },
-              { name: "Contact", path: "/contact" },
+              { name: "Journals", path: "/journals" },
+              { name: "Reviews", path: "/reviews" },
+              { name: "Contact Us", path: "/contact" },
             ].map((link) => (
               <a
                 key={link.path}

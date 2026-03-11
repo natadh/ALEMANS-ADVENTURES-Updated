@@ -1,27 +1,38 @@
 import { useNavigate, useParams } from "react-router-dom";
-import safarisInfo from "./safarisinfo.json";
-import SafariDetail from "./SafariDetail";
-import type { Category, Safari } from "./types/safari";
 import React from "react";
+import { useSafarisTree } from "./hooks/useSafarisTree";
+import SafariDetail from "./SafariDetail";
+import type { Safari } from "./types/safari";
 
 export function SafariDetailRoute() {
   const { categoryId, safariId } = useParams();
   const navigate = useNavigate();
+  const { categories, loading } = useSafarisTree(1); // fetch from API
 
-  const categories = safarisInfo.categories as Category[];
-  const activeCategory = categories.find((c) => c.id === categoryId);
+  const [activeSafari, setActiveSafari] = React.useState<Safari | null>(null);
 
-  let activeSafari: Safari | undefined;
-  if (activeCategory) {
-    for (const sub of activeCategory.subcategories) {
-      activeSafari = sub.safaris.find((s) => s.id === safariId);
-      if (activeSafari) break;
+  // 🔹 Wait for categories to load, then find the safari
+  React.useEffect(() => {
+    if (loading) return;
+
+    let foundSafari: Safari | undefined;
+    for (const c of categories) {
+      // if categoryId param exists, filter by it; otherwise search all
+      if (categoryId && String(c.id) !== String(categoryId)) continue;
+
+      for (const sub of c.subcategories) {
+        foundSafari = sub.safaris.find((s) => String(s.id) === String(safariId));
+        if (foundSafari) break;
+      }
+      if (foundSafari) break;
     }
-  }
+
+    setActiveSafari(foundSafari ?? null);
+  }, [categories, categoryId, safariId, loading]);
 
   /* ================= ENGAGEMENT TIMER ================= */
   React.useEffect(() => {
-    if (!safariId) return; // guard INSIDE hook, not outside
+    if (!safariId) return;
 
     const startTime = Date.now();
 
@@ -42,33 +53,22 @@ export function SafariDetailRoute() {
   }, [safariId]);
   /* =================================================== */
 
-  // returns AFTER hooks
-  if (!activeCategory) return <div>Category not found</div>;
+  if (loading) return <div>Loading safari...</div>;
   if (!activeSafari) return <div>Safari not found</div>;
 
-  return (
-    <SafariDetail
-      safari={activeSafari}
-      onBack={() => navigate(-1)}
-    />
-  );
+  return <SafariDetail safari={activeSafari} onBack={() => navigate(-1)} />;
 }
 
 function trackEngagement(safariId: string, timeSpent: number) {
   const url = `${import.meta.env.VITE_API_BASE_URL}/trackers/track-engagement.php`;
 
-  const payload = JSON.stringify({
-    safariId,
-    timeSpent,
-  });
+  const payload = JSON.stringify({ safariId, timeSpent });
 
-  // sendBeacon = BEST for analytics (works on tab close)
   if (navigator.sendBeacon) {
     navigator.sendBeacon(url, payload);
     return;
   }
 
-  // fallback
   fetch(url, {
     method: "POST",
     headers: { "Content-Type": "application/json" },

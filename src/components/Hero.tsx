@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 const kenyaImg = "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=1920&h=1080&fit=crop";
 const tanzaniaImg = "https://images.unsplash.com/photo-1568454537842-d933259bb258?w=1920&h=1080&fit=crop";
 const ugandaImg = "https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?w=1920&h=1080&fit=crop";
-const zanzibarImg = "https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?w=1920&h=1080&fit=crop";
+const zanzibarImg = "https://images.unsplash.com/photo-1621248744262-2440fd5b4f1b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
 const rwandaImg = "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=1920&h=1080&fit=crop";
 
 const images = [kenyaImg, tanzaniaImg, ugandaImg, zanzibarImg, rwandaImg];

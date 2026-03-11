@@ -38,6 +38,7 @@ export type Safari = {
   id: string;
   slug: string;
   title: string;
+  subcategory_id?: number;
   durationLabel: string;
   destination?: string;
   

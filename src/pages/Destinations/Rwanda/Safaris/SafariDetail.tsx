@@ -35,18 +35,18 @@ export default function SafariDetail({ safari, onBack }: SafariDetailProps) {
             <SafariDescription description={safari.description} />
           )}
 
-          {safari.highlights && (
-            <section>
-              <h3 className="text-xl font-medium mb-6">Highlights</h3>
-              <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                {safari.highlights.map((h, i) => (
-                  <li key={i} className="flex items-start text-gray-700">
-                    <span className="mr-2 text-green-600">✓</span> {h}
-                  </li>
-                ))}
-              </ul>
-            </section>
-          )}
+      {(safari.highlights ?? []).length > 0 && (
+        <section>
+          <h3 className="text-xl font-medium mb-6">Highlights</h3>
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {(safari.highlights ?? []).map((h, i) => (
+              <li key={i} className="flex items-start text-gray-700">
+                <span className="mr-2 text-green-600">✓</span> {h}
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
           <SafariItinerary itinerary={safari.itinerary} />
         </div>
@@ -55,10 +55,14 @@ export default function SafariDetail({ safari, onBack }: SafariDetailProps) {
         <aside className="space-y-8">
           <div className="sticky top-36 space-y-8">
             <SafariPricing safari={safari} />
-            <SafariInclusions 
-              includes={safari.includes} 
-              excludes={safari.excludes} 
-            />
+
+            {/* Only render inclusions if there's content */}
+            {( (safari.includes ?? []).length > 0 || (safari.excludes ?? []).length > 0 ) && (
+              <SafariInclusions 
+                includes={safari.includes ?? []} 
+                excludes={safari.excludes ?? []} 
+              />
+            )}
           </div>
         </aside>
       </div>

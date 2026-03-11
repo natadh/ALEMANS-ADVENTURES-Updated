@@ -111,45 +111,6 @@ export default function Contact() {
                 <p className="text-gray-500 mt-1">24/7 Email: jackson@alemansadventures.com</p>
 
               </div>
-
-              {/* UK */}
-              {/* <div>
-                <h2 className="text-xl font-semibold text-[#340608] mb-2">
-                  United Kingdom
-                </h2>
-                <p className="text-gray-700">Phone: +44 7488 532906</p>
-                <p className="text-gray-700">Email: uk@alemansadventures.com</p>
-                <p className="text-gray-700">24/7 Email: sharonwmaina@gmail.com</p>
-                <p className="text-gray-700">Location: Birmingham UK</p>
-                <p className="text-sm text-gray-500 mt-1">Contact: Sharon Colin – UK Liaison</p>
-
-              </div>
-
-              {/* Germany */}
-              {/* <div>
-                <h2 className="text-xl font-semibold text-[#340608] mb-2">
-                  Germany
-                </h2>
-                <p className="text-gray-700">Phone: +49 30 5678 9012</p>
-                <p className="text-gray-700">Email: de@alemansadventures.com</p>
-                <p className="text-gray-700">24/7 Email: p.frienderichs@gmx.de</p>
-                <p className="text-gray-700">Location: Humburg, Germany</p>
-                <p className="text-sm text-gray-500 mt-1">Contact: Phylis Frienderichs – German Representative</p>
-
-              </div> */}
-
-              {/* America */}
-              {/* <div>
-                <h2 className="text-xl font-semibold text-[#340608] mb-2">
-                  United States
-                </h2>
-                <p className="text-gray-700">Phone: +1 818 523-7781</p>
-                <p className="text-gray-700">Email: us@alemansadventures.com</p>
-                <p className="text-gray-700">24/7 Email: dalemoh8@gmail.com</p>
-                <p className="text-gray-700">Location: Seattle, California, USA</p>
-                <p className="text-sm text-gray-500 mt-1">Contact: Andrew Alemoh – North America Coordinator</p>
-
-              </div>  */}
             </div>
           </div>
 

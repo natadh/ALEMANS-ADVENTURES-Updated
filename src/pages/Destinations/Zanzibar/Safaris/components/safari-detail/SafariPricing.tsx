@@ -1,9 +1,13 @@
 import { useState } from "react";
 import type { Safari } from "../../types/safari";
-
+import { useNavigate } from "react-router-dom";
 export default function SafariPricing({ safari }: { safari: Safari }) {
   const [season, setSeason] = useState<"lowSeason" | "peakSeason">("lowSeason");
-
+  const navigate = useNavigate();
+  const goToBooking = () => {
+    console.log("NAVIGATING", safari);
+    navigate("/booking", { state: { safari } });
+  };
   // CASE 1: Simple Price
   if (safari.price) {
     return (
@@ -17,7 +21,7 @@ export default function SafariPricing({ safari }: { safari: Safari }) {
             <p className="text-sm text-gray-500">{safari.price.note}</p>
           )}
         </div>
-        <RequestButton />
+        <RequestButton onClick={goToBooking} />
       </div>
     );
   }
@@ -69,7 +73,7 @@ export default function SafariPricing({ safari }: { safari: Safari }) {
           <p className="text-xs text-gray-500">* Prices are per person based on group size.</p>
         </div>
       )}
-      <RequestButton />
+      <RequestButton onClick={goToBooking} />
     </div>
   );
 }
@@ -88,9 +92,13 @@ function SeasonButton({ label, isActive, onClick }: { label: string, isActive: b
   );
 }
 
-function RequestButton() {
+function RequestButton({ onClick }: { onClick: () => void }) {
   return (
-    <button className="w-full mt-6 bg-black text-white py-3 px-4 rounded hover:bg-gray-800 transition-colors uppercase tracking-wide text-sm font-medium">
+    <button
+      type="button"   // ✅ IMPORTANT FIX
+      onClick={onClick}
+      className="w-full mt-6 bg-black text-white py-3 px-4 rounded hover:bg-gray-700 transition-colors uppercase tracking-wide text-sm font-medium"
+    >
       Request Quote
     </button>
   );

@@ -59,12 +59,12 @@ export default function Footer() {
           <ul className="space-y-3 text-sm text-gray-300">
             {[
               { label: "Home", href: "/" },
-              { label: "About", href: "/about" },
+              { label: "About Us", href: "/about" },
               { label: "Destinations", href: "/destinations" },
               { label: "Safaris", href: "/safaris" },
               { label: "Journals", href: "/journals" }, //added journals
               { label: "Reviews", href: "/reviews" }, //added reviews
-              { label: "Contact", href: "/contact" },
+              { label: "Contact Us", href: "/contact" },
             ].map((link) => (
               <li key={link.label}>
                 <a
@@ -80,7 +80,7 @@ export default function Footer() {
         </div>
 
         {/* Legal / Footer Links */}
-        <div className="flex flex-col gap-6 md:max-h-[600px] overflow-hidden md:overflow-auto">
+        <div className="flex flex-col gap-6 md:max-h-150 overflow-hidden md:overflow-auto">
           {Object.entries(footerLinks).map(([footerName, sections]) => (
             <div key={footerName}>
               <h2 className="text-sm font-semibold uppercase tracking-[0.15em] text-[#F5D547] mb-2">
@@ -122,9 +122,9 @@ export default function Footer() {
 
       <div className="border-t border-[#F5D547]/20 my-6" />
 
-      <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-400 uppercase tracking-[0.1em]">
+      <div className="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-400 uppercase tracking-widest">
         <p>
-          © 2022–2025{" "}
+          © 2022-2026{" "}
           <span className="text-[#F5D547] font-medium">
             Alemans Adventures
           </span>{" "}

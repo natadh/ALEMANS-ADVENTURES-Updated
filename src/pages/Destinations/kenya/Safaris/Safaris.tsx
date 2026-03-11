@@ -1,14 +1,15 @@
 import { Routes, Route, useParams, useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import safarisInfo from "./safarisinfo.json";
+import React from "react";
+import type { Variants } from "framer-motion";
+
+
+import { useSafarisTree } from "./hooks/useSafarisTree";
 import CategoryCard from "./components/CategoryCard";
 import SafariCard from "./components/SafariCard";
 import { SafariDetailRoute } from "./DetailRoute";
 import CategoryDescriptor from "./descriptors/CategoryDescriptor";
-import type { Category } from "./types/safari";
-import React from "react";
-import type { Variants } from "framer-motion";
-
+import { categoryDescriptorMap } from "./descriptors/categoryDescriptorMap";
 const contentVariants: Variants = {
   initial: { opacity: 0, y: 12 },
   animate: {
@@ -41,8 +42,11 @@ export default function Safaris() {
 }
 
 function SafariCategories() {
-  const categories = safarisInfo.categories as Category[];
   const navigate = useNavigate();
+  const { categories, loading } = useSafarisTree(1);
+
+  if (loading) return <div>Loading safaris...</div>;
+  
 
   return (
     <div className="min-h-screen px-4 md:px-10 pb-20">
@@ -74,12 +78,17 @@ function SafariCategories() {
 function SafariCategory() {
   const { categoryId } = useParams();
   const navigate = useNavigate();
-
-  const categories = safarisInfo.categories as Category[];
-  const activeCategory = categories.find((c) => c.id === categoryId);
+  const { categories, loading } = useSafarisTree(1);
   const [categoryView, setCategoryView] = React.useState<"safaris" | "info">("safaris");
+  // 🔹 Show loading while fetching
+  if (loading) return <div>Loading...</div>;
 
+  // 🔹 Find category safely
+  const activeCategory = categories.find((c) => String(c.id) === String(categoryId));
   if (!activeCategory) return <div>Category not found</div>;
+  const descriptorType = categoryDescriptorMap[String(activeCategory.id)];
+  const hasDescriptor = !!descriptorType;
+
 
   return (
     <div className="min-h-screen px-4 md:px-10 pb-20">
@@ -90,34 +99,26 @@ function SafariCategory() {
         ← Back to Categories
       </button>
 
-      {activeCategory.descriptor && (
-        <div className="flex gap-8 mb-10 border-b pb-3 text-sm uppercase tracking-wide">
-          <button
-            onClick={() => setCategoryView("safaris")}
-            className={
-              categoryView === "safaris"
-                ? "border-b-2 border-black font-medium"
-                : "text-gray-500 hover:text-black"
-            }
-          >
-            Safaris
-          </button>
+    {hasDescriptor && (
+      <div className="flex gap-8 mb-10 border-b pb-3 text-sm uppercase tracking-wide">
+        <button
+          onClick={() => setCategoryView("safaris")}
+          className={categoryView === "safaris" ? "border-b-2 border-black font-medium" : "text-gray-500 hover:text-black"}
+        >
+          Safaris
+        </button>
 
-          <button
-            onClick={() => setCategoryView("info")}
-            className={
-              categoryView === "info"
-                ? "border-b-2 border-black font-medium"
-                : "text-gray-500 hover:text-black"
-            }
-          >
-            More Info
-          </button>
-        </div>
-      )}
+        <button
+          onClick={() => setCategoryView("info")}
+          className={categoryView === "info" ? "border-b-2 border-black font-medium" : "text-gray-500 hover:text-black"}
+        >
+          More Info
+        </button>
+      </div>
+    )}
 
       <AnimatePresence mode="wait">
-        {categoryView === "info" && activeCategory.descriptor && (
+        {categoryView === "info" && descriptorType && (
           <motion.div
             key="info"
             variants={contentVariants}
@@ -125,9 +126,10 @@ function SafariCategory() {
             animate="animate"
             exit="exit"
           >
-            <CategoryDescriptor type={activeCategory.descriptor.type} />
+            <CategoryDescriptor type={descriptorType} />
           </motion.div>
         )}
+
         {categoryView === "safaris" && (
           <motion.div
             key="safaris"
@@ -179,6 +181,3 @@ async function trackClick(safariId: string, timeSpent: number = 0) {
     console.error("Failed to track click:", err);
   }
 }
-
-
-
